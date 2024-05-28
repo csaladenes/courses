@@ -6,7 +6,7 @@
 
 
 
-    [JiaoTong Agents](https://drive.google.com/drive/folders/1b_PBlY9tZYxbrvEFmJfaElInbuaUMTVy?usp=sharing)
+[JiaoTong Agents](https://drive.google.com/drive/folders/1b_PBlY9tZYxbrvEFmJfaElInbuaUMTVy?usp=sharing)
 
 https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial
 
