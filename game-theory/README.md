@@ -2,7 +2,11 @@
 [Implementation 1 (tested)](https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a) [GitHub](https://github.com/csaladenes/snake-ga)  
 [Implementation 2](https://medium.com/@nancy.q.zhou/teaching-an-ai-to-play-the-snake-game-using-reinforcement-learning-6d2a6e8f3b1c)
 
-[Farama GYM](https://github.com/Farama-Foundation/Gymnasium?tab=readme-ov-file)
+[Farama GYM](https://github.com/Farama-Foundation/Gymnasium?tab=readme-ov-file)  
+
+
+
+    [JiaoTong Agents](https://drive.google.com/drive/folders/1b_PBlY9tZYxbrvEFmJfaElInbuaUMTVy?usp=sharing)
 
 https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial
 
