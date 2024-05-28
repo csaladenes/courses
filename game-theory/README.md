@@ -1,3 +1,9 @@
+[SNAKE RL video](https://www.youtube.com/watch?v=L8ypSXwyBds)  
+[Implementation 1 (tested)](https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a) [GitHub](https://github.com/csaladenes/snake-ga)  
+[Implementation 2](https://medium.com/@nancy.q.zhou/teaching-an-ai-to-play-the-snake-game-using-reinforcement-learning-6d2a6e8f3b1c)
+
+[Farama GYM](https://github.com/Farama-Foundation/Gymnasium?tab=readme-ov-file)
+
 https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial
 
 https://medium.com/swlh/using-q-learning-for-openais-cartpole-v1-4a216ef237df
