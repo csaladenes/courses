@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Wheat prices with company logos",
+  "width": 500,
+  "height": 400,
+  "layer": [
+      {
+          "data": {
+              "url": "https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/wheat_data.json"
+          },
+          "mark": "line",
+          "encoding": {
+              "x": {"field": "Date", "type": "temporal"},
+              "y": {"field": "Price", "type": "quantitative"},
+              "color": {"field": "Name", "type": "nominal"},
+              "tooltip": {"field": "Name"}
+          }
+      },
+      {
+          "data": {
+              "values": [{"x": 0, "y": 0}]
+          },
+          "mark": {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164225.png",
+              "width": 100,
+              "height": 50,
+              "align": "left",
+              "baseline": "top"
+          },
+          "encoding": {
+              "x": {"value": 10},
+              "y": {"value": 10}
+          }
+      },
+      {
+          "data": {
+              "values": [{"x": 0, "y": 0}]
+          },
+          "mark": {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164255.png",
+              "width": 100,
+              "height": 50,
+              "align": "right",
+              "baseline": "top"
+          },
+          "encoding": {
+              "x": {"value": 390},
+              "y": {"value": 10}
+          }
+      }
+  ]
+}

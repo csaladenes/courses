@@ -1,0 +1,47 @@
+{
+  "data": [
+    {"country": "Germany", "year": 2014, "gdp_per_capita": 47959},
+    {"country": "Germany", "year": 2015, "gdp_per_capita": 48219},
+    {"country": "Germany", "year": 2016, "gdp_per_capita": 48729},
+    {"country": "Germany", "year": 2017, "gdp_per_capita": 49921},
+    {"country": "Germany", "year": 2018, "gdp_per_capita": 51548},
+    {"country": "Germany", "year": 2019, "gdp_per_capita": 52943},
+    {"country": "Germany", "year": 2020, "gdp_per_capita": 51133},
+    {"country": "Germany", "year": 2021, "gdp_per_capita": 52825},
+    {"country": "Germany", "year": 2022, "gdp_per_capita": 54076},
+    {"country": "Germany", "year": 2023, "gdp_per_capita": 54801},
+    
+    {"country": "France", "year": 2014, "gdp_per_capita": 42955},
+    {"country": "France", "year": 2015, "gdp_per_capita": 43219},
+    {"country": "France", "year": 2016, "gdp_per_capita": 43729},
+    {"country": "France", "year": 2017, "gdp_per_capita": 44921},
+    {"country": "France", "year": 2018, "gdp_per_capita": 46548},
+    {"country": "France", "year": 2019, "gdp_per_capita": 47943},
+    {"country": "France", "year": 2020, "gdp_per_capita": 45133},
+    {"country": "France", "year": 2021, "gdp_per_capita": 47825},
+    {"country": "France", "year": 2022, "gdp_per_capita": 49076},
+    {"country": "France", "year": 2023, "gdp_per_capita": 49801},
+    
+    {"country": "Ireland", "year": 2014, "gdp_per_capita": 55959},
+    {"country": "Ireland", "year": 2015, "gdp_per_capita": 61219},
+    {"country": "Ireland", "year": 2016, "gdp_per_capita": 64729},
+    {"country": "Ireland", "year": 2017, "gdp_per_capita": 69921},
+    {"country": "Ireland", "year": 2018, "gdp_per_capita": 74548},
+    {"country": "Ireland", "year": 2019, "gdp_per_capita": 78943},
+    {"country": "Ireland", "year": 2020, "gdp_per_capita": 77133},
+    {"country": "Ireland", "year": 2021, "gdp_per_capita": 85825},
+    {"country": "Ireland", "year": 2022, "gdp_per_capita": 89076},
+    {"country": "Ireland", "year": 2023, "gdp_per_capita": 92801},
+    
+    {"country": "Spain", "year": 2014, "gdp_per_capita": 29959},
+    {"country": "Spain", "year": 2015, "gdp_per_capita": 30219},
+    {"country": "Spain", "year": 2016, "gdp_per_capita": 31729},
+    {"country": "Spain", "year": 2017, "gdp_per_capita": 32921},
+    {"country": "Spain", "year": 2018, "gdp_per_capita": 33548},
+    {"country": "Spain", "year": 2019, "gdp_per_capita": 34943},
+    {"country": "Spain", "year": 2020, "gdp_per_capita": 31133},
+    {"country": "Spain", "year": 2021, "gdp_per_capita": 33825},
+    {"country": "Spain", "year": 2022, "gdp_per_capita": 34076},
+    {"country": "Spain", "year": 2023, "gdp_per_capita": 34801}
+  ]
+} 

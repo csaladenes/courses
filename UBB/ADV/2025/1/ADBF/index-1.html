@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <style>
+    /* CTRL + K */
+    /* BARMIT KOMMENT CTRL + / */
+    body {
+      background: #2b0303;
+      color: #fff;
+    }
+    div {
+      border: 1px solid #fff;
+      padding: 10px;
+      margin: 10px;
+    }
+    .o1 {
+      background: red;
+      color: #fff;
+    }
+    #vis4 {
+      background: blue;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <div id="vis3">
+    <div id="a45">
+      ADHello world2
+    </div>
+    <div id="b56" class="o1">
+      Hedsdsllo world2
+    </div>
+    <div id="b57" class="o1">
+      <b>Hedsdsllo world2</b>
+    </div>
+  </div>
+  <div id="vis4">
+    Hello world2
+  </div>
+  <div id="vis">
+  </div>
+
+
+  <script>
+    fetch('chart-spec.json')
+      .then(response => response.json())
+      .then(spec => vegaEmbed('#vis', spec));
+  </script>
+</body>
+
+</html>

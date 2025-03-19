@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheat Price Violin Plot</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4a7c2a;
+            text-align: center;
+        }
+        #vis {
+            width: 100%;
+            height: 500px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wheat Price Distribution by Type</h1>
+        <div id="vis"></div>
+    </div>
+
+    <script>
+        // Data URL
+        const dataUrl = "https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/wheat_data.json";
+        
+        // Violin Plot Specification
+        const violinSpec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "width": "container",
+            "height": 400,
+            "data": {"url": dataUrl},
+            "transform": [
+                {"filter": "datum.Name != 'Fryers Global fob wheat price index'"}
+            ],
+            "mark": {
+                "type": "violin",
+                "orient": "horizontal",
+                "size": 100
+            },
+            "encoding": {
+                "y": {
+                    "field": "Name",
+                    "type": "nominal",
+                    "title": "Wheat Type",
+                    "sort": {"field": "Price", "op": "median", "order": "descending"}
+                },
+                "x": {
+                    "field": "Price",
+                    "type": "quantitative",
+                    "title": "Price Distribution (USD)",
+                    "scale": {"zero": false}
+                },
+                "color": {
+                    "field": "Name",
+                    "type": "nominal",
+                    "legend": null
+                },
+                "tooltip": [
+                    {"field": "Name", "type": "nominal"},
+                    {"field": "Price", "type": "quantitative", "format": ".2f"},
+                    {"field": "Country", "type": "nominal"}
+                ]
+            },
+            "config": {
+                "view": {"stroke": null}
+            }
+        };
+
+        // Embed the visualization
+        vegaEmbed('#vis', violinSpec, {
+            actions: false,
+            renderer: 'canvas'
+        }).catch(console.error);
+    </script>
+</body>
+</html> 

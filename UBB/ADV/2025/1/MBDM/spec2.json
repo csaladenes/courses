@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple donut chart with embedded data.",
+  "data": {
+    "values": [
+      {"category": "A", "value": 28},
+      {"category": "C", "value": 43},
+      {"category": "D", "value": 91},
+      {"category": "E", "value": 81},
+      {"category": "F", "value": 53},
+      {"category": "G", "value": 19},
+      {"category": "H", "value": 87},
+      {"category": "I", "value": 52}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "color": {
+      "field": "category", 
+      "type": "nominal",
+      "scale": {"scheme": "set3"},
+      "legend": {"title": "Categories"}
+    }
+  },
+  "view": {"stroke": null}
+} 

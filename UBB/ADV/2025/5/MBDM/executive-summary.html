@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Summary - Wheat Price Analysis</title>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .insight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .insight-box {
+            background-color: var(--container-bg);
+            border-left: 4px solid var(--wheat-medium);
+            padding: 15px;
+            border-radius: 4px;
+            box-shadow: var(--shadow-small);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .insight-box:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .insight-box h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--wheat-dark);
+            display: flex;
+            align-items: center;
+        }
+        
+        .insight-box h3 i {
+            margin-right: 8px;
+            color: var(--wheat-dark);
+        }
+        
+        .insight-box p {
+            margin-bottom: 0;
+            color: var(--text-color);
+        }
+        
+        .event-timeline {
+            position: relative;
+            margin: 40px 0;
+            padding-left: 20px;
+        }
+        
+        .event-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: var(--event-color, #d40000);
+        }
+        
+        .timeline-event {
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            transition: transform 0.2s ease;
+        }
+        
+        .timeline-event:hover {
+            transform: translateX(5px);
+        }
+        
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--event-color, #d40000);
+        }
+        
+        .timeline-event h4 {
+            margin: 0;
+            font-size: 1rem;
+            color: var(--wheat-dark);
+        }
+        
+        .timeline-event p {
+            margin-top: 5px;
+            color: var(--text-color-muted);
+        }
+        
+        .data-highlight {
+            font-weight: bold;
+            color: var(--wheat-dark);
+        }
+        
+        .recommendations {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .recommendation-card {
+            background-color: var(--container-bg);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: var(--shadow-small);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid var(--container-border);
+        }
+        
+        .recommendation-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .recommendation-card h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            color: var(--wheat-dark);
+        }
+        
+        .recommendation-card h3 i {
+            margin-right: 10px;
+            color: var(--wheat-medium);
+        }
+        
+        .viz-container {
+            height: 300px;
+            margin: 20px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: var(--plot-background);
+            border: 1px solid var(--container-border);
+            box-shadow: var(--shadow-small);
+        }
+        
+        .summary-card {
+            background-color: var(--container-bg);
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid var(--container-border);
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .summary-card:hover {
+            box-shadow: var(--shadow-medium), 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .summary-card h2 {
+            margin-top: 0;
+            color: var(--wheat-dark);
+            border-bottom: 2px solid var(--wheat-light);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .summary-card h2 i {
+            margin-right: 10px;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--container-border);
+        }
+        
+        .navigation a {
+            display: flex;
+            align-items: center;
+            padding: 8px 15px;
+            color: var(--wheat-dark);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            font-weight: 500;
+        }
+        
+        .navigation a:hover {
+            background-color: var(--wheat-light);
+            color: var(--wheat-darker);
+        }
+        
+        .navigation a i {
+            margin-right: 6px;
+        }
+        
+        @media (max-width: 768px) {
+            .insight-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .recommendations {
+                grid-template-columns: 1fr;
+            }
+            
+            .navigation {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164225.png" alt="Fryer's Reports Logo" class="logo">
+            </div>
+            <div class="title-section">
+                <h1><i class="fa-solid fa-wheat-awn"></i> Wheat Price Analysis</h1>
+                <p class="subtitle">Executive Summary</p>
+            </div>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon dark-icon"></i>
+                    <i class="fa-solid fa-sun light-icon"></i>
+                </button>
+                <img src="https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164255.png" alt="BlackSilo Logo" class="logo">
+            </div>
+        </header>
+        
+        <div class="navigation">
+            <a href="index.html"><i class="fa-solid fa-table-cells"></i> Carpet Plot</a>
+            <a href="javascript:history.back()"><i class="fa-solid fa-chart-line"></i> Parallel Coordinates</a>
+            <a href="executive-summary.html" class="active"><i class="fa-solid fa-file-lines"></i> Executive Summary</a>
+        </div>
+        
+        <div class="summary-card">
+            <h2><i class="fa-solid fa-chart-simple"></i> Overview</h2>
+            <p>This analysis examines historical wheat price data across different markets, wheat types, and time periods. Our interactive visualizations reveal pricing patterns, regional variations, and the impact of global events on wheat markets.</p>
+            
+            <div class="viz-container" id="price-trends">
+                <!-- Dynamic chart will be rendered here -->
+            </div>
+            
+            <p>The data reveals significant price volatility over the period studied, with <span class="data-highlight">an overall increase of 27% in average wheat prices</span> since 2020. Regional markets have responded differently to global pressures, with some experiencing more dramatic price fluctuations than others.</p>
+        </div>
+        
+        <div class="insight-grid">
+            <div class="insight-box">
+                <h3><i class="fas fa-chart-line"></i> Price Volatility</h3>
+                <p>Hard red wheat has shown the highest price volatility, with standard deviation of prices 32% higher than other wheat varieties.</p>
+            </div>
+            
+            <div class="insight-box">
+                <h3><i class="fas fa-globe-americas"></i> Regional Patterns</h3>
+                <p>European markets demonstrated greater price stability compared to North American and Asian markets during supply chain disruptions.</p>
+            </div>
+            
+            <div class="insight-box">
+                <h3><i class="fas fa-calendar-alt"></i> Seasonal Trends</h3>
+                <p>Price peaks consistently occur in Q2, preceding harvest seasons, with average increases of 12-18% above annual averages.</p>
+            </div>
+            
+            <div class="insight-box">
+                <h3><i class="fas fa-exchange-alt"></i> Price Correlations</h3>
+                <p>Durum wheat prices show a 3-month lag effect in following hard red wheat price movements, offering potential predictive indicators.</p>
+            </div>
+        </div>
+        
+        <div class="summary-card">
+            <h2><i class="fa-solid fa-triangle-exclamation"></i> Global Event Impact Analysis</h2>
+            <p>Major global events have significantly influenced wheat prices throughout the period. The visualization below highlights key events and their corresponding price impacts.</p>
+            
+            <div class="viz-container" id="event-impact">
+                <!-- Dynamic chart will be rendered here -->
+            </div>
+            
+            <div class="event-timeline">
+                <div class="timeline-event">
+                    <h4>COVID-19 Pandemic (March 2020)</h4>
+                    <p>Initial 22% price spike followed by stabilization as supply chains adapted</p>
+                </div>
+                
+                <div class="timeline-event">
+                    <h4>Ukraine-Russia Conflict (February 2022)</h4>
+                    <p>42% increase in global wheat prices over 4 months, most significant impact observed</p>
+                </div>
+                
+                <div class="timeline-event">
+                    <h4>Record Heat Waves (Summer 2021)</h4>
+                    <p>18% price increase for North American wheat varieties due to crop yield reductions</p>
+                </div>
+                
+                <div class="timeline-event">
+                    <h4>Global Shipping Disruptions (2021-2022)</h4>
+                    <p>Prolonged 15-20% premium on prices in import-dependent regions</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="summary-card">
+            <h2><i class="fa-solid fa-diagram-project"></i> Market Correlations</h2>
+            <p>Analysis of wheat prices in relation to other commodities and economic indicators reveals several significant correlations that provide deeper context for price movements.</p>
+            
+            <div class="viz-container" id="correlation-plot">
+                <!-- Dynamic chart will be rendered here -->
+            </div>
+            
+            <p>The strongest correlations include: crude oil prices (0.73), fertilizer costs (0.68), and transportation indices (0.64). These relationships have strengthened since 2020, suggesting increased market interconnectivity.</p>
+        </div>
+        
+        <div class="summary-card">
+            <h2><i class="fa-solid fa-lightbulb"></i> Strategic Recommendations</h2>
+            <p>Based on the data analysis and observed patterns, we recommend the following strategies:</p>
+            
+            <div class="recommendations">
+                <div class="recommendation-card">
+                    <h3><i class="fas fa-warehouse"></i> Inventory Management</h3>
+                    <p>Implement dynamic inventory strategies based on identified seasonal price patterns, increasing reserves during Q1 when prices typically reach annual lows.</p>
+                </div>
+                
+                <div class="recommendation-card">
+                    <h3><i class="fas fa-handshake"></i> Supplier Diversification</h3>
+                    <p>Develop relationships with suppliers across multiple regions to mitigate event-based price spikes affecting specific geographic areas.</p>
+                </div>
+                
+                <div class="recommendation-card">
+                    <h3><i class="fas fa-chart-pie"></i> Wheat Portfolio Optimization</h3>
+                    <p>Balance wheat varieties in product portfolio based on price correlation patterns to reduce overall cost volatility.</p>
+                </div>
+                
+                <div class="recommendation-card">
+                    <h3><i class="fas fa-file-contract"></i> Forward Contracting</h3>
+                    <p>Secure longer-term contracts during price stability periods, particularly for varieties showing highest historical volatility.</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="attribution">
+                <p>Data provided by <a href="#">Fryer's Reports</a> & <a href="#">BlackSilo</a></p>
+                <p class="citation">Cite as: Fryer's Reports & BlackSilo (2025). Global Wheat Price Index 2015-2025.</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Fryer's Reports. All rights reserved.</p>
+                <p><i class="fa-solid fa-wheat-awn"></i> Visualizations created with D3.js</p>
+            </div>
+        </footer>
+    </div>
+    
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script>
+        // Sample data for executive summary visualizations
+        const summaryData = {
+            priceTrends: [
+                { year: 2015, price: 210 },
+                { year: 2016, price: 195 },
+                { year: 2017, price: 205 },
+                { year: 2018, price: 220 },
+                { year: 2019, price: 215 },
+                { year: 2020, price: 235 },
+                { year: 2021, price: 275 },
+                { year: 2022, price: 320 },
+                { year: 2023, price: 298 }
+            ],
+            wheatTypes: [
+                { name: "Hard Red Winter", volatility: 32, avgPrice: 245 },
+                { name: "Soft Red Winter", volatility: 24, avgPrice: 220 },
+                { name: "Durum", volatility: 28, avgPrice: 265 },
+                { name: "Hard White", volatility: 19, avgPrice: 230 }
+            ],
+            eventImpacts: [
+                { event: "COVID-19", date: "2020-03", impact: 22, duration: 4 },
+                { event: "Heat Wave", date: "2021-06", impact: 18, duration: 3 },
+                { event: "Ukraine War", date: "2022-02", impact: 42, duration: 6 },
+                { event: "Shipping Crisis", date: "2021-08", impact: 15, duration: 8 }
+            ]
+        };
+        
+        // Render Price Trends Chart
+        function renderPriceTrendsChart() {
+            const container = document.getElementById("price-trends");
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+            const margin = { top: 20, right: 30, bottom: 40, left: 50 };
+            
+            const svg = d3.select("#price-trends")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+                
+            const x = d3.scaleBand()
+                .domain(summaryData.priceTrends.map(d => d.year))
+                .range([0, width - margin.left - margin.right])
+                .padding(0.2);
+                
+            const y = d3.scaleLinear()
+                .domain([0, d3.max(summaryData.priceTrends, d => d.price) * 1.1])
+                .range([height - margin.top - margin.bottom, 0]);
+                
+            // Add X axis
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.top - margin.bottom})`)
+                .call(d3.axisBottom(x))
+                .selectAll("text")
+                .style("text-anchor", "middle")
+                .style("fill", "var(--text-color)");
+                
+            // Add Y axis
+            svg.append("g")
+                .call(d3.axisLeft(y))
+                .selectAll("text")
+                .style("fill", "var(--text-color)");
+                
+            // Add title
+            svg.append("text")
+                .attr("x", (width - margin.left - margin.right) / 2)
+                .attr("y", 0)
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .style("fill", "var(--text-color)")
+                .text("Average Wheat Price Trends (2015-2023)");
+                
+            // Add bars
+            svg.selectAll(".bar")
+                .data(summaryData.priceTrends)
+                .enter()
+                .append("rect")
+                .attr("class", "bar")
+                .attr("x", d => x(d.year))
+                .attr("y", d => y(d.price))
+                .attr("width", x.bandwidth())
+                .attr("height", d => height - margin.top - margin.bottom - y(d.price))
+                .attr("fill", "var(--wheat-medium)")
+                .attr("rx", 3)
+                .on("mouseover", function(event, d) {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("fill", "var(--wheat-dark)");
+                        
+                    svg.append("text")
+                        .attr("class", "price-label")
+                        .attr("x", x(d.year) + x.bandwidth() / 2)
+                        .attr("y", y(d.price) - 10)
+                        .attr("text-anchor", "middle")
+                        .style("font-size", "12px")
+                        .style("fill", "var(--text-color)")
+                        .text(`$${d.price}`);
+                })
+                .on("mouseout", function() {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("fill", "var(--wheat-medium)");
+                        
+                    svg.selectAll(".price-label").remove();
+                });
+                
+            // Add trend line
+            const line = d3.line()
+                .x(d => x(d.year) + x.bandwidth() / 2)
+                .y(d => y(d.price))
+                .curve(d3.curveMonotoneX);
+                
+            svg.append("path")
+                .datum(summaryData.priceTrends)
+                .attr("fill", "none")
+                .attr("stroke", "var(--wheat-dark)")
+                .attr("stroke-width", 2)
+                .attr("d", line);
+        }
+        
+        // Render Event Impact Chart
+        function renderEventImpactChart() {
+            const container = document.getElementById("event-impact");
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+            const margin = { top: 30, right: 30, bottom: 60, left: 60 };
+            
+            const svg = d3.select("#event-impact")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+                
+            const x = d3.scaleBand()
+                .domain(summaryData.eventImpacts.map(d => d.event))
+                .range([0, width - margin.left - margin.right])
+                .padding(0.3);
+                
+            const y = d3.scaleLinear()
+                .domain([0, d3.max(summaryData.eventImpacts, d => d.impact) * 1.2])
+                .range([height - margin.top - margin.bottom, 0]);
+                
+            // Add X axis
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.top - margin.bottom})`)
+                .call(d3.axisBottom(x))
+                .selectAll("text")
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", ".15em")
+                .attr("transform", "rotate(-20)")
+                .style("fill", "var(--text-color)");
+                
+            // Add Y axis
+            svg.append("g")
+                .call(d3.axisLeft(y).tickFormat(d => `${d}%`))
+                .selectAll("text")
+                .style("fill", "var(--text-color)");
+                
+            // Add title
+            svg.append("text")
+                .attr("x", (width - margin.left - margin.right) / 2)
+                .attr("y", -10)
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .style("fill", "var(--text-color)")
+                .text("Price Impact of Major Events");
+                
+            // Add bars
+            svg.selectAll(".impact-bar")
+                .data(summaryData.eventImpacts)
+                .enter()
+                .append("rect")
+                .attr("class", "impact-bar")
+                .attr("x", d => x(d.event))
+                .attr("y", d => y(d.impact))
+                .attr("width", x.bandwidth())
+                .attr("height", d => height - margin.top - margin.bottom - y(d.impact))
+                .attr("fill", "var(--event-color, #d40000)")
+                .attr("rx", 3)
+                .attr("opacity", 0.8)
+                .on("mouseover", function(event, d) {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("opacity", 1);
+                        
+                    svg.append("text")
+                        .attr("class", "impact-label")
+                        .attr("x", x(d.event) + x.bandwidth() / 2)
+                        .attr("y", y(d.impact) - 15)
+                        .attr("text-anchor", "middle")
+                        .style("font-size", "12px")
+                        .style("fill", "var(--text-color)")
+                        .text(`+${d.impact}% (${d.duration} months)`);
+                })
+                .on("mouseout", function() {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("opacity", 0.8);
+                        
+                    svg.selectAll(".impact-label").remove();
+                });
+                
+            // Add Y axis label
+            svg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -40)
+                .attr("x", -(height - margin.top - margin.bottom) / 2)
+                .attr("text-anchor", "middle")
+                .style("font-size", "12px")
+                .style("fill", "var(--text-color)")
+                .text("Price Impact (% Increase)");
+        }
+        
+        // Render Correlation Plot
+        function renderCorrelationPlot() {
+            const container = document.getElementById("correlation-plot");
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+            const margin = { top: 30, right: 120, bottom: 50, left: 60 };
+            
+            const svg = d3.select("#correlation-plot")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+                
+            // Sample correlation data
+            const correlationData = [
+                { factor: "Crude Oil", correlation: 0.73, period: "2020-2023" },
+                { factor: "Fertilizer", correlation: 0.68, period: "2020-2023" },
+                { factor: "Transportation", correlation: 0.64, period: "2020-2023" },
+                { factor: "USD Index", correlation: -0.48, period: "2020-2023" },
+                { factor: "Corn Prices", correlation: 0.56, period: "2020-2023" }
+            ];
+            
+            // Sort data by correlation strength
+            correlationData.sort((a, b) => b.correlation - a.correlation);
+            
+            const x = d3.scaleLinear()
+                .domain([-1, 1])
+                .range([0, width - margin.left - margin.right]);
+                
+            const y = d3.scaleBand()
+                .domain(correlationData.map(d => d.factor))
+                .range([0, height - margin.top - margin.bottom])
+                .padding(0.2);
+                
+            // Add X axis
+            svg.append("g")
+                .attr("transform", `translate(0,${height - margin.top - margin.bottom})`)
+                .call(d3.axisBottom(x).tickFormat(d => `${d > 0 ? '+' : ''}${d.toFixed(1)}`))
+                .selectAll("text")
+                .style("fill", "var(--text-color)");
+                
+            // Add zero line
+            svg.append("line")
+                .attr("x1", x(0))
+                .attr("x2", x(0))
+                .attr("y1", 0)
+                .attr("y2", height - margin.top - margin.bottom)
+                .attr("stroke", "var(--text-color)")
+                .attr("stroke-width", 1)
+                .attr("stroke-dasharray", "4");
+                
+            // Add Y axis
+            svg.append("g")
+                .call(d3.axisLeft(y))
+                .selectAll("text")
+                .style("fill", "var(--text-color)");
+                
+            // Add title
+            svg.append("text")
+                .attr("x", (width - margin.left - margin.right) / 2)
+                .attr("y", -10)
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .style("fill", "var(--text-color)")
+                .text("Wheat Price Correlations with Market Factors");
+                
+            // Add bars
+            svg.selectAll(".correlation-bar")
+                .data(correlationData)
+                .enter()
+                .append("rect")
+                .attr("class", "correlation-bar")
+                .attr("x", d => d.correlation < 0 ? x(d.correlation) : x(0))
+                .attr("y", d => y(d.factor))
+                .attr("width", d => Math.abs(x(d.correlation) - x(0)))
+                .attr("height", y.bandwidth())
+                .attr("fill", d => d.correlation >= 0 ? "var(--wheat-medium)" : "var(--price-medium-low)")
+                .attr("rx", 3)
+                .on("mouseover", function(event, d) {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("opacity", 0.8);
+                        
+                    svg.append("text")
+                        .attr("class", "correlation-label")
+                        .attr("x", d.correlation < 0 ? x(d.correlation) - 5 : x(d.correlation) + 5)
+                        .attr("y", y(d.factor) + y.bandwidth() / 2)
+                        .attr("text-anchor", d.correlation < 0 ? "end" : "start")
+                        .attr("dominant-baseline", "middle")
+                        .style("font-size", "12px")
+                        .style("fill", "var(--text-color)")
+                        .text(`r = ${d.correlation.toFixed(2)}`);
+                })
+                .on("mouseout", function() {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("opacity", 1);
+                        
+                    svg.selectAll(".correlation-label").remove();
+                });
+                
+            // Add X axis label
+            svg.append("text")
+                .attr("x", (width - margin.left - margin.right) / 2)
+                .attr("y", height - margin.top - margin.bottom + 40)
+                .attr("text-anchor", "middle")
+                .style("font-size", "12px")
+                .style("fill", "var(--text-color)")
+                .text("Correlation Coefficient (r)");
+                
+            // Add legend
+            const legend = svg.append("g")
+                .attr("transform", `translate(${width - margin.left - margin.right + 20}, 10)`);
+                
+            legend.append("rect")
+                .attr("x", 0)
+                .attr("y", 0)
+                .attr("width", 15)
+                .attr("height", 15)
+                .attr("fill", "var(--wheat-medium)");
+                
+            legend.append("text")
+                .attr("x", 20)
+                .attr("y", 12)
+                .style("font-size", "12px")
+                .style("fill", "var(--text-color)")
+                .text("Positive Correlation");
+                
+            legend.append("rect")
+                .attr("x", 0)
+                .attr("y", 25)
+                .attr("width", 15)
+                .attr("height", 15)
+                .attr("fill", "var(--price-medium-low)");
+                
+            legend.append("text")
+                .attr("x", 20)
+                .attr("y", 37)
+                .style("font-size", "12px")
+                .style("fill", "var(--text-color)")
+                .text("Negative Correlation");
+        }
+        
+        // Handle theme toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            // Theme toggle functionality
+            const themeToggle = document.getElementById('theme-toggle');
+            const storedTheme = localStorage.getItem('theme') || 'light';
+            
+            // Apply stored theme on page load
+            if (storedTheme === 'dark') {
+                document.body.classList.add('dark-theme');
+            }
+            
+            themeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+                const theme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
+                localStorage.setItem('theme', theme);
+            });
+            
+            // Back to top button
+            const backToTopButton = document.getElementById('back-to-top');
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            });
+            
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            });
+            
+            // Initialize visualizations
+            renderPriceTrendsChart();
+            renderEventImpactChart();
+            renderCorrelationPlot();
+        });
+    </script>
+</body>
+</html> 

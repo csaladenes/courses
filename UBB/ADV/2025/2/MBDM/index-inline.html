@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vega-Lite Bar Char</title>
+    <!-- Load Vega & Vega-Lite libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(242, 59, 166);
+            background-color: #333444;
+        }
+
+        .container {
+            background-color: royalBlue;
+            border-radius: 8px;
+        }
+
+        #c1 {
+            border-radius: 28px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #25bfe9;
+        }
+
+        #vis {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="c1">
+        <h1>Standard Bar Chart with Vega-Lite</h1>
+        <div id="vis"></div>
+    </div>
+    <div class="container" id="c2">
+        <h1>Heading 2</h1>
+    </div>
+    <script>
+        const spec = {
+            $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+            description: "A simple bar chart with categorical data",
+            height: 300,
+            width: 500,
+            data: {
+                // url: "data.json"
+                "url": "https://raw.githubusercontent.com/EconomicsObservatory/economicsobservatory.github.io/refs/heads/main/data.csv"
+            },
+            mark: {
+                type: "bar"
+            },
+            encoding: {
+                x: {
+                    field: "category",
+                    type: "nominal",
+                    title: ""
+                },
+                y: {
+                    field: "value",
+                    type: "quantitative",
+                    title: ""
+                }
+            }
+        };
+
+        const spec2 = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "title": {
+                "text": "Productivity",
+                "anchor": "start",
+                "subtitle": "GVA per hour, 2015=100 | Source: Istat through ECO API",
+                "fontSize": "14",
+                "subtitleFontSize": "12",
+                "color": "#000000",
+                "subtitleColor": "#000000"
+            },
+            "height": "250",
+            "width": "container",
+            "autosize": {
+                "type": "fit",
+                "contains": "padding"
+            },
+            "background": "#ffffff",
+            "view": {
+                "fill": "#ffffff",
+                "strokeOpacity": 0
+            },
+            "data": {
+                "url": "https://api.economicsobservatory.com/deu/infl?vega",
+                "format": {
+                    "type": "json"
+                }
+            },
+            "mark": {
+                "type": "line",
+                "color": "#f4134d",
+                "strokeWidth": "2"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": "",
+                        "titleColor": "#122B39",
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "field": "value",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "",
+                        "titleColor": "#122B39",
+                        "grid": false
+                    }
+                }
+            }
+        }
+
+        // Embed the visualization in the container
+        vegaEmbed("#vis", spec2)
+    </script>
+</body>
+
+</html>

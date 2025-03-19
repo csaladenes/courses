@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheat Price Visualization</title>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.1/dist/chartjs-adapter-moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164225.png" alt="Fryer's Reports Logo" class="logo">
+            </div>
+            <div class="title-section">
+                <h1><i class="fa-solid fa-wheat-awn"></i> Wheat Price Visualization</h1>
+                <p class="subtitle">Interactive exploration of global wheat prices across time and types</p>
+            </div>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon dark-icon"></i>
+                    <i class="fa-solid fa-sun light-icon"></i>
+                </button>
+                <img src="https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164255.png" alt="BlackSilo Logo" class="logo">
+            </div>
+        </header>
+
+        <div class="navigation">
+            <a href="#heatmap-section" class="active"><i class="fa-solid fa-table-cells"></i> Carpet Plot</a>
+            <a href="#parcoords-section"><i class="fa-solid fa-chart-line"></i> Parallel Coordinates</a>
+            <a href="executive-summary.html"><i class="fa-solid fa-file-lines"></i> Executive Summary</a>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="wheatType"><i class="fa-solid fa-seedling"></i> Filter by Wheat Type:</label>
+                <select id="wheatType" multiple="multiple" class="select2">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="country"><i class="fa-solid fa-globe"></i> Filter by Country:</label>
+                <select id="country" multiple="multiple" class="select2">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="yearRange"><i class="fa-regular fa-calendar"></i> Year Range:</label>
+                <select id="yearRange">
+                    <option value="all">All Years</option>
+                    <option value="2019-2020">2019-2020</option>
+                    <option value="2021-2022">2021-2022</option>
+                    <option value="2023-2025">2023-2025</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <button onclick="resetFilters()"><i class="fa-solid fa-rotate"></i> Reset Filters</button>
+            </div>
+        </div>
+
+        <!-- Heatmap Chart Section -->
+        <section id="heatmap-section" class="visualization-section">
+            <div class="chart-header">
+                <h2><i class="fa-solid fa-table-cells"></i> Wheat Price Carpet Plot</h2>
+                <p class="subtitle">Visualizing wheat price trends over time by type and month</p>
+            </div>
+            <div class="chart-container">
+                <div id="heatmap"></div>
+                <div class="tooltip" id="tooltip"></div>
+            </div>
+            <div class="chart-legend">
+                <div class="legend-section">
+                    <div class="legend-title"><i class="fa-solid fa-dollar-sign"></i> Price Ranges</div>
+                    <div class="legend-items">
+                        <div class="legend-item">
+                            <div class="legend-color price-low"></div>
+                            <span>Low Price (<$230)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color price-medium-low"></div>
+                            <span>Medium-Low ($230-250)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color price-medium"></div>
+                            <span>Medium ($250-275)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color price-medium-high"></div>
+                            <span>Medium-High ($275-325)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color price-high"></div>
+                            <span>High Price (>$325)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parallel Coordinates Chart Section -->
+        <section id="parcoords-section" class="visualization-section">
+            <div class="chart-header">
+                <h2><i class="fa-solid fa-wheat-awn"></i> Wheat Prices by Country</h2>
+                <p class="subtitle">Exploring relationships between price, wheat type, and origin</p>
+            </div>
+            <div class="chart-container">
+                <div id="parallel-plot"></div>
+            </div>
+            <div class="chart-legend">
+                <div class="legend-section">
+                    <div class="legend-title"><i class="fa-solid fa-globe"></i> Country Colors</div>
+                    <!-- This will be populated dynamically by the JavaScript -->
+                    <div id="parcoords-legend" class="legend-items"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="attribution">
+                <p><i class="fa-solid fa-database"></i> Data source: Fryer's Reports Wheat Price Index | Last updated: March 2025</p>
+                <p class="citation">Analysis and visualization by BlackSilo Agricultural Data Science Team.</p>
+                <p class="note"><i class="fa-solid fa-info-circle"></i> Note: "Fryers Global fob wheat price index" is abbreviated as "Global" throughout the visualization.</p>
+                <p class="copyright">&copy; 2025 Fryer's Reports & BlackSilo. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scroll Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/heatmap.js"></script>
+    <script src="js/parallelcoords.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Theme Toggle Script -->
+    <script>
+        // Theme toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+            
+            // Check for saved theme or use system preference
+            const currentTheme = localStorage.getItem('theme') || 
+                                (prefersDarkScheme.matches ? 'dark' : 'light');
+            
+            // Apply initial theme
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark-theme');
+            }
+            
+            // Toggle theme when button is clicked
+            themeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+                
+                // Save preference
+                const theme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
+                localStorage.setItem('theme', theme);
+            });
+
+            // Back to top button functionality
+            const backToTopButton = document.getElementById('back-to-top');
+            
+            // Show/hide the button based on scroll position
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            });
+            
+            // Scroll to top when button is clicked
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Smooth scrolling for navigation links
+            const navLinks = document.querySelectorAll('.navigation a[href^="#"]');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Get the target section
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        // Get the position of the target section
+                        const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset;
+                        // Add an offset (70px) to leave space at the top
+                        const offsetPosition = targetPosition - 70;
+                        
+                        // Smooth scroll to the section with offset
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Update active class
+                        document.querySelectorAll('.navigation a').forEach(a => {
+                            a.classList.remove('active');
+                        });
+                        this.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Wheat Prices Over Time by Type",
+  "width": 800,
+  "height": 500,
+  "data": {"url": "4/wheat_data.json"},
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": "Date",
+      "timeUnit": "yearmonthdate"
+    },
+    "y": {
+      "field": "Price",
+      "type": "quantitative",
+      "title": "Price"
+    },
+    "color": {
+      "field": "Name",
+      "type": "nominal",
+      "title": "Wheat Type"
+    },
+    "tooltip": [
+      {"field": "Name", "type": "nominal"},
+      {"field": "Price", "type": "quantitative"},
+      {"field": "String Date", "type": "nominal", "title": "Date"},
+      {"field": "Country", "type": "nominal"}
+    ]
+  }
+} 

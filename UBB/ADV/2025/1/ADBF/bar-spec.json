@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 300,
+  "background": "#2d2d2d",
+  "data": {
+    "url": "eu_gdp_data.json",
+    "format": {"type": "json", "property": "data"}
+  },
+  "config": {
+    "font": "Roboto, sans-serif",
+    "axis": {
+      "labelFont": "Roboto, sans-serif",
+      "titleFont": "Roboto, sans-serif",
+      "gridColor": "#eee",
+      "labelColor": "#7f8c8d",
+      "titleColor": "#2c3e50"
+    },
+    "legend": {
+      "labelFont": "Roboto, sans-serif",
+      "titleFont": "Roboto, sans-serif",
+      "labelColor": "#7f8c8d",
+      "titleColor": "#2c3e50"
+    }
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+        "labelColor": "#e0e0e0",
+        "titleColor": "#e0e0e0"
+      }
+    },
+    "y": {
+      "field": "gdp_per_capita",
+      "type": "quantitative",
+      "title": "GDP per Capita (USD)",
+      "axis": {
+        "labelColor": "#e0e0e0",
+        "titleColor": "#e0e0e0",
+        "gridColor": "#404040"
+      }
+    },
+    "color": {
+      "field": "country",
+      "type": "nominal",
+      "scale": {
+        "range": ["#3498db", "#e74c3c", "#2ecc71", "#f1c40f"]
+      },
+      "legend": {
+        "labelColor": "#e0e0e0",
+        "titleColor": "#e0e0e0"
+      }
+    },
+    "xOffset": {"field": "country"},
+    "tooltip": [
+      {"field": "country", "type": "nominal"},
+      {"field": "year", "type": "temporal"},
+      {"field": "gdp_per_capita", "type": "quantitative", "format": ",.0f"}
+    ]
+  }
+} 

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheat Price Carpet Plot</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.1/dist/chartjs-adapter-moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 15px;
+        }
+        .logo {
+            height: 50px;
+            margin-right: 15px;
+        }
+        h1 {
+            color: #4a7c2a;
+            margin: 0;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        .chart-container {
+            position: relative;
+            height: 650px;
+            margin-top: 20px;
+        }
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            flex-wrap: wrap;
+        }
+        .control-group {
+            margin-bottom: 10px;
+            min-width: 220px;
+        }
+        select, button {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: white;
+            font-size: 14px;
+            width: 100%;
+        }
+        button {
+            background-color: #4a7c2a;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 22px;
+        }
+        button:hover {
+            background-color: #3a6c1a;
+        }
+        .legend {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            flex-wrap: wrap;
+        }
+        .legend-section {
+            margin: 0 15px;
+        }
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .legend-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 10px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            border-radius: 3px;
+        }
+        .legend-event {
+            width: 12px;
+            height: 12px;
+            margin-right: 5px;
+            border-radius: 50%;
+            background-color: #d32f2f;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        #heatmap {
+            width: 100%;
+            height: 100%;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+            max-width: 300px;
+        }
+        .cell {
+            stroke: #fff;
+            stroke-width: 1px;
+        }
+        .cell:hover {
+            stroke: #333;
+            stroke-width: 2px;
+        }
+        .event-marker {
+            cursor: pointer;
+        }
+        .event-line {
+            stroke: #d32f2f;
+            stroke-width: 2px;
+            stroke-dasharray: 4,4;
+        }
+        .select2-container {
+            width: 100% !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164225.png" alt="Fryer's Reports Logo" class="logo">
+            </div>
+            <div>
+                <h1>Wheat Price Carpet Plot</h1>
+                <p class="subtitle">Visual exploration of wheat prices across time and types</p>
+            </div>
+            <div>
+                <img src="https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/Image20250311164255.png" alt="BlackSilo Logo" class="logo">
+            </div>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="wheatType">Filter by Wheat Type:</label>
+                <select id="wheatType" multiple="multiple" class="select2">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="country">Filter by Country:</label>
+                <select id="country" multiple="multiple" class="select2">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="yearRange">Year Range:</label>
+                <select id="yearRange">
+                    <option value="all">All Years</option>
+                    <option value="2019-2020">2019-2020</option>
+                    <option value="2021-2022">2021-2022</option>
+                    <option value="2023-2025">2023-2025</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <button onclick="resetFilters()">Reset Filters</button>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div id="heatmap"></div>
+            <div class="tooltip" id="tooltip"></div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-section">
+                <div class="legend-title">Price Ranges</div>
+                <div class="legend-items">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #0d47a1;"></div>
+                        <span>Low Price (<$200)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #64b5f6;"></div>
+                        <span>Medium-Low ($200-225)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ffeb3b;"></div>
+                        <span>Medium ($225-250)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ff9800;"></div>
+                        <span>Medium-High ($250-275)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #b71c1c;"></div>
+                        <span>High Price (>$275)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="legend-section">
+                <div class="legend-title">Global Events</div>
+                <div class="legend-items">
+                    <div class="legend-item">
+                        <div class="legend-event"></div>
+                        <span>COVID-19 Pandemic (Mar 2020)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-event"></div>
+                        <span>Russia-Ukraine Conflict (Feb 2022)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-event"></div>
+                        <span>N. America Drought (Jun 2021)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-event"></div>
+                        <span>Black Sea Initiative Suspended (May 2023)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-event"></div>
+                        <span>Red Sea Shipping Disruptions (Jan 2024)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Data source: Fryer's Reports Wheat Price Index | Last updated: March 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        // Global variables
+        let wheatData = [];
+        let svg = null;
+        let tooltip = d3.select("#tooltip");
+        
+        // Global events data
+        const globalEvents = [
+            { date: "2020-03-11", event: "WHO declares COVID-19 a pandemic", description: "The World Health Organization officially characterized COVID-19 as a pandemic, affecting global supply chains and markets." },
+            { date: "2022-02-24", event: "Russia-Ukraine conflict begins", description: "The conflict between Russia and Ukraine started, significantly impacting global wheat markets as both countries are major exporters." },
+            { date: "2023-05-17", event: "Black Sea Grain Initiative suspended", description: "Russia suspended participation in the Black Sea Grain Initiative, affecting wheat exports from Ukraine." },
+            { date: "2021-06-23", event: "Major drought in North America", description: "Severe drought conditions in North America affected wheat production and global prices." },
+            { date: "2024-01-15", event: "Global shipping disruptions", description: "Attacks on shipping in the Red Sea led to disruptions in global supply chains, affecting wheat transportation costs." }
+        ];
+        
+        // Initialize Select2
+        $(document).ready(function() {
+            $('.select2').select2({
+                placeholder: "Select options",
+                allowClear: true
+            });
+            
+            // Add change event listeners
+            $('#wheatType, #country').on('change', function() {
+                updateVisualization();
+            });
+            
+            $('#yearRange').on('change', function() {
+                updateVisualization();
+            });
+        });
+        
+        // Fetch the data
+        async function fetchData() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/denesdata/denesdata.github.io/refs/heads/main/wheat_data.json');
+                wheatData = await response.json();
+                
+                // Initialize the visualization
+                populateFilters();
+                createHeatmap(wheatData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+        
+        // Populate filter dropdowns
+        function populateFilters() {
+            const wheatTypeSelect = document.getElementById('wheatType');
+            const countrySelect = document.getElementById('country');
+            
+            // Clear existing options
+            wheatTypeSelect.innerHTML = '';
+            countrySelect.innerHTML = '';
+            
+            // Get unique wheat types
+            const wheatTypes = [...new Set(wheatData.map(item => item.Name))];
+            wheatTypes.forEach(type => {
+                const option = document.createElement('option');
+                option.value = type;
+                option.textContent = type;
+                wheatTypeSelect.appendChild(option);
+            });
+            
+            // Get unique countries
+            const countries = [...new Set(wheatData.map(item => item.Country))];
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countrySelect.appendChild(option);
+            });
+            
+            // Refresh Select2
+            $('.select2').trigger('change');
+        }
+        
+        // Create the heatmap
+        function createHeatmap(data) {
+            // Clear previous chart
+            d3.select("#heatmap").html("");
+            
+            // Get unique wheat types and dates
+            const wheatTypes = [...new Set(data.map(d => d.Name))];
+            const dates = [...new Set(data.map(d => d.Date))].sort((a, b) => a - b);
+            
+            // Set up dimensions
+            const margin = {top: 50, right: 30, bottom: 100, left: 150};
+            const container = document.getElementById('heatmap');
+            const width = container.clientWidth - margin.left - margin.right;
+            const height = container.clientHeight - margin.top - margin.bottom;
+            
+            // Create SVG
+            const svg = d3.select("#heatmap")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+            
+            // Create scales
+            const x = d3.scaleBand()
+                .domain(dates.map(d => new Date(d)))
+                .range([0, width])
+                .padding(0.05);
+            
+            const y = d3.scaleBand()
+                .domain(wheatTypes)
+                .range([0, height])
+                .padding(0.05);
+            
+            // Color scale
+            const colorScale = d3.scaleThreshold()
+                .domain([200, 225, 250, 275])
+                .range(["#0d47a1", "#64b5f6", "#ffeb3b", "#ff9800", "#b71c1c"]);
+            
+            // Create x-axis with formatted dates
+            const xAxis = d3.axisBottom(x)
+                .tickFormat(d3.timeFormat("%b %Y"))
+                .tickValues(x.domain().filter((d, i) => i % Math.ceil(dates.length / 12) === 0));
+            
+            svg.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(xAxis)
+                .selectAll("text")
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", ".15em")
+                .attr("transform", "rotate(-45)");
+            
+            // Create y-axis
+            svg.append("g")
+                .call(d3.axisLeft(y));
+            
+            // Add axis labels
+            svg.append("text")
+                .attr("text-anchor", "middle")
+                .attr("x", width / 2)
+                .attr("y", height + margin.bottom - 10)
+                .text("Date");
+            
+            svg.append("text")
+                .attr("text-anchor", "middle")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -margin.left + 20)
+                .attr("x", -height / 2)
+                .text("Wheat Type");
+            
+            // Create cells
+            svg.selectAll()
+                .data(data)
+                .enter()
+                .append("rect")
+                .attr("class", "cell")
+                .attr("x", d => x(new Date(d.Date)))
+                .attr("y", d => y(d.Name))
+                .attr("width", x.bandwidth())
+                .attr("height", y.bandwidth())
+                .style("fill", d => colorScale(d.Price))
+                .on("mouseover", function(event, d) {
+                    tooltip.style("opacity", 1);
+                    tooltip.html(`
+                        <strong>Type:</strong> ${d.Name}<br>
+                        <strong>Date:</strong> ${d['String Date']}<br>
+                        <strong>Price:</strong> $${d.Price.toFixed(2)}<br>
+                        <strong>Country:</strong> ${d.Country}
+                    `)
+                    .style("left", (event.clientX + 10) + "px")
+                    .style("top", (event.clientY + window.scrollY - 28) + "px");
+                })
+                .on("mouseout", function() {
+                    tooltip.style("opacity", 0);
+                });
+                
+            // Add year separators
+            const years = [...new Set(dates.map(d => new Date(d).getFullYear()))];
+            years.forEach(year => {
+                // Find the first date of each year in our dataset
+                const firstDateOfYear = dates.find(d => new Date(d).getFullYear() === year);
+                if (firstDateOfYear) {
+                    const xPosition = x(new Date(firstDateOfYear));
+                    
+                    // Add vertical line for year separator
+                    svg.append("line")
+                        .attr("x1", xPosition)
+                        .attr("y1", 0)
+                        .attr("x2", xPosition)
+                        .attr("y2", height)
+                        .attr("stroke", "#333")
+                        .attr("stroke-width", 1)
+                        .attr("stroke-dasharray", "5,5");
+                    
+                    // Add year label at the top
+                    svg.append("text")
+                        .attr("x", xPosition + 5)
+                        .attr("y", -10)
+                        .attr("text-anchor", "start")
+                        .attr("font-size", "12px")
+                        .attr("font-weight", "bold")
+                        .text(year);
+                }
+            });
+            
+            // Add global events
+            globalEvents.forEach(event => {
+                const eventDate = new Date(event.date);
+                // Find the closest date in our dataset
+                const closestDate = dates.reduce((prev, curr) => {
+                    return Math.abs(new Date(curr) - eventDate) < Math.abs(new Date(prev) - eventDate) ? curr : prev;
+                });
+                
+                const xPosition = x(new Date(closestDate));
+                if (xPosition !== undefined) {
+                    // Add event line
+                    svg.append("line")
+                        .attr("class", "event-line")
+                        .attr("x1", xPosition + x.bandwidth()/2)
+                        .attr("y1", 0)
+                        .attr("x2", xPosition + x.bandwidth()/2)
+                        .attr("y2", height);
+                    
+                    // Add event marker
+                    svg.append("circle")
+                        .attr("class", "event-marker")
+                        .attr("cx", xPosition + x.bandwidth()/2)
+                        .attr("cy", -25)
+                        .attr("r", 6)
+                        .attr("fill", "#d32f2f")
+                        .on("mouseover", function(e) {
+                            tooltip.style("opacity", 1);
+                            tooltip.html(`
+                                <strong>${event.event}</strong><br>
+                                <span>${event.date}</span><br>
+                                <p>${event.description}</p>
+                            `)
+                            .style("left", (e.clientX + 10) + "px")
+                            .style("top", (e.clientY + window.scrollY - 28) + "px");
+                        })
+                        .on("mouseout", function() {
+                            tooltip.style("opacity", 0);
+                        });
+                }
+            });
+        }
+        
+        // Update visualization based on filters
+        function updateVisualization() {
+            const selectedWheatTypes = $('#wheatType').val();
+            const selectedCountries = $('#country').val();
+            const yearRange = document.getElementById('yearRange').value;
+            
+            // Filter data based on selections
+            let filteredData = [...wheatData];
+            
+            if (selectedWheatTypes && selectedWheatTypes.length > 0) {
+                filteredData = filteredData.filter(item => selectedWheatTypes.includes(item.Name));
+            }
+            
+            if (selectedCountries && selectedCountries.length > 0) {
+                filteredData = filteredData.filter(item => selectedCountries.includes(item.Country));
+            }
+            
+            if (yearRange !== 'all') {
+                const [startYear, endYear] = yearRange.split('-');
+                filteredData = filteredData.filter(item => {
+                    const year = new Date(item.Date).getFullYear();
+                    return year >= parseInt(startYear) && year <= parseInt(endYear);
+                });
+            }
+            
+            // Create new chart with filtered data
+            createHeatmap(filteredData);
+        }
+        
+        // Reset all filters
+        function resetFilters() {
+            $('#wheatType').val(null).trigger('change');
+            $('#country').val(null).trigger('change');
+            document.getElementById('yearRange').value = 'all';
+            updateVisualization();
+        }
+        
+        // Initialize the visualization
+        fetchData();
+    </script>
+</body>
+</html> 
