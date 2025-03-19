@@ -8,7 +8,7 @@ Mindenképpen csatlakozz a Discord-szerver-hez - kellett kapjál meghívót!
 ☕ Az elképzelés ezzel a Discord szerverrel az, hogy az egyetem/kurzus elvégzése után is az erdélyi adatvizualizációs közösség része maradsz. Ezért majd automatikusan **Alumni**-vá válsz az év végén.
 
 
-## 🐳 Elképzelés
+## 🐘 Elképzelés
 **BI (ősz), BI2, BA és MI (tavasz)**
 
 Az adattudomány és üzleti intelligencia területén kurzusaim egymásra épülő képzési rendszert alkotnak, amely átfogó ismereteket nyújt a modern adatelemzés és döntéstámogatás teljes spektrumában.
