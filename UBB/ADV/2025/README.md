@@ -1,1 +1,2 @@
-# 🐋 Adatelemzés és vizualizáció 2025 tavasz
+# 🐋 Adatelemzés és vizualizáció
+2025 tavasz
