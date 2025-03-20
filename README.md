@@ -1,6 +1,5 @@
 # 📊 Adatos kurzusok
-Csala Dénes © 2025
-
+Csala Dénes © 2025  
 
 ### ✨ Babes-Bolyai Tudományegyetem  
 Közgazdaság- és Gazdálkodástudományi Kar   
@@ -18,5 +17,9 @@ Oktatási módszertanom a jövő munkakörnyezetét modellezi, ahol az AI-asszis
 Csatlakozz - és váljál olyan szakemberré, aki nem csak érti a mesterséges intelligencia működését, hanem képes azt felelősségteljesen alkalmazni is a valós világ problémáinak megoldására.
 
 ## 🗣️ Discord-szerver 🦜
-Mindenképpen csatlakozz a Discord-szerver-hez - kellett kapjál meghívót! ☕ Az elképzelés ezzel a Discord szerverrel az, hogy az egyetem/kurzus elvégzése után is az erdélyi adatvizualizációs közösség része maradsz. Ezért majd automatikusan Alumni-vá válsz az év végén.
+Mindenképpen csatlakozz a Discord-szerver-hez - kellett kapjál meghívót! ☕ Az elképzelés ezzel a Discord szerverrel az, hogy az egyetem/kurzus elvégzése után is az erdélyi adatvizualizációs közösség része maradsz. Ezért majd automatikusan Alumni-vá válsz az év végén.  
+.  
+![spaceleo](spaceleo.png)  
+.  
+
 
