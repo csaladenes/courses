@@ -1,1 +1,2 @@
-# 🐋 Adatelemzés és vizualizáció
+# 🐋 Adatelemzés és vizualizáció kurzus
+Mesteri

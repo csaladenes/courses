@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1: Strategic Interactions and Modern RL</title>
+    <style>
+        :root {
+            --primary-color: #2D3436;
+            --accent-color: #00B894;
+            --text-color: #2D3436;
+            --background-color: #FFFFFF;
+            --slide-background: #F5F6FA;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow: hidden;
+        }
+
+        .slides-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 5vh 5vw;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            background: var(--slide-background);
+            overflow-y: auto;
+        }
+
+        .slide.active {
+            display: block;
+            opacity: 1;
+        }
+
+        .slide-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 100px; /* Add padding to ensure content is visible above navigation */
+        }
+
+        .slide-header {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            background: var(--slide-background);
+            padding: 1rem 0;
+            z-index: 10;
+        }
+
+        .slide-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .slide-subtitle {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        .slide-number {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        .slide-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .content-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .content-box h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .content-box ul, .content-box ol {
+            margin-left: 1.5rem;
+        }
+
+        .content-box li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .matrix {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-family: monospace;
+            white-space: pre;
+            margin: 1rem 0;
+        }
+
+        .interactive-demo {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .demo-controls {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .demo-controls button {
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .demo-controls button:hover {
+            background: #00A187;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            gap: 1rem;
+            z-index: 1000;
+            background: var(--slide-background);
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-button {
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .nav-button:hover {
+            background: #00A187;
+        }
+
+        .progress-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 4px;
+            background: var(--accent-color);
+            transition: width 0.3s ease;
+            z-index: 1000;
+        }
+
+        /* Add smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Add responsive adjustments */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .slide-title {
+                font-size: 2rem;
+            }
+            
+            .slide-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .navigation {
+                bottom: 1rem;
+                right: 1rem;
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slides-container">
+        <!-- Title Slide -->
+        <div class="slide active" id="slide1">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="slide-number">1/12</div>
+                </div>
+                <div class="slide-body">
+                    <h1 class="slide-title">Strategic Interactions and Modern RL</h1>
+                    <p class="slide-subtitle">Class 1: Introduction to Game Theory and Reinforcement Learning</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- RL in Modern AI -->
+        <div class="slide" id="slide2">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">Reinforcement Learning in Modern AI</h2>
+                    <div class="slide-number">2/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-grid">
+                        <div class="content-box">
+                            <h3>RL and Large Language Models</h3>
+                            <p>Reinforcement Learning (RL) has become fundamental in modern AI development, particularly in the context of Large Language Models (LLMs). The most significant application is Reinforcement Learning from Human Feedback (RLHF), which has been crucial in aligning models like ChatGPT with human values and preferences.</p>
+                        </div>
+                        <div class="content-box">
+                            <h3>Key Concepts in RLHF</h3>
+                            <ul>
+                                <li><span class="highlight">Human Feedback Loop</span>: Models learn from human preferences and evaluations</li>
+                                <li><span class="highlight">Reward Modeling</span>: Creating reward functions based on human judgments</li>
+                                <li><span class="highlight">Policy Optimization</span>: Fine-tuning models to maximize expected rewards</li>
+                                <li><span class="highlight">Alignment</span>: Aligning model outputs with human values and intentions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Theory in RL -->
+        <div class="slide" id="slide3">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">Game Theory in RL Environments</h2>
+                    <div class="slide-number">3/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-grid">
+                        <div class="content-box">
+                            <h3>Environment Design as a Game</h3>
+                            <ul>
+                                <li><span class="highlight">State Space</span>: Representation of game board or environment state</li>
+                                <li><span class="highlight">Action Space</span>: Available moves or decisions</li>
+                                <li><span class="highlight">Reward Function</span>: Payoff matrix or utility function</li>
+                                <li><span class="highlight">Transition Dynamics</span>: Game rules and state evolution</li>
+                            </ul>
+                        </div>
+                        <div class="content-box">
+                            <h3>Strategic Considerations</h3>
+                            <ul>
+                                <li><span class="highlight">Multi-agent Scenarios</span>: Multiple agents interacting in environment</li>
+                                <li><span class="highlight">Competitive vs. Cooperative</span>: Different reward structures</li>
+                                <li><span class="highlight">Zero-sum vs. Non-zero-sum</span>: Resource allocation and value creation</li>
+                                <li><span class="highlight">Information Asymmetry</span>: Hidden information and partial observability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Basic Game Theory -->
+        <div class="slide" id="slide4">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">Introduction to Game Theory</h2>
+                    <div class="slide-number">4/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-grid">
+                        <div class="content-box">
+                            <h3>Basic Concepts</h3>
+                            <ol>
+                                <li><span class="highlight">Players</span>: Decision-makers in the game</li>
+                                <li><span class="highlight">Strategies</span>: Complete plans of action</li>
+                                <li><span class="highlight">Payoffs</span>: Outcomes or utilities for each player</li>
+                                <li><span class="highlight">Information Sets</span>: What players know when making decisions</li>
+                            </ol>
+                        </div>
+                        <div class="content-box">
+                            <h3>The Prisoner's Dilemma</h3>
+                            <p>A fundamental example that demonstrates:</p>
+                            <ul>
+                                <li>Individual rationality vs. collective optimality</li>
+                                <li>The tension between cooperation and defection</li>
+                                <li>The importance of repeated interactions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Prisoner's Dilemma Matrix -->
+        <div class="slide" id="slide5">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">The Prisoner's Dilemma Matrix</h2>
+                    <div class="slide-number">5/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-grid">
+                        <div class="content-box">
+                            <h3>Classic Prisoner's Dilemma</h3>
+                            <div class="matrix">
+Player 2
+Player 1    Cooperate    Defect
+Cooperate   (3,3)       (0,5)
+Defect      (5,0)       (1,1)
+                            </div>
+                            <p>In this classic version, the Nash equilibrium is (Defect, Defect) regardless of opponent's strategy.</p>
+                        </div>
+                        <div class="content-box">
+                            <h3>Modified Prisoner's Dilemma</h3>
+                            <div class="matrix">
+Player 2
+Player 1    Cooperate    Defect
+Cooperate   (4,4)       (0,6)
+Defect      (6,0)       (1,1)
+                            </div>
+                            <p>In this modified version, with a biased opponent (70% Cooperate, 30% Defect), the Nash equilibrium becomes a mixed strategy.</p>
+                        </div>
+                    </div>
+                    <div class="interactive-demo">
+                        <h3>Interactive Modified Prisoner's Dilemma Demo</h3>
+                        <p>Your opponent has a 70% chance of cooperating and 30% chance of defecting.</p>
+                        <div class="demo-controls">
+                            <button onclick="playModifiedGame('cooperate')">Cooperate</button>
+                            <button onclick="playModifiedGame('defect')">Defect</button>
+                            <button onclick="resetModifiedGame()">Reset</button>
+                        </div>
+                        <div id="modified-game-result"></div>
+                        <div class="highlight-box">
+                            <h4>Expected Payoffs:</h4>
+                            <p>If you Cooperate: 0.7 × 4 + 0.3 × 0 = 2.8</p>
+                            <p>If you Defect: 0.7 × 6 + 0.3 × 1 = 4.5</p>
+                            <p>Therefore, the Nash equilibrium is to always Defect.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nash Equilibrium -->
+        <div class="slide" id="slide6">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">Nash Equilibrium</h2>
+                    <div class="slide-number">6/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-grid">
+                        <div class="content-box">
+                            <h3>Definition</h3>
+                            <p>A set of strategies where no player can improve their payoff by unilaterally changing their strategy.</p>
+                        </div>
+                        <div class="content-box">
+                            <h3>Properties</h3>
+                            <ul>
+                                <li><span class="highlight">Self-enforcing</span>: No player has incentive to deviate</li>
+                                <li><span class="highlight">May not be Pareto optimal</span>: Better outcomes might exist</li>
+                                <li><span class="highlight">Can be multiple or non-existent</span>: Complex strategic interactions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tit-for-Tat Strategy -->
+        <div class="slide" id="slide7">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">Tit-for-Tat Strategy</h2>
+                    <div class="slide-number">7/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-box">
+                        <h3>A simple but effective strategy in repeated games:</h3>
+                        <ol>
+                            <li><span class="highlight">Start by cooperating</span>: Establish trust</li>
+                            <li><span class="highlight">Copy the opponent's last move</span>: Reciprocate behavior</li>
+                            <li><span class="highlight">Forgive after opponent returns to cooperation</span>: Maintain long-term cooperation</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Applications -->
+        <div class="slide" id="slide8">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">Practical Applications</h2>
+                    <div class="slide-number">8/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-grid">
+                        <div class="content-box">
+                            <h3>Modern AI Systems</h3>
+                            <ul>
+                                <li><span class="highlight">Multi-agent RL systems</span></li>
+                                <li><span class="highlight">Adversarial training</span></li>
+                                <li><span class="highlight">Mechanism design for AI alignment</span></li>
+                            </ul>
+                        </div>
+                        <div class="content-box">
+                            <h3>Real-world Examples</h3>
+                            <ul>
+                                <li><span class="highlight">Market competition</span></li>
+                                <li><span class="highlight">Traffic flow optimization</span></li>
+                                <li><span class="highlight">Resource allocation in networks</span></li>
+                                <li><span class="highlight">Security and cryptography</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Next Steps -->
+        <div class="slide" id="slide9">
+            <div class="slide-content">
+                <div class="slide-header">
+                    <h2 class="slide-title">Next Steps</h2>
+                    <div class="slide-number">9/12</div>
+                </div>
+                <div class="slide-body">
+                    <div class="content-box">
+                        <h3>In the following classes, we will:</h3>
+                        <ol>
+                            <li><span class="highlight">Dive deeper into extensive form games</span></li>
+                            <li><span class="highlight">Explore mixed strategies</span></li>
+                            <li><span class="highlight">Study evolutionary game theory</span></li>
+                            <li><span class="highlight">Apply these concepts to agent-based modeling</span></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-button" onclick="prevSlide()">Previous</button>
+        <button class="nav-button" onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="progress-bar" id="progress-bar"></div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 9;
+        let lastScrollTop = 0;
+
+        function updateProgressBar() {
+            const progress = (currentSlide / totalSlides) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+        }
+
+        function showSlide(slideNumber) {
+            // Hide all slides
+            document.querySelectorAll('.slide').forEach(slide => {
+                slide.classList.remove('active');
+            });
+            
+            // Show selected slide
+            document.getElementById(`slide${slideNumber}`).classList.add('active');
+            currentSlide = slideNumber;
+            updateProgressBar();
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides) {
+                showSlide(currentSlide + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 1) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlide();
+            }
+        });
+
+        // Touch navigation
+        let touchStartX = 0;
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+        });
+
+        document.addEventListener('touchend', (e) => {
+            const touchEndX = e.changedTouches[0].clientX;
+            const diff = touchStartX - touchEndX;
+
+            if (Math.abs(diff) > 50) { // Minimum swipe distance
+                if (diff > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
+            }
+        });
+
+        // Modified Prisoner's Dilemma game logic
+        let modifiedGameState = {
+            player1Choice: null,
+            player2Choice: null,
+            totalGames: 0,
+            totalPayoff: 0
+        };
+
+        function playModifiedGame(choice) {
+            modifiedGameState.player1Choice = choice;
+            // Opponent has 70% chance to cooperate, 30% to defect
+            modifiedGameState.player2Choice = Math.random() < 0.7 ? 'cooperate' : 'defect';
+            
+            const result = getModifiedGameResult(modifiedGameState.player1Choice, modifiedGameState.player2Choice);
+            modifiedGameState.totalGames++;
+            modifiedGameState.totalPayoff += result.payoff;
+            
+            document.getElementById('modified-game-result').innerHTML = `
+                <p>Your choice: ${modifiedGameState.player1Choice}</p>
+                <p>Opponent's choice: ${modifiedGameState.player2Choice}</p>
+                <p>Result: ${result.text}</p>
+                <p>Average payoff: ${(modifiedGameState.totalPayoff / modifiedGameState.totalGames).toFixed(1)}</p>
+            `;
+        }
+
+        function resetModifiedGame() {
+            modifiedGameState = {
+                player1Choice: null,
+                player2Choice: null,
+                totalGames: 0,
+                totalPayoff: 0
+            };
+            document.getElementById('modified-game-result').innerHTML = '';
+        }
+
+        function getModifiedGameResult(choice1, choice2) {
+            if (choice1 === 'cooperate' && choice2 === 'cooperate') {
+                return { text: 'Both get 4 points', payoff: 4 };
+            }
+            if (choice1 === 'cooperate' && choice2 === 'defect') {
+                return { text: 'You get 0, opponent gets 6', payoff: 0 };
+            }
+            if (choice1 === 'defect' && choice2 === 'cooperate') {
+                return { text: 'You get 6, opponent gets 0', payoff: 6 };
+            }
+            if (choice1 === 'defect' && choice2 === 'defect') {
+                return { text: 'Both get 1 point', payoff: 1 };
+            }
+        }
+
+        // Initialize progress bar
+        updateProgressBar();
+    </script>
+</body>
+</html> 

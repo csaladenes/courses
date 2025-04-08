@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/csaladenes/courses/refs/heads/main/UBB/ADV/2025/4/ADBF/hungary_county_centers.json"
+    },
+    "mark": {
+      "type": "point",
+      "color": "#f4134d",
+      "strokeWidth": "2"
+    },
+    "encoding": {
+      "y": {
+        "field": "center.lat",
+        "type": "quantitative",
+        "axis": {
+          "title": "",
+          "titleColor": "#122B39",
+          "grid": false
+        },
+        "scale":{"domain":[45,49]}
+      },
+      "x": {
+        "field": "center.lon",
+        "type": "quantitative",
+        "axis": {
+          "title": "",
+          "titleColor": "#122B39",
+          "grid": false
+        },
+        "scale":{"domain":[16,22]}
+      },
+      "tooltip":[{"field":"name"}]
+    }
+  }
+  

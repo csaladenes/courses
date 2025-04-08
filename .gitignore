@@ -1,2 +1,5 @@
 influxdb/
 grafana/
+
+# Ignore SYSTEM PROMPT.md in all directories
+**/SYSTEM PROMPT.md

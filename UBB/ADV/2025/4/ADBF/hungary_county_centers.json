@@ -1,0 +1,135 @@
+[
+    {
+      "name": "Bács-Kiskun",
+      "center": {
+        "lat": 46.5667,
+        "lon": 19.4167
+      }
+    },
+    {
+      "name": "Baranya",
+      "center": {
+        "lat": 46.0667,
+        "lon": 18.2333
+      }
+    },
+    {
+      "name": "Békés",
+      "center": {
+        "lat": 46.6833,
+        "lon": 21.1000
+      }
+    },
+    {
+      "name": "Borsod-Abaúj-Zemplén",
+      "center": {
+        "lat": 48.1000,
+        "lon": 20.7833
+      }
+    },
+    {
+      "name": "Csongrád-Csanád",
+      "center": {
+        "lat": 46.7000,
+        "lon": 20.1500
+      }
+    },
+    {
+      "name": "Fejér",
+      "center": {
+        "lat": 47.2000,
+        "lon": 18.4167
+      }
+    },
+    {
+      "name": "Győr-Moson-Sopron",
+      "center": {
+        "lat": 47.6833,
+        "lon": 17.6500
+      }
+    },
+    {
+      "name": "Hajdú-Bihar",
+      "center": {
+        "lat": 47.5333,
+        "lon": 21.6333
+      }
+    },
+    {
+      "name": "Heves",
+      "center": {
+        "lat": 47.6000,
+        "lon": 20.2833
+      }
+    },
+    {
+      "name": "Jász-Nagykun-Szolnok",
+      "center": {
+        "lat": 47.1667,
+        "lon": 20.1833
+      }
+    },
+    {
+      "name": "Komárom-Esztergom",
+      "center": {
+        "lat": 47.7500,
+        "lon": 18.7500
+      }
+    },
+    {
+      "name": "Nógrád",
+      "center": {
+        "lat": 48.0000,
+        "lon": 19.0500
+      }
+    },
+    {
+      "name": "Pest",
+      "center": {
+        "lat": 47.5000,
+        "lon": 19.0833
+      }
+    },
+    {
+      "name": "Somogy",
+      "center": {
+        "lat": 46.6500,
+        "lon": 17.6500
+      }
+    },
+    {
+      "name": "Szabolcs-Szatmár-Bereg",
+      "center": {
+        "lat": 48.0000,
+        "lon": 21.7167
+      }
+    },
+    {
+      "name": "Tolna",
+      "center": {
+        "lat": 46.4167,
+        "lon": 18.7833
+      }
+    },
+    {
+      "name": "Vas",
+      "center": {
+        "lat": 47.2500,
+        "lon": 16.5833
+      }
+    },
+    {
+      "name": "Veszprém",
+      "center": {
+        "lat": 47.1000,
+        "lon": 17.9167
+      }
+    },
+    {
+      "name": "Zala",
+      "center": {
+        "lat": 46.8333,
+        "lon": 16.8500
+      }
+    }
+  ]

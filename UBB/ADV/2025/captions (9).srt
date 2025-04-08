@@ -1,0 +1,3744 @@
+1
+00:00:02,040 --> 00:00:05,440
+remélem hallatok
+
+2
+00:00:03,480 --> 00:00:07,360
+látok és
+
+3
+00:00:05,440 --> 00:00:11,160
+akkor
+
+4
+00:00:07,360 --> 00:00:14,679
+folytatjuk a az integrált informatikai
+
+5
+00:00:11,160 --> 00:00:14,679
+rendszerek kurzussal
+
+6
+00:00:15,240 --> 00:00:21,680
+ugye itt arra a múltkori múltkori órán
+
+7
+00:00:18,960 --> 00:00:21,680
+addig jutottunk
+
+8
+00:00:46,719 --> 00:00:50,800
+ennek a kursosnak a rövidítője BA
+
+9
+00:00:49,360 --> 00:00:54,120
+and Business
+
+10
+00:00:50,800 --> 00:00:55,879
+Analytics és a a múltkori órán egy picit
+
+11
+00:00:54,120 --> 00:00:57,840
+megnéztük azt hogy mi is ez az egész
+
+12
+00:00:55,879 --> 00:01:00,320
+cloud computing milyen cloud computing
+
+13
+00:00:57,840 --> 00:01:05,560
+szolgáltatók vannak és azt mondtuk hogy
+
+14
+00:01:00,320 --> 00:01:07,720
+jól van akkor most megpróbáljuk a a
+
+15
+00:01:05,560 --> 00:01:11,360
+dockert és ezt úgy hívják hogy
+
+16
+00:01:07,720 --> 00:01:16,080
+containerized computerk ö csak kettő
+
+17
+00:01:11,360 --> 00:01:19,920
+kettő elméleti dolgot mutatok és utána ö
+
+18
+00:01:16,080 --> 00:01:24,360
+egyrészt kódolunk kódolónk lesz ehhez
+
+19
+00:01:19,920 --> 00:01:24,360
+pedig szükség lesz mindenképpen
+
+20
+00:01:27,000 --> 00:01:32,320
+a dockerre helyileg fel kell legyen neki
+
+21
+00:01:29,320 --> 00:01:35,880
+instálva a docker hogyha nincsen akkor
+
+22
+00:01:32,320 --> 00:01:38,680
+pedig a E a
+
+23
+00:01:35,880 --> 00:01:41,000
+awsen mind a kettő folyamaton én végig
+
+24
+00:01:38,680 --> 00:01:43,040
+fogok menni és párhuzamosan fogom neked
+
+25
+00:01:41,000 --> 00:01:45,159
+mutatni azt hogy hogy kell a helyi
+
+26
+00:01:43,040 --> 00:01:50,399
+lokális dockerben csinálni valamit vagy
+
+27
+00:01:45,159 --> 00:01:51,200
+az AWS AWS-es dockerben csinálni valamit
+
+28
+00:01:50,399 --> 00:01:53,680
+na
+
+29
+00:01:51,200 --> 00:01:57,159
+jó
+
+30
+00:01:53,680 --> 00:02:00,280
+itt különböző nehézségi szinteket fogok
+
+31
+00:01:57,159 --> 00:02:03,000
+fogok reprezentálni annak függvényében
+
+32
+00:02:00,280 --> 00:02:07,039
+hogy mennyire mennyire szeretnéd ezt
+
+33
+00:02:03,000 --> 00:02:09,319
+majd magadnak később automatizálni
+
+34
+00:02:07,039 --> 00:02:10,160
+és hogy működik jelenleg mondjuk az
+
+35
+00:02:09,319 --> 00:02:13,040
+ipari
+
+36
+00:02:10,160 --> 00:02:16,599
+környezetben egy valós egy létező
+
+37
+00:02:13,040 --> 00:02:20,080
+integrált informatikai rendszerben
+
+38
+00:02:16,599 --> 00:02:22,800
+egészen a az abszolút kezdő módig amikor
+
+39
+00:02:20,080 --> 00:02:26,640
+amikor a nagyrészt klikkelünk nem is
+
+40
+00:02:22,800 --> 00:02:31,120
+írunk nem is írunk kórot és az első
+
+41
+00:02:26,640 --> 00:02:34,640
+talán az lesz hogy a dockernek a
+
+42
+00:02:31,120 --> 00:02:37,560
+a vizuális user interfaceével tehát a
+
+43
+00:02:34,640 --> 00:02:39,319
+guivval kez kezdve megpróbálunk
+
+44
+00:02:37,560 --> 00:02:41,599
+konténereket
+
+45
+00:02:39,319 --> 00:02:44,440
+elindítani meg mielőtt megnéz azért
+
+46
+00:02:41,599 --> 00:02:48,120
+megnézzük hogy mi is ez a konténer
+
+47
+00:02:44,440 --> 00:02:51,640
+utána megpróbáljuk egy kicsit kóddal
+
+48
+00:02:48,120 --> 00:02:54,560
+vezérelni a konténereinket
+
+49
+00:02:51,640 --> 00:02:55,920
+ez macOS-en terminált vagy Linuxon
+
+50
+00:02:54,560 --> 00:02:59,640
+terminált
+
+51
+00:02:55,920 --> 00:03:00,959
+jelent Windowson pedig Power Shell vagy
+
+52
+00:02:59,640 --> 00:03:03,319
+command
+
+53
+00:03:00,959 --> 00:03:05,680
+promptot utána
+
+54
+00:03:03,319 --> 00:03:07,239
+megpróbáljuk egységesen a Linux
+
+55
+00:03:05,680 --> 00:03:11,440
+parancsokat
+
+56
+00:03:07,239 --> 00:03:13,440
+használni ez MacOS az amúgy is
+
+57
+00:03:11,440 --> 00:03:16,879
+Linux ú
+
+58
+00:03:13,440 --> 00:03:19,720
+lesz módosításra szükség windowson van
+
+59
+00:03:16,879 --> 00:03:22,959
+egy olyan tulajdonság hogy Windows
+
+60
+00:03:19,720 --> 00:03:25,680
+subsystem Linux ami hasznos mert akkor a
+
+61
+00:03:22,959 --> 00:03:28,599
+parancsok pont ugyanazok lesznek pont
+
+62
+00:03:25,680 --> 00:03:31,599
+ugyanazok lesznek mint a Linuxon
+
+63
+00:03:28,599 --> 00:03:34,480
+ide jön egy aztisk hogy igen manapság
+
+64
+00:03:31,599 --> 00:03:36,280
+most már a Windows parancsok is 100%-os
+
+65
+00:03:34,480 --> 00:03:40,080
+kompatibilitásban vannak a Linux
+
+66
+00:03:36,280 --> 00:03:42,799
+parancsokkal de nagyon sok esetben a
+
+67
+00:03:40,080 --> 00:03:45,480
+a minden minden parancs ami Windowson
+
+68
+00:03:42,799 --> 00:03:47,640
+megy az megy Linuxon is de ezért túl
+
+69
+00:03:45,480 --> 00:03:51,640
+vannak olyan Linux parancsok amelyek nem
+
+70
+00:03:47,640 --> 00:03:53,959
+mennek Windowson és azért mert hogyha
+
+71
+00:03:51,640 --> 00:03:57,360
+segítségre szorulsz és segítséget
+
+72
+00:03:53,959 --> 00:04:00,319
+keresel a neten a Stack Overflow vagy a
+
+73
+00:03:57,360 --> 00:04:02,480
+Ha az AI generál neked egy random kódot
+
+74
+00:04:00,319 --> 00:04:05,599
+akkor az nagyon-nagy valószínűséggel
+
+75
+00:04:02,480 --> 00:04:07,120
+Linuxra lesz mert és itt ez ez sokkal
+
+76
+00:04:05,599 --> 00:04:08,959
+fontosabb mint a más programozási
+
+77
+00:04:07,120 --> 00:04:11,239
+nyelveknél a Python vagy Avascript
+
+78
+00:04:08,959 --> 00:04:13,280
+esetében mert ott ott vannak olyan
+
+79
+00:04:11,239 --> 00:04:16,160
+emberek akik akik Windowson fejlesztenek
+
+80
+00:04:13,280 --> 00:04:18,519
+Python applikációkat de de a szerver
+
+81
+00:04:16,160 --> 00:04:20,680
+amelyik Windowson fut az nagyon-nagyon
+
+82
+00:04:18,519 --> 00:04:23,080
+kevés kifejezetten az adatos világban
+
+83
+00:04:20,680 --> 00:04:25,800
+tehát 90%-a szervereknek Linuxon megy
+
+84
+00:04:23,080 --> 00:04:28,560
+ezért a kód is abból a szinte a az
+
+85
+00:04:25,800 --> 00:04:30,360
+ökoszisztémából fog származ svazni
+
+86
+00:04:28,560 --> 00:04:33,400
+úgyhogy ez lesz a következő szint
+
+87
+00:04:30,360 --> 00:04:35,039
+windows Subsystem Linuxal
+
+88
+00:04:33,400 --> 00:04:37,919
+megismerkedünk
+
+89
+00:04:35,039 --> 00:04:40,919
+utána megpróbálunk
+
+90
+00:04:37,919 --> 00:04:40,919
+konnektálódni
+
+91
+00:04:41,000 --> 00:04:47,520
+egy felhőben futó virtuális géphez ezt
+
+92
+00:04:45,160 --> 00:04:52,479
+ezt a módszert úgy hívják hogy SSH
+
+93
+00:04:47,520 --> 00:04:52,479
+Secure Scket Tunneling Protocol
+
+94
+00:04:52,520 --> 00:04:58,919
+és ezt
+
+95
+00:04:55,120 --> 00:05:02,479
+a ezt a módszert ezt sokféle eszközben
+
+96
+00:04:58,919 --> 00:05:05,639
+el lehet végezni vannak erre
+
+97
+00:05:02,479 --> 00:05:07,880
+ilyen standalone saját eszközök mint
+
+98
+00:05:05,639 --> 00:05:09,759
+például a puti
+
+99
+00:05:07,880 --> 00:05:13,520
+a a
+
+100
+00:05:09,759 --> 00:05:17,039
+Windows-ban van egy webes eszköz is az
+
+101
+00:05:13,520 --> 00:05:19,919
+AWS-nek az oldalán talán azt is
+
+102
+00:05:17,039 --> 00:05:22,919
+használhatjuk de gyakorlatban ez úgy
+
+103
+00:05:19,919 --> 00:05:22,919
+működik
+
+104
+00:05:23,800 --> 00:05:29,479
+hogy VS kódban vagy kurszorban amik ugye
+
+105
+00:05:27,680 --> 00:05:33,800
+csak egy VS kód
+
+106
+00:05:29,479 --> 00:05:37,240
+klón konnektálódsz te SSH-n keresztül a
+
+107
+00:05:33,800 --> 00:05:39,720
+felhőfutó gép
+
+108
+00:05:37,240 --> 00:05:42,720
+gépedre ez lesz a következő szint tehát
+
+109
+00:05:39,720 --> 00:05:46,080
+SSH fán keresztül kapcsolódunk a
+
+110
+00:05:42,720 --> 00:05:48,600
+virtuális gépünkhöz
+
+111
+00:05:46,080 --> 00:05:51,720
+utána a következő szint az az lesz hogy
+
+112
+00:05:48,600 --> 00:05:53,400
+a virtuális képeden neked valójában
+
+113
+00:05:51,720 --> 00:05:56,280
+hogyha fut a docker vagy működik a
+
+114
+00:05:53,400 --> 00:05:58,280
+docker akkor annak a dockernek a fá
+
+115
+00:05:56,280 --> 00:06:01,080
+rendszerébe is be lehetne be lehetne
+
+116
+00:05:58,280 --> 00:06:02,880
+kapcsolódni direkt módon úgyhogy ez lesz
+
+117
+00:06:01,080 --> 00:06:05,319
+a ez lesz a legutolsó szint amikor
+
+118
+00:06:02,880 --> 00:06:08,039
+dockerre kapcsolódsz a felhőben futó
+
+119
+00:06:05,319 --> 00:06:10,120
+virtuális gépedre és de ennek van egy
+
+120
+00:06:08,039 --> 00:06:12,440
+helyi verziója is tehát a helyi dockerbe
+
+121
+00:06:10,120 --> 00:06:15,360
+is tudsz kapcsolódni
+
+122
+00:06:12,440 --> 00:06:18,400
+VS kódon keresztül ez újra azért azért
+
+123
+00:06:15,360 --> 00:06:20,960
+fontos mert ahhoz hogy te a Dockernek a
+
+124
+00:06:18,400 --> 00:06:24,120
+fárendszerében valamit módosítsál
+
+125
+00:06:20,960 --> 00:06:26,360
+alapvetően nem igazán nem igazán vannak
+
+126
+00:06:24,120 --> 00:06:29,199
+erre jó módszerek tehát nehéz fájlokat
+
+127
+00:06:26,360 --> 00:06:31,280
+kibe másolgatni a doken rendszerből
+
+128
+00:06:29,199 --> 00:06:34,080
+úgyhogy muszáj lesz megtanuljuk azt hogy
+
+129
+00:06:31,280 --> 00:06:35,840
+SSH kapcsolaton keresztül hogyan
+
+130
+00:06:34,080 --> 00:06:37,680
+vezéreljük ezeket a konténereket vagy
+
+131
+00:06:35,840 --> 00:06:39,680
+helyileg nem lesz-e az SSH-ra szükség
+
+132
+00:06:37,680 --> 00:06:41,639
+hanem helyileg hogyan lépünk bele a
+
+133
+00:06:39,680 --> 00:06:43,680
+dockernek a fá
+
+134
+00:06:41,639 --> 00:06:46,160
+rendszerébe na kezdjük van-e ezzel
+
+135
+00:06:43,680 --> 00:06:48,479
+kapcsolatosan kérdés lehet hogy ez
+
+136
+00:06:46,160 --> 00:06:51,560
+teljesen teljesen kínai volt
+
+137
+00:06:48,479 --> 00:06:54,120
+számotokra de vagy esetleg van-e olyan
+
+138
+00:06:51,560 --> 00:06:57,759
+aki használ Dockert például a napi
+
+139
+00:06:54,120 --> 00:06:57,759
+munkájában ez elég elég
+
+140
+00:07:01,319 --> 00:07:06,560
+elterjedt még nincsen nem baj majd
+
+141
+00:07:03,560 --> 00:07:10,199
+fogtok dolgozni elmentek és dolgoztok a
+
+142
+00:07:06,560 --> 00:07:12,360
+a az action az action turnek vagy a
+
+143
+00:07:10,199 --> 00:07:15,080
+valamelyike
+
+144
+00:07:12,360 --> 00:07:18,400
+valamelyike infós consulting cégnek és
+
+145
+00:07:15,080 --> 00:07:20,960
+akkor majd tokereket fogtok össze
+
+146
+00:07:18,400 --> 00:07:23,199
+összehuzalozni na jó mi mitő mit mit
+
+147
+00:07:20,960 --> 00:07:26,039
+értünk a konténer alatt ez egy ez egy
+
+148
+00:07:23,199 --> 00:07:28,199
+olyan virtuális gép amelyiken egyetlen
+
+149
+00:07:26,039 --> 00:07:31,000
+egy szoftver van nagyrészt
+
+150
+00:07:28,199 --> 00:07:33,720
+felinstallálva nagyon sok esetben ez
+
+151
+00:07:31,000 --> 00:07:37,720
+virtuális gép tehát ez
+
+152
+00:07:33,720 --> 00:07:38,960
+99,9%-ban egy Linux pajta valamilyen
+
+153
+00:07:37,720 --> 00:07:42,000
+valamilyen ugye a Linuxból nagyon
+
+154
+00:07:38,960 --> 00:07:45,960
+sokféle van valamelyik Linux verzió lesz
+
+155
+00:07:42,000 --> 00:07:47,759
+és arra a bebones tehát ilyen
+
+156
+00:07:45,960 --> 00:07:49,879
+nagyon-nagyon minimális operációs
+
+157
+00:07:47,759 --> 00:07:52,520
+rendszer mellett fel van installálva
+
+158
+00:07:49,879 --> 00:07:54,599
+egyetlen applikáció
+
+159
+00:07:52,520 --> 00:07:57,400
+és ezeket az
+
+160
+00:07:54,599 --> 00:07:59,879
+applikációkat a a
+
+161
+00:07:57,400 --> 00:08:01,400
+dockernek magának a dockernek a
+
+162
+00:07:59,879 --> 00:08:04,360
+rendszere
+
+163
+00:08:01,400 --> 00:08:06,440
+direkt menedzseli anélkül hogy az
+
+164
+00:08:04,360 --> 00:08:08,199
+operációs rendszerrel kellene
+
+165
+00:08:06,440 --> 00:08:10,159
+interakcionáljon megteheti hogyha
+
+166
+00:08:08,199 --> 00:08:12,240
+szeretne de anélkül hogy erre szükség
+
+167
+00:08:10,159 --> 00:08:15,680
+legyen a doker az direkt az appokat
+
+168
+00:08:12,240 --> 00:08:15,680
+tudja egymással
+
+169
+00:08:16,080 --> 00:08:22,400
+összekötni tehát a alapvetően ez egy
+
+170
+00:08:20,400 --> 00:08:26,400
+erőforrás
+
+171
+00:08:22,400 --> 00:08:28,879
+erőforrás megőrző vagy erő erőforrás
+
+172
+00:08:26,400 --> 00:08:32,080
+optimizáló
+
+173
+00:08:28,879 --> 00:08:35,839
+szolgáltatás na jó
+
+174
+00:08:32,080 --> 00:08:39,039
+direkt módon elvileg az lenne az egész
+
+175
+00:08:35,839 --> 00:08:43,920
+az egész lépés hogy odamész a dockernek
+
+176
+00:08:39,039 --> 00:08:46,160
+az oldalára és letöltöd a dockert és
+
+177
+00:08:43,920 --> 00:08:48,839
+ferteszed néha találsz néha fogsz
+
+178
+00:08:46,160 --> 00:08:51,760
+olyasmit találni hogy Docker Toolbox ez
+
+179
+00:08:48,839 --> 00:08:54,240
+a és hogyha visszamentek az előző évek
+
+180
+00:08:51,760 --> 00:08:56,519
+felvételében ezen a kurzuson amit
+
+181
+00:08:54,240 --> 00:08:58,320
+valahol hogyha valahonnan megkaptátok
+
+182
+00:08:56,519 --> 00:09:01,320
+vagy látjátok
+
+183
+00:08:58,320 --> 00:09:03,680
+vagy a régi moodlinkeken
+
+184
+00:09:01,320 --> 00:09:06,640
+ez a vizuális docker ez egy elég új elég
+
+185
+00:09:03,680 --> 00:09:10,800
+új új dolog a azt hiszem ez
+
+186
+00:09:06,640 --> 00:09:12,720
+a ez az ötödik kiadása ennek a kurzusnak
+
+187
+00:09:10,800 --> 00:09:15,880
+és az első évben nem volt abszolút
+
+188
+00:09:12,720 --> 00:09:17,880
+vizuális user interface a második évben
+
+189
+00:09:15,880 --> 00:09:19,640
+csak és a második és a harmadik évben
+
+190
+00:09:17,880 --> 00:09:22,320
+ilyen csak ilyen doker toolboxal ami egy
+
+191
+00:09:19,640 --> 00:09:27,680
+ilyen furcsaság volt lehetett telepíteni
+
+192
+00:09:22,320 --> 00:09:31,320
+és csak a tavalytól van a natív vizuális
+
+193
+00:09:27,680 --> 00:09:35,320
+kezelőfelület a dokerben úgyhogy ebből a
+
+194
+00:09:31,320 --> 00:09:37,200
+szempontból talán egy kis elényötök van
+
+195
+00:09:35,320 --> 00:09:40,600
+de ezért hogyha hogyha olyasmit láttok
+
+196
+00:09:37,200 --> 00:09:42,800
+hogy Docker Toolbox akkor Docker Machine
+
+197
+00:09:40,600 --> 00:09:45,519
+és ilyesmi akkor szerencsére meg
+
+198
+00:09:42,800 --> 00:09:47,480
+megtartották ezt a leírásukban és akkor
+
+199
+00:09:45,519 --> 00:09:50,680
+ezeket ezeket a linkeket azért azért
+
+200
+00:09:47,480 --> 00:09:52,959
+hagytam benne manapság csak odamész hogy
+
+201
+00:09:50,680 --> 00:09:55,279
+docker install ugye nem is a
+
+202
+00:09:52,959 --> 00:09:58,720
+dokumentumban hanem az alap alapoldalon
+
+203
+00:09:55,279 --> 00:10:00,680
+és onnan és onnan fel tudok tenni
+
+204
+00:09:58,720 --> 00:10:04,279
+na most amikor megpróbálják az emberek a
+
+205
+00:10:00,680 --> 00:10:08,079
+dokáert feltenni annak függvényében
+
+206
+00:10:04,279 --> 00:10:11,519
+hogy milyen milyen operációs rendszered
+
+207
+00:10:08,079 --> 00:10:13,800
+van mennyire kell visszamenni legalább
+
+208
+00:10:11,519 --> 00:10:15,480
+legalább hetes Windows kell legyen de
+
+209
+00:10:13,800 --> 00:10:16,560
+valószínűleg neked 11-es van hogyha
+
+210
+00:10:15,480 --> 00:10:19,040
+Windowson
+
+211
+00:10:16,560 --> 00:10:20,760
+vagy lehet hogy van olyan akinek 10-es
+
+212
+00:10:19,040 --> 00:10:22,519
+van én általában be szoktam készíteni
+
+213
+00:10:20,760 --> 00:10:25,000
+egy 10-es és egy
+
+214
+00:10:22,519 --> 00:10:27,120
+11-esre specializált hibaüzenetekre
+
+215
+00:10:25,000 --> 00:10:30,480
+szakosodott részt úgyhogy ezek az
+
+216
+00:10:27,120 --> 00:10:30,480
+alaphiüzenetek amikkel
+
+217
+00:10:30,839 --> 00:10:34,720
+találkozhatunk talán azt talán kaptál
+
+218
+00:10:33,079 --> 00:10:39,240
+egy olyan hibaüzenetet
+
+219
+00:10:34,720 --> 00:10:41,880
+hogy valami something related to VSL2 ez
+
+220
+00:10:39,240 --> 00:10:44,360
+onírja hogy Windows subsystem Linux
+
+221
+00:10:41,880 --> 00:10:45,920
+akkor itt elmeséli neked egy Microsoft
+
+222
+00:10:44,360 --> 00:10:48,920
+fórumon hogy mit kell csinálni még egy
+
+223
+00:10:45,920 --> 00:10:51,079
+még egy másik dolgot fel kell fel kell
+
+224
+00:10:48,920 --> 00:10:53,959
+installálni
+
+225
+00:10:51,079 --> 00:10:56,800
+látod ez ez egy fél éves ez a cikk
+
+226
+00:10:53,959 --> 00:10:56,800
+úgyhogy ez elég elég
+
+227
+00:10:58,360 --> 00:11:03,760
+releváns fel kell a Windows subsistem
+
+228
+00:11:00,680 --> 00:11:06,120
+Linux mint featur azt be kell állítani
+
+229
+00:11:03,760 --> 00:11:07,760
+egyszer másrészt pedig fel kell utána
+
+230
+00:11:06,120 --> 00:11:10,240
+telepíteni egy
+
+231
+00:11:07,760 --> 00:11:14,399
+alap Linux operációs rendszert a
+
+232
+00:11:10,240 --> 00:11:16,760
+Windowsra ö ez a legjobb hogyha a
+
+233
+00:11:14,399 --> 00:11:18,360
+legalapabb ubuntut használod de enélkül
+
+234
+00:11:16,760 --> 00:11:20,360
+nem fog menni neked a
+
+235
+00:11:18,360 --> 00:11:23,800
+docker
+
+236
+00:11:20,360 --> 00:11:26,079
+ö az is lehet hogyha 10-est használsz
+
+237
+00:11:23,800 --> 00:11:28,920
+akkor neked a Windows Linux az az egyes
+
+238
+00:11:26,079 --> 00:11:31,639
+verzió úgyhogy az egyes verziót át kell
+
+239
+00:11:28,920 --> 00:11:33,200
+állítsod a kettes verzióra itt le van
+
+240
+00:11:31,639 --> 00:11:36,760
+írva hogy
+
+241
+00:11:33,200 --> 00:11:38,839
+hogy utána pedig a a az Ubuntut újra
+
+242
+00:11:36,760 --> 00:11:40,880
+kell tenni vagy át kell állítani VS-el
+
+243
+00:11:38,839 --> 00:11:43,160
+VS-L2-re
+
+244
+00:11:40,880 --> 00:11:46,320
+na most hogyha bárki ilyen fajta
+
+245
+00:11:43,160 --> 00:11:49,760
+hibaüzenetet hibaüzenetet kapott az az
+
+246
+00:11:46,320 --> 00:11:53,120
+szóljon és akkor azt azt kijavítjuk de
+
+247
+00:11:49,760 --> 00:11:54,680
+alapvetően így ide kellene jussál
+
+248
+00:11:53,120 --> 00:11:58,360
+tehát
+
+249
+00:11:54,680 --> 00:11:58,360
+először a Microsoft
+
+250
+00:12:04,760 --> 00:12:10,839
+Storeból ez abszolút irreleváns azoknak
+
+251
+00:12:07,760 --> 00:12:13,199
+akik akik Apple-t vagy vagy Linuxot
+
+252
+00:12:10,839 --> 00:12:14,800
+használnak csak tudom hogy az nagyrészt
+
+253
+00:12:13,199 --> 00:12:17,920
+vagy legalábbis több mint fele az
+
+254
+00:12:14,800 --> 00:12:20,480
+osztálynak Windowsot fog használni innen
+
+255
+00:12:17,920 --> 00:12:23,680
+egyszerűen letöltöd azt hogy Ubuntu az
+
+256
+00:12:20,480 --> 00:12:23,680
+alap Ubuntut verzió
+
+257
+00:12:24,399 --> 00:12:29,120
+nélkül csak ezt amelyeket csak úgy
+
+258
+00:12:26,639 --> 00:12:29,120
+hívják hogy
+
+259
+00:12:31,639 --> 00:12:35,720
+Ubuntu az is lehet hogy nekem nincs
+
+260
+00:12:36,519 --> 00:12:41,680
+ilyen de
+
+261
+00:12:39,160 --> 00:12:43,560
+van nem ezt fogjuk egyébként tehát ez ez
+
+262
+00:12:41,680 --> 00:12:47,760
+egy applikáció lesz de nem ezt fogjuk
+
+263
+00:12:43,560 --> 00:12:47,760
+használni mint mint applikáció
+
+264
+00:12:51,360 --> 00:12:55,920
+ez egy ilyen megnyit egy egy ilyen
+
+265
+00:12:54,079 --> 00:12:57,600
+terminálszerűséget de nem ezt fogjuk
+
+266
+00:12:55,920 --> 00:13:02,199
+használni mint
+
+267
+00:12:57,600 --> 00:13:02,199
+alapapplikáció csak legyen felinstalálva
+
+268
+00:13:05,760 --> 00:13:11,199
+azért azért
+
+269
+00:13:08,800 --> 00:13:13,000
+mert a dockernek a
+
+270
+00:13:11,199 --> 00:13:15,760
+beállításaiban tehát hogyha egyszer
+
+271
+00:13:13,000 --> 00:13:18,199
+feltetted ezt azt
+
+272
+00:13:15,760 --> 00:13:20,240
+akkor neked a docker az automatikusan
+
+273
+00:13:18,199 --> 00:13:22,959
+felismerte de hogyha nem tetted fel
+
+274
+00:13:20,240 --> 00:13:24,839
+hanem csak felinstaláltad a dockert és
+
+275
+00:13:22,959 --> 00:13:27,360
+utána feltetted az
+
+276
+00:13:24,839 --> 00:13:30,120
+Ubuntut akkor itt most a dockerben be
+
+277
+00:13:27,360 --> 00:13:33,480
+kell állítsuk hogy az Ubuntut használja
+
+278
+00:13:30,120 --> 00:13:33,480
+mint bekehent
+
+279
+00:14:25,720 --> 00:14:29,920
+Ez
+
+280
+00:14:27,279 --> 00:14:31,839
+elég elég erőforrás éhes
+
+281
+00:14:29,920 --> 00:14:35,880
+ez a ez a
+
+282
+00:14:31,839 --> 00:14:38,600
+docker de muszáj lesz muszáj lesz
+
+283
+00:14:35,880 --> 00:14:40,920
+megtanulnunk miután
+
+284
+00:14:38,600 --> 00:14:45,880
+elindult nekem itt most el van indítva
+
+285
+00:14:40,920 --> 00:14:45,880
+egy pár egy pár valami ezeket megállítom
+
+286
+00:15:08,360 --> 00:15:14,079
+mian elindult hogyha a beállításokhoz
+
+287
+00:15:10,000 --> 00:15:14,079
+mentek és itt be kell állítani azt
+
+288
+00:15:14,600 --> 00:15:18,600
+hogy resources
+
+289
+00:15:20,279 --> 00:15:25,800
+és itt a resourcesál szépen neked
+
+290
+00:15:23,000 --> 00:15:28,560
+alapból ez kéne működjön azt kéne kiírja
+
+291
+00:15:25,800 --> 00:15:29,440
+hogy you are using the Windows subsistem
+
+292
+00:15:28,560 --> 00:15:32,079
+2
+
+293
+00:15:29,440 --> 00:15:34,480
+backend és a a Windows neked az
+
+294
+00:15:32,079 --> 00:15:37,440
+automatikusan kitalálja hogy mennyi
+
+295
+00:15:34,480 --> 00:15:40,000
+memóriát meg mit mit használjon és itt a
+
+296
+00:15:37,440 --> 00:15:42,000
+VSL integrationnél itt kell betenni azt
+
+297
+00:15:40,000 --> 00:15:48,440
+hogy az Ubun
+
+298
+00:15:42,000 --> 00:15:48,440
+to legyen neki a Linux amit használ
+
+299
+00:15:54,680 --> 00:15:57,000
+hogyha
+
+300
+00:15:59,279 --> 00:16:02,279
+sikerült
+
+301
+00:16:02,920 --> 00:16:11,079
+akkor van itt egy olyan hogy Docker Hub
+
+302
+00:16:07,480 --> 00:16:15,120
+és a docker docker
+
+303
+00:16:11,079 --> 00:16:16,759
+fabon tudunk itt bármilyen applikációnak
+
+304
+00:16:15,120 --> 00:16:20,360
+úgymond
+
+305
+00:16:16,759 --> 00:16:22,360
+a képét az dok úgy hívják őket hogy
+
+306
+00:16:20,360 --> 00:16:24,560
+imageek
+
+307
+00:16:22,360 --> 00:16:27,519
+letölteni például hogyha egy Jupiter
+
+308
+00:16:24,560 --> 00:16:27,519
+notebookot szeretnénk
+
+309
+00:16:29,199 --> 00:16:32,759
+elindítani akkor látod megjelenik egy
+
+310
+00:16:31,560 --> 00:16:35,839
+megjelenik egy
+
+311
+00:16:32,759 --> 00:16:37,839
+csomó image kéne legyen egy olyan hogy
+
+312
+00:16:35,839 --> 00:16:39,959
+data science notebook ezt szokták
+
+313
+00:16:37,839 --> 00:16:42,279
+általában használni vagy spie notebook
+
+314
+00:16:39,959 --> 00:16:44,440
+láttad ezt 50 millió használják de ezek
+
+315
+00:16:42,279 --> 00:16:47,720
+túl nagy fáok most ezt nem akarom hogy
+
+316
+00:16:44,440 --> 00:16:49,920
+letöltsük egy 3-4 gigás fátlt van egy
+
+317
+00:16:47,720 --> 00:16:54,120
+olyan hogy base notebook
+
+318
+00:16:49,920 --> 00:16:54,120
+úgyhogy ha arra keresel hogy base
+
+319
+00:17:11,799 --> 00:17:19,679
+notebook így ez így
+
+320
+00:17:14,520 --> 00:17:19,679
+elég Jupiter per base notebook
+
+321
+00:17:23,640 --> 00:17:29,000
+elég buta ez a keresőkéje nem igazán
+
+322
+00:17:26,199 --> 00:17:29,000
+használtam ezt
+
+323
+00:17:37,160 --> 00:17:44,320
+a igazá használtam ezt a picsőt hát
+
+324
+00:17:41,799 --> 00:17:46,360
+elég elég rossz nem találja meg azt
+
+325
+00:17:44,320 --> 00:17:52,240
+amire szükségünk van hát amire nekünk
+
+326
+00:17:46,360 --> 00:17:53,880
+szükségünk van az a Jupiter base nodeunk
+
+327
+00:17:52,240 --> 00:17:55,880
+hogyha csak arra keresel hogy Jupiter
+
+328
+00:17:53,880 --> 00:17:58,679
+akkor itt előjön egy idő után hogy
+
+329
+00:17:55,880 --> 00:18:00,080
+Jupiter per base node ehzt csak
+
+330
+00:17:58,679 --> 00:18:03,720
+egyáltalán egyszer fogjuk használni ezt
+
+331
+00:18:00,080 --> 00:18:06,880
+a ezt a GUIT itt hogyha rákattintasz az
+
+332
+00:18:03,720 --> 00:18:09,320
+egyik az egyik ilyen image-e akkor ezt a
+
+333
+00:18:06,880 --> 00:18:13,600
+docker konténert el tudnád indítani
+
+334
+00:18:09,320 --> 00:18:13,600
+látod itt vannak ilyenek hogy pull meg
+
+335
+00:18:13,760 --> 00:18:18,840
+runziót használja belőle sokféle verzió
+
+336
+00:18:16,400 --> 00:18:23,000
+van de alapvetően hogyha erre
+
+337
+00:18:18,840 --> 00:18:27,360
+rákattintasz akkor neked egy helyutó
+
+338
+00:18:23,000 --> 00:18:27,360
+Jupiter léte kellene létrejöjjön
+
+339
+00:19:00,000 --> 00:19:03,000
+k
+
+340
+00:19:11,559 --> 00:19:15,400
+Itt a konténereknél meg kéne meg kéne
+
+341
+00:19:13,360 --> 00:19:18,400
+nekem jelen a Jupiter Bombunk egy idő
+
+342
+00:19:15,400 --> 00:19:18,400
+után
+
+343
+00:19:43,880 --> 00:19:47,320
+elég lassú ez a ez a gumy
+
+344
+00:19:58,480 --> 00:20:01,520
+na lehet hogy meg kellett volna
+
+345
+00:20:03,799 --> 00:20:10,280
+várjam úgy se ez lesz úgyse ez lesz a
+
+346
+00:20:07,120 --> 00:20:14,760
+lényeg de most már
+
+347
+00:20:10,280 --> 00:20:14,760
+megpróbálom rendesen megcsinálni
+
+348
+00:20:19,360 --> 00:20:22,480
+jó még mindig próbálkoz
+
+349
+00:20:23,760 --> 00:20:29,960
+kezdj jó tehát a alapvetően ezek a
+
+350
+00:20:27,320 --> 00:20:32,200
+konténerek egy egész ilyen ilyen zip
+
+351
+00:20:29,960 --> 00:20:34,919
+fálonként vannak tárolva úgy hívja úgy
+
+352
+00:20:32,200 --> 00:20:36,960
+hívja ő ezeket a zip fáokat hogy imageek
+
+353
+00:20:34,919 --> 00:20:40,159
+és akkor egy egy ilyen image letölt és
+
+354
+00:20:36,960 --> 00:20:41,960
+utána elindult látod nem is igazán nem
+
+355
+00:20:40,159 --> 00:20:44,360
+is igazán működik ahogy mi szeretnénk
+
+356
+00:20:41,960 --> 00:20:47,960
+úgyhogy azt szoktuk csinálni
+
+357
+00:20:44,360 --> 00:20:51,799
+hogy a goit azt általában t-re
+
+358
+00:20:47,960 --> 00:20:53,360
+rakjuk még elég elég új dolog ez arra
+
+359
+00:20:51,799 --> 00:20:56,200
+nagyon hasznos hogy megnézzük hogy
+
+360
+00:20:53,360 --> 00:20:58,559
+jelenleg milyen konténereink vannak ugye
+
+361
+00:20:56,200 --> 00:21:00,360
+én ezt ezt ezt mutattam az előbb ide
+
+362
+00:20:58,559 --> 00:21:02,840
+hogyha hozzáadunk konténereket akkor ők
+
+363
+00:21:00,360 --> 00:21:05,720
+meg fognak jelenni azt is hogy milyen
+
+364
+00:21:02,840 --> 00:21:09,640
+imageink vannak tehát ugye itt többféle
+
+365
+00:21:05,720 --> 00:21:14,000
+image van és egy imageből létre lehet
+
+366
+00:21:09,640 --> 00:21:14,000
+hozni többször
+
+367
+00:21:15,600 --> 00:21:20,039
+konténer illetve vannak ilyen volumok
+
+368
+00:21:17,880 --> 00:21:22,600
+amelyek ilyen konténerek
+
+369
+00:21:20,039 --> 00:21:24,200
+közötti megos fá megosztást vagy
+
+370
+00:21:22,600 --> 00:21:26,120
+információm megosztást segítő rendszerek
+
+371
+00:21:24,200 --> 00:21:30,159
+ezeket most nem használjuk úgyhogy addig
+
+372
+00:21:26,120 --> 00:21:32,720
+amíg neked itt a a system trayben ez ez
+
+373
+00:21:30,159 --> 00:21:33,919
+a docker az ott ott működik nem onnan
+
+374
+00:21:32,720 --> 00:21:39,120
+fogjuk őt
+
+375
+00:21:33,919 --> 00:21:43,919
+használni hanem a hanem a terminálból
+
+376
+00:21:39,120 --> 00:21:43,919
+úgyhogy mindjárt fejtesszük az AWS-re
+
+377
+00:21:45,039 --> 00:21:48,159
+is az
+
+378
+00:21:54,080 --> 00:22:02,320
+az innen kezdjük hogy docker run Hello
+
+379
+00:21:57,799 --> 00:22:07,520
+World most elindíthatsz egy Power
+
+380
+00:22:02,320 --> 00:22:07,520
+Shell Windowsban egy Power Shell
+
+381
+00:22:09,159 --> 00:22:15,320
+de hogyha van neked terminál applikációd
+
+382
+00:22:12,320 --> 00:22:15,320
+aminek az a neve hogy
+
+383
+00:22:16,919 --> 00:22:21,919
+terminál akkor valószínűleg neked a
+
+384
+00:22:19,159 --> 00:22:24,360
+Windows Power Shell automatikusan felül
+
+385
+00:22:21,919 --> 00:22:26,760
+van írva a terminálon úgyhogy akkor
+
+386
+00:22:24,360 --> 00:22:28,760
+neked ezt fogja kinyitni hanem akkor egy
+
+387
+00:22:26,760 --> 00:22:30,360
+ilyen kék kék ablakot nyit meg a Windows
+
+388
+00:22:28,760 --> 00:22:33,080
+Power
+
+389
+00:22:30,360 --> 00:22:38,159
+és itt lehet majd egyébként új ablakokat
+
+390
+00:22:33,080 --> 00:22:42,200
+hozzáadni ami lehet ubuntú ablak is
+
+391
+00:22:38,159 --> 00:22:45,679
+látod egy régebbi
+
+392
+00:22:42,200 --> 00:22:47,440
+egy régebbi Windows-os terminál az a
+
+393
+00:22:45,679 --> 00:22:49,760
+command
+
+394
+00:22:47,440 --> 00:22:52,440
+pront a command prontnak annak ilyen
+
+395
+00:22:49,760 --> 00:22:55,440
+fekete ilyen fekete ikonja
+
+396
+00:22:52,440 --> 00:22:55,440
+van
+
+397
+00:22:55,640 --> 00:23:01,559
+igen de a power shben mindent el lehet
+
+398
+00:22:58,000 --> 00:23:04,559
+végezni és jobban jobban a
+
+399
+00:23:01,559 --> 00:23:06,080
+szinttaxis megjelölése az sokkal jobb
+
+400
+00:23:04,559 --> 00:23:08,679
+úgyhogy egy most egy power sharrre lesz
+
+401
+00:23:06,080 --> 00:23:10,320
+szükségünk és aztán később megpróbáljuk
+
+402
+00:23:08,679 --> 00:23:11,760
+hogyha minden jól be van állítva akkor
+
+403
+00:23:10,320 --> 00:23:14,760
+ez ugyanúgy Ubuntumbó is kellene
+
+404
+00:23:11,760 --> 00:23:14,760
+működjön
+
+405
+00:23:19,679 --> 00:23:25,760
+azzal a parancsal hogy Docker
+
+406
+00:23:23,000 --> 00:23:27,799
+PS ellenőrzött hogy neked működik-e a
+
+407
+00:23:25,760 --> 00:23:29,840
+Docker a háttérben hogyha itt
+
+408
+00:23:27,799 --> 00:23:31,960
+hibaüzenetet kapsz akkor nem megy jól a
+
+409
+00:23:29,840 --> 00:23:34,520
+docker nincsen jól
+
+410
+00:23:31,960 --> 00:23:37,039
+felinstalálva docker PS az Docker
+
+411
+00:23:34,520 --> 00:23:37,039
+Present
+
+412
+00:23:41,720 --> 00:23:46,159
+state próbáljuk meg ezt a Token Run
+
+413
+00:23:44,440 --> 00:23:49,400
+Hello World
+
+414
+00:23:46,159 --> 00:23:51,799
+a docker run a run parancs az
+
+415
+00:23:49,400 --> 00:23:53,080
+csak lefutott egy konténert pont
+
+416
+00:23:51,799 --> 00:23:55,240
+ugyanúgy ahogy az előbb a guin
+
+417
+00:23:53,080 --> 00:23:56,960
+megnyomtuk azt hogy run hát ez elvileg
+
+418
+00:23:55,240 --> 00:23:58,760
+neked le kéne fut le kellene futasson
+
+419
+00:23:56,960 --> 00:24:01,880
+egy
+
+420
+00:23:58,760 --> 00:24:04,200
+konténert letölti hogyha muszáj és
+
+421
+00:24:01,880 --> 00:24:07,080
+elindítja persze van egy olyan konténer
+
+422
+00:24:04,200 --> 00:24:10,120
+hogy hello world amelyik csak arra arra
+
+423
+00:24:07,080 --> 00:24:12,960
+van hogy ellenőrizze hogy neked a az
+
+424
+00:24:10,120 --> 00:24:15,799
+installálásod az jól össze van-e
+
+425
+00:24:12,960 --> 00:24:18,440
+rakva nézzük meg a lépéseket
+
+426
+00:24:15,799 --> 00:24:21,400
+unable to find image hello world
+
+427
+00:24:18,440 --> 00:24:22,679
+locally hát akkor megpróbálja ezt az
+
+428
+00:24:21,400 --> 00:24:25,240
+image
+
+429
+00:24:22,679 --> 00:24:28,080
+letölteni pulling from library hello
+
+430
+00:24:25,240 --> 00:24:30,240
+world ez a felhasználó a docker
+
+431
+00:24:28,080 --> 00:24:32,039
+felhasználó aminek az neve hogy library
+
+432
+00:24:30,240 --> 00:24:33,200
+és ez a hello world tehát ez az
+
+433
+00:24:32,039 --> 00:24:36,360
+imagen-nek a
+
+434
+00:24:33,200 --> 00:24:39,159
+neve ugyan az előbb ez a Jupiter per
+
+435
+00:24:36,360 --> 00:24:42,720
+base notebook volt pull complete
+
+436
+00:24:39,159 --> 00:24:45,120
+letöltöttük az imageet és akkor utána
+
+437
+00:24:42,720 --> 00:24:47,120
+elindítja ez csak ennyit csinál hell
+
+438
+00:24:45,120 --> 00:24:49,440
+kiír kiírja ezt az üzenetet nem csinál
+
+439
+00:24:47,120 --> 00:24:52,240
+nem csinál semmi mást hogyha azt mondjuk
+
+440
+00:24:49,440 --> 00:24:54,760
+hogy docker present
+
+441
+00:24:52,240 --> 00:25:00,000
+state akkor továbbra sincsen egyetlen
+
+442
+00:24:54,760 --> 00:25:01,640
+konténer se de próbáljuk azt hogy token
+
+443
+00:25:00,000 --> 00:25:07,120
+run
+
+444
+00:25:01,640 --> 00:25:07,120
+és Jupiter base notebook
+
+445
+00:25:19,440 --> 00:25:25,279
+most valami történt ugye most Kes
+
+446
+00:25:22,720 --> 00:25:27,440
+kezdett egy csomó sort kiírt nyilván az
+
+447
+00:25:25,279 --> 00:25:29,919
+történt hogy elindította nekünk ezt a
+
+448
+00:25:27,440 --> 00:25:33,440
+base notebookot
+
+449
+00:25:29,919 --> 00:25:35,559
+és most nekünk itt itt egy egy működő
+
+450
+00:25:33,440 --> 00:25:36,840
+Jupiter szerver van a van a háttérben
+
+451
+00:25:35,559 --> 00:25:39,279
+tehát valahogy ebbe a szerverről be
+
+452
+00:25:36,840 --> 00:25:41,360
+kellene tudjak létrehoztunk egy egy
+
+453
+00:25:39,279 --> 00:25:43,200
+webes applikációt ebbe a szerverbe
+
+454
+00:25:41,360 --> 00:25:45,600
+valahogy be kellene tudjak be kellene
+
+455
+00:25:43,200 --> 00:25:47,799
+tudjak lépni na most itt mutat egy
+
+456
+00:25:45,600 --> 00:25:51,679
+linket hogy ez a szerver ez a szervernek
+
+457
+00:25:47,799 --> 00:25:55,080
+a linkje ez a local host ami
+
+458
+00:25:51,679 --> 00:25:57,760
+127001-es IP címért fut
+
+459
+00:25:55,080 --> 00:26:02,480
+ez kellene elérhető legyen de nekünk ez
+
+460
+00:25:57,760 --> 00:26:02,480
+a cím hogyha én ezt ezt próbálom
+
+461
+00:26:09,159 --> 00:26:14,120
+megnyitni akkor nyilván divizerbe fogok
+
+462
+00:26:14,600 --> 00:26:20,919
+ütközni azért mert ezt ezt a portot ezt
+
+463
+00:26:17,919 --> 00:26:23,039
+a 888-as portot
+
+464
+00:26:20,919 --> 00:26:24,960
+ezt ezt nem látja ezt a docker
+
+465
+00:26:23,039 --> 00:26:27,360
+rendszeren belül hozta
+
+466
+00:26:24,960 --> 00:26:29,840
+létre akkor ezt a portot valahogy át
+
+467
+00:26:27,360 --> 00:26:32,640
+kell irányítsuk a jelenleg a helyi
+
+468
+00:26:29,840 --> 00:26:35,480
+gépünkre vagy később a felhőben a
+
+469
+00:26:32,640 --> 00:26:37,880
+felhőben működő gépünkre úogy most
+
+470
+00:26:35,480 --> 00:26:42,600
+állítsuk ezt
+
+471
+00:26:37,880 --> 00:26:42,600
+meg ctrl C-vel megállítjuk
+
+472
+00:26:47,919 --> 00:26:52,240
+de hogyha amíg amíg ez szaladt hogyha
+
+473
+00:26:50,640 --> 00:26:54,080
+még egyszer azt mondjuk hogy run base
+
+474
+00:26:52,240 --> 00:26:56,279
+notebook és látod itt itt nem kapjuk
+
+475
+00:26:54,080 --> 00:26:58,399
+vissza a kurzot úgyhogy ez most működik
+
+476
+00:26:56,279 --> 00:27:01,360
+hogyha most megnyitnék egy másik ablakot
+
+477
+00:26:58,399 --> 00:27:04,799
+egy másik power shellt és itt megnézem
+
+478
+00:27:01,360 --> 00:27:07,240
+ezt hogy docker PS akkor most a Jupiter
+
+479
+00:27:04,799 --> 00:27:10,240
+based notebook a háttérben
+
+480
+00:27:07,240 --> 00:27:12,600
+működik csak látod használja a 888-as
+
+481
+00:27:10,240 --> 00:27:15,720
+portot de ez még nincsen átirányítva nem
+
+482
+00:27:12,600 --> 00:27:15,720
+tudjuk ezt nem tudjuk ezt
+
+483
+00:27:16,399 --> 00:27:19,840
+elérni és persze azért hogy ne kelljen
+
+484
+00:27:19,039 --> 00:27:22,080
+ne
+
+485
+00:27:19,840 --> 00:27:24,360
+kelljen most megint megállítom de azért
+
+486
+00:27:22,080 --> 00:27:28,159
+ne kelljen mindig új powers shellt
+
+487
+00:27:24,360 --> 00:27:28,159
+létrehozni ezért a
+
+488
+00:27:28,440 --> 00:27:35,559
+konténereket tudjuk a a háttérben ilyen
+
+489
+00:27:32,080 --> 00:27:35,559
+detached módban
+
+490
+00:27:35,600 --> 00:27:41,240
+kuttatni az csak annyi annyiból áll hogy
+
+491
+00:27:38,039 --> 00:27:45,640
+odateszünk egy olyant hogy D docker run
+
+492
+00:27:41,240 --> 00:27:48,519
+kötőjel D space kötőjel D és akkor ez
+
+493
+00:27:45,640 --> 00:27:50,760
+neked most ilyen detach módban futtatja
+
+494
+00:27:48,519 --> 00:27:52,919
+visszakapod a kurzort hogyha újra
+
+495
+00:27:50,760 --> 00:27:55,519
+megnézed azt docker present state akkor
+
+496
+00:27:52,919 --> 00:27:57,919
+most ott van a
+
+497
+00:27:55,519 --> 00:28:00,519
+konténer és akkor meg tudjuk őket szépen
+
+498
+00:27:57,919 --> 00:28:03,799
+állítani csinálhatunk egy olyat
+
+499
+00:28:00,519 --> 00:28:07,120
+hogy stop és most kell az azonosítója
+
+500
+00:28:03,799 --> 00:28:10,799
+látod itt ez a container ID vagy van egy
+
+501
+00:28:07,120 --> 00:28:13,399
+olyan is hogy name ez a konténer neve
+
+502
+00:28:10,799 --> 00:28:15,679
+használhatod az azonosítót vagy a nevet
+
+503
+00:28:13,399 --> 00:28:18,559
+én most használtam a nevet
+
+504
+00:28:15,679 --> 00:28:20,760
+megállítottak docker TS nincsen egy
+
+505
+00:28:18,559 --> 00:28:22,279
+se na jó most tudom hogy egy kicsit
+
+506
+00:28:20,760 --> 00:28:24,480
+elzarttam térjünk vissza a
+
+507
+00:28:22,279 --> 00:28:27,480
+prezentációhoz menjünk menjünk lépésről
+
+508
+00:28:24,480 --> 00:28:27,480
+lépésre
+
+509
+00:28:56,080 --> 00:28:58,120
+az
+
+510
+00:28:59,640 --> 00:29:08,360
+az hogyha azt használjuk hogy docker
+
+511
+00:29:03,840 --> 00:29:10,600
+PSA akkor Docker present state all tehát
+
+512
+00:29:08,360 --> 00:29:13,720
+megmutatja az összes konténereket akkor
+
+513
+00:29:10,600 --> 00:29:16,320
+is hogyha hogyha nem működnek látod itt
+
+514
+00:29:13,720 --> 00:29:19,200
+nekünk akkor lesz a base notebookból már
+
+515
+00:29:16,320 --> 00:29:20,960
+csináltunk hármat is már csak elindult
+
+516
+00:29:19,200 --> 00:29:24,200
+az
+
+517
+00:29:20,960 --> 00:29:26,200
+egyik a GU is a GUIS is
+
+518
+00:29:24,200 --> 00:29:28,360
+elindult és itt még vannak más
+
+519
+00:29:26,200 --> 00:29:30,679
+konténerek de itt a Hello World konténer
+
+520
+00:29:28,360 --> 00:29:33,080
+is ott van itt látod az összes konténert
+
+521
+00:29:30,679 --> 00:29:35,600
+amelyik létezik csak nincsen elindítva
+
+522
+00:29:33,080 --> 00:29:35,600
+ugye ez a
+
+523
+00:29:36,279 --> 00:29:40,240
+guiban az a container
+
+524
+00:29:42,559 --> 00:29:49,519
+tab látod ezek ezek az összes konténerek
+
+525
+00:29:46,200 --> 00:29:49,519
+itt van a hello worldös is most
+
+526
+00:29:49,799 --> 00:29:55,000
+már csak ezek most nem működnek
+
+527
+00:29:56,519 --> 00:30:00,279
+van egy olyan is hogy docker
+
+528
+00:30:04,120 --> 00:30:09,320
+PSQ vagy DOCER
+
+529
+00:30:06,320 --> 00:30:09,320
+PS
+
+530
+00:30:09,720 --> 00:30:16,240
+QA ez a
+
+531
+00:30:12,519 --> 00:30:20,480
+a azonosítója a jelenleg futó vagy az
+
+532
+00:30:16,240 --> 00:30:23,600
+összes konténernek az azonosítója
+
+533
+00:30:20,480 --> 00:30:27,320
+ez azért fontos mert ez alapján állítjuk
+
+534
+00:30:23,600 --> 00:30:30,519
+majd őket őket meg látod docker stop
+
+535
+00:30:27,320 --> 00:30:32,480
+docker start azonosító szerint docker
+
+536
+00:30:30,519 --> 00:30:36,960
+start és elindítom az egyikemet például
+
+537
+00:30:32,480 --> 00:30:36,960
+ezt a base notebookot azonosító
+
+538
+00:30:38,600 --> 00:30:43,399
+szerint akkor most hogyha docker PSQ-t
+
+539
+00:30:41,240 --> 00:30:46,240
+írok akkor kiírja nekem a jelenleg futó
+
+540
+00:30:43,399 --> 00:30:48,480
+konténereknek az azonosítóját
+
+541
+00:30:46,240 --> 00:30:51,159
+és ezt persze meg is tudom őket akkor
+
+542
+00:30:48,480 --> 00:30:55,559
+állítani azonosító
+
+543
+00:30:51,159 --> 00:30:55,559
+szerint hogyha helyesen beírom azt
+
+544
+00:30:57,880 --> 00:31:02,039
+kell le is tudok törölni egy
+
+545
+00:31:02,480 --> 00:31:06,000
+konténert és akkor
+
+546
+00:31:07,480 --> 00:31:14,440
+azt azt nekem az a a teljes listámból az
+
+547
+00:31:11,399 --> 00:31:18,000
+A-s listámból is letérünk
+
+548
+00:31:14,440 --> 00:31:18,000
+most hogyha azt mondom hogy docker
+
+549
+00:31:20,960 --> 00:31:25,799
+psa akkor ez a konténer azterbe viszont
+
+550
+00:31:23,880 --> 00:31:30,000
+már nem
+
+551
+00:31:25,799 --> 00:31:33,960
+létezik ezt azért szeretjük mert szépen
+
+552
+00:31:30,000 --> 00:31:36,279
+tiszta tiszta helyet munkalapot lehet
+
+553
+00:31:33,960 --> 00:31:38,440
+tartani na most ezeket én le is fogom
+
+554
+00:31:36,279 --> 00:31:41,440
+törölni akkor itt nekem ami extrák
+
+555
+00:31:38,440 --> 00:31:41,440
+vannak
+
+556
+00:32:05,399 --> 00:32:09,399
+csak ez egy ez egy Linuxos parancs ez
+
+557
+00:32:07,840 --> 00:32:11,039
+egy Linuxos parancs akkor nem fog nem
+
+558
+00:32:09,399 --> 00:32:12,559
+fog működni
+
+559
+00:32:11,039 --> 00:32:14,639
+ezzel azt a ez ez azt a parancsot
+
+560
+00:32:12,559 --> 00:32:16,880
+csinálna hogy remove de azokat
+
+561
+00:32:14,639 --> 00:32:19,360
+removoljad amelyik az
+
+562
+00:32:16,880 --> 00:32:21,279
+összes az összes létező imageet tehát
+
+563
+00:32:19,360 --> 00:32:24,880
+egy másik
+
+564
+00:32:21,279 --> 00:32:26,960
+parancsolan PS AQ-val ezt össze is lehet
+
+565
+00:32:24,880 --> 00:32:29,799
+rakni egy parancsba egy egy flegbe
+
+566
+00:32:26,960 --> 00:32:32,320
+ezeket a vonalkákat flegeknek
+
+567
+00:32:29,799 --> 00:32:34,720
+hívjuk futtasd le az összesen azt a
+
+568
+00:32:32,320 --> 00:32:36,960
+parancsot hogy docken remove ez már
+
+569
+00:32:34,720 --> 00:32:40,080
+powerben nem működik de nem baj most
+
+570
+00:32:36,960 --> 00:32:41,600
+jövünk át a most jövünk át a Linuxhoz
+
+571
+00:32:40,080 --> 00:32:42,720
+tehát itt hogyha itt hogyha te megnyitz
+
+572
+00:32:41,600 --> 00:32:48,080
+egy
+
+573
+00:32:42,720 --> 00:32:48,080
+új egy új terminál de most egy ubuntus
+
+574
+00:32:49,919 --> 00:32:55,080
+terminált akkor ugyanazok a parancsok
+
+575
+00:32:53,080 --> 00:32:57,559
+itt is kellene működjenek ugyanúgy
+
+576
+00:32:55,080 --> 00:32:58,480
+működik a docker PS ugyanúgy működik a
+
+577
+00:32:57,559 --> 00:33:04,919
+docker
+
+578
+00:32:58,480 --> 00:33:04,919
+PSA ugyanúgy működik a docker PS AQ
+
+579
+00:33:11,720 --> 00:33:17,080
+csak még más érdekes dolgokat is lehet
+
+580
+00:33:13,960 --> 00:33:20,240
+itt végezni úgyhogy az az
+
+581
+00:33:17,080 --> 00:33:23,159
+igazán a a Windows absen Linuxból való
+
+582
+00:33:20,240 --> 00:33:25,279
+fejlesztés igazán szerintem a skálázható
+
+583
+00:33:23,159 --> 00:33:26,840
+itt most ez is kellene működjön nekem ez
+
+584
+00:33:25,279 --> 00:33:29,519
+a Docker
+
+585
+00:33:26,840 --> 00:33:34,679
+remove Docker PSQ és az összes
+
+586
+00:33:29,519 --> 00:33:34,679
+kontineremet le fogja törölni látod
+
+587
+00:33:45,760 --> 00:33:54,200
+most hogyha doer PSA nézek akkor nincs
+
+588
+00:33:49,440 --> 00:33:54,200
+meg egy se na még akkor is hogyha
+
+589
+00:33:55,120 --> 00:34:01,639
+Docker PS Igen Docker PS-t hogyha
+
+590
+00:33:58,279 --> 00:34:04,880
+Windows-ban hogyha Windows-ban
+
+591
+00:34:01,639 --> 00:34:06,279
+nézem akkor sincsenek ott a konténerek
+
+592
+00:34:04,880 --> 00:34:07,960
+még egyszer egy Hello World csináljuk
+
+593
+00:34:06,279 --> 00:34:11,520
+hogy legalább egy legyen hogy lássuk
+
+594
+00:34:07,960 --> 00:34:11,520
+hogy mi történik
+
+595
+00:34:19,320 --> 00:34:24,919
+docker PS-nél nincs egy se ak PSA-nál
+
+596
+00:34:22,079 --> 00:34:27,399
+van egyetlen egy hello
+
+597
+00:34:24,919 --> 00:34:30,079
+konténer most ezek a konténerek de ez
+
+598
+00:34:27,399 --> 00:34:31,760
+nem jelenti azt hogy a az imageet
+
+599
+00:34:30,079 --> 00:34:35,200
+amelyikből a konténert összerakta és
+
+600
+00:34:31,760 --> 00:34:36,280
+futtatja azt azt is
+
+601
+00:34:35,200 --> 00:34:38,079
+azt is
+
+602
+00:34:36,280 --> 00:34:40,919
+letörölte
+
+603
+00:34:38,079 --> 00:34:42,599
+úgyhogy persze a GUI itt meg lehet nézni
+
+604
+00:34:40,919 --> 00:34:45,040
+azt hogy látod most konténer nincs egy
+
+605
+00:34:42,599 --> 00:34:47,359
+se csak ez a Hello World de az
+
+606
+00:34:45,040 --> 00:34:50,520
+imageeknél azért ezek az imageek amiket
+
+607
+00:34:47,359 --> 00:34:55,679
+letöltöttünk az mind
+
+608
+00:34:50,520 --> 00:34:55,679
+megvan ez annyira nem fontos docker
+
+609
+00:34:59,040 --> 00:35:04,119
+images és itt vannak az
+
+610
+00:35:01,240 --> 00:35:07,480
+összes még azok is amelyek nem használja
+
+611
+00:35:04,119 --> 00:35:09,560
+jelenleg egy egy konténer se és le lehet
+
+612
+00:35:07,480 --> 00:35:12,680
+egy image-et
+
+613
+00:35:09,560 --> 00:35:14,480
+is erre remove imageel egy image is
+
+614
+00:35:12,680 --> 00:35:16,960
+tölteni például a hello worldöset azt
+
+615
+00:35:14,480 --> 00:35:19,359
+most nem tudjuk ja de tudjuk például ezt
+
+616
+00:35:16,960 --> 00:35:19,359
+a hello
+
+617
+00:35:23,920 --> 00:35:28,720
+vergeeset azért nem tudja ezt az imageet
+
+618
+00:35:26,400 --> 00:35:32,119
+most letörölni mert egy létező egy
+
+619
+00:35:28,720 --> 00:35:35,040
+létező konténerhez hozzá van csatolva
+
+620
+00:35:32,119 --> 00:35:35,040
+úgyhogy ezt a
+
+621
+00:35:35,119 --> 00:35:41,240
+konténert letöröljük egyszer docker
+
+622
+00:35:38,920 --> 00:35:43,920
+remove és ennek a hello world
+
+623
+00:35:41,240 --> 00:35:43,920
+konténernek az
+
+624
+00:35:49,079 --> 00:35:55,560
+azonosítója és akkor utána ez a remove
+
+625
+00:35:53,560 --> 00:35:57,920
+image és az imagen-nek az azonosítója ez
+
+626
+00:35:55,560 --> 00:36:00,720
+kellene végködjön szépen letörölte ez
+
+627
+00:35:57,920 --> 00:36:04,160
+azért fontos mert az imageek elég nagyok
+
+628
+00:36:00,720 --> 00:36:04,160
+tehát itt látod például a data
+
+629
+00:36:04,680 --> 00:36:09,319
+science notebook a base notebook az egy
+
+630
+00:36:08,200 --> 00:36:12,760
+1
+
+631
+00:36:09,319 --> 00:36:14,839
+gig fogunk mindjárt tölteni egy egy
+
+632
+00:36:12,760 --> 00:36:16,839
+krafanát az is 2 gig úgyhogy ez hamar
+
+633
+00:36:14,839 --> 00:36:18,599
+megeszi neked a táhelyedet de ezért
+
+634
+00:36:16,839 --> 00:36:21,160
+ezért az imageeket érdemes néha
+
+635
+00:36:18,599 --> 00:36:23,800
+takarítani persze megcsinálhatod ezt a
+
+636
+00:36:21,160 --> 00:36:29,079
+megcsináltad ezt a guiban
+
+637
+00:36:23,800 --> 00:36:31,240
+is na jó az első az első eleme a az
+
+638
+00:36:29,079 --> 00:36:35,000
+integrált informatikai rendszerünknek az
+
+639
+00:36:31,240 --> 00:36:37,800
+egy adatellemző környezet lesz egy egy
+
+640
+00:36:35,000 --> 00:36:39,160
+Jupiter Notebook amit jól beállítunk
+
+641
+00:36:37,800 --> 00:36:42,440
+ezután még hozzá fogunk adni egy
+
+642
+00:36:39,160 --> 00:36:44,520
+vizuális elemet egy grafonát illetve egy
+
+643
+00:36:42,440 --> 00:36:46,319
+adatbázist egy influxdbit majd pedig
+
+644
+00:36:44,520 --> 00:36:48,920
+össze összehúzanozzuk a hármat a
+
+645
+00:36:46,319 --> 00:36:50,920
+háttérben de most a hát időben amit el
+
+646
+00:36:48,920 --> 00:36:53,119
+szeretnénk érni az az hogy próbáljuk meg
+
+647
+00:36:50,920 --> 00:36:55,480
+ezt a ezt
+
+648
+00:36:53,119 --> 00:36:58,200
+a data processing environment tehát az
+
+649
+00:36:55,480 --> 00:37:00,760
+adat környezetet valahogy össze
+
+650
+00:36:58,200 --> 00:37:00,760
+összerakni és
+
+651
+00:37:01,960 --> 00:37:07,880
+elindítani aztán megnéztük hogy a Docker
+
+652
+00:37:05,440 --> 00:37:09,040
+abban hogy a Jupiter és minden cég
+
+653
+00:37:07,880 --> 00:37:13,040
+egyébként
+
+654
+00:37:09,040 --> 00:37:17,200
+fenntart konténer imageeket
+
+655
+00:37:13,040 --> 00:37:19,520
+úgyhogy a base notebookot már futtattuk
+
+656
+00:37:17,200 --> 00:37:23,240
+de nem csináltunk ugye nem ért nem nem
+
+657
+00:37:19,520 --> 00:37:27,119
+tudtuk elérni ezt a ezt a
+
+658
+00:37:23,240 --> 00:37:29,240
+port ezt a portszámot és akkor ezt
+
+659
+00:37:27,119 --> 00:37:32,400
+kötőjel p-vel kellett volna tehát nem
+
+660
+00:37:29,240 --> 00:37:33,920
+úgy kellett volna elindítani hogy Docker
+
+661
+00:37:32,400 --> 00:37:38,720
+Run
+
+662
+00:37:33,920 --> 00:37:38,720
+és Jupiter base notebook
+
+663
+00:37:41,800 --> 00:37:48,680
+hanem ide kellett volna tenni azt hogy P
+
+664
+00:37:44,920 --> 00:37:50,119
+és irányítsa át nekünk a portnak a
+
+665
+00:37:48,680 --> 00:37:53,599
+számát
+
+666
+00:37:50,119 --> 00:37:56,640
+na most ezt az applikáció ami a
+
+667
+00:37:53,599 --> 00:37:59,680
+konténerizált applikációnk min ugye ez
+
+668
+00:37:56,640 --> 00:38:02,680
+egy web úgyhogy mindig egy adott porton
+
+669
+00:37:59,680 --> 00:38:06,160
+fog a konténeren belül futni és akkor
+
+670
+00:38:02,680 --> 00:38:07,800
+azt a portot legalább egyet le van
+
+671
+00:38:06,160 --> 00:38:10,680
+amelyik több applikáció több portot
+
+672
+00:38:07,800 --> 00:38:14,319
+használ legalább egy portot át kell
+
+673
+00:38:10,680 --> 00:38:15,960
+irányítani mindig a az a host operációs
+
+674
+00:38:14,319 --> 00:38:18,280
+rendszerhez tehát ahol ahol a doker
+
+675
+00:38:15,960 --> 00:38:20,520
+rendszer működik most nekünk az előbb
+
+676
+00:38:18,280 --> 00:38:23,480
+ezt megnéztük hogy a 888-as porton
+
+677
+00:38:20,520 --> 00:38:26,960
+működött ugye a port az az a az ami az
+
+678
+00:38:23,480 --> 00:38:30,040
+IPC után a kettős pont után jött úgyhogy
+
+679
+00:38:26,960 --> 00:38:33,640
+ezt a 888-as portot irányítsuk át a
+
+680
+00:38:30,040 --> 00:38:33,640
+helyi 888-as
+
+681
+00:38:35,319 --> 00:38:40,319
+portra itt ki itt soha nem tudja soha
+
+682
+00:38:38,359 --> 00:38:42,680
+nem tudja senki hogy most melyik az első
+
+683
+00:38:40,319 --> 00:38:46,440
+melyik a melyik a második az első a
+
+684
+00:38:42,680 --> 00:38:49,400
+konténerport és a második a a szerber
+
+685
+00:38:46,440 --> 00:38:51,119
+port tehát a helyi port de kicserélik
+
+686
+00:38:49,400 --> 00:38:53,800
+amíg amíg rájössz hogyha másokat
+
+687
+00:38:51,119 --> 00:38:56,440
+akarszni hogyha még nem 888-at
+
+688
+00:38:53,800 --> 00:38:58,119
+használnék hanem valami mást például
+
+689
+00:38:56,440 --> 00:39:02,480
+ezek a portok
+
+690
+00:38:58,119 --> 00:39:04,599
+általában 8000-től 60000-ig terjednek
+
+691
+00:39:02,480 --> 00:39:07,560
+bármit használhatsz
+
+692
+00:39:04,599 --> 00:39:07,560
+most hogyha elindítom
+
+693
+00:39:16,000 --> 00:39:23,720
+ezt itt újra kihoz egy egy másik egy
+
+694
+00:39:19,720 --> 00:39:27,800
+másik linket de
+
+695
+00:39:23,720 --> 00:39:29,359
+erre erre a linkre rá kell tudjak
+
+696
+00:39:27,800 --> 00:39:35,000
+menni
+
+697
+00:39:29,359 --> 00:39:37,440
+és elindult az első web appünk
+
+698
+00:39:35,000 --> 00:39:37,440
+yes
+
+699
+00:39:39,640 --> 00:39:45,040
+igen azért mert én egyből úgy mentem
+
+700
+00:39:42,839 --> 00:39:47,640
+amit amit itt az Ubuntu neked kiír az
+
+701
+00:39:45,040 --> 00:39:49,760
+Ubuntu az egy klikkelhető linket hoz
+
+702
+00:39:47,640 --> 00:39:52,000
+létre itt hogyha most végzek valamit
+
+703
+00:39:49,760 --> 00:39:53,440
+ugye ez ez egy működő élő élő szerver
+
+704
+00:39:52,000 --> 00:39:56,640
+itt hogyha én most végzek valamit tehát
+
+705
+00:39:53,440 --> 00:39:56,640
+például létrehozok egy új
+
+706
+00:39:58,000 --> 00:40:02,760
+fátt ez egy ez egy ez egy Python file
+
+707
+00:40:00,839 --> 00:40:04,560
+ugye
+
+708
+00:40:02,760 --> 00:40:08,240
+akkor nekem itt a szerver
+
+709
+00:40:04,560 --> 00:40:10,880
+az itt kiírogatja hogy mi
+
+710
+00:40:08,240 --> 00:40:13,319
+történik most újra ez nem praktikus mert
+
+711
+00:40:10,880 --> 00:40:16,040
+több több ablakot le kell egyszerre
+
+712
+00:40:13,319 --> 00:40:19,040
+nyilván vagy nyilván tartani ezt most
+
+713
+00:40:16,040 --> 00:40:19,040
+megállítom
+
+714
+00:40:19,720 --> 00:40:23,960
+persze itt most azt jelenti hogy most a
+
+715
+00:40:21,560 --> 00:40:27,079
+web applikációm az
+
+716
+00:40:23,960 --> 00:40:28,680
+szétesett de ugye volt az a trükk hogy
+
+717
+00:40:27,079 --> 00:40:30,680
+használtuk ezt a
+
+718
+00:40:28,680 --> 00:40:35,359
+D-t
+
+719
+00:40:30,680 --> 00:40:35,359
+hogy így a a végére azt tesszük hogy
+
+720
+00:40:35,480 --> 00:40:43,040
+D látod ez ez detet módban indítja el a
+
+721
+00:40:39,240 --> 00:40:45,040
+konténert csak nem hasznos azt
+
+722
+00:40:43,040 --> 00:40:47,119
+megjegyezni hogy a konténernek a neve az
+
+723
+00:40:45,040 --> 00:40:49,119
+mindig az kell legyen az utolsó é hogy a
+
+724
+00:40:47,119 --> 00:40:51,520
+flaget azt mindig a konténer neve elé
+
+725
+00:40:49,119 --> 00:40:54,079
+kell
+
+726
+00:40:51,520 --> 00:40:56,560
+tenni most hogyha
+
+727
+00:40:54,079 --> 00:41:00,560
+megnézemer TS-sel akkor működik ez a
+
+728
+00:40:56,560 --> 00:41:04,880
+konténer egészen jó
+
+729
+00:41:00,560 --> 00:41:08,119
+és van egy link 88 aas
+
+730
+00:41:04,880 --> 00:41:11,480
+porton csak ugye most már nem tud nem
+
+731
+00:41:08,119 --> 00:41:14,040
+arról nem az UTban megjelenő linkről
+
+732
+00:41:11,480 --> 00:41:16,560
+nyitottam meg úgyhogy ott volt egy
+
+733
+00:41:14,040 --> 00:41:18,839
+valami ilyesmi hogy token egyenlő
+
+734
+00:41:16,560 --> 00:41:20,200
+valamivel alapvetően neked a Jupiter
+
+735
+00:41:18,839 --> 00:41:24,000
+szerver úgy van beállítva hogy kérjen
+
+736
+00:41:20,200 --> 00:41:26,960
+egy jelszót nem tudjuk mi a jelszó nem
+
+737
+00:41:24,000 --> 00:41:30,760
+működik a szerver tehát nagyon nagyon jó
+
+738
+00:41:26,960 --> 00:41:30,760
+persze meg tudnánk ezt változtatni
+
+739
+00:41:30,800 --> 00:41:37,119
+de nem baj mert ez azért volt így
+
+740
+00:41:33,839 --> 00:41:40,839
+összerakva hogy meg hogyan kell belépni
+
+741
+00:41:37,119 --> 00:41:42,440
+a konténeren belünkre
+
+742
+00:41:40,839 --> 00:41:46,079
+tehát ugye mondtam azt
+
+743
+00:41:42,440 --> 00:41:49,480
+hogy a a konténer
+
+744
+00:41:46,079 --> 00:41:49,480
+az igaz
+
+745
+00:41:53,640 --> 00:41:57,960
+hogy igaz hogy csak egy ilyen egyetlen
+
+746
+00:41:56,359 --> 00:42:00,839
+egy applikáció egyetlen egy webes
+
+747
+00:41:57,960 --> 00:42:02,880
+applikáció attól még van neki egy kis
+
+748
+00:42:00,839 --> 00:42:06,359
+operációs rendszere és abba be tudunk
+
+749
+00:42:02,880 --> 00:42:08,640
+lépni hogy megnézni megnézze azt
+
+750
+00:42:06,359 --> 00:42:12,880
+hogy hogyan tudnánk a Jupiter
+
+751
+00:42:08,640 --> 00:42:15,119
+notebookoknak nak a a az ott futóleoknak
+
+752
+00:42:12,880 --> 00:42:17,640
+például a kódjait valahogy
+
+753
+00:42:15,119 --> 00:42:19,319
+kiszedni ezt megcsináltjuk a
+
+754
+00:42:17,640 --> 00:42:22,720
+GUI a
+
+755
+00:42:19,319 --> 00:42:25,440
+GUI most kéne legyen egy olyan konténer
+
+756
+00:42:22,720 --> 00:42:29,160
+amelyik itt van mi amelyik egy Jupiter
+
+757
+00:42:25,440 --> 00:42:31,480
+base notebook ebbe alapvetően bele lehet
+
+758
+00:42:29,160 --> 00:42:34,119
+valahogy lépni látod itt van egy ilyen
+
+759
+00:42:31,480 --> 00:42:37,280
+hogy opening terminal na most ez nem egy
+
+760
+00:42:34,119 --> 00:42:40,760
+Windowsos terminál hanem ez a konténeren
+
+761
+00:42:37,280 --> 00:42:42,800
+belül futóterminál lesz konténernek van
+
+762
+00:42:40,760 --> 00:42:45,480
+egy alapoperációs rendszere amit mondom
+
+763
+00:42:42,800 --> 00:42:48,280
+egy ilyen minimális Linux általában és
+
+764
+00:42:45,480 --> 00:42:50,839
+azt a minimális Linuxot el tudjuk érni
+
+765
+00:42:48,280 --> 00:42:52,800
+ezzel az open
+
+766
+00:42:50,839 --> 00:42:54,240
+terminallal az itt lesz a doker a
+
+767
+00:42:52,800 --> 00:42:57,480
+dockeren
+
+768
+00:42:54,240 --> 00:42:58,920
+belül futó eszköz és akkor itt hogyha
+
+769
+00:42:57,480 --> 00:43:02,800
+megnézem azt hogy
+
+770
+00:42:58,920 --> 00:43:02,800
+Jupiter Lab
+
+771
+00:43:02,839 --> 00:43:08,079
+list akkor meg kéne mutassa nekem a
+
+772
+00:43:05,640 --> 00:43:10,760
+jelenleg futó Jupiter
+
+773
+00:43:08,079 --> 00:43:14,280
+szervereket
+
+774
+00:43:10,760 --> 00:43:17,040
+látod ez az egyik itt itt látod egy
+
+775
+00:43:14,280 --> 00:43:19,599
+saját címet használ ami egyébként
+
+776
+00:43:17,040 --> 00:43:21,920
+pontosan a konténernek az azonosítója
+
+777
+00:43:19,599 --> 00:43:24,480
+lesz tehát hogyha megnézed azt hogy
+
+778
+00:43:21,920 --> 00:43:27,160
+Docker PS meg is néztük látod ez a
+
+779
+00:43:24,480 --> 00:43:29,599
+konténernek az ID-ja az IPcím helyett
+
+780
+00:43:27,160 --> 00:43:32,440
+használja az ID-ját és akkor utána jön
+
+781
+00:43:29,599 --> 00:43:34,160
+ez a hosszú hosszú link ez a token
+
+782
+00:43:32,440 --> 00:43:38,200
+úgyhogy ez lesz itt amit azt írja hogy
+
+783
+00:43:34,160 --> 00:43:38,200
+egyenlő token pontosan erre van nekünk
+
+784
+00:43:39,720 --> 00:43:48,760
+szükségünk ha ezt ide
+
+785
+00:43:43,040 --> 00:43:48,760
+bemásolom akkor szépen be tudok lépni a
+
+786
+00:43:49,480 --> 00:43:53,119
+webapplikációmba most persze ezt csak
+
+787
+00:43:51,319 --> 00:43:54,559
+ezt csak tanuljuk azért van ez hogy csak
+
+788
+00:43:53,119 --> 00:43:57,520
+tanuljuk hogy hogyan kell belépni és
+
+789
+00:43:54,559 --> 00:43:59,960
+kilépni a konténerekből aztán beállítunk
+
+790
+00:43:57,520 --> 00:44:02,000
+egy saját jelszót mielőtt még mielőtt
+
+791
+00:43:59,960 --> 00:44:05,280
+elindítanánk a konténert nem kell ezt
+
+792
+00:44:02,000 --> 00:44:05,280
+mindig elvégezni ezt a
+
+793
+00:44:05,599 --> 00:44:11,640
+lépést na most ezt a konténeren belül
+
+794
+00:44:09,119 --> 00:44:13,000
+végeztük el azaz hogyha én én most az
+
+795
+00:44:11,640 --> 00:44:15,160
+operációs
+
+796
+00:44:13,000 --> 00:44:19,680
+rendszeremben végre szeretném hajtani
+
+797
+00:44:15,160 --> 00:44:21,920
+ezt a parancsot ez ez nem létezik látod
+
+798
+00:44:19,680 --> 00:44:24,079
+úgyhogy hogy tudok én a
+
+799
+00:44:21,920 --> 00:44:26,319
+terminálból nyilván így így ez így
+
+800
+00:44:24,079 --> 00:44:28,680
+járható út innen a innen ebből a
+
+801
+00:44:26,319 --> 00:44:31,319
+vizuális GUI editorból de mindig nem
+
+802
+00:44:28,680 --> 00:44:34,760
+jöhetek ide vissza a GUI editorhoz meg
+
+803
+00:44:31,319 --> 00:44:37,520
+hogyha egy AWS szerveren fejlesztek
+
+804
+00:44:34,760 --> 00:44:40,599
+akkor nincs is GUI editor
+
+805
+00:44:37,520 --> 00:44:43,720
+úgyhogy itt azt kell csináljam hogy a
+
+806
+00:44:40,599 --> 00:44:45,280
+kóddal végre kell
+
+807
+00:44:43,720 --> 00:44:48,640
+hajtsak
+
+808
+00:44:45,280 --> 00:44:50,280
+valamit docker exek ez azt fogja
+
+809
+00:44:48,640 --> 00:44:52,880
+csinálni
+
+810
+00:44:50,280 --> 00:44:54,480
+hogy a konténeren belül fog egy
+
+811
+00:44:52,880 --> 00:44:57,240
+parancsot
+
+812
+00:44:54,480 --> 00:44:59,319
+végrehajtani azt fogom mondani hogy a
+
+813
+00:44:57,240 --> 00:45:01,559
+konténerembben melyik a konténernek a
+
+814
+00:44:59,319 --> 00:45:04,520
+neve modest base vagy vagy használhatnám
+
+815
+00:45:01,559 --> 00:45:07,160
+az ID-t de használjuk ezt a modest
+
+816
+00:45:04,520 --> 00:45:10,680
+baset és mi volt a parancs az volt hogy
+
+817
+00:45:07,160 --> 00:45:12,000
+Jupiter lab list most ez a docker exek
+
+818
+00:45:10,680 --> 00:45:13,880
+az az csinál hogy a konténeren belül
+
+819
+00:45:12,000 --> 00:45:16,200
+fogja ezt a parancsot
+
+820
+00:45:13,880 --> 00:45:21,240
+végrehajtani és ez elvileg ugyanoda fog
+
+821
+00:45:16,200 --> 00:45:21,240
+vezetni mint a mint a guish megoldás az
+
+822
+00:45:23,800 --> 00:45:31,440
+előbb azaz még van egy még van egy másik
+
+823
+00:45:28,079 --> 00:45:36,119
+egy másik eljárás erre
+
+824
+00:45:31,440 --> 00:45:39,640
+a terminált a az Ubuntu vagy a a vagy
+
+825
+00:45:36,119 --> 00:45:43,040
+bármelyik Linux az úgy hívja hogy B és
+
+826
+00:45:39,640 --> 00:45:46,800
+akkor csinálhatnánk egy olyat hogy
+
+827
+00:45:43,040 --> 00:45:50,640
+Docker exek és nem Jupiter
+
+828
+00:45:46,800 --> 00:45:53,599
+labist hanem
+
+829
+00:45:50,640 --> 00:45:56,440
+bash ez létrehoz egy terminált de nem
+
+830
+00:45:53,599 --> 00:45:57,960
+látjuk ezért nem igazán hasznos de hogy
+
+831
+00:45:56,440 --> 00:46:00,559
+van egy olyan hogyha betesszük ugye
+
+832
+00:45:57,960 --> 00:46:02,559
+mindig a konténer nevé el jön a flag
+
+833
+00:46:00,559 --> 00:46:03,920
+betesszük azt a flaget hogy et az onnan
+
+834
+00:46:02,559 --> 00:46:06,359
+jön hogy
+
+835
+00:46:03,920 --> 00:46:08,640
+interactive akkor most ezt a ezt a
+
+836
+00:46:06,359 --> 00:46:11,839
+parancsot interaktív módban hajtja vé
+
+837
+00:46:08,640 --> 00:46:14,240
+végre és akkor olyan mintogyha beléptünk
+
+838
+00:46:11,839 --> 00:46:17,079
+volna a konténernek a
+
+839
+00:46:14,240 --> 00:46:19,880
+Linuxába látod ez a felhasználón ez a
+
+840
+00:46:17,079 --> 00:46:24,200
+konténernek a neve vagy az azonosítója
+
+841
+00:46:19,880 --> 00:46:27,720
+esetben és akkor itt most ez fog működni
+
+842
+00:46:24,200 --> 00:46:27,720
+hogy jó lab
+
+843
+00:46:27,920 --> 00:46:31,839
+list mert benne vagyunk a
+
+844
+00:46:37,240 --> 00:46:44,079
+konténerben na tehát volt egy olyan
+
+845
+00:46:40,280 --> 00:46:46,960
+módszer hogy docker exek és utána
+
+846
+00:46:44,079 --> 00:46:49,920
+konténernél utána parancs vagy volt egy
+
+847
+00:46:46,960 --> 00:46:53,440
+olyan hogy docker exec interactive és
+
+848
+00:46:49,920 --> 00:46:55,040
+utána a konténer neve és utána egy bash
+
+849
+00:46:53,440 --> 00:46:56,720
+ez mindig fix tehát mindig terminált
+
+850
+00:46:55,040 --> 00:47:00,040
+szeretnénk és akkor abba a terminálba
+
+851
+00:46:56,720 --> 00:47:00,040
+azt írunk amit amit
+
+852
+00:47:00,920 --> 00:47:05,720
+szeretnénk na
+
+853
+00:47:02,599 --> 00:47:07,079
+jó indítsunk el meg is állunk három
+
+854
+00:47:05,720 --> 00:47:11,040
+percval de indítsunk el egy másik
+
+855
+00:47:07,079 --> 00:47:11,040
+konténert hogy játszadozzunk egy
+
+856
+00:47:14,160 --> 00:47:20,520
+picit indítsunk el egy grafana egy
+
+857
+00:47:16,720 --> 00:47:23,079
+grafana konténert ez ugyanaz ami ami ami
+
+858
+00:47:20,520 --> 00:47:23,079
+ami eddig
+
+859
+00:47:25,280 --> 00:47:31,400
+volt itt most a 3000res portot fogja
+
+860
+00:47:28,000 --> 00:47:31,400
+használni a webapplikáció
+
+861
+00:47:31,480 --> 00:47:37,319
+tehát felfele nyillan lehet lépegetni a
+
+862
+00:47:34,119 --> 00:47:39,800
+terminálba pontosan ugyanez lesz a
+
+863
+00:47:37,319 --> 00:47:43,599
+parancs docker
+
+864
+00:47:39,800 --> 00:47:47,040
+run 3000 3000es portát irányítsuk át a
+
+865
+00:47:43,599 --> 00:47:51,520
+3000es portra a helyi 3000 portra
+
+866
+00:47:47,040 --> 00:47:55,640
+és a az imagen-nek a neve az a grafana
+
+867
+00:47:51,520 --> 00:47:55,640
+felhasználótól a grafana
+
+868
+00:48:01,760 --> 00:48:06,640
+image ezt akkor letöltögetni látod
+
+869
+00:48:04,160 --> 00:48:08,559
+minden konténer más konténerekből van
+
+870
+00:48:06,640 --> 00:48:11,520
+összerakva mert a grafana fog használni
+
+871
+00:48:08,559 --> 00:48:13,400
+egy bejelentkezési mod fog használni egy
+
+872
+00:48:11,520 --> 00:48:15,960
+vonaldiagramm modult fog használni egy
+
+873
+00:48:13,400 --> 00:48:17,440
+adatbázist és akkor amikor indítod el az
+
+874
+00:48:15,960 --> 00:48:20,200
+image akkor itt azt csinálja hogy a
+
+875
+00:48:17,440 --> 00:48:23,760
+különböző kis konténereket amiből majd a
+
+876
+00:48:20,200 --> 00:48:26,319
+grafana összeáll azokat itt külön
+
+877
+00:48:23,760 --> 00:48:26,319
+letöltögeti
+
+878
+00:48:51,960 --> 00:48:56,559
+ez azt hiszem hogy Windows subsistem
+
+879
+00:48:53,440 --> 00:48:57,799
+Linuxba A fál a fáloknak a kezelése egy
+
+880
+00:48:56,559 --> 00:49:03,280
+kicsit
+
+881
+00:48:57,799 --> 00:49:03,280
+lassú úgyhogy ezt átteszem átteszem
+
+882
+00:49:03,920 --> 00:49:09,440
+Windowsba itt jó kellene a
+
+883
+00:49:06,680 --> 00:49:13,960
+legény docker hogy volt a parancs
+
+884
+00:49:09,440 --> 00:49:17,079
+egy docker run port 88 átirányítva a
+
+885
+00:49:13,960 --> 00:49:21,680
+888-asra detected módban grafana
+
+886
+00:49:17,079 --> 00:49:21,680
+felhasználótól a grafana nevű
+
+887
+00:49:39,319 --> 00:49:43,920
+Čz ez így egy picit gyorsabb
+
+888
+00:50:31,240 --> 00:50:36,119
+jó és azt mondja hogy a 888-as porton ez
+
+889
+00:50:34,000 --> 00:50:37,200
+így nem jó mert rosszul írtam be nem a
+
+890
+00:50:36,119 --> 00:50:41,319
+31-est
+
+891
+00:50:37,200 --> 00:50:41,319
+írtam csak a base notebook
+
+892
+00:50:41,400 --> 00:50:47,040
+működik de itt van ez a itt van ez a
+
+893
+00:50:43,480 --> 00:50:47,040
+grafana ezt ezt akkor
+
+894
+00:50:48,640 --> 00:50:54,079
+letörlöm és indítsuk el újra de úgy hogy
+
+895
+00:50:51,119 --> 00:50:58,880
+jó legyen a 3000-es portot szeretnénk
+
+896
+00:50:54,079 --> 00:50:58,880
+használni átirányítva a 3000-es
+
+897
+00:51:06,359 --> 00:51:12,640
+portra és működik na nézzük meg hogy
+
+898
+00:51:09,760 --> 00:51:15,480
+akkor hogyha a browserben elmegyünk a
+
+899
+00:51:12,640 --> 00:51:19,799
+local host 3000-es
+
+900
+00:51:15,480 --> 00:51:19,799
+portra akkor hogy néz az
+
+901
+00:51:21,079 --> 00:51:26,520
+ki és itt van a második vees
+
+902
+00:51:23,400 --> 00:51:28,280
+applikációnk egy grafana ilyen
+
+903
+00:51:26,520 --> 00:51:31,720
+dashboarding
+
+904
+00:51:28,280 --> 00:51:35,319
+eszköz azt hiszem az alap bejelentkezés
+
+905
+00:51:31,720 --> 00:51:35,319
+az admin admin
+
+906
+00:51:44,040 --> 00:51:48,720
+nagyszerű és látod ezt teljes teljes
+
+907
+00:51:47,000 --> 00:51:52,880
+webes applikációkat egyetlen egy
+
+908
+00:51:48,720 --> 00:51:52,880
+parancsal tudunk tudunk elindítani
+
+909
+00:51:53,240 --> 00:51:57,079
+úgyhogy az az lenne az lenne az ideális
+
+910
+00:51:54,839 --> 00:51:58,640
+hogyha mindenkinek sikerülne
+
+911
+00:51:57,079 --> 00:52:00,640
+prezentációban megvannak pontosan a
+
+912
+00:51:58,640 --> 00:52:02,680
+parancsok
+
+913
+00:52:00,640 --> 00:52:05,160
+mindenkinek sikerülne elindítani egy
+
+914
+00:52:02,680 --> 00:52:08,160
+Jupiter notebookot és egy grafanát
+
+915
+00:52:05,160 --> 00:52:10,559
+hogyha megnézed a a docker guiban így
+
+916
+00:52:08,160 --> 00:52:10,559
+néz ez
+
+917
+00:52:17,079 --> 00:52:22,319
+ki látod most van nekünk egy Jupiter és
+
+918
+00:52:20,319 --> 00:52:25,200
+egy grafonok persze lehet neveket adni a
+
+919
+00:52:22,319 --> 00:52:27,880
+prezentáció ad neki neveket
+
+920
+00:52:25,200 --> 00:52:31,000
+de innen tudunk tovább lépni majd a
+
+921
+00:52:27,880 --> 00:52:33,200
+következő következő alkalommal
+
+922
+00:52:31,000 --> 00:52:36,040
+megpróbáljuk ezeket összekötni és
+
+923
+00:52:33,200 --> 00:52:37,720
+tényleg egy valós valós applikációt
+
+924
+00:52:36,040 --> 00:52:40,160
+össze
+
+925
+00:52:37,720 --> 00:52:42,040
+összehozni van-e valakinek valamilyen
+
+926
+00:52:40,160 --> 00:52:44,440
+kérdése vagy hozzáfűzolja vagy hogyha
+
+927
+00:52:42,040 --> 00:52:46,079
+elakadtadok instrálással ezt
+
+928
+00:52:44,440 --> 00:52:48,400
+visszanézheted a a
+
+929
+00:52:46,079 --> 00:52:51,559
+felvételtve hogyha valami olyan
+
+930
+00:52:48,400 --> 00:52:53,280
+hibaüzenetet kapsz amit egy fél óra egy
+
+931
+00:52:51,559 --> 00:52:55,640
+fél óra próbálgatás után se tudsz
+
+932
+00:52:53,280 --> 00:52:59,079
+megoldani akkor írj el nekem a a
+
+933
+00:52:55,640 --> 00:52:59,079
+Discordon és valamit
+
+934
+00:53:03,760 --> 00:53:09,359
+kitalálunk kösz szépen a figyelmeteket
+
+935
+00:53:05,920 --> 00:53:09,359
+sziasztok találkozunk két hét
+
+936
+00:53:09,720 --> 00:53:13,400
+múlva jó
+
