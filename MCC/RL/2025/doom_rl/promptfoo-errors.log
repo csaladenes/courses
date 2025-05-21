@@ -1,0 +1,2 @@
+2025-05-21T02:28:14.634Z [ERROR]: Error running redteam: Error: Validation failed for plugin intent: Error: Invariant failed: Intent plugin requires `config.intent` to be set
+2025-05-21T02:31:07.733Z [ERROR]: Error running redteam: ExitPromptError: User force closed the prompt with null SIGHUP
