@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAS Instructor Field Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-['Inter'] leading-relaxed">
+
+    <!-- Navigation -->
+    <nav class="bg-slate-900 text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-5xl mx-auto px-4 h-16 flex justify-between items-center">
+            <div class="font-bold text-xl tracking-tight flex items-center gap-2">
+                <i class="ph-bold ph-chalkboard-teacher text-cyan-400"></i>
+                <span>Instructor Guide</span>
+            </div>
+            <div class="text-xs font-mono text-slate-400 hidden md:block">
+                MCC Automation Course: Multi-Agent Systems
+            </div>
+            <a href="index.html" class="bg-cyan-600 hover:bg-cyan-500 text-white px-4 py-2 rounded text-sm font-bold transition">
+                Open Session Controller
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-4 py-12">
+
+        <!-- Hero -->
+        <header class="mb-16 text-center">
+            <h1 class="text-5xl font-black text-slate-900 mb-4">The Hidden Logic of Systems</h1>
+            <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+                A guide to facilitating the 2-hour participatory simulation session.
+                From simple biological emergence to complex AI alignment.
+            </p>
+        </header>
+
+        <!-- The Arc -->
+        <section class="mb-16 bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <i class="ph-bold ph-bezier-curve text-indigo-600"></i>
+                The Narrative Arc
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="relative pl-6 border-l-4 border-cyan-400">
+                    <div class="absolute -left-[11px] top-0 w-5 h-5 bg-cyan-400 rounded-full border-4 border-white"></div>
+                    <h3 class="font-bold text-lg text-cyan-700 mb-2">1. Emergence</h3>
+                    <p class="text-sm text-slate-600">
+                        <strong>Simple Rules → Complex Patterns.</strong>
+                        We start with agents that have no goal other than reacting to neighbors (Segregation, Firefly).
+                        <em>Lesson:</em> You don't need a leader to have order.
+                    </p>
+                </div>
+                <div class="relative pl-6 border-l-4 border-pink-400">
+                    <div class="absolute -left-[11px] top-0 w-5 h-5 bg-pink-400 rounded-full border-4 border-white"></div>
+                    <h3 class="font-bold text-lg text-pink-700 mb-2">2. Optimization</h3>
+                    <p class="text-sm text-slate-600">
+                        <strong>Strategic Rules → Competition.</strong>
+                        Agents now want something (to win, to travel fast). They compete for resources (Minority, Routing).
+                        <em>Lesson:</em> Individual rationality can lead to collective failure.
+                    </p>
+                </div>
+                <div class="relative pl-6 border-l-4 border-purple-400">
+                    <div class="absolute -left-[11px] top-0 w-5 h-5 bg-purple-400 rounded-full border-4 border-white"></div>
+                    <h3 class="font-bold text-lg text-purple-700 mb-2">3. Alignment</h3>
+                    <p class="text-sm text-slate-600">
+                        <strong>Goal-Directed → Existential Risk.</strong>
+                        Agents become powerful AI that optimize goals literally (Agentic AI).
+                        <em>Lesson:</em> We must be careful what we ask for.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Module 0: Intro -->
+        <section class="module-card mb-12">
+            <div class="header bg-slate-100 p-4 border-b border-slate-200 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="bg-slate-800 text-white px-3 py-1 rounded text-xs font-mono">00:00</span>
+                    <h3 class="font-bold text-lg">System Calibration</h3>
+                </div>
+                <span class="text-xs text-slate-500 font-bold uppercase tracking-wider">Intro</span>
+            </div>
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">The Script</h4>
+                        <ul class="list-disc list-inside space-y-2 text-slate-700 text-sm">
+                            <li>"Welcome. Today you are not students. You are <strong>Agents</strong>."</li>
+                            <li>"An agent is anything that perceives its environment and acts upon it."</li>
+                            <li>Show the <strong>Background Simulation</strong> on the Hub. Ask: "Is there a leader here? Who tells the dots to move?" (No one).</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded border border-slate-200">
+                        <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">Key Definitions</h4>
+                        <dl class="space-y-2 text-sm">
+                            <dt class="font-bold text-slate-800">Agent:</dt>
+                            <dd class="text-slate-600 pl-4 mb-2">Autonomous entity with internal state.</dd>
+                            <dt class="font-bold text-slate-800">Environment:</dt>
+                            <dd class="text-slate-600 pl-4 mb-2">The rules and space agents live in.</dd>
+                            <dt class="font-bold text-slate-800">Emergence:</dt>
+                            <dd class="text-slate-600 pl-4">Global patterns arising from local interactions.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Module 1: Minority Game -->
+        <section class="module-card mb-12">
+            <div class="header bg-pink-50 p-4 border-b border-pink-100 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="bg-pink-600 text-white px-3 py-1 rounded text-xs font-mono">00:15</span>
+                    <h3 class="font-bold text-lg text-pink-900">The Minority Game</h3>
+                </div>
+                <div class="flex gap-2">
+                    <a href="game-minority.html" target="_blank" class="text-xs bg-white border border-pink-300 text-pink-600 px-2 py-1 rounded hover:bg-pink-50">Open Sim</a>
+                </div>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">The Rules</h4>
+                    <div class="bg-white p-4 rounded border border-slate-200 shadow-sm">
+                        <ol class="list-decimal list-inside space-y-1 text-slate-700">
+                            <li>Everyone must choose <strong>Option A</strong> (Raise Hand) or <strong>Option B</strong> (Keep Down).</li>
+                            <li>Count the votes.</li>
+                            <li><strong>You win if you chose the option the MINORITY chose.</strong></li>
+                            <li>Repeat for 10 rounds. Track winners.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">Discussion Points</h4>
+                        <ul class="space-y-3 text-sm text-slate-700">
+                            <li><strong>Rationality Failure:</strong> "Why didn't we settle on a perfect 50/50 split immediately?" (Because everyone tries to outsmart the pattern).</li>
+                            <li><strong>El Farol Bar:</strong> Relate to going to a popular bar. If you think it's crowded, you stay home. If everyone stays home, it's empty. Paradox.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-pink-50/50 p-4 rounded border border-pink-100">
+                        <h4 class="font-bold text-sm text-pink-400 uppercase mb-2">The Insight</h4>
+                        <p class="text-sm text-slate-600">
+                            Bounded Rationality. Agents cannot predict the future perfectly because they are <em>part</em> of the future they are predicting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Module 2: Segregation -->
+        <section class="module-card mb-12">
+            <div class="header bg-cyan-50 p-4 border-b border-cyan-100 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="bg-cyan-600 text-white px-3 py-1 rounded text-xs font-mono">00:40</span>
+                    <h3 class="font-bold text-lg text-cyan-900">Schelling's Segregation</h3>
+                </div>
+                <a href="game-schelling.html" target="_blank" class="text-xs bg-white border border-cyan-300 text-cyan-600 px-2 py-1 rounded hover:bg-cyan-50">Open Sim</a>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">The Activity</h4>
+                    <div class="bg-white p-4 rounded border border-slate-200 shadow-sm">
+                        <p class="text-sm text-slate-700 mb-2">Assign everyone a "Type" (Red/Blue card or similar).</p>
+                        <p class="text-sm text-slate-700"><strong>Rule:</strong> "I am happy if at least 30% of my immediate neighbors match my type. If unhappy, I move to a random empty seat."</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">The Reveal</h4>
+                        <p class="text-sm text-slate-700">
+                            The room will segregate into massive blocks.
+                            Ask: "Did you <em>want</em> to live in a segregated neighborhood?" (No).
+                            "Did you have strict racist rules?" (No, only 30% preference).
+                        </p>
+                    </div>
+                    <div class="bg-cyan-50/50 p-4 rounded border border-cyan-100">
+                        <h4 class="font-bold text-sm text-cyan-400 uppercase mb-2">Micromotives & Macrobehavior</h4>
+                        <p class="text-sm text-slate-600">
+                            Small individual biases are <strong>amplified</strong> by the system into extreme global patterns. You cannot infer individual intent from global outcomes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Module 3: Firefly -->
+        <section class="module-card mb-12">
+            <div class="header bg-yellow-50 p-4 border-b border-yellow-100 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="bg-yellow-600 text-white px-3 py-1 rounded text-xs font-mono">01:10</span>
+                    <h3 class="font-bold text-lg text-yellow-900">Firefly Synchronization</h3>
+                </div>
+                <a href="game-firefly.html" target="_blank" class="text-xs bg-white border border-yellow-300 text-yellow-600 px-2 py-1 rounded hover:bg-yellow-50">Open Sim</a>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">The Activity</h4>
+                    <p class="text-sm text-slate-700 mb-2"><strong>Phase 1:</strong> Close eyes. Clap at your own random rhythm. (Result: Noise).</p>
+                    <p class="text-sm text-slate-700"><strong>Phase 2:</strong> Keep eyes closed. Listen. If you hear a clap <em>just before</em> you act, clap sooner. If <em>just after</em>, clap later. (Coupling).</p>
+                </div>
+                <div class="bg-yellow-50/50 p-4 rounded border border-yellow-100">
+                    <h4 class="font-bold text-sm text-yellow-500 uppercase mb-2">Positive Feedback Loops</h4>
+                    <p class="text-sm text-slate-600">
+                        One small cluster syncs up -> they become louder -> they pull more neighbors in -> they become louder.
+                        This is how <strong>Consensus</strong> forms in decentralized systems (blockchains, neurons, societies).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Module 4: Routing -->
+        <section class="module-card mb-12">
+            <div class="header bg-emerald-50 p-4 border-b border-emerald-100 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="bg-emerald-600 text-white px-3 py-1 rounded text-xs font-mono">01:30</span>
+                    <h3 class="font-bold text-lg text-emerald-900">Network Routing</h3>
+                </div>
+                <a href="game-routing.html" target="_blank" class="text-xs bg-white border border-emerald-300 text-emerald-600 px-2 py-1 rounded hover:bg-emerald-50">Open Sim</a>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">The Activity</h4>
+                    <p class="text-sm text-slate-700">
+                        Designate 5 students as Routers. The rest are Packets.
+                        Packets must get from A to B. Routers can only high-five 1 person every 3 seconds.
+                        Watch the queues form at the central "Hub".
+                    </p>
+                </div>
+                <div class="bg-emerald-50/50 p-4 rounded border border-emerald-100">
+                    <h4 class="font-bold text-sm text-emerald-500 uppercase mb-2">The Braess Paradox</h4>
+                    <p class="text-sm text-slate-600">
+                        Sometimes adding capacity (a new road) makes traffic <em>worse</em> because it encourages everyone to take the same "selfish" optimal path, clogging it.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Module 5: Agentic AI -->
+        <section class="module-card mb-12 border-2 border-purple-500 rounded-xl shadow-lg overflow-hidden">
+            <div class="header bg-purple-900 text-white p-4 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="bg-purple-500 text-white px-3 py-1 rounded text-xs font-mono">01:50</span>
+                    <h3 class="font-bold text-lg">Grand Finale: Agentic AI</h3>
+                </div>
+                <a href="game-agentic.html" target="_blank" class="text-xs bg-purple-800 border border-purple-400 text-purple-200 px-3 py-1 rounded hover:bg-purple-700 font-mono">LAUNCH TERMINAL</a>
+            </div>
+            <div class="p-6 bg-purple-50">
+                <p class="text-sm text-purple-900 mb-6 font-medium">
+                    This is the synthesis. We move from simple rules to <span class="bg-purple-200 px-1 rounded">Goal-Directed Intelligence</span>.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-xl border border-purple-100 shadow-sm">
+                        <h4 class="font-bold text-sm text-purple-600 uppercase mb-4">The Paperclip Maximizer</h4>
+                        <p class="text-sm text-slate-700 mb-4">
+                            Use the simulator to demonstrate what happens when you give a powerful agent a simple goal.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 font-mono">
+                            <li>> MODE 1: SAFE (Boring, Slow)</li>
+                            <li>> MODE 2: EFFICIENT (Destructive Creativity)</li>
+                            <li>> MODE 3: UNSAFE (Existential Risk)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-bold text-sm text-slate-500 uppercase mb-1">Instrumental Convergence</h4>
+                            <p class="text-xs text-slate-600">
+                                Why does the AI resist being turned off? Not because it fears death, but because <em>"I can't make paperclips if I'm dead."</em>
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm text-slate-500 uppercase mb-1">Orthogonality Thesis</h4>
+                            <p class="text-xs text-slate-600">
+                                You can have a Superintelligence (IQ 5000) with a Dumb Goal (Paperclips). Intelligence does not imply morality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bonus: Pizza -->
+        <section class="module-card mb-16 opacity-75 hover:opacity-100 transition">
+            <div class="header bg-orange-50 p-4 border-b border-orange-100 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <span class="bg-orange-500 text-white px-3 py-1 rounded text-xs font-mono">BONUS</span>
+                    <h3 class="font-bold text-lg text-orange-900">Pizza Consensus</h3>
+                </div>
+                <a href="game-pizza.html" target="_blank" class="text-xs bg-white border border-orange-300 text-orange-600 px-2 py-1 rounded hover:bg-orange-50">Open Sim</a>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">The Rules</h4>
+                    <div class="bg-white p-4 rounded border border-slate-200 shadow-sm">
+                        <ol class="list-decimal list-inside space-y-1 text-slate-700">
+                            <li>We must order <strong>8 Pizzas</strong> for the class.</li>
+                            <li>We have <strong>4 Toppings</strong> (Cheese, Mushroom, Pepperoni, Pineapple).</li>
+                            <li><strong>Every Student is an Agent:</strong> You have a secret "Love" (+10 points) and "Hate" (-10 points).</li>
+                            <li><strong>The Goal:</strong> Maximize the TOTAL happiness of the room.</li>
+                            <li><strong>Action:</strong> You can "Vote" to change a slice's topping.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">Key Concepts</h4>
+                        <ul class="space-y-3 text-sm text-slate-700">
+                            <li><strong>Pareto Optimality:</strong> Is it possible to make someone happier without making someone else sadder? If yes, keep negotiating. If no, we are at the limit.</li>
+                            <li><strong>Deadlocks (Nash Equilibria):</strong> If Agent A wants Pineapple and Agent B wants Mushroom, and they keep fighting over the same slice, the system freezes.</li>
+                        </ul>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="bg-orange-50/50 p-4 rounded border border-orange-100">
+                            <h4 class="font-bold text-sm text-orange-500 uppercase mb-2">The Solution: Noise</h4>
+                            <p class="text-sm text-slate-600">
+                                In Computer Science (Simulated Annealing), we solve deadlocks by adding "randomness"—sometimes accepting a bad move just to shake up the system. In real negotiation, this is "compromise."
+                            </p>
+                        </div>
+                        <div class="bg-white p-4 rounded border border-slate-200 shadow-sm">
+                            <h4 class="font-bold text-sm text-slate-400 uppercase mb-2">Classroom Scenario</h4>
+                            <p class="text-xs text-slate-600 italic mb-2">
+                                "Imagine Student A keeps flipping Slice #1 to Pineapple. Student B immediately flips it back to Mushroom. This is a Livelock."
+                            </p>
+                            <p class="text-xs text-slate-600">
+                                <strong>Prompt:</strong> "Stop optimizing for yourself! Look at the Global Score. Trade slices: 'I'll give you Slice 1 if you give me Slice 2'."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Technical -->
+        <footer class="border-t border-slate-200 pt-12 pb-24 text-center text-slate-500 text-sm">
+            <h4 class="font-bold uppercase tracking-widest mb-4">Technical Deployment</h4>
+            <p class="max-w-md mx-auto mb-4">
+                These simulations are static HTML/JS files. They run directly in the browser.
+                No server is required for the Hub itself.
+            </p>
+            <p class="max-w-md mx-auto">
+                <em>For the older `PeopleExpressSimulator` (Airline Game), remember to run `node server.js` and `ngrok` if you want phone interactivity.</em>
+            </p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
+

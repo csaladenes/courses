@@ -1,0 +1,72 @@
+/* styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Gradient Animation */
+@keyframes gradient-x {
+    0%, 100% {
+        background-size: 200% 200%;
+        background-position: left center;
+    }
+    50% {
+        background-size: 200% 200%;
+        background-position: right center;
+    }
+}
+
+.animate-gradient-x {
+    animation: gradient-x 3s ease infinite;
+}
+
+/* Timeline Connectors */
+.module-item::after {
+    content: '';
+    position: absolute;
+    /* Vertical line connects this node to the next */
+    left: 2rem; /* Mobile alignment */
+    top: 3rem;
+    bottom: -4rem; /* Extend to next item */
+    width: 2px;
+    background: #334155;
+    z-index: 0;
+}
+
+@media (min-width: 768px) {
+    .module-item::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Remove line from last item */
+.module-item:last-child::after {
+    display: none;
+}
+
+/* Active State Styling */
+.active-module .w-12 {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 30px rgba(255,255,255,0.5);
+}
+
+.active-module i {
+    color: #0f172a;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0f172a; 
+}
+::-webkit-scrollbar-thumb {
+    background: #334155; 
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #475569; 
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minority Game Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-white font-['Outfit'] overflow-hidden h-screen flex flex-col">
+
+    <!-- Header -->
+    <div class="p-4 border-b border-white/10 flex justify-between items-center bg-slate-800/50">
+        <h1 class="text-2xl font-bold text-pink-400">El Farol / Minority Game</h1>
+        <a href="index.html" class="text-sm text-slate-400 hover:text-white">← Back to Hub</a>
+    </div>
+
+    <div class="flex-1 flex overflow-hidden">
+        <!-- Controls -->
+        <aside class="w-96 bg-slate-800 p-6 flex flex-col gap-6 overflow-y-auto z-10 shadow-xl">
+            <div>
+                <label class="block text-sm text-slate-400 mb-2">Input Round Data</label>
+                <div class="flex gap-2 mb-4">
+                    <input type="number" id="vote-a" placeholder="Votes for A" class="w-1/2 bg-slate-900 border border-slate-700 rounded px-3 py-2 focus:border-pink-500 outline-none transition">
+                    <input type="number" id="vote-b" placeholder="Votes for B" class="w-1/2 bg-slate-900 border border-slate-700 rounded px-3 py-2 focus:border-pink-500 outline-none transition">
+                </div>
+                <button onclick="submitRound()" class="w-full bg-pink-600 hover:bg-pink-500 text-white font-bold py-3 rounded transition shadow-lg shadow-pink-900/20">Submit Round</button>
+            </div>
+
+            <div class="border-t border-white/10 pt-4">
+                <h3 class="font-bold mb-2">Live Stats</h3>
+                <div class="flex justify-between text-sm mb-1">
+                    <span class="text-slate-400">Total Rounds:</span>
+                    <span id="round-count" class="font-mono text-pink-300">0</span>
+                </div>
+                <div class="flex justify-between text-sm mb-1">
+                    <span class="text-slate-400">Market Efficiency:</span>
+                    <span id="efficiency" class="font-mono text-pink-300">0%</span>
+                </div>
+            </div>
+
+            <!-- Educational Content -->
+            <div class="space-y-4 pt-4 border-t border-white/10">
+                <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
+                    <h4 class="text-pink-400 font-bold text-sm mb-2">The Concept</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Based on the <strong>El Farol Bar Problem</strong> (Brian Arthur, 1994). 
+                        If everyone goes to the bar, it's crowded and no one has fun. 
+                        If no one goes, it's empty and boring. 
+                        <br><br>
+                        The goal is to be in the <strong>Minority</strong>. This models resource competition where resources are scarce (e.g., road capacity, stock market arbitrage).
+                    </p>
+                </div>
+
+                <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
+                    <h4 class="text-pink-400 font-bold text-sm mb-2">Why it Oscillates</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        If "Option A" wins round 1, agents adapt and pick "Option A" next time... which makes it crowded, causing "Option B" to win.
+                        <br><br>
+                        This creates <strong>Volatility</strong>. A perfectly efficient market would stay at a 50/50 split, but human agents using heuristics (past history) create constant fluctuations.
+                    </p>
+                </div>
+            </div>
+            
+            <button onclick="resetData()" class="mt-auto text-xs text-red-400 hover:text-red-300 pt-4">Reset All Data</button>
+        </aside>
+
+        <!-- Visualization -->
+        <main class="flex-1 p-8 relative bg-slate-900">
+             <!-- Background Pattern -->
+             <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#ec4899_1px,transparent_1px)] [background-size:20px_20px]"></div>
+             
+             <div class="relative z-10 h-full flex flex-col gap-6">
+                <!-- Recent Result Card -->
+                <div class="flex gap-4">
+                    <div class="flex-1 bg-slate-800/80 backdrop-blur p-6 rounded-2xl border border-white/5 flex flex-col items-center justify-center h-48 transition-all shadow-2xl" id="result-card">
+                        <span class="text-slate-400 uppercase tracking-widest text-xs mb-2 font-bold">Last Round Winner</span>
+                        <h2 class="text-6xl font-black text-white drop-shadow-lg" id="winner-display">--</h2>
+                        <div class="mt-2 text-sm text-slate-300 bg-slate-900/50 px-4 py-1 rounded-full font-mono" id="winner-detail">Waiting for data...</div>
+                    </div>
+                </div>
+
+                <!-- Chart -->
+                <div class="flex-1 bg-slate-800/80 backdrop-blur p-4 rounded-2xl border border-white/5 shadow-xl">
+                    <canvas id="gameChart"></canvas>
+                </div>
+             </div>
+        </main>
+    </div>
+
+    <script>
+        let roundData = [];
+        let chart;
+
+        function initChart() {
+            const ctx = document.getElementById('gameChart').getContext('2d');
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [
+                        {
+                            label: 'Option A Votes',
+                            data: [],
+                            borderColor: '#ec4899', // Pink
+                            backgroundColor: 'rgba(236, 72, 153, 0.1)',
+                            tension: 0.3,
+                            fill: true,
+                            borderWidth: 3
+                        },
+                        {
+                            label: 'Option B Votes',
+                            data: [],
+                            borderColor: '#06b6d4', // Cyan
+                            backgroundColor: 'rgba(6, 182, 212, 0.1)',
+                            tension: 0.3,
+                            fill: true,
+                            borderWidth: 3
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: { labels: { color: '#cbd5e1', font: { family: 'Outfit' } } },
+                        tooltip: {
+                            backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                            titleColor: '#fff',
+                            bodyColor: '#cbd5e1',
+                            borderColor: 'rgba(255,255,255,0.1)',
+                            borderWidth: 1
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+                            ticks: { color: '#94a3b8', font: { family: 'Outfit' } }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#94a3b8', font: { family: 'Outfit' } }
+                        }
+                    }
+                }
+            });
+        }
+
+        function submitRound() {
+            const voteA = parseInt(document.getElementById('vote-a').value) || 0;
+            const voteB = parseInt(document.getElementById('vote-b').value) || 0;
+            
+            if(voteA === 0 && voteB === 0) return;
+
+            const total = voteA + voteB;
+            let winner = "DRAW";
+            let winColor = "text-slate-200";
+            
+            if (voteA < voteB) {
+                winner = "OPTION A";
+                winColor = "text-pink-500";
+            } else if (voteB < voteA) {
+                winner = "OPTION B";
+                winColor = "text-cyan-500";
+            }
+
+            // Update Data
+            const roundNum = roundData.length + 1;
+            roundData.push({ round: roundNum, a: voteA, b: voteB, winner });
+
+            // Update UI
+            document.getElementById('winner-display').innerText = winner;
+            document.getElementById('winner-display').className = `text-6xl font-black drop-shadow-lg ${winColor}`;
+            document.getElementById('winner-detail').innerText = `A: ${voteA} vs B: ${voteB} (Total: ${total})`;
+            
+            document.getElementById('round-count').innerText = roundNum;
+            
+            // Efficiency Calc
+            const minoritySize = Math.min(voteA, voteB);
+            const ideal = total / 2;
+            const eff = ideal > 0 ? Math.round((minoritySize / ideal) * 100) : 0;
+            document.getElementById('efficiency').innerText = eff + "%";
+
+            // Update Chart
+            chart.data.labels.push(`R${roundNum}`);
+            chart.data.datasets[0].data.push(voteA);
+            chart.data.datasets[1].data.push(voteB);
+            chart.update();
+
+            // Clear Inputs
+            document.getElementById('vote-a').value = '';
+            document.getElementById('vote-b').value = '';
+            document.getElementById('vote-a').focus();
+        }
+
+        function resetData() {
+            if(confirm("Clear all game history?")) {
+                roundData = [];
+                chart.data.labels = [];
+                chart.data.datasets.forEach(dataset => dataset.data = []);
+                chart.update();
+                document.getElementById('winner-display').innerText = "--";
+                document.getElementById('round-count').innerText = "0";
+                document.getElementById('efficiency').innerText = "0%";
+            }
+        }
+
+        initChart();
+        // Trigger intro animation
+        setTimeout(() => document.getElementById('vote-a').focus(), 500);
+    </script>
+</body>
+</html>

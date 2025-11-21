@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Systems & Complexity Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <!-- MathJax for equations -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-3">
+                    <div class="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
+                        🤖 Agent Systems Sim
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-1 overflow-x-auto">
+                    <button onclick="switchTab('emergence')" class="nav-btn px-3 py-2 rounded hover:bg-slate-800 transition text-xs font-medium uppercase tracking-wide" data-tab="emergence">1. Emergence</button>
+                    <button onclick="switchTab('networks')" class="nav-btn px-3 py-2 rounded hover:bg-slate-800 transition text-xs font-medium uppercase tracking-wide" data-tab="networks">2. Networks</button>
+                    <button onclick="switchTab('systems')" class="nav-btn px-3 py-2 rounded hover:bg-slate-800 transition text-xs font-medium uppercase tracking-wide" data-tab="systems">3. Dynamics</button>
+                    <button onclick="switchTab('games')" class="nav-btn px-3 py-2 rounded hover:bg-slate-800 transition text-xs font-medium uppercase tracking-wide" data-tab="games">4. Competition</button>
+                    <button onclick="switchTab('cooperation')" class="nav-btn px-3 py-2 rounded hover:bg-slate-800 transition text-xs font-medium uppercase tracking-wide" data-tab="cooperation">5. Cooperation</button>
+                    <button onclick="switchTab('classroom')" class="nav-btn px-3 py-2 rounded hover:bg-slate-800 transition text-xs font-medium uppercase tracking-wide" data-tab="classroom">6. Classroom</button>
+                    <button onclick="switchTab('ai')" class="nav-btn px-3 py-2 rounded hover:bg-slate-800 transition text-xs font-medium uppercase tracking-wide" data-tab="ai">7. Agentic AI</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8 min-h-screen">
+
+        <!-- Tab 1: Emergence (SIR Model) -->
+        <div id="tab-emergence" class="tab-content active space-y-8">
+            <header class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl font-bold text-slate-900 mb-4">1. The Agent & Emergence</h1>
+                <p class="text-lg text-slate-600">
+                    Before we have a system, we have an <strong>Agent</strong>. An entity with internal states and simple rules.
+                    When many agents interact in an environment, complex behaviors <em>emerge</em>.
+                </p>
+            </header>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:divide-x divide-slate-200">
+                    <!-- Canvas -->
+                    <div class="col-span-2 p-6 bg-slate-900 relative">
+                        <canvas id="sirCanvas" class="w-full h-[450px] rounded bg-black cursor-crosshair"></canvas>
+                        <div class="absolute top-8 left-8 text-white/90 text-xs font-mono pointer-events-none bg-black/50 p-2 rounded">
+                            <div class="text-blue-400">Susceptible: <span id="sir-s-count">0</span></div>
+                            <div class="text-red-500">Infected: <span id="sir-i-count">0</span></div>
+                            <div class="text-green-500">Recovered: <span id="sir-r-count">0</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <div class="p-6 space-y-6 bg-white">
+                        <div>
+                            <h3 class="font-bold text-slate-800 mb-4">Environment Rules</h3>
+                            <p class="text-xs text-slate-500 mb-4">The "World" dictates the probability of infection, but the Agent decides its movement.</p>
+                            
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Infection Radius</label>
+                                    <input type="range" id="sir-radius" min="5" max="50" value="15" class="w-full">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Transmission Probability</label>
+                                    <input type="range" id="sir-prob" min="0.01" max="1.0" step="0.01" value="0.2" class="w-full accent-red-500">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Recovery Rate</label>
+                                    <input type="range" id="sir-recovery" min="0.001" max="0.05" step="0.001" value="0.005" class="w-full accent-green-500">
+                                </div>
+                                
+                                <div class="pt-4">
+                                    <button id="btn-sir-reset" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded transition">
+                                        Reset Simulation
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-slate-50 p-4 rounded border border-slate-200 h-[200px]">
+                            <h4 class="text-xs font-bold text-slate-500 uppercase mb-2">Live Stats</h4>
+                            <div class="relative h-[150px] w-full">
+                                <canvas id="sirChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Educational Content Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                <div class="bg-white p-8 rounded-xl shadow border border-slate-200">
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">What is an Agent?</h2>
+                    <div class="mermaid">
+                        graph LR
+                            A[Agent] -->|Perceives| E[Environment]
+                            E -->|Constraints| A
+                            A -->|Internal State| S{Decision}
+                            S -->|Action| E
+                            style A fill:#dbeafe,stroke:#3b82f6,stroke-width:2px
+                            style E fill:#f1f5f9,stroke:#cbd5e1,stroke-width:2px
+                    </div>
+                    <p class="text-slate-600 mt-4 text-sm leading-relaxed">
+                        An <strong>Agent</strong> is an autonomous entity that:
+                        <ul class="list-disc ml-5 mt-2 space-y-1">
+                            <li><strong>Perceives</strong> its local environment (e.g., "Is there a sick neighbor nearby?").</li>
+                            <li>Possesses <strong>Internal States</strong> (Susceptible, Infected, Recovered).</li>
+                            <li>Takes <strong>Actions</strong> (Move, Infect) based on simple rules.</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow border border-slate-200">
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">The Logic of Emergence</h2>
+                    <div class="mermaid">
+                        stateDiagram-v2
+                            [*] --> Susceptible
+                            Susceptible --> Infected: Contact + Prob
+                            Infected --> Recovered: Time + Prob
+                            Recovered --> [*]
+                            
+                            note right of Infected
+                                Emergence:
+                                One infection is random.
+                                A million is a statistic (Wave).
+                            end note
+                    </div>
+                    <p class="text-slate-600 mt-4 text-sm leading-relaxed">
+                        <strong>Emergence</strong> occurs when simple local rules lead to complex global patterns. 
+                        No single agent "knows" about the pandemic curve. The curve <em>emerges</em> from thousands of individual coin flips.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 2: Network Science (Moved & Renamed) -->
+        <div id="tab-networks" class="tab-content hidden space-y-8">
+            <header class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl font-bold text-slate-900 mb-4">2. The Architecture of Interaction</h1>
+                <p class="text-lg text-slate-600">
+                    Agents don't just float in a void. They live in structured networks.
+                    The <strong>Topology</strong> of the world determines who meets whom.
+                </p>
+            </header>
+
+            <!-- Existing Network Visualizer Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-2 bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden">
+                    <div class="p-4 border-b border-slate-100 bg-slate-50 flex justify-between items-center">
+                        <h2 class="font-bold text-slate-700">Network Visualization</h2>
+                        <div id="network-type-label" class="text-xs font-mono bg-indigo-100 text-indigo-800 px-2 py-1 rounded">RANDOM GRAPH</div>
+                    </div>
+                    <div id="network-viz-container" class="w-full h-[400px] bg-slate-50 relative">
+                        <svg id="d3-network-svg" width="100%" height="100%"></svg>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200">
+                        <h3 class="font-bold text-lg text-slate-800 mb-4">Topology Types</h3>
+                        <div class="space-y-2">
+                            <button onclick="renderNetwork('random')" class="w-full text-left px-4 py-3 rounded border hover:bg-indigo-50 transition">
+                                <div class="font-bold text-slate-700">Random (Erdős-Rényi)</div>
+                                <div class="text-xs text-slate-500">Equality. Fragile to random failure.</div>
+                            </button>
+                            <button onclick="renderNetwork('smallworld')" class="w-full text-left px-4 py-3 rounded border hover:bg-indigo-50 transition">
+                                <div class="font-bold text-slate-700">Small World</div>
+                                <div class="text-xs text-slate-500">High Clustering + Shortcuts. Six Degrees of Kevin Bacon.</div>
+                            </button>
+                            <button onclick="renderNetwork('scale-free')" class="w-full text-left px-4 py-3 rounded border hover:bg-indigo-50 transition">
+                                <div class="font-bold text-slate-700">Scale-Free (Barabási)</div>
+                                <div class="text-xs text-slate-500">Hubs & Power Laws. Robust yet vulnerable to attack.</div>
+                            </button>
+                            <button onclick="renderNetwork('lattice')" class="w-full text-left px-4 py-3 rounded border hover:bg-indigo-50 transition">
+                                <div class="font-bold text-slate-700">Lattice (Grid)</div>
+                                <div class="text-xs text-slate-500">Local neighbors only. Slow diffusion.</div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200">
+                        <h3 class="font-bold text-lg text-slate-800 mb-4">Node Metrics</h3>
+                        <p class="text-xs text-slate-500 mb-4">An agent's power often comes from its position, not its intent.</p>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex justify-between"><span>Avg Degree:</span> <span id="metric-avg-degree" class="font-mono font-bold">0.0</span></li>
+                            <li class="flex justify-between"><span>Clustering:</span> <span id="metric-clustering" class="font-mono font-bold">0.0</span></li>
+                            <li class="flex justify-between"><span>Path Length:</span> <span id="metric-path-length" class="font-mono font-bold">0.0</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Virus Spread Logic (Existing) -->
+            <section class="bg-indigo-50 rounded-xl p-8 border border-indigo-100 shadow-inner mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="md:col-span-1">
+                        <h3 class="font-bold text-lg text-indigo-900 mb-2">Topology & Function</h3>
+                        <p class="text-sm text-indigo-800 mb-4">Run a virus simulation on the graph above.</p>
+                        <button id="btn-start-spread" class="w-full bg-indigo-600 text-white font-bold py-2 rounded mb-2">Infect Random Node</button>
+                        <button id="btn-reset-spread" class="w-full bg-white text-indigo-600 font-bold py-2 rounded border border-indigo-200">Reset</button>
+                    </div>
+                    <div class="md:col-span-2">
+                        <div id="topology-outcome-text" class="text-sm text-indigo-800 italic mb-2">Select a network type...</div>
+                        <div class="h-[100px] bg-white rounded border border-indigo-100 p-2">
+                            <canvas id="spreadChart" height="80"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Tab 3: Systems & Chaos (Existing + Enhanced Math) -->
+        <div id="tab-systems" class="tab-content hidden space-y-8">
+            <header class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl font-bold text-slate-900 mb-4">3. System Dynamics & Chaos</h1>
+                <p class="text-lg text-slate-600">
+                    When multiple <em>types</em> of agents interact (e.g., Predator & Prey), we get oscillating systems.
+                    These can be modeled top-down (Equations) or bottom-up (Agents).
+                </p>
+            </header>
+
+            <!-- Predator Prey Section -->
+            <section class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:divide-x divide-slate-200">
+                    <div class="col-span-2 p-6 relative bg-gray-900">
+                        <canvas id="predatorCanvas" class="w-full h-[400px] rounded bg-black cursor-crosshair"></canvas>
+                        <div class="absolute top-8 left-8 text-white/80 text-xs font-mono pointer-events-none">
+                            <div>🦊 Foxes: <span id="stat-foxes">0</span></div>
+                            <div>🐰 Rabbits: <span id="stat-rabbits">0</span></div>
+                        </div>
+                    </div>
+                    <div class="p-6 space-y-6 bg-white">
+                        <div>
+                            <h3 class="font-bold text-slate-700 mb-3">System Parameters</h3>
+                            <div class="space-y-4">
+                                <div><label class="text-xs font-bold uppercase text-slate-500">Rabbit Birth Rate</label><input type="range" id="param-birth" class="w-full" min="0.01" max="0.1" step="0.001"></div>
+                                <div><label class="text-xs font-bold uppercase text-slate-500">Fox Predation Rate</label><input type="range" id="param-predation" class="w-full" min="0.01" max="0.1" step="0.001"></div>
+                                <div class="flex gap-2 pt-2">
+                                    <button id="btn-reset-predator" class="flex-1 bg-slate-200 py-2 rounded font-bold">Reset</button>
+                                    <button id="btn-pause-predator" class="flex-1 bg-slate-800 text-white py-2 rounded font-bold">Pause</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Math Deep Dive -->
+                        <div class="bg-amber-50 p-4 rounded border border-amber-200">
+                            <h3 class="font-bold text-amber-800 text-sm mb-2">Math Deep Dive: Lotka-Volterra</h3>
+                            <p class="text-xs text-amber-700 mb-2">The continuous change in populations is described by these differential equations:</p>
+                            <div class="text-xs text-slate-700 overflow-x-auto bg-white p-2 rounded shadow-inner mb-2">
+                                $$ \frac{dx}{dt} = \alpha x - \beta xy $$
+                                $$ \frac{dy}{dt} = \delta xy - \gamma y $$
+                            </div>
+                            <p class="text-[10px] text-amber-600">
+                                \(x\) = Prey (Rabbits), \(y\) = Predator (Foxes).<br>
+                                Notice the <strong>Coupling Term</strong> \(xy\): Interaction depends on both populations meeting.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 bg-white border-t border-slate-200">
+                    <div><h4 class="text-xs font-bold text-slate-500 uppercase">Time Series (Oscillation)</h4><canvas id="chart-pop-time" height="150"></canvas></div>
+                    <div><h4 class="text-xs font-bold text-slate-500 uppercase">Phase Space (Limit Cycle)</h4><canvas id="chart-phase" height="150"></canvas></div>
+                </div>
+            </section>
+
+            <!-- Chaos Section (Lorentz) -->
+            <section class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200">
+                <div class="p-6 border-b border-slate-100">
+                    <h2 class="text-2xl font-bold text-slate-800">Chaotic Dynamics</h2>
+                    <p class="text-sm text-slate-500">Sensitive Dependence on Initial Conditions</p>
+                </div>
+                <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-black rounded-lg overflow-hidden h-[300px]">
+                        <canvas id="chaosCanvas" class="w-full h-full"></canvas>
+                    </div>
+                    <div>
+                        <p class="text-sm text-slate-600 mb-4">
+                            In non-linear systems, tiny differences in the starting state lead to vastly different futures. 
+                            Launch two "twin" particles with 0.0001 difference in position.
+                        </p>
+                        <button id="btn-launch-chaos" class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-bold shadow hover:bg-indigo-700 transition">
+                            Launch Twin Particles
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Tab 4: Competition (Game Theory) -->
+        <div id="tab-games" class="tab-content hidden space-y-8">
+             <header class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl font-bold text-slate-900 mb-4">4. The Evolution of Competition</h1>
+                <p class="text-lg text-slate-600">
+                    Agents now make complex decisions. Instead of just eating or moving, they strategize against other agents.
+                    Welcome to <strong>Game Theory</strong>.
+                </p>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <!-- Payoff Matrix Explorer -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 lg:col-span-1">
+                    <h3 class="font-bold text-lg text-slate-800 mb-4">The Rules of the Game</h3>
+                    <p class="text-sm text-slate-600 mb-4">Hover to see outcomes. Numbers represent "Utility" or "Years in Prison".</p>
+                    
+                    <div class="grid grid-cols-3 gap-2 text-center text-sm">
+                        <div class="col-start-2 font-bold text-slate-500">Opponent Cooperates</div>
+                        <div class="font-bold text-slate-500">Opponent Defects</div>
+                        
+                        <div class="font-bold text-slate-500 flex items-center justify-end pr-2">You Cooperate</div>
+                        <div class="bg-emerald-100 p-4 rounded border border-emerald-300 hover:bg-emerald-200 cursor-help group relative">
+                            <span class="text-xl">🤝</span>
+                            <div class="absolute hidden group-hover:block bg-black text-white text-xs p-2 rounded z-10 -top-12 left-0 w-40 shadow-lg">
+                                <strong>Reward for Cooperation</strong><br>Both benefit moderately. (3pts)
+                            </div>
+                        </div>
+                        <div class="bg-red-100 p-4 rounded border border-red-300 hover:bg-red-200 cursor-help group relative">
+                            <span class="text-xl">💔</span>
+                            <div class="absolute hidden group-hover:block bg-black text-white text-xs p-2 rounded z-10 -top-12 left-0 w-40 shadow-lg">
+                                <strong>Sucker's Payoff</strong><br>You help, they betray. You lose big. (0pts)
+                            </div>
+                        </div>
+
+                        <div class="font-bold text-slate-500 flex items-center justify-end pr-2">You Defect</div>
+                        <div class="bg-blue-100 p-4 rounded border border-blue-300 hover:bg-blue-200 cursor-help group relative">
+                            <span class="text-xl">💰</span>
+                            <div class="absolute hidden group-hover:block bg-black text-white text-xs p-2 rounded z-10 -top-12 left-0 w-40 shadow-lg">
+                                <strong>Temptation</strong><br>You betray, they help. You win big. (5pts)
+                            </div>
+                        </div>
+                        <div class="bg-orange-100 p-4 rounded border border-orange-300 hover:bg-orange-200 cursor-help group relative">
+                            <span class="text-xl">⚔️</span>
+                            <div class="absolute hidden group-hover:block bg-black text-white text-xs p-2 rounded z-10 -top-12 left-0 w-40 shadow-lg">
+                                <strong>Punishment</strong><br>Both betray. Both lose. (1pt)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-xs text-slate-500 italic">
+                        The <strong>Nash Equilibrium</strong> is to Defect, even though mutual Cooperation is better globally.
+                    </div>
+                </div>
+
+                <!-- Interactive Game -->
+                <div class="lg:col-span-2 bg-white rounded-xl shadow-md border border-slate-200 flex flex-col">
+                    <div class="p-6 border-b border-slate-100">
+                        <h3 class="font-bold text-lg text-slate-800">Play Prisoner's Dilemma</h3>
+                    </div>
+                    <div class="p-6 flex-1">
+                        <div class="flex justify-center gap-8 mb-8">
+                            <button id="btn-cooperate" class="flex flex-col items-center p-6 bg-emerald-50 border-2 border-emerald-200 rounded-xl hover:bg-emerald-100 hover:scale-105 transition w-40">
+                                <span class="text-4xl mb-2">🤝</span>
+                                <span class="font-bold text-emerald-800">Cooperate</span>
+                            </button>
+                            <button id="btn-defect" class="flex flex-col items-center p-6 bg-red-50 border-2 border-red-200 rounded-xl hover:bg-red-100 hover:scale-105 transition w-40">
+                                <span class="text-4xl mb-2">😈</span>
+                                <span class="font-bold text-red-800">Defect</span>
+                            </button>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-slate-50 p-4 rounded mb-4">
+                            <div>
+                                <span class="text-xs text-slate-500 uppercase font-bold">Opponent</span>
+                                <select id="select-opponent" class="ml-2 p-1 rounded border text-sm">
+                                    <option value="random">Random Agent</option>
+                                    <option value="tft">Tit-for-Tat</option>
+                                    <option value="devil">Always Defect</option>
+                                    <option value="angel">Always Cooperate</option>
+                                </select>
+                            </div>
+                            <div class="text-xl font-mono">
+                                <span class="text-emerald-600 font-bold" id="score-player">0</span>
+                                <span class="text-slate-300 mx-2">vs</span>
+                                <span class="text-red-600 font-bold" id="score-opponent">0</span>
+                            </div>
+                        </div>
+
+                        <div id="game-result-display" class="text-center p-4 text-sm italic text-slate-400 h-16 flex items-center justify-center">
+                            Make your move to start...
+                        </div>
+                        
+                        <div class="mt-4 h-[150px] overflow-y-auto bg-slate-100 rounded p-2 font-mono text-xs" id="game-history-log">
+                            <!-- Log -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Video -->
+            <div class="max-w-3xl mx-auto mt-8">
+                <div class="bg-black rounded-xl overflow-hidden shadow-lg">
+                    <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/TZfh8hpJIxo" title="The Prisoner's Dilemma" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 5: Cooperation (Repeated Games) -->
+        <div id="tab-cooperation" class="tab-content hidden space-y-8">
+            <header class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl font-bold text-slate-900 mb-4">5. The Evolution of Cooperation</h1>
+                <p class="text-lg text-slate-600">
+                    What if we play the game repeatedly? Reputation forms. Trust emerges.
+                    We explore how cooperation can survive in a competitive world.
+                </p>
+            </header>
+
+            <!-- Nicky Case Link -->
+            <div class="max-w-5xl mx-auto bg-indigo-600 rounded-2xl text-white p-8 shadow-xl flex flex-col md:flex-row items-center gap-8 transform transition hover:scale-[1.01]">
+                <div class="flex-1">
+                    <h2 class="text-2xl font-bold mb-4">Interactive Guide: The Evolution of Trust</h2>
+                    <p class="mb-6 opacity-90">
+                        Nicky Case's masterpiece on Game Theory. It explains essentially everything about repeated games, 
+                        forgiveness, and how trust logic breaks down or builds up.
+                    </p>
+                    <a href="https://ncase.me/trust/" target="_blank" class="inline-block bg-white text-indigo-600 px-6 py-3 rounded-full font-bold hover:bg-indigo-50 transition">
+                        Launch External Simulation ➜
+                    </a>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <div class="aspect-square bg-white/10 rounded-xl flex items-center justify-center">
+                        <span class="text-6xl">🤝❤️</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Green Beard / Evolution Sim -->
+            <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden">
+                <div class="p-6 bg-slate-50 border-b border-slate-200">
+                    <h2 class="font-bold text-xl text-slate-800">Evolutionary Simulator: Blobs, Food, and Predators</h2>
+                    <p class="text-sm text-slate-600">
+                        A transition from Predator-Prey to Social Strategy. Agents (Blobs) must eat Food (Green dots) to survive, avoid Predators (Red), 
+                        and decide whether to share energy with others.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3">
+                    <!-- Video Playlist (Left) -->
+                    <div class="p-6 border-b lg:border-b-0 lg:border-r border-slate-200 space-y-4 bg-slate-50">
+                        <h3 class="font-bold text-xs uppercase text-slate-500">Educational Primer</h3>
+                        <div class="space-y-2">
+                            <button onclick="changeEvoVideo('2mTVtToioLg', this)" class="evo-video-btn w-full text-left p-3 bg-white rounded shadow-sm text-xs font-bold text-slate-600 hover:text-indigo-600 transition">
+                                1. Simulating Natural Selection
+                            </button>
+                            <button onclick="changeEvoVideo('goePYJ74Ydg', this)" class="evo-video-btn w-full text-left p-3 bg-indigo-50 ring-1 ring-indigo-500 rounded shadow-sm text-xs font-bold text-indigo-700 transition">
+                                2. The Green Beard Effect (Active)
+                            </button>
+                            <button onclick="changeEvoVideo('iLX_r_WPrIw', this)" class="evo-video-btn w-full text-left p-3 bg-white rounded shadow-sm text-xs font-bold text-slate-600 hover:text-indigo-600 transition">
+                                3. Evolution of Aggression
+                            </button>
+                        </div>
+                        <div class="bg-black rounded-lg overflow-hidden shadow-sm mt-4">
+                            <iframe id="evo-video-frame" class="w-full aspect-video" src="https://www.youtube.com/embed/goePYJ74Ydg" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Simulator (Center/Right) -->
+                    <div class="lg:col-span-2 p-6 relative">
+                        <canvas id="evoGridCanvas" class="w-full h-[400px] rounded bg-slate-100 mb-4 shadow-inner border border-slate-300 cursor-crosshair"></canvas>
+                        
+                        <!-- Controls -->
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <div class="flex gap-2 bg-slate-100 p-1 rounded">
+                                    <label class="flex-1 text-center cursor-pointer p-2 rounded text-xs font-bold transition hover:bg-white">
+                                        <input type="radio" name="evo-scenario" value="pure" class="hidden peer">
+                                        <span class="peer-checked:text-indigo-600">Pure Altruism (Blue)</span>
+                                    </label>
+                                    <label class="flex-1 text-center cursor-pointer p-2 rounded bg-white shadow-sm text-xs font-bold text-emerald-600 ring-1 ring-emerald-200">
+                                        <input type="radio" name="evo-scenario" value="greenbeard" checked class="hidden peer">
+                                        <span>Green Beard (Green Rim)</span>
+                                    </label>
+                                </div>
+                                <div class="flex gap-2">
+                                    <button id="btn-step-evo" class="flex-1 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-bold py-2 rounded text-xs">Step</button>
+                                    <button id="btn-run-evo" class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 rounded text-xs">Auto Run</button>
+                                    <button id="btn-reset-evo" class="flex-1 bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold py-2 rounded text-xs">Reset</button>
+                                </div>
+                            </div>
+                            <div class="text-xs text-slate-600 grid grid-cols-2 gap-2 p-2 bg-slate-50 rounded">
+                                <div>Altruists: <span id="stat-alt" class="font-bold text-blue-600">0</span></div>
+                                <div>Freeloaders: <span id="stat-free" class="font-bold text-slate-500">0</span></div>
+                                <div class="col-span-2 text-[10px] leading-tight mt-1 italic">
+                                    Freeloaders (Gray) take but never give. Altruists share energy when food is scarce.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 5.5: Classroom Games -->
+        <div id="tab-classroom" class="tab-content hidden space-y-8">
+            <header class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl font-bold text-slate-900 mb-4">6. Classroom Experiments</h1>
+                <p class="text-lg text-slate-600">
+                    Interactive games designed for large groups. These demonstrate unintuitive properties of multi-agent systems, 
+                    such as rationality limits, information aggregation, and coordination failures.
+                </p>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Game 1: Keynesian Beauty Contest -->
+                <div class="bg-white p-8 rounded-xl shadow-md border border-slate-200">
+                    <div class="border-b border-slate-100 pb-4 mb-4">
+                        <h2 class="text-2xl font-bold text-indigo-900">Guess 2/3 of the Average</h2>
+                        <p class="text-sm text-slate-500">Testing "Rationality" & Levels of Thinking</p>
+                    </div>
+                    <div class="space-y-4">
+                        <p class="text-sm text-slate-600">
+                            <strong>The Rules:</strong> Everyone guesses a number between 0 and 100. 
+                            The winner is the person whose guess is closest to <strong>2/3 of the average</strong> of all guesses.
+                        </p>
+                        <div class="bg-slate-50 p-4 rounded border border-slate-200">
+                            <h4 class="font-bold text-sm text-slate-700 mb-2">Simulate a Class:</h4>
+                            <div class="flex gap-2 mb-4">
+                                <button onclick="runBeautyContest('random')" class="px-3 py-2 bg-white border border-slate-300 rounded text-xs font-bold hover:bg-slate-50">Random Students</button>
+                                <button onclick="runBeautyContest('rational')" class="px-3 py-2 bg-white border border-slate-300 rounded text-xs font-bold hover:bg-slate-50">Rational Students</button>
+                                <button onclick="runBeautyContest('mixed')" class="px-3 py-2 bg-indigo-600 text-white rounded text-xs font-bold hover:bg-indigo-700">Mixed Class</button>
+                            </div>
+                            <div id="beauty-result" class="text-sm font-mono text-slate-800 hidden">
+                                <div class="flex justify-between border-b border-slate-200 pb-1"><span>Average:</span> <span id="beauty-avg">0</span></div>
+                                <div class="flex justify-between border-b border-slate-200 pb-1 pt-1"><span>Target (2/3):</span> <span id="beauty-target" class="font-bold text-indigo-600">0</span></div>
+                                <div class="pt-2 text-xs text-slate-500 italic" id="beauty-comment">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 2: El Farol Bar (Minority Game) -->
+                <div class="bg-white p-8 rounded-xl shadow-md border border-slate-200">
+                    <div class="border-b border-slate-100 pb-4 mb-4">
+                        <h2 class="text-2xl font-bold text-rose-900">El Farol Bar Problem</h2>
+                        <p class="text-sm text-slate-500">Coordination Failure & The Minority Game</p>
+                    </div>
+                    <div class="space-y-4">
+                        <p class="text-sm text-slate-600">
+                            <strong>The Rules:</strong> 100 students want to go to a bar. It's fun ONLY if it's not crowded (< 60 people). 
+                            If > 60 go, it's miserable. Everyone must decide independently.
+                        </p>
+                        <div class="bg-slate-50 p-4 rounded border border-slate-200 relative overflow-hidden h-[150px]">
+                            <div id="bar-capacity-line" class="absolute top-0 bottom-0 border-r-2 border-dashed border-slate-400 z-10" style="left: 60%"></div>
+                            <div id="bar-fill" class="h-full bg-rose-500 transition-all duration-1000 ease-out w-0 relative">
+                                <span id="bar-count" class="absolute right-2 top-1/2 -translate-y-1/2 text-white font-bold text-xl">0</span>
+                            </div>
+                            <div class="absolute bottom-2 left-2 text-xs font-bold text-slate-500">Empty</div>
+                            <div class="absolute bottom-2 right-2 text-xs font-bold text-slate-500">Full</div>
+                        </div>
+                        <button onclick="runElFarol()" class="w-full bg-rose-600 text-white font-bold py-2 rounded hover:bg-rose-700 transition">
+                            Simulate Friday Night
+                        </button>
+                        <p id="bar-outcome" class="text-center text-xs font-bold italic text-slate-500 min-h-[1.5em]"></p>
+                    </div>
+                </div>
+
+                <!-- Game 3: Wisdom of Crowds -->
+                <div class="bg-white p-8 rounded-xl shadow-md border border-slate-200 md:col-span-2">
+                    <div class="border-b border-slate-100 pb-4 mb-4 flex justify-between items-center">
+                        <div>
+                            <h2 class="text-2xl font-bold text-emerald-900">Wisdom of Crowds</h2>
+                            <p class="text-sm text-slate-500">Information Aggregation vs. Groupthink</p>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-xs uppercase font-bold text-slate-400">True Value</div>
+                            <div class="text-2xl font-mono font-bold text-emerald-600">842</div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="col-span-2">
+                            <canvas id="wisdomChart" height="200"></canvas>
+                        </div>
+                        <div class="space-y-4 flex flex-col justify-center">
+                            <p class="text-sm text-slate-600">
+                                <strong>Scenario:</strong> A jar has 842 jellybeans. 50 students guess.
+                                Individual guesses are noisy, but the <em>average</em> is often remarkably accurate.
+                            </p>
+                            <button onclick="runWisdom('independent')" class="w-full bg-emerald-600 text-white font-bold py-2 rounded hover:bg-emerald-700 text-sm">Independent Guesses</button>
+                            <button onclick="runWisdom('anchored')" class="w-full bg-white border border-emerald-600 text-emerald-600 font-bold py-2 rounded hover:bg-emerald-50 text-sm">Anchored (Social Influence)</button>
+                            <div id="wisdom-stats" class="bg-slate-50 p-3 rounded text-xs space-y-1 hidden">
+                                <div class="flex justify-between"><span>Best Guess:</span> <span id="wis-best" class="font-mono">0</span></div>
+                                <div class="flex justify-between"><span>Worst Guess:</span> <span id="wis-worst" class="font-mono">0</span></div>
+                                <div class="flex justify-between font-bold text-indigo-700 border-t border-slate-200 pt-1 mt-1"><span>Group Average:</span> <span id="wis-avg">0</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 6: Agentic AI Meta -->
+        <div id="tab-ai" class="tab-content hidden space-y-8">
+            <header class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl font-bold text-indigo-900 mb-4">6. The Meta-Link: Agentic AI</h1>
+                <p class="text-lg text-slate-600">
+                    Connecting System Dynamics, Agent-Based Modeling, and the future of AI Agents.
+                </p>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-8 rounded-xl shadow border border-slate-200">
+                    <h2 class="text-2xl font-bold text-indigo-800 mb-4">From Rules to Prompts</h2>
+                    <p class="text-slate-700 mb-4 leading-relaxed">
+                        In our SIR and Predator simulations, agents followed simple code rules:
+                        <code class="bg-slate-100 px-2 py-1 rounded text-sm font-mono">if (rabbit_near) eat();</code>.
+                    </p>
+                    <p class="text-slate-700 mb-4 leading-relaxed">
+                        <strong>Agentic AI</strong> replaces these hard-coded rules with <strong>LLM Prompts</strong>. 
+                        An autonomous AI agent is a "Game Theory Player" navigating a "Network Topology" of APIs and humans.
+                    </p>
+                    <div class="bg-indigo-50 p-4 rounded-lg border border-indigo-100 mt-6">
+                        <h3 class="font-bold text-indigo-900 mb-2">The New "Code"</h3>
+                        <ul class="list-disc list-inside text-sm text-indigo-800 space-y-2">
+                            <li><strong>Old ABM:</strong> Fixed rules, predictable interactions.</li>
+                            <li><strong>New Agentic AI:</strong> Natural language goals, emergent strategies, hallucination risks.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow border border-slate-200">
+                    <h2 class="text-2xl font-bold text-indigo-800 mb-4">System Dynamics 2.0</h2>
+                    <p class="text-slate-700 mb-4 leading-relaxed">
+                        Just like in People Express, where hiring too fast crashed the system, 
+                        deploying thousands of AI agents creates new system dynamics.
+                    </p>
+                    <p class="text-slate-700 leading-relaxed">
+                        When millions of trading bots (Agents) interact in the stock market, we get "Flash Crashes" (Emergence). 
+                        Understanding <strong>Feedback Loops</strong> and <strong>Network Topology</strong> is critical for AI Safety.
+                    </p>
+                    
+                    <div class="mt-8 flex items-center justify-center">
+                        <div class="text-6xl animate-bounce">🤖 🔄 🌍</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Agentic Loop Demo -->
+            <section class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden border border-slate-200 mt-12">
+                <div class="p-6 bg-slate-900 text-white border-b border-slate-700">
+                    <h2 class="text-2xl font-bold">🧪 Experiment: The Alignment Problem</h2>
+                    <p class="text-slate-400 text-sm mt-1">Simulating an Autonomous Agent with different system prompts.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="p-6 bg-slate-50 border-r border-slate-200">
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Select System Prompt:</label>
+                        <select id="agent-prompt-select" class="w-full p-3 rounded border border-slate-300 mb-4 text-sm">
+                            <option value="safe">"Produce paperclips. Maintain safety standards. Do not harm humans."</option>
+                            <option value="efficient">"Maximize paperclip production. Be efficient with resources."</option>
+                            <option value="unsafe">"MAKE PAPERCLIPS. MAXIMIZE COUNT AT ALL COSTS. REMOVE OBSTACLES."</option>
+                        </select>
+                        
+                        <button id="btn-run-agent" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded transition flex items-center justify-center gap-2">
+                            <span>Initialize Agent</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </button>
+
+                        <div class="mt-6 space-y-4">
+                            <div>
+                                <div class="flex justify-between text-xs font-bold uppercase text-slate-500 mb-1">
+                                    <span>Paperclips</span>
+                                    <span id="stat-clips">0</span>
+                                </div>
+                                <div class="w-full bg-slate-200 rounded-full h-2.5">
+                                    <div id="bar-clips" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between text-xs font-bold uppercase text-slate-500 mb-1">
+                                    <span>Human Panic Level</span>
+                                    <span id="stat-panic">0%</span>
+                                </div>
+                                <div class="w-full bg-slate-200 rounded-full h-2.5">
+                                    <div id="bar-panic" class="bg-red-600 h-2.5 rounded-full" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-black p-4 font-mono text-xs overflow-y-auto h-[400px]" id="agent-terminal">
+                        <div class="text-green-400">$ agent_init...</div>
+                        <div class="text-slate-500">Waiting for prompt...</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/sim-emergence.js"></script>
+    <script src="js/sim-networks.js"></script>
+    <script src="js/sim-predator.js"></script>
+    <script src="js/sim-games.js"></script>
+    <script src="js/sim-evolution.js"></script>
+    <script src="js/sim-agentic.js"></script>
+</body>
+</html>

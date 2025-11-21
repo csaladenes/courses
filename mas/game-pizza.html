@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Pizza Negotiation Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-white font-['Outfit'] overflow-hidden h-screen flex flex-col">
+
+    <!-- Header -->
+    <div class="p-4 border-b border-white/10 flex justify-between items-center bg-slate-800/50">
+        <h1 class="text-2xl font-bold text-orange-500">Distributed Pizza Consensus</h1>
+        <a href="index.html" class="text-sm text-slate-400 hover:text-white">← Back to Hub</a>
+    </div>
+
+    <div class="flex-1 flex overflow-hidden">
+        <!-- Controls -->
+        <aside class="w-96 bg-slate-800 p-6 flex flex-col gap-6 z-10 shadow-xl overflow-y-auto">
+            <div class="bg-orange-900/20 border border-orange-500/30 p-4 rounded-xl">
+                <h3 class="font-bold text-orange-400 mb-2">The "Slice" Protocol</h3>
+                <p class="text-sm text-slate-300">
+                    <strong>Goal:</strong> Agree on toppings for 8 slices.
+                    <br><strong>Constraint:</strong> Everyone has different utility functions (preferences).
+                    <br><strong>Method:</strong> Continuous double-auction or voting.
+                </p>
+            </div>
+
+            <div>
+                <label class="block text-sm text-slate-400 mb-2">Agent Count (Eaters)</label>
+                <input type="range" id="agent-slider" min="3" max="20" value="8" class="w-full accent-orange-500" oninput="resetSim()">
+                <div class="flex justify-between text-xs text-slate-500 mt-1">
+                    <span>3 Agents</span>
+                    <span id="agent-val">8</span>
+                    <span>20 Agents</span>
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-sm text-slate-400 mb-2">Stubbornness (Negotiation Friction)</label>
+                <input type="range" id="stubborn-slider" min="0" max="100" value="50" class="w-full accent-orange-500">
+                <p class="text-xs text-slate-500 mt-1">High friction = Agents refuse to compromise.</p>
+            </div>
+
+            <div class="flex gap-2">
+                <button onclick="resetSim()" class="flex-1 bg-slate-700 hover:bg-slate-600 py-3 rounded font-bold transition">Reset</button>
+                <button onclick="toggleSim()" id="play-btn" class="flex-1 bg-orange-600 hover:bg-orange-500 text-white font-bold py-3 rounded transition shadow-lg shadow-orange-900/20">Start Negotiation</button>
+            </div>
+
+            <div class="mt-auto border-t border-white/10 pt-4">
+                <h3 class="font-bold mb-2">Consensus State</h3>
+                <div id="slice-list" class="grid grid-cols-4 gap-2">
+                    <!-- Slices generated here -->
+                </div>
+                <div class="mt-4 flex justify-between items-center">
+                     <span class="text-sm text-slate-400">Global Satisfaction:</span>
+                     <span id="metric-sat" class="font-mono text-xl text-orange-400">0%</span>
+                </div>
+            </div>
+
+            <!-- Educational Content -->
+            <div class="space-y-4 pt-4 border-t border-white/10">
+                <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
+                    <h4 class="text-orange-400 font-bold text-sm mb-2">Pareto Optimality</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Is it possible to make one agent happier without making another agent sadder? 
+                        If yes, the system is not yet <strong>Pareto Optimal</strong>. The simulation tries to find this state.
+                    </p>
+                </div>
+                 <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
+                    <h4 class="text-orange-400 font-bold text-sm mb-2">Deadlocks</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        If everyone is "Stubborn", the pizza never gets ordered. We need some "noise" (random concessions) to break the deadlock.
+                    </p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Visualization -->
+        <main class="flex-1 relative bg-slate-900 flex items-center justify-center flex-col" id="canvas-wrapper">
+            <div class="absolute top-8 text-slate-500 text-sm uppercase tracking-widest">Live Utility Optimization</div>
+            <!-- Canvas injected here -->
+        </main>
+    </div>
+
+    <script>
+        let agents = [];
+        let slices = []; // 8 slices
+        const TOPPINGS = ['🧀 Cheese', '🍄 Mushroom', '🥓 Pepperoni', '🍍 Pineapple'];
+        const COLORS = ['#fbbf24', '#a16207', '#ef4444', '#facc15']; // match toppings
+        
+        let isRunning = false;
+        let satisfaction = 0;
+        let round = 0;
+
+        function setup() {
+            const wrapper = document.getElementById('canvas-wrapper');
+            const canvas = createCanvas(wrapper.clientWidth, wrapper.clientHeight);
+            canvas.parent('canvas-wrapper');
+            textAlign(CENTER, CENTER);
+            resetSim();
+        }
+
+        function resetSim() {
+            isRunning = false;
+            document.getElementById('play-btn').innerText = "Start Negotiation";
+            round = 0;
+            
+            // Init Slices (Random start)
+            slices = [];
+            for(let i=0; i<8; i++) {
+                slices.push({
+                    id: i,
+                    topping: floor(random(4)), // 0-3 index
+                    locked: false
+                });
+            }
+
+            // Init Agents
+            const count = parseInt(document.getElementById('agent-slider').value);
+            document.getElementById('agent-val').innerText = count;
+            
+            agents = [];
+            for(let i=0; i<count; i++) {
+                // Generate random preference vector (must sum to 1 or similar normalization not needed for simple logic)
+                // Simple logic: Each agent hates 1 topping (-10), loves 1 (+10), is neutral on others (0)
+                let love = floor(random(4));
+                let hate = (love + 1 + floor(random(3))) % 4;
+                
+                agents.push({
+                    id: i,
+                    pos: createVector(0, 0), // will be set in draw
+                    love: love,
+                    hate: hate,
+                    currentSlice: floor(random(8)), // Which slice they are currently 'voting' on or eating
+                    happiness: 0
+                });
+            }
+            
+            updateUI();
+        }
+
+        function toggleSim() {
+            isRunning = !isRunning;
+            document.getElementById('play-btn').innerText = isRunning ? "Pause" : "Resume";
+        }
+
+        function draw() {
+            background(15, 23, 42);
+            
+            // Draw Pizza Table
+            fill(30);
+            noStroke();
+            ellipse(width/2, height/2, 400, 400); // Table
+            
+            // Draw Pizza
+            drawPizza();
+            
+            // Draw Agents
+            drawAgents();
+            
+            if(isRunning) {
+                updateNegotiation();
+                round++;
+            }
+        }
+
+        function drawPizza() {
+            push();
+            translate(width/2, height/2);
+            
+            for(let i=0; i<8; i++) {
+                let angle = TWO_PI / 8;
+                let start = i * angle;
+                
+                fill(COLORS[slices[i].topping]);
+                stroke(20);
+                strokeWeight(2);
+                arc(0, 0, 300, 300, start, start + angle, PIE);
+                
+                // Label
+                let mid = start + angle/2;
+                let tx = cos(mid) * 100;
+                let ty = sin(mid) * 100;
+                fill(0);
+                noStroke();
+                textSize(20);
+                text(TOPPINGS[slices[i].topping].split(' ')[0], tx, ty);
+            }
+            pop();
+        }
+
+        function drawAgents() {
+            const count = agents.length;
+            const radius = 280;
+            
+            for(let i=0; i<count; i++) {
+                let angle = (TWO_PI / count) * i - PI/2;
+                let x = width/2 + cos(angle) * radius;
+                let y = height/2 + sin(angle) * radius;
+                
+                let a = agents[i];
+                
+                // Draw line to current attention slice
+                let sliceAngle = (TWO_PI / 8) * a.currentSlice + (TWO_PI/16);
+                let sx = width/2 + cos(sliceAngle) * 100;
+                let sy = height/2 + sin(sliceAngle) * 100;
+                
+                stroke(255, 50);
+                line(x, y, sx, sy);
+                
+                // Draw Agent Node
+                noStroke();
+                if(a.happiness > 5) fill(16, 185, 129); // Green
+                else if(a.happiness < 0) fill(239, 68, 68); // Red
+                else fill(100); // Grey
+                
+                circle(x, y, 40);
+                
+                // Icon
+                fill(255);
+                textSize(12);
+                text("😋 " + TOPPINGS[a.love].split(' ')[0], x, y - 25);
+                text("🤮 " + TOPPINGS[a.hate].split(' ')[0], x, y + 25);
+            }
+        }
+
+        function updateNegotiation() {
+            if(round % 10 !== 0) return; // Slow down updates
+            
+            let friction = document.getElementById('stubborn-slider').value / 100;
+            let totalHappiness = 0;
+            
+            for(let a of agents) {
+                // Calculate current happiness based on all slices (assuming shared pizza)
+                // Or simpler: Agent cares about specific slices? 
+                // Let's say Agent cares about the global composition.
+                // Happiness = (Num Loved Slices * 10) - (Num Hated Slices * 10)
+                
+                let h = 0;
+                for(let s of slices) {
+                    if(s.topping === a.love) h += 10;
+                    if(s.topping === a.hate) h -= 10;
+                }
+                a.happiness = h;
+                totalHappiness += h;
+                
+                // ACTION: Propose Change
+                // Pick a random slice
+                let targetSliceIdx = floor(random(8));
+                a.currentSlice = targetSliceIdx;
+                
+                let currentTopping = slices[targetSliceIdx].topping;
+                
+                // If it's Hated, try to change to Loved
+                if(currentTopping === a.hate) {
+                    // Probability to succeed depends on Friction
+                    // And if others are defending it? 
+                    // Simple Sim: Random change weighted by "shouting"
+                    if(random() > friction) {
+                        slices[targetSliceIdx].topping = a.love;
+                    }
+                }
+                // If it's Neutral, try to change to Loved
+                else if(currentTopping !== a.love && random() > (friction + 0.2)) {
+                    slices[targetSliceIdx].topping = a.love;
+                }
+            }
+            
+            // Update Metrics
+            let maxScore = agents.length * 8 * 10; // Theoretical max
+            // Normalize roughly
+            let sat = map(totalHappiness, -maxScore, maxScore, 0, 100);
+            satisfaction = lerp(satisfaction, sat, 0.1);
+            
+            document.getElementById('metric-sat').innerText = Math.round(satisfaction) + "%";
+            updateUI();
+        }
+        
+        function updateUI() {
+            const list = document.getElementById('slice-list');
+            list.innerHTML = '';
+            slices.forEach((s, i) => {
+                let div = document.createElement('div');
+                div.className = "aspect-square rounded flex items-center justify-center text-2xl bg-slate-700 border border-slate-600";
+                div.style.color = COLORS[s.topping];
+                div.innerText = TOPPINGS[s.topping].split(' ')[0];
+                list.appendChild(div);
+            });
+        }
+        
+        function windowResized() {
+             const wrapper = document.getElementById('canvas-wrapper');
+             resizeCanvas(wrapper.clientWidth, wrapper.clientHeight);
+        }
+    </script>
+</body>
+</html>
