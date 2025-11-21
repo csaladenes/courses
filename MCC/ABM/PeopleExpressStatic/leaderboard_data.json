@@ -1,0 +1,5 @@
+[
+    {"studentName":"Example Student","instanceId":"default","profit":1500000,"reputation":0.8,"marketShare":0.15,"fleetSize":10,"date":"2025-11-21T12:00:00Z"},
+    {"studentName":"Demo Score","instanceId":"MCC2025","profit":2000000,"reputation":0.9,"marketShare":0.20,"fleetSize":12,"date":"2025-11-21T12:05:00Z"}
+]
+

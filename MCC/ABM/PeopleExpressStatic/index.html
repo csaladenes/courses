@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Express System Dynamics Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Mermaid JS for Diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.5/dist/mermaid.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        /* Custom style for mermaid diagrams */
+        .mermaid { 
+            background: #f8fafc; 
+            padding: 1rem; 
+            border-radius: 0.5rem; 
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Instance ID Modal -->
+    <div id="instance-modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 z-50 flex items-center justify-center">
+        <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full mx-4">
+            <h2 class="text-2xl font-bold text-indigo-900 mb-4">Welcome to People Express</h2>
+            <p class="mb-4 text-gray-600">Please enter your Class Code (Instance ID) to join the correct leaderboard.</p>
+            
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2">Class Code</label>
+                <input type="text" id="modal-instance-input" class="w-full border p-3 rounded text-lg uppercase font-mono tracking-widest" placeholder="e.g. MCC2025">
+            </div>
+
+            <button onclick="saveInstanceId()" class="w-full bg-indigo-600 text-white font-bold py-3 px-4 rounded hover:bg-indigo-700 transition">
+                Start Simulation
+            </button>
+        </div>
+    </div>
+
+    <!-- Admin Settings Modal -->
+    <div id="admin-modal" class="hidden fixed inset-0 bg-gray-900 bg-opacity-75 z-50 flex items-center justify-center">
+        <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full mx-4">
+            <h2 class="text-2xl font-bold text-indigo-900 mb-4">Admin Settings</h2>
+            
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2">Simulation Horizon (Quarters)</label>
+                <input type="number" id="setting-horizon" class="w-full border p-3 rounded text-lg font-mono" value="20" min="4" max="100">
+                <p class="text-xs text-gray-500 mt-1">Default: 20 quarters (5 years). Increase for longer games.</p>
+            </div>
+
+            <div class="flex gap-2">
+                <button onclick="closeAdminModal()" class="flex-1 bg-gray-300 text-gray-800 font-bold py-3 px-4 rounded hover:bg-gray-400 transition">
+                    Cancel
+                </button>
+                <button onclick="saveAdminSettings()" class="flex-1 bg-indigo-600 text-white font-bold py-3 px-4 rounded hover:bg-indigo-700 transition">
+                    Save & Restart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-indigo-900 text-white shadow-lg sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-4">
+                    <div class="font-bold text-xl">✈️ People Express Sim</div>
+                    <div id="current-instance-display" class="text-xs bg-indigo-800 px-2 py-1 rounded text-indigo-200 font-mono hidden">
+                        CODE: <span id="display-code"></span>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <button onclick="switchTab('intro')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Introduction</button>
+                    <button onclick="switchTab('sim')" class="px-3 py-2 rounded hover:bg-indigo-800 transition bg-indigo-800 font-bold">Simulator</button>
+                    <button onclick="switchTab('analysis')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Wizz Air Analysis</button>
+                    <button onclick="switchTab('ai')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Agentic AI</button>
+                    <button onclick="switchTab('leaderboard')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Leaderboard</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+
+        <!-- Introduction Tab -->
+        <div id="intro" class="tab-content">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-3xl mx-auto prose lg:prose-xl">
+                <h1 class="text-3xl font-bold text-indigo-900 mb-4">The Rise and Fall of People Express</h1>
+                <div id="intro-content">
+                    <!-- Content will be injected here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Simulator Tab -->
+        <div id="sim" class="tab-content active">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                
+                <!-- Left Column: Controls -->
+                <div class="bg-white p-6 rounded-lg shadow-md lg:col-span-1 space-y-6">
+                    <h2 class="text-xl font-bold text-gray-700 border-b pb-2 flex justify-between">
+                        Quarterly Decisions
+                        <button onclick="openAdminModal()" class="text-xs text-gray-300 hover:text-gray-500">⚙️</button>
+                    </h2>
+                    
+                    <!-- Decision 1: Price -->
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Ticket Price ($)</label>
+                        <div class="flex items-center gap-2">
+                            <input type="range" id="input-price" min="20" max="150" value="60" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <span id="val-price" class="font-mono font-bold w-12 text-right">60</span>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-1">Market Avg: $100</p>
+                    </div>
+
+                    <!-- Decision 2: Hiring -->
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Net Hiring (Staff)</label>
+                        <div class="flex items-center gap-2">
+                            <input type="range" id="input-hiring" min="-50" max="100" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <span id="val-hiring" class="font-mono font-bold w-12 text-right">5</span>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-1">Current Staff: <span id="stat-staff-control">50</span></p>
+                    </div>
+
+                    <!-- Decision 3: Marketing -->
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Marketing Spend ($)</label>
+                        <div class="flex items-center gap-2">
+                            <input type="range" id="input-marketing" min="0" max="500000" step="10000" value="50000" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <span id="val-marketing" class="font-mono font-bold w-16 text-right">50k</span>
+                        </div>
+                    </div>
+
+                    <!-- Decision 4: Planes -->
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Buy/Lease Planes</label>
+                        <div class="flex items-center gap-2">
+                            <input type="number" id="input-planes" min="0" max="5" value="0" class="w-full p-2 border rounded font-mono text-right">
+                            <span class="text-sm text-gray-500">Cost: $2M ea</span>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-1">Current Fleet: <span id="stat-fleet-control">3</span></p>
+                    </div>
+
+                    <!-- Action Button -->
+                    <div class="pt-4">
+                        <button id="btn-run" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded shadow transition transform active:scale-95">
+                            RUN NEXT QUARTER ▶
+                        </button>
+                        <button id="btn-restart" class="w-full mt-2 bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded transition hidden">
+                            Restart Simulation
+                        </button>
+                    </div>
+
+                    <!-- Feedback / Alerts -->
+                    <div id="alerts" class="text-sm p-3 rounded bg-yellow-50 text-yellow-800 border border-yellow-200 hidden">
+                        Warning: Staff overworked! Quality is dropping.
+                    </div>
+                </div>
+
+                <!-- Right Column: Dashboard -->
+                <div class="lg:col-span-2 space-y-6">
+                    <!-- Top Stats -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-white p-4 rounded-lg shadow border-l-4 border-green-500">
+                            <div class="text-xs text-gray-500 uppercase">Cash</div>
+                            <div class="text-xl font-bold font-mono" id="stat-cash">$5.0M</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow border-l-4 border-blue-500">
+                            <div class="text-xs text-gray-500 uppercase">Profit (Last Q)</div>
+                            <div class="text-xl font-bold font-mono" id="stat-profit">$0</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow border-l-4 border-purple-500">
+                            <div class="text-xs text-gray-500 uppercase">Reputation</div>
+                            <div class="text-xl font-bold font-mono" id="stat-reputation">100%</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow border-l-4 border-orange-500">
+                            <div class="text-xs text-gray-500 uppercase">Market Share</div>
+                            <div class="text-xl font-bold font-mono" id="stat-share">0%</div>
+                        </div>
+                    </div>
+
+                    <!-- Charts -->
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <h3 class="text-lg font-semibold mb-2">Performance History</h3>
+                        <canvas id="mainChart" height="250"></canvas>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h3 class="text-sm font-semibold mb-2">Service Quality vs Demand</h3>
+                            <canvas id="qualityChart" height="200"></canvas>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h3 class="text-sm font-semibold mb-2">Fleet & Staff</h3>
+                            <canvas id="resourceChart" height="200"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Submission Form (Hidden until game over/end) -->
+                    <div id="submit-score-area" class="hidden bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+                        <h3 class="text-lg font-bold text-indigo-900 mb-2">Simulation Complete</h3>
+                        <p class="mb-4 text-sm">Submit your score to the class leaderboard!</p>
+                        <div class="flex gap-2">
+                            <input type="text" id="student-name" placeholder="Enter your name" class="flex-1 p-2 border rounded">
+                            <button onclick="submitScore()" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Submit Score</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analysis Tab -->
+        <div id="analysis" class="tab-content">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-indigo-900 mb-6">Modern Parallel: Wizz Air</h1>
+                <div id="wizz-content" class="prose lg:prose-xl text-gray-700">
+                    <!-- Content injected -->
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Tab -->
+        <div id="ai" class="tab-content">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-indigo-900 mb-6">Agentic AI & System Dynamics</h1>
+                <div id="ai-content" class="prose lg:prose-xl text-gray-700">
+                    <!-- Content injected -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Leaderboard Tab -->
+        <div id="leaderboard" class="tab-content">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto">
+                <div class="flex justify-between items-center mb-6">
+                    <h1 class="text-3xl font-bold text-indigo-900">Class Leaderboard</h1>
+                    <div class="text-right">
+                         <span class="text-sm text-gray-500 block">Class Code: <strong id="leaderboard-code">---</strong></span>
+                         <button onclick="clearInstanceId()" class="text-xs text-red-500 underline">Change Class</button>
+                    </div>
+                </div>
+
+                <button onclick="loadLeaderboard()" class="mb-4 text-sm text-indigo-600 underline">Refresh</button>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full table-auto">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="px-4 py-2 text-left">Rank</th>
+                                <th class="px-4 py-2 text-left">Name</th>
+                                <th class="px-4 py-2 text-right">Final Profit</th>
+                                <th class="px-4 py-2 text-right">Reputation</th>
+                                <th class="px-4 py-2 text-right">Fleet Size</th>
+                            </tr>
+                        </thead>
+                        <tbody id="leaderboard-body">
+                            <!-- Rows -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="simulator.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,6316 @@
+1
+00:00:00,359 --> 00:00:03,359
+nézi
+
+2
+00:00:04,480 --> 00:00:07,879
+ideni ültem egy
+
+3
+00:00:09,120 --> 00:00:16,240
+üzenetet tefel a három külön fightt vagy
+
+4
+00:00:12,679 --> 00:00:20,560
+a egy ezt egyet három sest nem
+
+5
+00:00:16,240 --> 00:00:24,160
+e az ez a rendezettebben minden ez
+
+6
+00:00:20,560 --> 00:00:25,920
+elég meg n kell a a akkor csináljuk meg
+
+7
+00:00:24,160 --> 00:00:28,000
+próbáljuk meg a pontlebontásost
+
+8
+00:00:25,920 --> 00:00:31,279
+megcsinálni tegyed fel a az egészet így
+
+9
+00:00:28,000 --> 00:00:33,399
+ahogy van hár van így egy Excelbe három
+
+10
+00:00:31,279 --> 00:00:35,200
+sheet de van külön három Excel Excel is
+
+11
+00:00:33,399 --> 00:00:36,760
+nem egy egy Excelbe három sheet és
+
+12
+00:00:35,200 --> 00:00:40,600
+beolvassuk majd mi a sheeteket ugye
+
+13
+00:00:36,760 --> 00:00:40,600
+ahogy kell jó
+
+14
+00:00:42,079 --> 00:00:45,079
+jó
+
+15
+00:00:45,120 --> 00:00:48,600
+van hol van
+
+16
+00:00:49,719 --> 00:00:55,160
+ez azonnal soöltöttem
+
+17
+00:01:10,600 --> 00:01:16,240
+leom töltsétek akkor onnan le és akkor
+
+18
+00:01:21,439 --> 00:01:29,600
+csináljunk a megosztást vegyem le vagy
+
+19
+00:01:23,560 --> 00:01:29,600
+még megosztom most én jó
+
+20
+00:01:30,520 --> 00:01:36,040
+ó most látjátok a képernyő
+
+21
+00:01:33,520 --> 00:01:38,799
+igen igen igen
+
+22
+00:01:36,040 --> 00:01:44,720
+jó akkor csináljuk azt
+
+23
+00:01:38,799 --> 00:01:44,720
+hogy a innen a Discordról áthozzuk a
+
+24
+00:01:45,640 --> 00:01:50,040
+ft ami ott van hogy mi és
+
+25
+00:01:53,479 --> 00:01:59,719
+projektek és akkor ezt próbáljuk meg
+
+26
+00:01:57,479 --> 00:02:03,920
+Googleban egy kicsit feltolózni hogyha
+
+27
+00:01:59,719 --> 00:02:03,920
+megnyitok egy új első úlapot
+
+28
+00:02:16,599 --> 00:02:20,720
+most egy kicsit kevésbé fogunk wif code
+
+29
+00:02:18,599 --> 00:02:22,200
+megpróbáljuk lépésre lépésre aztán
+
+30
+00:02:20,720 --> 00:02:24,720
+hogyha elakadunk akkor megkérdezzük a
+
+31
+00:02:22,200 --> 00:02:26,400
+kurzót hogy mit kell csinálni de van itt
+
+32
+00:02:24,720 --> 00:02:27,720
+ebben a kolapban is egy ilyen gemini az
+
+33
+00:02:26,400 --> 00:02:31,959
+is valamire
+
+34
+00:02:27,720 --> 00:02:34,560
+jó jó és akkor itt hogyha callban
+
+35
+00:02:31,959 --> 00:02:35,920
+megnyitod a fálokat itt az oldalán csak
+
+36
+00:02:34,560 --> 00:02:37,800
+egyszer lehet hogy meg kell nyomnod azt
+
+37
+00:02:35,920 --> 00:02:40,720
+hogy connect vagy csináljunk neked egy
+
+38
+00:02:37,800 --> 00:02:40,720
+új
+
+39
+00:02:41,760 --> 00:02:44,920
+munkafüzetet akkor itt meg tudod nyitni
+
+40
+00:02:43,760 --> 00:02:47,239
+a
+
+41
+00:02:44,920 --> 00:02:49,800
+fáokat ittán ez
+
+42
+00:02:47,239 --> 00:02:53,720
+elindul azaz amikor itt megmutatja neked
+
+43
+00:02:49,800 --> 00:02:55,280
+a f struktúrát akkor ide ezt a f az
+
+44
+00:02:53,720 --> 00:02:59,920
+Excel fát amit
+
+45
+00:02:55,280 --> 00:02:59,920
+betöltöttünk azt ide húzd be
+
+46
+00:03:19,159 --> 00:03:24,599
+valahova egy kicsit nézzük meg az azt
+
+47
+00:03:22,519 --> 00:03:29,000
+mondta Tamás azem több munalap van
+
+48
+00:03:24,599 --> 00:03:29,000
+nézzük meg hogy milyen munalapok vannak
+
+49
+00:03:29,480 --> 00:03:35,680
+jó akkor amire nekünk szükségünk
+
+50
+00:03:32,760 --> 00:03:37,720
+lesz az hát kezdjük ezzel a
+
+51
+00:03:35,680 --> 00:03:40,200
+rendezettepben mindennel ez lesz a
+
+52
+00:03:37,720 --> 00:03:43,599
+legegyszerűbb aztán majd átmegyünk a
+
+53
+00:03:40,200 --> 00:03:46,319
+pontlebontásos részre
+
+54
+00:03:43,599 --> 00:03:50,040
+is tehát az lesz nekünk itt az elején a
+
+55
+00:03:46,319 --> 00:03:54,319
+fontos hogy beimportáljuk a
+
+56
+00:03:50,040 --> 00:03:54,319
+bandaszt mint VD
+
+57
+00:03:59,439 --> 00:04:04,400
+és akkor a pandasszal be kellene
+
+58
+00:04:02,239 --> 00:04:07,480
+olvassunk egy Excel fátt aminek ez a
+
+59
+00:04:04,400 --> 00:04:11,040
+neve hogy összesített rangsorok és ez a
+
+60
+00:04:07,480 --> 00:04:15,959
+munalapnak a neve úgyhogy ide jön az
+
+61
+00:04:11,040 --> 00:04:19,840
+hogy összesített rangsorok pont xlsx
+
+62
+00:04:15,959 --> 00:04:21,440
+és ez a sheet name ott javasolja is
+
+63
+00:04:19,840 --> 00:04:22,680
+neked látod hogy itt valószínűleg a
+
+64
+00:04:21,440 --> 00:04:24,800
+sheet
+
+65
+00:04:22,680 --> 00:04:27,160
+name valaki kitalálja hogy hogy lehet
+
+66
+00:04:24,800 --> 00:04:29,160
+ezt egyből betenni azt hiszem enterrel
+
+67
+00:04:27,160 --> 00:04:29,160
+az
+
+68
+00:04:30,320 --> 00:04:36,080
+az és akkor azt egyből teszed hogy ezt a
+
+69
+00:04:33,880 --> 00:04:39,840
+galapot olvassa
+
+70
+00:04:36,080 --> 00:04:42,360
+el más ez egyből megye úgy néz ki hogy
+
+71
+00:04:39,840 --> 00:04:45,360
+úgy nagyjából nagyjából jó olvassa
+
+72
+00:04:42,360 --> 00:04:47,520
+szerintem
+
+73
+00:04:45,360 --> 00:04:50,280
+laser tag nincsenek extra oszlopok
+
+74
+00:04:47,520 --> 00:04:55,720
+nincsenek extra sorok úgyhogy ez így ez
+
+75
+00:04:50,280 --> 00:04:58,680
+így jó lesz tegyük be ezt egy DF nevű
+
+76
+00:04:55,720 --> 00:05:00,240
+változóba egy data framebe akkor itt
+
+77
+00:04:58,680 --> 00:05:03,919
+hogyha megnézem hogy hogy néz ki a
+
+78
+00:05:00,240 --> 00:05:07,320
+dataframe az egészen jó jól
+
+79
+00:05:03,919 --> 00:05:09,240
+mutat van egy hasznos parancs a
+
+80
+00:05:07,320 --> 00:05:11,720
+tataframe.info ez meg fogja mutatni
+
+81
+00:05:09,240 --> 00:05:14,080
+neked hogy milyen típusúak az különböző
+
+82
+00:05:11,720 --> 00:05:15,919
+adatoszlopok hogy azt mondtuk hogy ez ez
+
+83
+00:05:14,080 --> 00:05:19,440
+nagyon fontos az első lépés az az hogy a
+
+84
+00:05:15,919 --> 00:05:21,639
+típusokat be kell állítsuk ami ami ugye
+
+85
+00:05:19,440 --> 00:05:23,280
+folytonosát az legyen folytonos ami
+
+86
+00:05:21,639 --> 00:05:25,479
+rendezett az legyen rendezett és ami
+
+87
+00:05:23,280 --> 00:05:28,240
+névleges az legyen névleges na most a
+
+88
+00:05:25,479 --> 00:05:31,039
+stringeket a a pand az az objecteknek
+
+89
+00:05:28,240 --> 00:05:33,800
+hívja úgyhogy ebben az esetben egész jó
+
+90
+00:05:31,039 --> 00:05:36,600
+és a többiek azok tényleg ténylegesen
+
+91
+00:05:33,800 --> 00:05:38,639
+egész számok ugye itt azt azt hiszem
+
+92
+00:05:36,600 --> 00:05:42,600
+ebben a ebben a verzióban nincsenek
+
+93
+00:05:38,639 --> 00:05:44,600
+nekünk ilyen tört tört számok itt voltak
+
+94
+00:05:42,600 --> 00:05:46,880
+a helyezések azok egész számok az
+
+95
+00:05:44,600 --> 00:05:50,240
+évekészok persze át tudnánk ezt tenni
+
+96
+00:05:46,880 --> 00:05:53,120
+date time-a de most annak egyelőre hát
+
+97
+00:05:50,240 --> 00:05:56,280
+van jelentősége de most ne vegyük azt
+
+98
+00:05:53,120 --> 00:05:59,160
+hogy ne vegyük azt hogy ez egy
+
+99
+00:05:56,280 --> 00:06:01,360
+ez egy évszám azt majd talán behozunk
+
+100
+00:05:59,160 --> 00:06:04,000
+egy másik oszlopot itt nem az a fontos
+
+101
+00:06:01,360 --> 00:06:08,319
+hogy ez 2024 ugye hanem itt az a fontos
+
+102
+00:06:04,000 --> 00:06:10,120
+hogy 2024 az 2019 után van úgyhogy talán
+
+103
+00:06:08,319 --> 00:06:13,000
+érdemes lenne ezt az oszlopot egy picit
+
+104
+00:06:10,120 --> 00:06:15,280
+megváltod ez egy sorrend oszlop
+
+105
+00:06:13,000 --> 00:06:16,919
+megváltoztatni valami olyasmire hogy
+
+106
+00:06:15,280 --> 00:06:18,199
+lesz egy referenciaév amelyik a
+
+107
+00:06:16,919 --> 00:06:21,080
+legelsőnk
+
+108
+00:06:18,199 --> 00:06:23,599
+2006 az lesz a nekünk a az
+
+109
+00:06:21,080 --> 00:06:25,000
+egyesünk és ugye ne használjuk most a
+
+110
+00:06:23,599 --> 00:06:26,360
+nullászat egy kicsit olyan speciális
+
+111
+00:06:25,000 --> 00:06:29,280
+mert azzal hogyha megszorzunk valamit
+
+112
+00:06:26,360 --> 00:06:31,880
+akkor az nulla marad tehát használjunk
+
+113
+00:06:29,280 --> 00:06:34,240
+egy egyest a legelső évnek és akkor
+
+114
+00:06:31,880 --> 00:06:37,919
+utána ahogy jönnének a következő
+
+115
+00:06:34,240 --> 00:06:40,680
+évszámok de 24 az a fontos hogy ez 2006
+
+116
+00:06:37,919 --> 00:06:44,240
+után 18 évben elvan és akkor ebből lenne
+
+117
+00:06:40,680 --> 00:06:45,800
+18-as na azt mindjárt meglátjuk ami ami
+
+118
+00:06:44,240 --> 00:06:47,479
+itt fontos az az hogy a pontszám az
+
+119
+00:06:45,800 --> 00:06:49,400
+tényleg egy egész szám és akkor
+
+120
+00:06:47,479 --> 00:06:51,919
+valószínűleg ezt most nem néztem nem
+
+121
+00:06:49,400 --> 00:06:54,080
+néztem meg de ezt elhisszük hogy ezekben
+
+122
+00:06:51,919 --> 00:06:56,319
+a számokban nincsenek ilyen tizedes
+
+123
+00:06:54,080 --> 00:06:58,360
+értékek meg ugye itt 100-asokról van szó
+
+124
+00:06:56,319 --> 00:07:01,280
+úgyhogy amúgy is nem olyan nagy baj
+
+125
+00:06:58,360 --> 00:07:03,280
+hogyha elhagytnánk a tedes értéket
+
+126
+00:07:01,280 --> 00:07:05,879
+és akkor amit én mondtam az az
+
+127
+00:07:03,280 --> 00:07:10,520
+hogy erre
+
+128
+00:07:05,879 --> 00:07:10,520
+ugye amit kellene kellene építsünk
+
+129
+00:07:10,680 --> 00:07:16,400
+az egy supervised learning modell
+
+130
+00:07:14,680 --> 00:07:18,400
+illetve egy unsupervised learning egy
+
+131
+00:07:16,400 --> 00:07:21,120
+felügyelt tanulás és egy felügyeletlen
+
+132
+00:07:18,400 --> 00:07:23,599
+tanulás itt ki lehet találni hogy
+
+133
+00:07:21,120 --> 00:07:25,199
+körülbelül mire tudnánk ezt felhasználni
+
+134
+00:07:23,599 --> 00:07:26,840
+használhatod arra hogy mennyi pontjuk
+
+135
+00:07:25,199 --> 00:07:29,879
+lesz mondjuk prediktálni a supervised
+
+136
+00:07:26,840 --> 00:07:32,879
+részen vagy hogy hányadikok lesznek egy
+
+137
+00:07:29,879 --> 00:07:34,599
+adott egy adott próba egy adott próbában
+
+138
+00:07:32,879 --> 00:07:37,000
+hogyan fognak
+
+139
+00:07:34,599 --> 00:07:39,280
+teljesíteni hogy olyan annyira egyszerű
+
+140
+00:07:37,000 --> 00:07:41,039
+is lehet hogy például ott lesznek-e a
+
+141
+00:07:39,280 --> 00:07:44,400
+következő évben vagy
+
+142
+00:07:41,039 --> 00:07:48,440
+sem ezekre mind volt példa előző években
+
+143
+00:07:44,400 --> 00:07:50,560
+találkoz többet is de valamilyen számot
+
+144
+00:07:48,440 --> 00:07:53,800
+lehet prediktálni ugye az eddigi
+
+145
+00:07:50,560 --> 00:07:56,240
+adataink alapján ez lenne az alapötlet
+
+146
+00:07:53,800 --> 00:07:58,199
+az unsupervised esetben az ugye az
+
+147
+00:07:56,240 --> 00:08:00,720
+inkább ilyen csoportosítási vagy
+
+148
+00:07:58,199 --> 00:08:02,599
+dimenzióc csökkedési feladat esetleg
+
+149
+00:08:00,720 --> 00:08:05,879
+csinálhatunk egy olyant hogy ezeket a
+
+150
+00:08:02,599 --> 00:08:07,639
+dimenziókat megpróbáljuk minél jobban
+
+151
+00:08:05,879 --> 00:08:11,080
+lecsökkenteni és
+
+152
+00:08:07,639 --> 00:08:14,159
+akkor elhelyezni ezeket a pontokat egy
+
+153
+00:08:11,080 --> 00:08:16,319
+ilyen kétdimziós térben ami az mond az
+
+154
+00:08:14,159 --> 00:08:19,240
+és akkor megnézzük hogy melyik pont van
+
+155
+00:08:16,319 --> 00:08:22,599
+közelebb vagy távolabb egymástól
+
+156
+00:08:19,240 --> 00:08:25,319
+az azt mutatná meg nekünk hogy bizonyos
+
+157
+00:08:22,599 --> 00:08:27,000
+csapatok hogyan teljesítenek egymáshoz
+
+158
+00:08:25,319 --> 00:08:29,080
+képest tehát melyek azok a csapatok
+
+159
+00:08:27,000 --> 00:08:31,919
+amelyek attól függetlenül hogy ők mennyi
+
+160
+00:08:29,080 --> 00:08:33,760
+pontszámot értek el teljesen
+
+161
+00:08:31,919 --> 00:08:35,880
+általánosan melyek azok amelyek
+
+162
+00:08:33,760 --> 00:08:38,360
+egymáshoz hasonlóképpen viselkednek
+
+163
+00:08:35,880 --> 00:08:40,159
+tehát hogyha az egy ez egy például a ez
+
+164
+00:08:38,360 --> 00:08:42,000
+a genitália az billiárdban jó és a
+
+165
+00:08:40,159 --> 00:08:44,560
+sörnyetegek az is billiárdban jó akkor
+
+166
+00:08:42,000 --> 00:08:47,040
+ők ugye közelebb kerülnének egymáshoz
+
+167
+00:08:44,560 --> 00:08:49,519
+ebben a redukált térben ez pontosan
+
+168
+00:08:47,040 --> 00:08:52,080
+olyan mint amikor végeztük a a
+
+169
+00:08:49,519 --> 00:08:55,720
+számjegyeknek ugye a a felismerését és a
+
+170
+00:08:52,080 --> 00:08:56,959
+csoportosítását hogy a a hármas az közel
+
+171
+00:08:55,720 --> 00:08:59,040
+volt-a nem már nem emlékszem a
+
+172
+00:08:56,959 --> 00:09:02,160
+kilenceshez vagy a nyolcashoz mert ugye
+
+173
+00:08:59,040 --> 00:09:04,680
+vizuálisan hasonló hasonló és akkor ez
+
+174
+00:09:02,160 --> 00:09:05,880
+lehetne például egy dimenzió csökkentési
+
+175
+00:09:04,680 --> 00:09:08,839
+feladat
+
+176
+00:09:05,880 --> 00:09:11,519
+ezt szerintem most meg is csináljuk de
+
+177
+00:09:08,839 --> 00:09:13,959
+nyilván lehetne egy olyan is hogy ha ha
+
+178
+00:09:11,519 --> 00:09:17,279
+klusterekbe szeretnék őket rendezni
+
+179
+00:09:13,959 --> 00:09:20,200
+lássuk akkor melyik melyik az a szám
+
+180
+00:09:17,279 --> 00:09:21,680
+amelyik a legjobban klusterekbe hány
+
+181
+00:09:20,200 --> 00:09:23,680
+hány darab klusterekbe tudnánk őket
+
+182
+00:09:21,680 --> 00:09:25,440
+rendezni tehát van-e olyan nem tudom
+
+183
+00:09:23,680 --> 00:09:27,120
+vannak azok a csapatok akik úgy komolyan
+
+184
+00:09:25,440 --> 00:09:29,839
+veszik vannak akik nem veszik komolyan
+
+185
+00:09:27,120 --> 00:09:31,680
+vannak akik közepesek vagy vagy lehet
+
+186
+00:09:29,839 --> 00:09:34,600
+hogy van egy ilyen regionális
+
+187
+00:09:31,680 --> 00:09:36,279
+klasztereződés hogy a a csíkszeredai
+
+188
+00:09:34,600 --> 00:09:38,680
+csapatok vagy az udvaryi csapatok azok
+
+189
+00:09:36,279 --> 00:09:41,600
+mindig egymás környékén vannak ez ez
+
+190
+00:09:38,680 --> 00:09:44,920
+teljesen
+
+191
+00:09:41,600 --> 00:09:46,920
+valában megkósulhatatlan
+
+192
+00:09:44,920 --> 00:09:49,360
+de el tudjuk végezni a csoportosítási
+
+193
+00:09:46,920 --> 00:09:51,279
+feladatot persze vannak olyan azt hiszem
+
+194
+00:09:49,360 --> 00:09:53,800
+hogy az utóbbi néhány kiadáson már
+
+195
+00:09:51,279 --> 00:09:56,240
+vannak ilyen ilyen klánosodások is
+
+196
+00:09:53,800 --> 00:09:58,800
+amikor ugye elvileg azok a csapatok akik
+
+197
+00:09:56,240 --> 00:10:00,480
+egy ilyen klánohoz tartoznak azok
+
+198
+00:09:58,800 --> 00:10:02,640
+valamilyen szinten hasonlóképpen kellene
+
+199
+00:10:00,480 --> 00:10:04,240
+viselkedjenek vagy pontozódjanak ezt is
+
+200
+00:10:02,640 --> 00:10:05,720
+akkor tudod ellenőrizni csak ez az
+
+201
+00:10:04,240 --> 00:10:07,560
+információ ezt te kell majd behozzod
+
+202
+00:10:05,720 --> 00:10:10,120
+hogyha ez nincsen az adatsorba a nyers
+
+203
+00:10:07,560 --> 00:10:10,120
+adatsorba
+
+204
+00:10:10,320 --> 00:10:16,680
+benne na jó van-e valamilyen kérdése
+
+205
+00:10:13,160 --> 00:10:16,680
+valakinek eddig
+
+206
+00:10:20,200 --> 00:10:26,000
+hogyha nincsen akkor próbáljuk szerintem
+
+207
+00:10:22,959 --> 00:10:28,880
+próbáljuk őket egy kicsit jobban
+
+208
+00:10:26,000 --> 00:10:31,680
+kiplottolni itt akkor az lesz az érdekes
+
+209
+00:10:28,880 --> 00:10:36,120
+hogy nekünk itt most egy
+
+210
+00:10:31,680 --> 00:10:39,079
+adatpont az ugye egy 232 adatpontunk van
+
+211
+00:10:36,120 --> 00:10:43,279
+és hány oszlop van vagy hány év van
+
+212
+00:10:39,079 --> 00:10:45,839
+ebben bennem az öt hat évnyi adat
+
+213
+00:10:43,279 --> 00:10:47,920
+nincs ugye 20-ben nem voltok
+
+214
+00:10:45,839 --> 00:10:51,920
+ja 20-ben nem akkor négy évnyi adat van
+
+215
+00:10:47,920 --> 00:10:55,639
+ugye igen négy év benne van négy évnyi
+
+216
+00:10:51,920 --> 00:10:57,959
+adat ahhoz hogy ahoz hogy azt mondjam
+
+217
+00:10:55,639 --> 00:11:00,440
+hogy melyik csapat tehát például hogy a
+
+218
+00:10:57,959 --> 00:11:02,040
+ebben a kétdimziós térben mondjuk a a
+
+219
+00:11:00,440 --> 00:11:05,040
+stúdia vagy a genitália egymáshoz
+
+220
+00:11:02,040 --> 00:11:07,120
+hasonlóképpen teljesít ebbő belőlük csak
+
+221
+00:11:05,040 --> 00:11:10,800
+egyetlen egy kéne legyen vagy hanem
+
+222
+00:11:07,120 --> 00:11:15,600
+akkor úgy címkézzük őket fel hogy Studia
+
+223
+00:11:10,800 --> 00:11:17,320
+2024 Studia 2023 Studia 2022
+
+224
+00:11:15,600 --> 00:11:20,920
+az is érdekes lenne mert akkor azt
+
+225
+00:11:17,320 --> 00:11:23,800
+tudnád megmutatni hogy a a saját
+
+226
+00:11:20,920 --> 00:11:27,240
+magukhoz mérten a csapatok közel közeli
+
+227
+00:11:23,800 --> 00:11:29,800
+teljesítményeket nyújtanak-e
+
+228
+00:11:27,240 --> 00:11:32,200
+éveken áthívelően ugye úgyhogy szerintem
+
+229
+00:11:29,800 --> 00:11:34,800
+az első lépésként hozzunk létre egy
+
+230
+00:11:32,200 --> 00:11:39,320
+ilyen egyedi azonosítót ami úgy fog
+
+231
+00:11:34,800 --> 00:11:39,320
+kinézni hogy a csapatnak a neve
+
+232
+00:11:41,120 --> 00:11:49,920
+plusz mondjuk egy
+
+233
+00:11:43,519 --> 00:11:49,920
+space és utána jöjjön az év
+
+234
+00:11:57,760 --> 00:12:03,920
+csak ugye az év az jelenleg nekünk szám
+
+235
+00:12:01,880 --> 00:12:08,240
+ezért a végére oda fogjuk tenni azt hogy
+
+236
+00:12:03,920 --> 00:12:10,560
+ezt az évet neked stringként vegye és
+
+237
+00:12:08,240 --> 00:12:13,800
+akkor szépen nekünk itt össze
+
+238
+00:12:10,560 --> 00:12:16,240
+összekombinálja ezeket és ezt a ezt a
+
+239
+00:12:13,800 --> 00:12:19,240
+kombinációt tegyük be egy új
+
+240
+00:12:16,240 --> 00:12:23,959
+oszlopba legyen ennek az oszlopnak a
+
+241
+00:12:19,240 --> 00:12:23,959
+neve ID mondjuk
+
+242
+00:12:24,720 --> 00:12:27,560
+és akkor hogyha
+
+243
+00:12:27,720 --> 00:12:33,040
+megnézed nekünk most valahova a végére
+
+244
+00:12:30,360 --> 00:12:34,959
+persze de ott jobb oldalt a végén lesz
+
+245
+00:12:33,040 --> 00:12:38,360
+egy olyan oszlop amikor ezek össze
+
+246
+00:12:34,959 --> 00:12:38,360
+vannak kombinálva
+
+247
+00:12:47,480 --> 00:12:53,880
+jó és akkor nekünk most a csapat és az
+
+248
+00:12:51,880 --> 00:12:57,320
+évoszlop nem fog
+
+249
+00:12:53,880 --> 00:13:00,600
+hozni extra információt úgyhogy azokat
+
+250
+00:12:57,320 --> 00:13:00,600
+azokat ki fogjuk egy kicsit
+
+251
+00:13:01,120 --> 00:13:06,639
+dobni csináljunk egy olyat hogy DF drop
+
+252
+00:13:04,480 --> 00:13:11,160
+és két oszlopot a
+
+253
+00:13:06,639 --> 00:13:11,160
+csapatot és az évet
+
+254
+00:13:13,880 --> 00:13:17,399
+és ez access
+
+255
+00:13:17,720 --> 00:13:23,360
+one és akkor
+
+256
+00:13:19,760 --> 00:13:26,440
+ezeket szépen kidobja tegyük bele ezt
+
+257
+00:13:23,360 --> 00:13:30,399
+egy DF2 változóba hogy őrizzük meg az
+
+258
+00:13:26,440 --> 00:13:30,399
+eddigi eddigi munkát
+
+259
+00:13:52,160 --> 00:13:56,240
+hát lehet hogy a helyezés is az egy
+
+260
+00:13:53,959 --> 00:13:59,959
+kicsit be fog torzítani de tehát ugye
+
+261
+00:13:56,240 --> 00:14:03,000
+ezek a helyezés és a pontszám ez
+
+262
+00:13:59,959 --> 00:14:05,399
+nem független információ attól amit a
+
+263
+00:14:03,000 --> 00:14:07,880
+többi oszlop van ezért lehet hogy be fog
+
+264
+00:14:05,399 --> 00:14:10,560
+hozni egy torzítást de nem baj
+
+265
+00:14:07,880 --> 00:14:14,560
+megtartjuk ezt
+
+266
+00:14:10,560 --> 00:14:14,560
+így jó
+
+267
+00:14:14,839 --> 00:14:20,000
+és akkor nézzük meg hogyha visszamegyünk
+
+268
+00:14:17,880 --> 00:14:20,000
+a
+
+269
+00:14:20,720 --> 00:14:25,240
+munkafüzeteinkhez az lesz az
+
+270
+00:14:39,320 --> 00:14:44,279
+ugye itt csinálhatunk egy olyant hogy a
+
+271
+00:14:42,000 --> 00:14:47,120
+64 dimenzióját a
+
+272
+00:14:44,279 --> 00:14:49,199
+számjegyeknek lecsökkentetük kettőre
+
+273
+00:14:47,120 --> 00:14:52,639
+hogy tudjuk őket feltenni egy ilyen
+
+274
+00:14:49,199 --> 00:14:57,440
+plotra és akkor pontosan
+
+275
+00:14:52,639 --> 00:14:59,759
+ezt ezt fogjuk most csinálni ezzel a PCA
+
+276
+00:14:57,440 --> 00:15:03,360
+PCA modellel ugye ez a principal
+
+277
+00:14:59,759 --> 00:15:03,360
+component analysis
+
+278
+00:15:05,199 --> 00:15:10,120
+úgyhogy ez lesz itt nekünk a
+
+279
+00:15:06,959 --> 00:15:12,839
+fontos hogy mi lesz az X mátrixunk és mi
+
+280
+00:15:10,120 --> 00:15:15,519
+lesz ebben esetben az Y mátrixunk az Y
+
+281
+00:15:12,839 --> 00:15:18,120
+mátrixunk az semmi nem fogunk semmire
+
+282
+00:15:15,519 --> 00:15:23,199
+rátanulni ez felügyeletlen tanulás lesz
+
+283
+00:15:18,120 --> 00:15:28,199
+ellenben a címkék a labels
+
+284
+00:15:23,199 --> 00:15:30,959
+az a DF2-nek az ID oszlopa lesz
+
+285
+00:15:28,199 --> 00:15:33,319
+sőt ahhoz hogy nekünk ez arrayként
+
+286
+00:15:30,959 --> 00:15:35,399
+legyen hogyha egyszer így beteszed akkor
+
+287
+00:15:33,319 --> 00:15:38,160
+látod egy ilyen dataframeeként
+
+288
+00:15:35,399 --> 00:15:41,680
+datafameeként veszi be ezért odatesszük
+
+289
+00:15:38,160 --> 00:15:45,319
+a végére azt hogy vales és akkor szépen
+
+290
+00:15:41,680 --> 00:15:48,240
+array csinál belőle ugye ez legyen
+
+291
+00:15:45,319 --> 00:15:52,360
+nekünk a labels hogy
+
+292
+00:15:48,240 --> 00:15:54,519
+DF2 és values és az X az ugye ez elvileg
+
+293
+00:15:52,360 --> 00:15:57,639
+csak számokból kellene álljon még itt
+
+294
+00:15:54,519 --> 00:16:01,880
+megtartottuk a labelöket benne hogy az X
+
+295
+00:15:57,639 --> 00:16:05,199
+nekünk az lesz hogy a DF2 és innen az ID
+
+296
+00:16:01,880 --> 00:16:05,199
+pontosan ahogy ő javasolja
+
+297
+00:16:05,720 --> 00:16:10,720
+nekem hogy lehet elfogadni ezt a
+
+298
+00:16:07,880 --> 00:16:10,720
+javaslatot mert nem
+
+299
+00:16:11,920 --> 00:16:15,920
+talál az
+
+300
+00:16:18,480 --> 00:16:25,759
+és akkor most hogyha megnézem hogy mi az
+
+301
+00:16:21,360 --> 00:16:25,759
+X akkor az tényleg
+
+302
+00:16:25,920 --> 00:16:31,399
+tényleg csak értékeket tartalmaz itt még
+
+303
+00:16:29,000 --> 00:16:33,720
+azt érdemes megnézni hogy hogy rakta az
+
+304
+00:16:31,399 --> 00:16:36,319
+x-et össze néha kell egy olyat csinálni
+
+305
+00:16:33,720 --> 00:16:39,079
+hogy transzponálni kellene ugye elvileg
+
+306
+00:16:36,319 --> 00:16:39,079
+nekünk az
+
+307
+00:16:39,560 --> 00:16:46,480
+x ez az egy mátrix ugye tehát ez kéne
+
+308
+00:16:43,240 --> 00:16:48,839
+legyen az első sor
+
+309
+00:16:46,480 --> 00:16:51,519
+ez kellene legyen a második sor és így
+
+310
+00:16:48,839 --> 00:16:53,560
+tovább kicsit furcsán van így így
+
+311
+00:16:51,519 --> 00:16:55,360
+oszloponként
+
+312
+00:16:53,560 --> 00:16:59,440
+van hogy
+
+313
+00:16:55,360 --> 00:16:59,440
+elvileg transzponálni kellene
+
+314
+00:17:00,920 --> 00:17:07,360
+őket és úgy legyenek szépen az a az
+
+315
+00:17:04,360 --> 00:17:07,360
+értékeink
+
+316
+00:17:10,240 --> 00:17:15,199
+ez nem mindig
+
+317
+00:17:11,640 --> 00:17:17,640
+egyértelmű úgyhogy az is az is szokott
+
+318
+00:17:15,199 --> 00:17:20,360
+működni hogyha meghagyod szépen
+
+319
+00:17:17,640 --> 00:17:23,199
+dataframebbe őket és akkor az escaler
+
+320
+00:17:20,360 --> 00:17:24,520
+majd a dataframebből jobban megérti azt
+
+321
+00:17:23,199 --> 00:17:27,079
+hogy mi kell tehát nekünk elvileg az
+
+322
+00:17:24,520 --> 00:17:30,799
+első adatpontunk az X-Ren az az kéne
+
+323
+00:17:27,079 --> 00:17:33,320
+legyen ugye hogy 1 5608 egy olyan array
+
+324
+00:17:30,799 --> 00:17:36,240
+amelyiknek azok az elemei hogy 1 5608
+
+325
+00:17:33,320 --> 00:17:38,600
+140 és így tovább
+
+326
+00:17:36,240 --> 00:17:41,240
+megnézem hogy itt hogyan néz ki az X-nek
+
+327
+00:17:38,600 --> 00:17:41,240
+a nulladik
+
+328
+00:17:45,160 --> 00:17:50,400
+eleme akkor így jól van transzponálás
+
+329
+00:17:47,760 --> 00:17:52,760
+nélkül pont pont jól
+
+330
+00:17:50,400 --> 00:17:54,919
+volt na jó ez csak egy rövid kitérő
+
+331
+00:17:52,760 --> 00:17:59,480
+meghagyjuk data fram-enek én azt azt
+
+332
+00:17:54,919 --> 00:18:03,120
+mondom és csak lesz úgy hogy X és akkor
+
+333
+00:17:59,480 --> 00:18:06,360
+ide hozzuk be azt a kódot amit innen
+
+334
+00:18:03,120 --> 00:18:08,280
+másik munkafizetből kivásoltunk
+
+335
+00:18:06,360 --> 00:18:11,039
+ezt be is írhatod az eskert
+
+336
+00:18:08,280 --> 00:18:13,799
+decomposition modell családba behozzuk a
+
+337
+00:18:11,039 --> 00:18:18,320
+pénk component analysis
+
+338
+00:18:13,799 --> 00:18:21,280
+modellt és akkor csinálunk egy olyat egy
+
+339
+00:18:18,320 --> 00:18:23,760
+x2-t ugye ez egyből fit transformot fog
+
+340
+00:18:21,280 --> 00:18:25,799
+nekünk csinálni az annyi lenne hogyha
+
+341
+00:18:23,760 --> 00:18:27,039
+egyszer ráillesztenénk a modellt az x-re
+
+342
+00:18:25,799 --> 00:18:29,159
+utána
+
+343
+00:18:27,039 --> 00:18:32,559
+transzformálnánk tehát ráillesztjük
+
+344
+00:18:29,159 --> 00:18:35,400
+nekünk az x-ra a modellt és akkor lesz
+
+345
+00:18:32,559 --> 00:18:39,039
+nekünk belőle egy x2 na itt most nézzük
+
+346
+00:18:35,400 --> 00:18:41,640
+meg egy picit akkor hogy itt a az X-nek
+
+347
+00:18:39,039 --> 00:18:41,640
+mi is volt a
+
+348
+00:18:43,240 --> 00:18:46,679
+mérete hogy volt
+
+349
+00:18:46,960 --> 00:18:50,559
+ez x
+
+350
+00:18:52,559 --> 00:18:57,880
+shape ugye ez 232 x40-es ami azt jelenti
+
+351
+00:18:56,720 --> 00:19:01,039
+hogy
+
+352
+00:18:57,880 --> 00:19:03,080
+232pontunk volt 40 dimenzióban ami kábé
+
+353
+00:19:01,039 --> 00:19:06,320
+azt jelenti hogy volt 31 néhány próba
+
+354
+00:19:03,080 --> 00:19:10,400
+ugye megvan az helyezés meg a
+
+355
+00:19:06,320 --> 00:19:13,000
+pontszám hogyha most megnézem az x2-nek
+
+356
+00:19:10,400 --> 00:19:18,360
+a formáját akkor ez
+
+357
+00:19:13,000 --> 00:19:23,080
+elvileg 232 x 2-s kell ugye és valóban
+
+358
+00:19:18,360 --> 00:19:25,640
+232 x 2-s ami azt jelenti hogy szépen
+
+359
+00:19:23,080 --> 00:19:27,159
+leredukálta ezt a 40 dimenziót nekünk
+
+360
+00:19:25,640 --> 00:19:29,240
+kettő
+
+361
+00:19:27,159 --> 00:19:32,039
+dimenzióra na most ez jó mert akkor ezt
+
+362
+00:19:29,240 --> 00:19:37,000
+ki tudjuk plottolni áthozom a plottolási
+
+363
+00:19:32,039 --> 00:19:39,159
+kódot is hátha hátulások meg tudja
+
+364
+00:19:37,000 --> 00:19:44,679
+generálni
+
+365
+00:19:39,159 --> 00:19:53,039
+create scatter plot from
+
+366
+00:19:44,679 --> 00:19:54,960
+x2 and put the labels on it from
+
+367
+00:19:53,039 --> 00:19:57,240
+label in
+
+368
+00:19:54,960 --> 00:19:59,159
+order tehát hogy egymás után rakja
+
+369
+00:19:57,240 --> 00:20:00,799
+nekünk be a címkéket és csinálja belőle
+
+370
+00:19:59,159 --> 00:20:03,799
+S2 plontot
+
+371
+00:20:00,799 --> 00:20:03,799
+lassuk ez mire tud
+
+372
+00:20:05,000 --> 00:20:11,679
+jutni jó lett ez így egészen jó lett úgy
+
+373
+00:20:09,080 --> 00:20:14,559
+el tudjuk képzelni hogy nagyjából
+
+374
+00:20:11,679 --> 00:20:17,159
+nagyjából miről van szó tehát azt
+
+375
+00:20:14,559 --> 00:20:19,440
+csinálta ugye hogy be beimportáltuk a
+
+376
+00:20:17,159 --> 00:20:22,919
+potplip pipplelotot plt-ként ez elég
+
+377
+00:20:19,440 --> 00:20:26,120
+standard létrehozunk egy ábrát és akkor
+
+378
+00:20:22,919 --> 00:20:27,919
+arra az ábrára az x2 ezt már ilyet már
+
+379
+00:20:26,120 --> 00:20:30,960
+csináltunk ugye ez hogy az első
+
+380
+00:20:27,919 --> 00:20:34,320
+dimenziót a második dimenzióval szembe
+
+381
+00:20:30,960 --> 00:20:37,720
+plottoljuk pontosan így volt a
+
+382
+00:20:34,320 --> 00:20:39,960
+a számjegyeknek a kiplottolása és ugye
+
+383
+00:20:37,720 --> 00:20:42,640
+innen is áthoztuk volna csak itt egy
+
+384
+00:20:39,960 --> 00:20:45,799
+kicsit komplikált volt mert különböző
+
+385
+00:20:42,640 --> 00:20:48,480
+tengelyek voltak ugye két az két alplot
+
+386
+00:20:45,799 --> 00:20:50,159
+volt az egyik dimenziót a másikkal és
+
+387
+00:20:48,480 --> 00:20:54,000
+akkor a C az a
+
+388
+00:20:50,159 --> 00:20:56,640
+színezés volt a a labels most ebben az
+
+389
+00:20:54,000 --> 00:20:58,960
+esetben ő úgy döntött hogy nem színezi
+
+390
+00:20:56,640 --> 00:21:01,720
+külön a pontokat persze színezhetnénk
+
+391
+00:20:58,960 --> 00:21:04,280
+külön hanem a színezés helyett azt
+
+392
+00:21:01,720 --> 00:21:06,880
+mondta hogy még teszünk rá
+
+393
+00:21:04,280 --> 00:21:08,600
+szövegelemeket az ábrára és akkor ezeket
+
+394
+00:21:06,880 --> 00:21:10,840
+ezeket a kis szövegelemeket ide
+
+395
+00:21:08,600 --> 00:21:13,360
+felpakolgatta
+
+396
+00:21:10,840 --> 00:21:16,720
+na ez egészen egészen egészen
+
+397
+00:21:13,360 --> 00:21:19,159
+használható ugye és persze van úgy néz
+
+398
+00:21:16,720 --> 00:21:22,240
+ki hogy tényleg van egy olyan egy olyan
+
+399
+00:21:19,159 --> 00:21:27,159
+trend hogy bizonyos bizonyos csapatok
+
+400
+00:21:22,240 --> 00:21:29,200
+mondjuk hasonlóképpen viselkednek
+
+401
+00:21:27,159 --> 00:21:31,640
+különböző éveken átti velen nyilván itt
+
+402
+00:21:29,200 --> 00:21:33,240
+ez az ez a vizualizáció annyira nem
+
+403
+00:21:31,640 --> 00:21:34,799
+értelmezheti vagy annyira nem
+
+404
+00:21:33,240 --> 00:21:37,120
+egyértelműen
+
+405
+00:21:34,799 --> 00:21:40,360
+leolvasható úgyhogy csináljunk egy olyat
+
+406
+00:21:37,120 --> 00:21:43,240
+hogy az X2-t egy kicsit bővítsük ki
+
+407
+00:21:40,360 --> 00:21:47,440
+tehát hozzuk be az
+
+408
+00:21:43,240 --> 00:21:47,440
+x2 be hozzuk vissza a
+
+409
+00:21:54,840 --> 00:21:59,520
+labelöket hogy hívják ezeket labor
+
+410
+00:22:01,360 --> 00:22:07,360
+ugye igen és meg milyen hosszú ez
+
+411
+00:22:11,799 --> 00:22:18,039
+762 az X2 hogy Jaj ez még csak array jó
+
+412
+00:22:16,080 --> 00:22:22,159
+akkor csináljunk megle data frameet
+
+413
+00:22:18,039 --> 00:22:22,159
+tehát csináljunk egyszer data frameet
+
+414
+00:22:23,240 --> 00:22:29,159
+belőle kap két fiktív dimenziót akkor ez
+
+415
+00:22:27,520 --> 00:22:31,559
+legyen
+
+416
+00:22:29,159 --> 00:22:35,080
+XH és akkor az
+
+417
+00:22:31,559 --> 00:22:38,200
+X3ba tegyük azt hogy legyen még egy
+
+418
+00:22:35,080 --> 00:22:38,200
+extra oszlop
+
+419
+00:22:51,600 --> 00:22:59,039
+az lesz a az lesz az értéke ami a
+
+420
+00:22:55,159 --> 00:22:59,039
+label ami a labelben
+
+421
+00:22:59,279 --> 00:23:05,960
+van akkor így lesz nekünk szépen szépen
+
+422
+00:23:03,279 --> 00:23:08,799
+csapatnevünk sőt olyat is jatnánk hogy
+
+423
+00:23:05,960 --> 00:23:11,840
+hozzuk be csap csak hozzuk vissza csak
+
+424
+00:23:08,799 --> 00:23:14,400
+külön a csapatot és csak külön az
+
+425
+00:23:11,840 --> 00:23:16,480
+évet és ez az eredeti x-ben hogyha
+
+426
+00:23:14,400 --> 00:23:21,799
+minden igaz meg kellene legyen tehát
+
+427
+00:23:16,480 --> 00:23:21,799
+csak visszahozzuk az x3-ba áthozzuk az
+
+428
+00:23:23,000 --> 00:23:29,520
+évet mindjárt meglátjátok hogy min
+
+429
+00:23:25,120 --> 00:23:32,960
+akarok kijukadni és akkor innen a a az
+
+430
+00:23:29,520 --> 00:23:35,919
+évex spell mert azt áttettük egy más
+
+431
+00:23:32,960 --> 00:23:35,919
+változóba
+
+432
+00:23:38,159 --> 00:23:45,240
+nem úgy hívták hogy Évak hogy hívták
+
+433
+00:23:41,640 --> 00:23:48,240
+hogy hát már kidobtuk belőle azt egy
+
+434
+00:23:45,240 --> 00:23:51,760
+kicsit rosszul csináltuk jaj DF-be hív
+
+435
+00:23:48,240 --> 00:23:55,039
+DF-nek hívt ugye
+
+436
+00:23:51,760 --> 00:23:58,039
+igen df-ben megvan még az év akkor azt
+
+437
+00:23:55,039 --> 00:24:00,080
+onnan hozzuk át és a csapatnak a nevét
+
+438
+00:23:58,039 --> 00:24:03,159
+is
+
+439
+00:24:00,080 --> 00:24:04,200
+azt nem tudom nevezzük itt az X3-ban mit
+
+440
+00:24:03,159 --> 00:24:10,000
+tudom én egy
+
+441
+00:24:04,200 --> 00:24:10,000
+névnek és akkor az legyen a DFRA csapat
+
+442
+00:24:13,080 --> 00:24:18,360
+neve ezeket a pontokat fogjuk
+
+443
+00:24:15,320 --> 00:24:21,480
+vizualizálni ezeket meg hoztam extra
+
+444
+00:24:18,360 --> 00:24:24,159
+infónak vizualizáció felfedezéséhez és
+
+445
+00:24:21,480 --> 00:24:29,120
+akkor ebből én csinálok egyszert gyorsan
+
+446
+00:24:24,159 --> 00:24:29,120
+és átisztük flag hogy vizualizáljuk
+
+447
+00:24:39,799 --> 00:24:45,840
+jó de közben hogy tudjad tudjad követni
+
+448
+00:24:42,799 --> 00:24:45,840
+beteszem ezt én
+
+449
+00:24:46,000 --> 00:24:49,600
+ide Discordra
+
+450
+00:25:04,399 --> 00:25:11,360
+is jó és akkor itt
+
+451
+00:25:08,120 --> 00:25:11,360
+menjünk át a Floris
+
+452
+00:25:12,799 --> 00:25:15,799
+applikációba
+
+453
+00:25:17,480 --> 00:25:22,679
+hogy van a szoris sőst jó
+
+454
+00:25:42,159 --> 00:25:45,919
+itt egy kicsit megváltoztatták Fisnak a
+
+455
+00:25:44,159 --> 00:25:48,960
+felhasználó
+
+456
+00:25:45,919 --> 00:25:50,480
+felületét na de csak eligazodunk rajta
+
+457
+00:25:48,960 --> 00:25:53,960
+nekünk egy egyszerű scatter plotot kell
+
+458
+00:25:50,480 --> 00:25:57,720
+oda csináljunk az hol vannak itt neki
+
+459
+00:25:53,960 --> 00:25:57,720
+basic scatter plot
+
+460
+00:25:58,559 --> 00:26:02,640
+és akkor ide hozzuk be az
+
+461
+00:26:05,240 --> 00:26:11,159
+alapinkat ezt a DF XLS ide feltöltö
+
+462
+00:26:18,000 --> 00:26:22,960
+akkor ugye ez a behoz persze az Xel az
+
+463
+00:26:20,960 --> 00:26:25,399
+Excel alapvetően egy indexet azt
+
+464
+00:26:22,960 --> 00:26:28,360
+kidobhattuk volna de nem szükséges akkor
+
+465
+00:26:25,399 --> 00:26:30,440
+az egyik tengely az a B oszlop a másik
+
+466
+00:26:28,360 --> 00:26:33,399
+tengely az a C oszlop ugye ezek csak
+
+467
+00:26:30,440 --> 00:26:36,440
+érték ezeknak nincsen sok sok értelme
+
+468
+00:26:33,399 --> 00:26:39,320
+van a neve ugye select multiple columns
+
+469
+00:26:36,440 --> 00:26:42,440
+if require to make a unique name ez
+
+470
+00:26:39,320 --> 00:26:44,640
+mindenképpen nekünk a t
+
+471
+00:26:42,440 --> 00:26:47,200
+és akkor hogyha összes szeretnénk őket
+
+472
+00:26:44,640 --> 00:26:49,600
+kötni egy vonallal ezt meg tudjuk úgy
+
+473
+00:26:47,200 --> 00:26:51,880
+csinálni hogy egy csapat éveken átti
+
+474
+00:26:49,600 --> 00:26:54,919
+elően hogyan teljesít ez nekünk
+
+475
+00:26:51,880 --> 00:26:58,159
+szerintem az F igazából ez lenne az
+
+476
+00:26:54,919 --> 00:27:01,080
+érdekes és akkor színezzük őket csapatok
+
+477
+00:26:58,159 --> 00:27:07,840
+csapatok szerint
+
+478
+00:27:01,080 --> 00:27:07,840
+is hogyha visszamegyünk ide és vegyük le
+
+479
+00:27:08,080 --> 00:27:12,399
+tehát ugye itt azt mutatná hogy ez a
+
+480
+00:27:10,440 --> 00:27:14,840
+csapat ami össze van kötve így
+
+481
+00:27:12,399 --> 00:27:18,600
+teljesített vagy ez a csapat így
+
+482
+00:27:14,840 --> 00:27:20,320
+teljesített az éveken az éveken áll és
+
+483
+00:27:18,600 --> 00:27:23,640
+akkor ez egészen érdekes ugye látod hogy
+
+484
+00:27:20,320 --> 00:27:26,679
+például ez a sárga csapat ez négy évben
+
+485
+00:27:23,640 --> 00:27:28,200
+vett részt de úgy néz ki mindenképpen
+
+486
+00:27:26,679 --> 00:27:30,880
+hogy itt van egy
+
+487
+00:27:28,200 --> 00:27:34,320
+ilyen ebben az évben
+
+488
+00:27:30,880 --> 00:27:37,840
+talán ezek talán mind 2019-esek ugye
+
+489
+00:27:34,320 --> 00:27:42,159
+elég nagy volt az ugrás
+
+490
+00:27:37,840 --> 00:27:44,440
+a 2019-ről 2022-re és akkor ezek az
+
+491
+00:27:42,159 --> 00:27:46,559
+információk mind előjönnek hogy a
+
+492
+00:27:44,440 --> 00:27:49,519
+2019-es csapatok
+
+493
+00:27:46,559 --> 00:27:51,679
+teljesítménye szépen közel áll egymáshoz
+
+494
+00:27:49,519 --> 00:27:53,760
+de egyébként a többi években azok a
+
+495
+00:27:51,679 --> 00:27:55,279
+csapatok amelyek részt vettek azért
+
+496
+00:27:53,760 --> 00:27:56,880
+ugyanabban a régióban maradnak tehát
+
+497
+00:27:55,279 --> 00:28:02,279
+nagyon kevés az olyan vagy majdnem ugye
+
+498
+00:27:56,880 --> 00:28:04,240
+van ez például Devastation 2019 meg itt
+
+499
+00:28:02,279 --> 00:28:07,000
+már nem tudom melyikek ezek valahol
+
+500
+00:28:04,240 --> 00:28:10,039
+valamelyikek itt amelyek ilyen nagyon
+
+501
+00:28:07,000 --> 00:28:11,880
+talán ezek azok igen 2022 amelyek
+
+502
+00:28:10,039 --> 00:28:15,640
+viszonylag nagy területet írnak be de a
+
+503
+00:28:11,880 --> 00:28:18,480
+többiek azért olyan körülbelül egy egy a
+
+504
+00:28:15,640 --> 00:28:20,640
+képernyő egy szegmensé maradnak akkor ez
+
+505
+00:28:18,480 --> 00:28:22,760
+ez szépen elmeséli azt a történetet hogy
+
+506
+00:28:20,640 --> 00:28:25,640
+például 2019-ben úgy néz ki hogy a
+
+507
+00:28:22,760 --> 00:28:28,679
+diáknapok tényleg lényeg lényegesebben
+
+508
+00:28:25,640 --> 00:28:30,000
+másképp zajlottak mint 2022-ben amit
+
+509
+00:28:28,679 --> 00:28:31,600
+azért nem nehéz
+
+510
+00:28:30,000 --> 00:28:34,200
+megcáfolni talán még azt is
+
+511
+00:28:31,600 --> 00:28:36,039
+csinálhatnánk hogy tegyük a a shapre
+
+512
+00:28:34,200 --> 00:28:39,200
+tegyük rá az évet
+
+513
+00:28:36,039 --> 00:28:42,799
+ugye shapre rátesszük az évet és akkor
+
+514
+00:28:39,200 --> 00:28:46,600
+nekünk itt kicsi háromszögekkel kell
+
+515
+00:28:42,799 --> 00:28:49,470
+ugye nem nem hozza át lehet hogy csak
+
+516
+00:28:46,600 --> 00:28:51,159
+nem lehet választani ja ez nem lehet
+
+517
+00:28:49,470 --> 00:28:54,240
+[Zene]
+
+518
+00:28:51,159 --> 00:28:56,640
+igen accepted by abc type column tegyük
+
+519
+00:28:54,240 --> 00:28:59,480
+át tegyük ezt át
+
+520
+00:28:56,640 --> 00:29:01,240
+akkor
+
+521
+00:28:59,480 --> 00:29:03,600
+szövegnek csak ennek van egy
+
+522
+00:29:01,240 --> 00:29:05,559
+progressziója de mindegy jól van ez így
+
+523
+00:29:03,600 --> 00:29:07,919
+most egyelőre ehhez a ehhez a
+
+524
+00:29:05,559 --> 00:29:11,320
+vizualizációhoz és akkor ugye ez
+
+525
+00:29:07,919 --> 00:29:14,960
+leíró dimenzió lesz és akkor nekünk itt
+
+526
+00:29:11,320 --> 00:29:19,159
+elvileg ezeket látod mind itt vannak a 2
+
+527
+00:29:14,960 --> 00:29:21,679
+C9-esek a többi három év ugye az már
+
+528
+00:29:19,159 --> 00:29:23,679
+egészen egészen össze van megyűlve talán
+
+529
+00:29:21,679 --> 00:29:27,080
+még ezek az talán a legutóbbi év lesz
+
+530
+00:29:23,679 --> 00:29:29,480
+igen 2024-es év azok is egy kicsit akkor
+
+531
+00:29:27,080 --> 00:29:32,039
+tudom hogy volt egy ilyen változás azok
+
+532
+00:29:29,480 --> 00:29:33,799
+is egy picit másképp kezdenek viselkedni
+
+533
+00:29:32,039 --> 00:29:35,279
+úgyhogy ez egy ez egy egészen érdekes
+
+534
+00:29:33,799 --> 00:29:37,840
+történet nyilván egy kicsit ki lehet
+
+535
+00:29:35,279 --> 00:29:40,679
+tisztogatni fel is lehet tenni hogyha
+
+536
+00:29:37,840 --> 00:29:42,200
+neked volt egy csapatod vagy akinek a
+
+537
+00:29:40,679 --> 00:29:44,440
+részese voltál vagy amit csak meg
+
+538
+00:29:42,200 --> 00:29:46,399
+szeretnénk egy kicsit
+
+539
+00:29:44,440 --> 00:29:48,840
+jeleníteni azokat feltehetsz egy pár
+
+540
+00:29:46,399 --> 00:29:51,559
+csapatcímként ezzel már egészen egészen
+
+541
+00:29:48,840 --> 00:29:54,480
+jó történetet lehet elmesélni és ugye ez
+
+542
+00:29:51,559 --> 00:29:56,799
+alapvetően egy egy dimenzió csökkentési
+
+543
+00:29:54,480 --> 00:29:58,000
+feladatot végeztünk ezzel egészen
+
+544
+00:29:56,799 --> 00:30:02,760
+egészen
+
+545
+00:29:58,000 --> 00:30:02,760
+jól van-e van-e itt kérdésetek
+
+546
+00:30:05,640 --> 00:30:13,679
+így a PC-val a két az mit is jelent ugye
+
+547
+00:30:09,880 --> 00:30:17,440
+van a Y tengelyen a 100-as értékek és az
+
+548
+00:30:13,679 --> 00:30:19,679
+X tengelyen aresek azok pontosan mit is
+
+549
+00:30:17,440 --> 00:30:22,799
+szimbolizálnak tes abszolút semmit
+
+550
+00:30:19,679 --> 00:30:27,240
+semmit az principle component ez ezek
+
+551
+00:30:22,799 --> 00:30:29,720
+ugye szintetikus dimenziók lesznek tehát
+
+552
+00:30:27,240 --> 00:30:32,760
+ő ő találja ki hogy az első principle
+
+553
+00:30:29,720 --> 00:30:35,559
+componentben mi a fontos itt nyilván úgy
+
+554
+00:30:32,760 --> 00:30:37,960
+néz ki hogy a az elért pontszámból vette
+
+555
+00:30:35,559 --> 00:30:40,760
+vette a legnagyobb súlyt azért lettek
+
+556
+00:30:37,960 --> 00:30:42,799
+ezek mert ezt mondtam hogy az azokat ki
+
+557
+00:30:40,760 --> 00:30:44,440
+kéne vegyük ahhoz hogy tehát ott egy
+
+558
+00:30:42,799 --> 00:30:46,799
+kicsit behoztunk egy ilyen egy ilyen
+
+559
+00:30:44,440 --> 00:30:48,880
+zajt és akkor azon kívül a második
+
+560
+00:30:46,799 --> 00:30:51,120
+principle component azok már az már
+
+561
+00:30:48,880 --> 00:30:53,399
+valamelyik próbának az oszlopa lesz
+
+562
+00:30:51,120 --> 00:30:55,039
+azért lesznek itt ilyen 100-asaink de
+
+563
+00:30:53,399 --> 00:30:56,960
+nem ugye nem úgy van ez hogy most ez a
+
+564
+00:30:55,039 --> 00:30:58,960
+legfontosabb oszlop ez az első principal
+
+565
+00:30:56,960 --> 00:31:00,360
+component hanem az elsőben benne van egy
+
+566
+00:30:58,960 --> 00:31:01,960
+kicsi ebből az oszlopból egy kicsi a
+
+567
+00:31:00,360 --> 00:31:04,679
+másodikból egy kicsi a harmadikból ez
+
+568
+00:31:01,960 --> 00:31:06,039
+ezt amikor ráilleszted akkor ő
+
+569
+00:31:04,679 --> 00:31:09,039
+megtanulja hogy mi az optimális
+
+570
+00:31:06,039 --> 00:31:11,600
+kombináció
+
+571
+00:31:09,039 --> 00:31:13,080
+igen most már megvan meg megvan na jó
+
+572
+00:31:11,600 --> 00:31:16,240
+hát csináljunk egy másikat csináljunk
+
+573
+00:31:13,080 --> 00:31:20,760
+egy másikat van egy olyan hogy
+
+574
+00:31:16,240 --> 00:31:20,760
+ami ami ilyen nagyon nagyon
+
+575
+00:31:22,159 --> 00:31:27,799
+nagyon nagy különbséggel rendelkező
+
+576
+00:31:24,320 --> 00:31:30,000
+adatokra jó azt hiszem az ISO map nézzük
+
+577
+00:31:27,799 --> 00:31:32,880
+meg egy kicsit hogy itt decompositionben
+
+578
+00:31:30,000 --> 00:31:32,880
+még milyen modellek
+
+579
+00:31:40,000 --> 00:31:46,399
+vannak kern PC mini batch
+
+580
+00:31:44,840 --> 00:31:49,159
+inkább keressünk egy olyant hogy
+
+581
+00:31:46,399 --> 00:31:49,159
+dimensionality
+
+582
+00:31:52,679 --> 00:31:58,559
+reduction knn Kest neighbors az is jó
+
+583
+00:31:56,279 --> 00:32:00,120
+egyszerű manifold learning ez ezek mind
+
+584
+00:31:58,559 --> 00:32:02,600
+ilyen körülbelül hasonló eredményekhez
+
+585
+00:32:00,120 --> 00:32:03,880
+fognak vezetni próbáljunk meg egy
+
+586
+00:32:02,600 --> 00:32:07,880
+Próbáljunk meg egy
+
+587
+00:32:03,880 --> 00:32:07,880
+KNN-t esetleg
+
+588
+00:32:13,919 --> 00:32:18,600
+azért mert erre
+
+589
+00:32:15,480 --> 00:32:21,200
+volt példánk ugye a
+
+590
+00:32:18,600 --> 00:32:24,200
+KNMbe valahol ez megvan hogy honnan kell
+
+591
+00:32:21,200 --> 00:32:24,200
+ezt
+
+592
+00:32:25,600 --> 00:32:33,720
+behozni a neighborsről
+
+593
+00:32:29,240 --> 00:32:36,559
+van neighborsből kell behozni
+
+594
+00:32:33,720 --> 00:32:39,159
+hát próbálhatunk még egy verziót
+
+595
+00:32:36,559 --> 00:32:41,639
+csináljuk azt
+
+596
+00:32:39,159 --> 00:32:45,720
+hogy
+
+597
+00:32:41,639 --> 00:32:45,720
+ehelyett tegyünk egy teljesen
+
+598
+00:32:48,799 --> 00:32:55,440
+mást from SK learn látod itt neked már
+
+599
+00:32:52,720 --> 00:32:59,519
+neked már javasolja a TSN-t igen a TSN
+
+600
+00:32:55,440 --> 00:33:01,399
+is az egy nagyon jó algoritmus akkor
+
+601
+00:32:59,519 --> 00:33:02,760
+amikor azotok szépen standardizáltak és
+
+602
+00:33:01,399 --> 00:33:05,600
+nem össz-evissza vannak de minden
+
+603
+00:33:02,760 --> 00:33:07,200
+esetben jó használhatjuk a TSN-ét is
+
+604
+00:33:05,600 --> 00:33:09,200
+úgyhogy elfogadom most azt amit ő
+
+605
+00:33:07,200 --> 00:33:12,679
+javasol de már hogyha már hogyha
+
+606
+00:33:09,200 --> 00:33:14,720
+elkezdtem akkor beleírom a knent is from
+
+607
+00:33:12,679 --> 00:33:17,480
+escarn látod itt javasolná nekem a
+
+608
+00:33:14,720 --> 00:33:20,440
+standard scaler úgyhogy ezt is elfogadom
+
+609
+00:33:17,480 --> 00:33:20,440
+ide is vissza fogok
+
+610
+00:33:20,679 --> 00:33:25,799
+térni most muszáj kész
+
+611
+00:33:32,880 --> 00:33:35,159
+na
+
+612
+00:33:35,840 --> 00:33:40,519
+javasoljad
+
+613
+00:33:38,760 --> 00:33:44,000
+labors nem
+
+614
+00:33:40,519 --> 00:33:47,120
+kell import
+
+615
+00:33:44,000 --> 00:33:51,120
+kért az az
+
+616
+00:33:47,120 --> 00:33:51,120
+nem clfy ja jó
+
+617
+00:34:02,559 --> 00:34:07,240
+jaj nem nem lehet ezzel csak osztályázni
+
+618
+00:34:05,240 --> 00:34:10,399
+na mindegy nem baj akkor elfogadjuk ezt
+
+619
+00:34:07,240 --> 00:34:12,560
+a TSN-t amit ő amit ő mond ugye ez a
+
+620
+00:34:10,399 --> 00:34:14,079
+manifold családhoz tartozik és akkor itt
+
+621
+00:34:12,560 --> 00:34:15,839
+javasolt egy standard scalert mindjárt
+
+622
+00:34:14,079 --> 00:34:18,520
+azt megmondom hogy mi az fogadjuk
+
+623
+00:34:15,839 --> 00:34:21,919
+egyszer így el csak így magára skálázás
+
+624
+00:34:18,520 --> 00:34:23,560
+nélkül a a TSNét tehát a többi a többi
+
+625
+00:34:21,919 --> 00:34:27,280
+része a kódunknak ugyanazt kéne legyen
+
+626
+00:34:23,560 --> 00:34:30,200
+ugye az x megmarad 230 x 40-nek az x2
+
+627
+00:34:27,280 --> 00:34:32,679
+230 x 2-nek és akkor persze nyilván még
+
+628
+00:34:30,200 --> 00:34:34,800
+egyszer kiplottolhatjuk őket hátha
+
+629
+00:34:32,679 --> 00:34:37,480
+jobban látod itt
+
+630
+00:34:34,800 --> 00:34:40,280
+jobban elkülönülnek bizonyos szigetek
+
+631
+00:34:37,480 --> 00:34:44,359
+egymástól tehát kicsit jobban szétszedi
+
+632
+00:34:40,280 --> 00:34:48,839
+őket de ugyanezt akkor újra exportáljuk
+
+633
+00:34:44,359 --> 00:34:48,839
+ez van ilyen a TSN-n
+
+634
+00:34:51,960 --> 00:34:57,159
+ezt is beteszem a Discordba és akkor
+
+635
+00:34:54,280 --> 00:34:57,159
+gyorsan áttesszük
+
+636
+00:35:08,599 --> 00:35:14,200
+Florisba fizba ez lesz a
+
+637
+00:35:15,359 --> 00:35:20,160
+MV31 csináljunk belőle egy duplikátumot
+
+638
+00:35:22,880 --> 00:35:29,079
+a W32 és akkor elvileg ugye itt csak azt
+
+639
+00:35:25,960 --> 00:35:29,079
+csak a szabatot kellene
+
+640
+00:35:30,200 --> 00:35:33,800
+kicseréljük minden marad
+
+641
+00:35:35,560 --> 00:35:41,440
+ugyanaz jaj mi lett a szí az folytonos
+
+642
+00:35:38,240 --> 00:35:44,560
+lett jaj ezeket nem tette vissza na nem
+
+643
+00:35:41,440 --> 00:35:50,000
+baj hát ezek voltak ugye B és
+
+644
+00:35:44,560 --> 00:35:54,319
+C a nevük volt a D a színük volt az
+
+645
+00:35:50,000 --> 00:35:57,240
+F a shape volt az
+
+646
+00:35:54,319 --> 00:36:00,800
+E és akkor a
+
+647
+00:35:57,240 --> 00:36:00,800
+gridline volt az
+
+648
+00:36:06,319 --> 00:36:13,240
+F és ezt visszatesszük
+
+649
+00:36:09,240 --> 00:36:13,240
+a szövegformátumba
+
+650
+00:36:16,000 --> 00:36:21,720
+van akkor a shapre visszatesszük azt a e
+
+651
+00:36:18,720 --> 00:36:21,720
+az
+
+652
+00:36:24,000 --> 00:36:30,280
+most és akkor itt már úgy néz ki ugye
+
+653
+00:36:27,359 --> 00:36:33,720
+egy TSN az talán
+
+654
+00:36:30,280 --> 00:36:36,359
+mintogyha három csoportot csinálna ugye
+
+655
+00:36:33,720 --> 00:36:37,839
+itt ezek a ezek a ezek a csapatok ezek
+
+656
+00:36:36,359 --> 00:36:39,839
+vagy ezek a
+
+657
+00:36:37,839 --> 00:36:42,200
+csapatévkombinációk ha egymáshoz közel
+
+658
+00:36:39,839 --> 00:36:43,880
+vannak ebbe a térbe ugye látod ez a tér
+
+659
+00:36:42,200 --> 00:36:45,599
+most 10esek vannak meg egyesek ezt
+
+660
+00:36:43,880 --> 00:36:48,480
+teljesen min ez egy absztrakt tér amit
+
+661
+00:36:45,599 --> 00:36:51,720
+kitalál kitalál neked a princ vagy a a
+
+662
+00:36:48,480 --> 00:36:53,520
+dimenzionalitáscsökkentés modell itt
+
+663
+00:36:51,720 --> 00:36:56,079
+talán van egy másik csoport ez nyilván
+
+664
+00:36:53,520 --> 00:36:59,480
+mindazok a csapatok lesznek akik 2019-es
+
+665
+00:36:56,079 --> 00:37:01,160
+évet kapnak de itt azért eléggé
+
+666
+00:36:59,480 --> 00:37:04,760
+eléggé
+
+667
+00:37:01,160 --> 00:37:07,280
+vegyes és akkor én már már sajnos rég
+
+668
+00:37:04,760 --> 00:37:08,800
+voltam diáknapos de itt te hoznád a
+
+669
+00:37:07,280 --> 00:37:10,480
+domain knowledge-et és azt mondanád hogy
+
+670
+00:37:08,800 --> 00:37:12,680
+hát igen ez a ez a csapat vagy az a
+
+671
+00:37:10,480 --> 00:37:15,000
+csapat akiknek a nevei nevei alapján
+
+672
+00:37:12,680 --> 00:37:17,160
+megkülönbözteted őket akkor kitalálod
+
+673
+00:37:15,000 --> 00:37:19,119
+hogy ezek tényleg egy ezek barátok vagy
+
+674
+00:37:17,160 --> 00:37:20,839
+ezek hasonlóképpen teljesítenek sőt még
+
+675
+00:37:19,119 --> 00:37:23,040
+itt ezen belül úgy néz ki hogy van még
+
+676
+00:37:20,839 --> 00:37:25,160
+egy ilyen mini egy ilyen mini cluster is
+
+677
+00:37:23,040 --> 00:37:28,319
+ugye amelyek
+
+678
+00:37:25,160 --> 00:37:28,319
+ki van benne suntja
+
+679
+00:37:29,160 --> 00:37:35,079
+2004 2024 2024 Vasőrhely meg akik akik
+
+680
+00:37:33,280 --> 00:37:37,200
+vannak itt de minden évből vannak ugye
+
+681
+00:37:35,079 --> 00:37:39,160
+minden évből vannak és akkor ezt ezt
+
+682
+00:37:37,200 --> 00:37:41,640
+talán én arra szavazok hogy ez ez talán
+
+683
+00:37:39,160 --> 00:37:43,599
+a jobb teljesítmény így a pár név
+
+684
+00:37:41,640 --> 00:37:46,560
+alapján úgy néz ki hogy ezek a csapatok
+
+685
+00:37:43,599 --> 00:37:50,560
+akik mindig jól teljesítettek több éven
+
+686
+00:37:46,560 --> 00:37:53,000
+több éven keresztül látod a TSN szerint
+
+687
+00:37:50,560 --> 00:37:55,440
+az é tehát a a PCA az egy nagyon
+
+688
+00:37:53,000 --> 00:37:57,800
+egyszerű modell ott az év információ az
+
+689
+00:37:55,440 --> 00:37:59,440
+valószínűleg nagyon nagy súlyal bírt itt
+
+690
+00:37:57,800 --> 00:38:01,079
+már össze-vissza vannak a vonalak ugye
+
+691
+00:37:59,440 --> 00:38:02,920
+hogy itt nem annyira volt fontos az hogy
+
+692
+00:38:01,079 --> 00:38:06,000
+milyen évben vagyunk hanem fontosabb az
+
+693
+00:38:02,920 --> 00:38:08,800
+volt ami egyébként logikus hogy melyik
+
+694
+00:38:06,000 --> 00:38:10,560
+csapatról van szó ugye azok azok másképp
+
+695
+00:38:08,800 --> 00:38:14,079
+másképp és más évben fognak másképp
+
+696
+00:38:10,560 --> 00:38:17,640
+fognak teljesíteni
+
+697
+00:38:14,079 --> 00:38:20,400
+évenként na jó elvileg hogy még jobban
+
+698
+00:38:17,640 --> 00:38:22,520
+elkülőnének ezek a csoportok be tudnánk
+
+699
+00:38:20,400 --> 00:38:26,119
+hozni egy javítást ugye itt az a
+
+700
+00:38:22,520 --> 00:38:27,720
+probléma hogyha megnézzük ezt a
+
+701
+00:38:26,119 --> 00:38:30,960
+ezt az
+
+702
+00:38:27,720 --> 00:38:33,359
+adatsort akkor ahogy Tamás mondta az
+
+703
+00:38:30,960 --> 00:38:36,520
+elején itt vannak ezresek meg vannak
+
+704
+00:38:33,359 --> 00:38:38,200
+egyesek meg itt vannak 100-asok az lenne
+
+705
+00:38:36,520 --> 00:38:39,960
+a legjobb hogyha mindegyik oszlopba
+
+706
+00:38:38,200 --> 00:38:42,560
+körülbelül ugyanakkorák lennének az
+
+707
+00:38:39,960 --> 00:38:44,440
+értékek és akkor ezt ezt skálázásnak
+
+708
+00:38:42,560 --> 00:38:47,040
+hívják és el szoktunk végezni egy
+
+709
+00:38:44,440 --> 00:38:50,000
+skálázást mielőtt a modellnek oda
+
+710
+00:38:47,040 --> 00:38:50,000
+odaadjuk az
+
+711
+00:38:51,280 --> 00:38:57,160
+adatokat és akkor neked itt a a Google
+
+712
+00:38:55,119 --> 00:39:00,880
+Colab az úgy javasolta hogy tegyél rá
+
+713
+00:38:57,160 --> 00:39:03,839
+egy standard egy egy standard scalert
+
+714
+00:39:00,880 --> 00:39:06,760
+sőt még van egy másik is ez a standard
+
+715
+00:39:03,839 --> 00:39:09,599
+ez ZCORE normalization csinál ami azt
+
+716
+00:39:06,760 --> 00:39:12,319
+jelenti hogy megnézi hogy hol van az
+
+717
+00:39:09,599 --> 00:39:14,440
+adatpontnak a mediánja és mindegyik
+
+718
+00:39:12,319 --> 00:39:16,960
+adatpontot elosztja a mediánjában tehát
+
+719
+00:39:14,440 --> 00:39:18,920
+a medián kap egy egyes értéket és a
+
+720
+00:39:16,960 --> 00:39:22,599
+többiek pedig annál kisebb vagy nagyobb
+
+721
+00:39:18,920 --> 00:39:22,599
+értékeket kapnak
+
+722
+00:39:23,040 --> 00:39:27,160
+ez az si zore normalization és a
+
+723
+00:39:24,960 --> 00:39:30,560
+standard scale azt hiszem hogy nem egyes
+
+724
+00:39:27,160 --> 00:39:32,040
+kör ezt még az egészet eltolja eggyel
+
+725
+00:39:30,560 --> 00:39:33,920
+úgyhogy itt lesznek pozitív és negatív
+
+726
+00:39:32,040 --> 00:39:35,880
+értékek tehát a nullás lesz az a a
+
+727
+00:39:33,920 --> 00:39:38,200
+teljesen átlagos pont és akkor a
+
+728
+00:39:35,880 --> 00:39:40,520
+különböző irányokban a tőle elütőpontok
+
+729
+00:39:38,200 --> 00:39:43,160
+kapnak értékeket van egy kicsit
+
+730
+00:39:40,520 --> 00:39:45,119
+egyszerűbb scaler amit javasolt
+
+731
+00:39:43,160 --> 00:39:47,520
+egyébként ugye az előbb a Google ez a
+
+732
+00:39:45,119 --> 00:39:49,520
+mind max scaler amikor csak a a
+
+733
+00:39:47,520 --> 00:39:51,800
+legnagyobb pontot egyessel jelöli a
+
+734
+00:39:49,520 --> 00:39:53,680
+legkisebbet zérossal és akkor közéje
+
+735
+00:39:51,800 --> 00:39:57,440
+mind maxolja mind a kettő mind a kettő
+
+736
+00:39:53,680 --> 00:39:59,839
+működik ki kell próbálni hogy melyik a a
+
+737
+00:39:57,440 --> 00:40:01,119
+melyik vezet jobb eredményére na hagyjuk
+
+738
+00:39:59,839 --> 00:40:03,760
+benne ezt a standard scalert és
+
+739
+00:40:01,119 --> 00:40:07,839
+csináljuk újra tehát ugyanígy megtartod
+
+740
+00:40:03,760 --> 00:40:10,440
+az egészet ugye és akkor
+
+741
+00:40:07,839 --> 00:40:12,839
+elvileg megvan a standard scaler
+
+742
+00:40:10,440 --> 00:40:14,640
+ugyanakkor kéne legyen az adat ezt fel
+
+743
+00:40:12,839 --> 00:40:16,599
+is lehet fűzni tehát tudsz csinálni egy
+
+744
+00:40:14,640 --> 00:40:19,599
+olyat hogy pipeline és akkor egyszer
+
+745
+00:40:16,599 --> 00:40:20,920
+standard scaleled és utána én hogyha
+
+746
+00:40:19,599 --> 00:40:24,280
+beírom azt hogy
+
+747
+00:40:20,920 --> 00:40:27,000
+pipeline mit mit javasol
+
+748
+00:40:24,280 --> 00:40:29,200
+hát itt kicsit meg még kellene írni de
+
+749
+00:40:27,000 --> 00:40:32,920
+tudsz csinálni egy pipeline tempor
+
+750
+00:40:29,200 --> 00:40:32,920
+hogyha beteszek egy
+
+751
+00:40:42,560 --> 00:40:48,240
+tudod beteszi beteszi a standard scalet
+
+752
+00:40:45,040 --> 00:40:51,160
+beteszi a tsnét és akkor szépen csinál
+
+753
+00:40:48,240 --> 00:40:53,079
+egy ilyen pipeline azaz a lépéseket
+
+754
+00:40:51,160 --> 00:40:54,200
+egymás után fel tudod sorol fel tudod
+
+755
+00:40:53,079 --> 00:40:56,640
+sorakozni
+
+756
+00:40:54,200 --> 00:40:59,599
+látod lesz egyszer egy skálázás utána
+
+757
+00:40:56,640 --> 00:41:02,200
+lesz a TSN modell ugyanúgy a szöveg a
+
+758
+00:40:59,599 --> 00:41:04,359
+fit transform az ugyanaz ezt meg is meg
+
+759
+00:41:02,200 --> 00:41:05,800
+is hagyom itt mert ez ez még hasznos
+
+760
+00:41:04,359 --> 00:41:07,920
+lehet
+
+761
+00:41:05,800 --> 00:41:11,440
+na jó és akkor a többi rész
+
+762
+00:41:07,920 --> 00:41:14,440
+az elvileg ugyan ugyanaz hátha jobban
+
+763
+00:41:11,440 --> 00:41:16,640
+szétválnak és látod hát egy kicsit talán
+
+764
+00:41:14,440 --> 00:41:19,040
+de nem a TSN modell az annyira jó
+
+765
+00:41:16,640 --> 00:41:21,839
+annyira jó volt hogy a skálázás nem
+
+766
+00:41:19,040 --> 00:41:27,119
+igazán nem igazán segített rajta
+
+767
+00:41:21,839 --> 00:41:29,079
+hogyha a PCA modellt hagynánk meg
+
+768
+00:41:27,119 --> 00:41:30,599
+tehát hogyha a PCA modellt hagynánk meg
+
+769
+00:41:29,079 --> 00:41:32,960
+és
+
+770
+00:41:30,599 --> 00:41:36,160
+utána tennénk a
+
+771
+00:41:32,960 --> 00:41:39,119
+skálát akkor azon segítene
+
+772
+00:41:36,160 --> 00:41:43,839
+jóval vágtam a
+
+773
+00:41:39,119 --> 00:41:43,839
+tegyük egyszer akkor a TS kikapcsolom
+
+774
+00:41:48,040 --> 00:41:54,000
+skál kész nem akartam csak most az X2-t
+
+775
+00:41:51,560 --> 00:41:58,520
+újra kell csináljuk mert
+
+776
+00:41:54,000 --> 00:41:58,520
+ráskáláztunk hol volt az X2
+
+777
+00:42:07,599 --> 00:42:12,280
+jaj a standard scénert az X2-re tette rá
+
+778
+00:42:10,119 --> 00:42:14,400
+hogyha kicsit rosszul tette rá látod
+
+779
+00:42:12,280 --> 00:42:17,440
+tehát nekünk ezt kell skálázni az
+
+780
+00:42:14,400 --> 00:42:20,920
+alapbemeneti modell tehát az x-et
+
+781
+00:42:17,440 --> 00:42:25,280
+kellázni és akkor utána rátesszük a
+
+782
+00:42:20,920 --> 00:42:27,839
+PC-t de akkor már legyen ez egy X S ugye
+
+783
+00:42:25,280 --> 00:42:32,440
+ez egy skálázott S legyen és akkor
+
+784
+00:42:27,839 --> 00:42:32,440
+nekünk ezt a modellert az XS-re küldje
+
+785
+00:42:33,160 --> 00:42:36,880
+rá most hogyha
+
+786
+00:42:37,000 --> 00:42:40,800
+kiplottolom akkor ugye volt ez a legelső
+
+787
+00:42:39,280 --> 00:42:43,440
+verzió
+
+788
+00:42:40,800 --> 00:42:46,240
+most akkor látod sokkal jobban
+
+789
+00:42:43,440 --> 00:42:48,440
+egyértelműen most van nekünk hát ő csak
+
+790
+00:42:46,240 --> 00:42:50,680
+megmarad ez hogy például ez a 3000 külön
+
+791
+00:42:48,440 --> 00:42:52,680
+volt de jobban szétválnak tehát most
+
+792
+00:42:50,680 --> 00:42:56,880
+eltűnnek ezek az ezrek úgy körülbelül
+
+793
+00:42:52,680 --> 00:42:59,040
+nulla körül lesz centralizálva minden a
+
+794
+00:42:56,880 --> 00:43:01,800
+mondtam a standard scén akkor attól hogy
+
+795
+00:42:59,040 --> 00:43:03,880
+az eltéréseket az átlagos mediá pontól
+
+796
+00:43:01,800 --> 00:43:06,720
+való eltéréseket
+
+797
+00:43:03,880 --> 00:43:09,079
+mi méri neked na de próbáljuk meg akkor
+
+798
+00:43:06,720 --> 00:43:10,800
+hátha megy ez TSN-vel is tehát megvolt
+
+799
+00:43:09,079 --> 00:43:13,079
+nekik a standard scare akkor kapcsoljuk
+
+800
+00:43:10,800 --> 00:43:16,760
+vissza a TSN modellt mert az elvileg
+
+801
+00:43:13,079 --> 00:43:19,000
+jobb kéne legyen csak most az X-Sázat
+
+802
+00:43:16,760 --> 00:43:19,000
+adat
+
+803
+00:43:19,079 --> 00:43:24,040
+sorod ez egy kicsit több időbe tartott
+
+804
+00:43:21,720 --> 00:43:24,040
+amíg
+
+805
+00:43:27,520 --> 00:43:32,640
+lefutott hú de milyen szép ez két
+
+806
+00:43:30,480 --> 00:43:34,520
+egyértelmű két egyértelmű csoportot
+
+807
+00:43:32,640 --> 00:43:37,200
+készít azon belül nézeg milyen közel
+
+808
+00:43:34,520 --> 00:43:39,880
+teszi például ezeket a pontokat úgyhogy
+
+809
+00:43:37,200 --> 00:43:43,559
+ez egészen egészen
+
+810
+00:43:39,880 --> 00:43:46,599
+jó eredménynek néz ki tegyük azt neki
+
+811
+00:43:43,559 --> 00:43:46,599
+hogy TSN
+
+812
+00:44:07,800 --> 00:44:15,240
+scaled ezt is viszem át a Florisba
+
+813
+00:44:11,880 --> 00:44:18,000
+és akkor utána megnézünk egy megnézzük
+
+814
+00:44:15,240 --> 00:44:18,000
+egy regressziót
+
+815
+00:44:45,559 --> 00:44:52,720
+jo x tengely az volt a B Y tengely az
+
+816
+00:44:50,760 --> 00:44:58,720
+volt a
+
+817
+00:44:52,720 --> 00:45:01,240
+C akkor a nevük volt a D a színük volt
+
+818
+00:44:58,720 --> 00:45:01,240
+az
+
+819
+00:45:03,119 --> 00:45:14,760
+F fajtájuk volt az E és a vonal
+
+820
+00:45:08,839 --> 00:45:14,760
+összekötve őket az volt újra az F
+
+821
+00:45:16,200 --> 00:45:21,559
+így látod így a 2019-ek még
+
+822
+00:45:19,000 --> 00:45:23,040
+egyértelműben elvárnak tőlük vannak
+
+823
+00:45:21,559 --> 00:45:25,440
+olyan csapatok amelyek nagyon közel
+
+824
+00:45:23,040 --> 00:45:28,280
+kerülnek egymáshoz tehát itt az köz ugye
+
+825
+00:45:25,440 --> 00:45:30,559
+a távolság ugye az azt jelenti hogy
+
+826
+00:45:28,280 --> 00:45:33,319
+mennyire hasonló annak az alapnak a
+
+827
+00:45:30,559 --> 00:45:34,920
+teljesítménye és akkor így egészen ez
+
+828
+00:45:33,319 --> 00:45:37,599
+egészen közeli teljesítmények
+
+829
+00:45:34,920 --> 00:45:40,079
+ugyanazoktól a csapatoktól is szépen a
+
+830
+00:45:37,599 --> 00:45:42,400
+felszínre felszínek ez ez talán a
+
+831
+00:45:40,079 --> 00:45:44,000
+skálázás után nem is biztos hogy ezt
+
+832
+00:45:42,400 --> 00:45:47,079
+egyszerűbb olvasni ugye ez azt mondja el
+
+833
+00:45:44,000 --> 00:45:48,960
+nekünk hogy a 2019-es eredmények nagyon
+
+834
+00:45:47,079 --> 00:45:52,200
+másak voltak mint a többiek de a többiek
+
+835
+00:45:48,960 --> 00:45:54,160
+között egy picit nehéz megkülönböztetni
+
+836
+00:45:52,200 --> 00:45:56,599
+de úgy néz ki hogy az évek itt egy
+
+837
+00:45:54,160 --> 00:45:57,960
+kicsit nagyobb szerepet játszanak mint a
+
+838
+00:45:56,599 --> 00:46:00,040
+mint az előző
+
+839
+00:45:57,960 --> 00:46:02,280
+felbontásban ez a modell ez azt mondaná
+
+840
+00:46:00,040 --> 00:46:04,160
+nekünk hogy hogy az előző azt mondta
+
+841
+00:46:02,280 --> 00:46:06,319
+hogy az a fontos hogy milyen csapat
+
+842
+00:46:04,160 --> 00:46:08,400
+neved van ez a modell meg inkább azt
+
+843
+00:46:06,319 --> 00:46:10,640
+mondaná hogy szerinte az a fontos hogy
+
+844
+00:46:08,400 --> 00:46:13,040
+milyen évben vagy mert az alapján ezek a
+
+845
+00:46:10,640 --> 00:46:15,520
+pöttyöcskék ami ugye egy év kicsit így
+
+846
+00:46:13,040 --> 00:46:18,640
+jobban elhatárolódnak ezek az ykk pedig
+
+847
+00:46:15,520 --> 00:46:21,640
+így jobban elhatárolódnak
+
+848
+00:46:18,640 --> 00:46:24,119
+na most ezt ezt ez igazán akkor lenne
+
+849
+00:46:21,640 --> 00:46:25,880
+nagyon szép hogyha nem csak ezzel a négy
+
+850
+00:46:24,119 --> 00:46:28,079
+évvel tudnának megcsinálni hanem az
+
+851
+00:46:25,880 --> 00:46:30,440
+összes az összes évvel még akkor is
+
+852
+00:46:28,079 --> 00:46:32,680
+hogyha nincsenek meg minden próbálnak
+
+853
+00:46:30,440 --> 00:46:36,720
+minden évre az
+
+854
+00:46:32,680 --> 00:46:39,440
+értékeik de most próbáljuk aludást
+
+855
+00:46:36,720 --> 00:46:39,440
+visszamegyek az
+
+856
+00:46:47,640 --> 00:46:52,760
+Excele és itt az Excelünkben ugye a
+
+857
+00:46:50,400 --> 00:46:54,680
+csapatneveket most nyilván
+
+858
+00:46:52,760 --> 00:46:56,680
+dimenziócsökkentést csak felcímkezésre
+
+859
+00:46:54,680 --> 00:47:00,079
+használtuk de
+
+860
+00:46:56,680 --> 00:47:03,040
+ezeket tudnánk használni arra
+
+861
+00:47:00,079 --> 00:47:04,640
+hogy ez egy konkrét információ hogy
+
+862
+00:47:03,040 --> 00:47:07,280
+pontosan melyik csapat hogyan
+
+863
+00:47:04,640 --> 00:47:10,000
+teljesített ebben az évben úgyhogy ha
+
+864
+00:47:07,280 --> 00:47:11,359
+például félretennénk az adatokat ugye
+
+865
+00:47:10,000 --> 00:47:13,640
+kell csináljunk egy ilyen train test
+
+866
+00:47:11,359 --> 00:47:16,839
+splittet de hogyha félretesszük a
+
+867
+00:47:13,640 --> 00:47:20,280
+2024-es adatokat lássuk meg tudnánk-e
+
+868
+00:47:16,839 --> 00:47:22,160
+jósolni a 2024-es helyezéseket az addig
+
+869
+00:47:20,280 --> 00:47:27,359
+ez nagyon kicsi ez az adatsor de lássuk
+
+870
+00:47:22,160 --> 00:47:30,960
+az addigi 3 19 22 23 alapján a 2024-es
+
+871
+00:47:27,359 --> 00:47:33,960
+eredményeket meg tudnánk-e jósolni már
+
+872
+00:47:30,960 --> 00:47:35,839
+itt a dimező csökkentés azt mondja nekem
+
+873
+00:47:33,960 --> 00:47:37,960
+hogy a 19-es adatok nagyon másképp
+
+874
+00:47:35,839 --> 00:47:40,520
+viselkedtek a többiektől úgyhogy ez
+
+875
+00:47:37,960 --> 00:47:42,800
+talán nem is hasznos belefoglalni de nem
+
+876
+00:47:40,520 --> 00:47:45,040
+baj foglaljuk bele az összeset és akkor
+
+877
+00:47:42,800 --> 00:47:48,079
+azzal jósoljunk mondjuk egy egy
+
+878
+00:47:45,040 --> 00:47:51,270
+helyezést hát jósoljunk egy egy
+
+879
+00:47:48,079 --> 00:47:52,680
+helyezést most itt nyilván ez a a ez
+
+880
+00:47:51,270 --> 00:47:55,839
+[Zene]
+
+881
+00:47:52,680 --> 00:47:58,280
+a megvan nekünk hogyha megvan az összes
+
+882
+00:47:55,839 --> 00:48:00,079
+pontszám ez a feladat nagyon egyszerű
+
+883
+00:47:58,280 --> 00:48:02,000
+kéne legyen tehát pontosan meg kéne
+
+884
+00:48:00,079 --> 00:48:05,040
+tudjuk gyorsulni a helyezést mivel az
+
+885
+00:48:02,000 --> 00:48:09,400
+csak az pontszámoknak az összege úgyhogy
+
+886
+00:48:05,040 --> 00:48:12,160
+valami érdekesebb az az lenne hogyha
+
+887
+00:48:09,400 --> 00:48:14,000
+megvan nekünk mondjuk a csapatnak a neve
+
+888
+00:48:12,160 --> 00:48:16,040
+és az alapján jósolunk helyezést a
+
+889
+00:48:14,000 --> 00:48:18,839
+pontszámok nélkül tehát a 2024-es
+
+890
+00:48:16,040 --> 00:48:22,119
+adatokból nem fogjuk mutatni nekik a
+
+891
+00:48:18,839 --> 00:48:24,599
+pontszámokat hanem csak azt hogy melyik
+
+892
+00:48:22,119 --> 00:48:26,760
+csapatról van szó és akkor az alapján
+
+893
+00:48:24,599 --> 00:48:29,359
+jósyon kitöltjük a pontszámunkat mind
+
+894
+00:48:26,760 --> 00:48:31,440
+nullákkal vagy valami hasonló vagy
+
+895
+00:48:29,359 --> 00:48:34,880
+mínuszokkal akkor az alapján kérünk
+
+896
+00:48:31,440 --> 00:48:37,920
+helyezést megpróbáljuk ezt mind a mind a
+
+897
+00:48:34,880 --> 00:48:39,640
+kettőt ahhoz pedig hogy ez működjön kell
+
+898
+00:48:37,920 --> 00:48:43,400
+csináljunk egy olyat amit úgy neveznek
+
+899
+00:48:39,640 --> 00:48:43,400
+hogy one encoding egy
+
+900
+00:48:58,960 --> 00:49:04,559
+encóolást ezzel indultunk ide a DF-el
+
+901
+00:49:03,520 --> 00:49:07,200
+és akkor
+
+902
+00:49:04,559 --> 00:49:09,160
+kétféle kétféle encódolás van ahogy
+
+903
+00:49:07,200 --> 00:49:12,960
+mondtam hogy lineáris amikor
+
+904
+00:49:09,160 --> 00:49:15,760
+helyettesíted a kiugró
+
+905
+00:49:12,960 --> 00:49:17,200
+adatpontjaidat azzal egy kisebb számmal
+
+906
+00:49:15,760 --> 00:49:18,680
+vagy egy olyan számmal ami közelebb van
+
+907
+00:49:17,200 --> 00:49:22,640
+az adattábla
+
+908
+00:49:18,680 --> 00:49:26,359
+tvrészéhez de csak a relatív információt
+
+909
+00:49:22,640 --> 00:49:28,640
+tárolja el tehát a 19 és 24 között csak
+
+910
+00:49:26,359 --> 00:49:32,400
+azt tárolja el hogy eszközött a lépések
+
+911
+00:49:28,640 --> 00:49:34,640
+lépésekre tekintve öt öt lépés van tehát
+
+912
+00:49:32,400 --> 00:49:35,760
+ezt meg tudnám csinálni a a standard
+
+913
+00:49:34,640 --> 00:49:38,960
+scalerrel
+
+914
+00:49:35,760 --> 00:49:42,040
+is tehát itt hogyha át innen behozom a
+
+915
+00:49:38,960 --> 00:49:42,040
+standard scaleremet
+
+916
+00:49:47,839 --> 00:49:56,760
+ugye és akkor azt ráengedem a DF-re
+
+917
+00:49:52,359 --> 00:49:56,760
+ja csak ez ez csak számunkra működik
+
+918
+00:49:58,079 --> 00:50:04,480
+ugye hogy hívták őket tf drop és név
+
+919
+00:50:02,920 --> 00:50:08,920
+talán
+
+920
+00:50:04,480 --> 00:50:08,920
+ugye az Axis
+
+921
+00:50:12,520 --> 00:50:18,319
+1-ben mi hívjátok őket csapatnak hívjak
+
+922
+00:50:22,280 --> 00:50:27,559
+jó és behoztuk ezt az extrát is ami az
+
+923
+00:50:35,000 --> 00:50:39,960
+ID jó és akkor ebből csináljunk egy
+
+924
+00:50:44,880 --> 00:50:50,880
+fényt jó és akkor látod ilyen megtartja
+
+925
+00:50:48,440 --> 00:50:53,640
+az értékeket úgy az átlagos értékhez
+
+926
+00:50:50,880 --> 00:50:56,400
+képest neked így kisebb és nagyobb
+
+927
+00:50:53,640 --> 00:50:59,920
+értékeket generál csak ez figyelem veszi
+
+928
+00:50:56,400 --> 00:51:02,680
+a teljes a teljes adattáblát úgyhogy
+
+929
+00:50:59,920 --> 00:51:05,160
+ebben az esetben talán a min max scader
+
+930
+00:51:02,680 --> 00:51:08,160
+az még jobb
+
+931
+00:51:05,160 --> 00:51:12,319
+lenne csak azt külön be kell importáljuk
+
+932
+00:51:08,160 --> 00:51:12,319
+azt még nem importáltuk be
+
+933
+00:51:12,480 --> 00:51:15,920
+itt ahol beimportáljuk
+
+934
+00:51:16,839 --> 00:51:21,680
+a standard scalert lehet egy min
+
+935
+00:51:19,760 --> 00:51:24,040
+maxmaxot is
+
+936
+00:51:21,680 --> 00:51:26,520
+beimportálni és akkor őket hogyha min
+
+937
+00:51:24,040 --> 00:51:26,520
+max
+
+938
+00:51:30,160 --> 00:51:34,240
+skálázzuk akkor látod a legkisebb érték
+
+939
+00:51:32,599 --> 00:51:35,880
+az
+
+940
+00:51:34,240 --> 00:51:38,319
+kap egy nullást a legnagyobb érték kap
+
+941
+00:51:35,880 --> 00:51:40,880
+egy egyest vagy vagy valami hasonló már
+
+942
+00:51:38,319 --> 00:51:42,079
+elfelejtettem hogy ez pontosan így egy
+
+943
+00:51:40,880 --> 00:51:45,119
+az egybe
+
+944
+00:51:42,079 --> 00:51:48,160
+átfordítható-e nézzük csak meg igen
+
+945
+00:51:45,119 --> 00:51:51,280
+pontosan így a 19-ek kapnak egy nullát a
+
+946
+00:51:48,160 --> 00:51:52,880
+24-nek a 24-ek kapnak egy egyest ugye és
+
+947
+00:51:51,280 --> 00:51:55,880
+hogyha itt megnézzém hogy a nulladik
+
+948
+00:51:52,880 --> 00:51:55,880
+oszlopba
+
+949
+00:52:02,760 --> 00:52:09,640
+hány csapat van 40 vagy hány 40 hogyha
+
+950
+00:52:06,880 --> 00:52:13,280
+elmegyünk mondjuk az 50-esig akkor már
+
+951
+00:52:09,640 --> 00:52:13,280
+át kéne menjenem a következő
+
+952
+00:52:20,000 --> 00:52:25,520
+évbe tehát egy idő után átmennek a
+
+953
+00:52:22,240 --> 00:52:29,040
+következő évbe és akkor
+
+954
+00:52:25,520 --> 00:52:29,040
+mivel van nekünk
+
+955
+00:52:30,200 --> 00:52:39,680
+nullásunk kellene legyen 0,2 0,4 ezek
+
+956
+00:52:34,839 --> 00:52:43,760
+nincsenek és akkor utána jön 0,6 0,8 és
+
+957
+00:52:39,680 --> 00:52:46,599
+1 itt még jobban ugye ez már egy
+
+958
+00:52:43,760 --> 00:52:52,000
+torzítás mert azt tudjuk hogy a 2019-es
+
+959
+00:52:46,599 --> 00:52:54,760
+után a következő esemény az a 2020 k-s
+
+960
+00:52:52,000 --> 00:52:57,839
+és akkor például már egy minma maxmaxes
+
+961
+00:52:54,760 --> 00:53:00,319
+minma maxmaxes scaler is behoznál azt a
+
+962
+00:52:57,839 --> 00:53:02,359
+torzítást hogy itt lépés
+
+963
+00:53:00,319 --> 00:53:05,319
+itt hiányzik hiányzik két lépés de ugye
+
+964
+00:53:02,359 --> 00:53:07,559
+be hát ezt ezt ezt behozná mint lépés
+
+965
+00:53:05,319 --> 00:53:09,359
+adatpont amire amikre vár és akkor a
+
+966
+00:53:07,559 --> 00:53:10,880
+standard scalernek az azért nem volt egy
+
+967
+00:53:09,359 --> 00:53:12,559
+ilyen ennyire egyértelmű a standard
+
+968
+00:53:10,880 --> 00:53:14,880
+scalernek nincsen
+
+969
+00:53:12,559 --> 00:53:17,960
+ilyen
+
+970
+00:53:14,880 --> 00:53:19,920
+elvárása de még egyszerűbb hogyha mi
+
+971
+00:53:17,960 --> 00:53:23,000
+helyettesítjük hogyha csinálnánk egy
+
+972
+00:53:19,920 --> 00:53:26,319
+ilyen ezt megtartom itt egy
+
+973
+00:53:23,000 --> 00:53:27,599
+példának de hogyha csinálunk egy ilyen
+
+974
+00:53:26,319 --> 00:53:30,559
+faék
+
+975
+00:53:27,599 --> 00:53:32,799
+szótárat azt mondjuk hogy
+
+976
+00:53:30,559 --> 00:53:35,359
+évhelyettesítő vagy nem tudom kiadás
+
+977
+00:53:32,799 --> 00:53:39,760
+vagy valami ilyesmi és akkor azt mondjuk
+
+978
+00:53:35,359 --> 00:53:42,720
+hogy a 2019 lesz nekünk az első
+
+979
+00:53:39,760 --> 00:53:46,119
+kiadás 2022 lesz a
+
+980
+00:53:42,720 --> 00:53:51,160
+második 2023 lesz a harmadik 2024 lesz a
+
+981
+00:53:46,119 --> 00:53:54,880
+negyedik kiadás és akkor a DF-ben tudunk
+
+982
+00:53:51,160 --> 00:53:54,880
+ebben az oszlopban az E
+
+983
+00:53:55,559 --> 00:54:01,599
+oszlopban ezzel a
+
+984
+00:53:58,599 --> 00:54:01,599
+kiadással
+
+985
+00:54:02,240 --> 00:54:08,319
+helyettesíteni szóhoz hogy is van ez
+
+986
+00:54:04,920 --> 00:54:11,200
+pontosan nem így kell ezt
+
+987
+00:54:08,319 --> 00:54:15,119
+kell ezt megírni rendesen hanem
+
+988
+00:54:11,200 --> 00:54:17,839
+így így ni ez az hát akkor az év
+
+989
+00:54:15,119 --> 00:54:20,520
+oszlopan ugye ezeket helyettesíti azon a
+
+990
+00:54:17,839 --> 00:54:23,799
+szótáron amit te létrehoztál na ez jó
+
+991
+00:54:20,520 --> 00:54:28,280
+lesz nekünk ezt így az alap DF-en nem is
+
+992
+00:54:23,799 --> 00:54:32,240
+fogom felül felüliratni de hozzunk egy
+
+993
+00:54:28,280 --> 00:54:32,240
+olyat létre hogy év
+
+994
+00:54:33,680 --> 00:54:38,440
+2.2 és akkor itt a végén neked lesz egy
+
+995
+00:54:36,319 --> 00:54:40,440
+új oszlop amelyik ezeket az éveket
+
+996
+00:54:38,440 --> 00:54:44,760
+szépen helyettesíti
+
+997
+00:54:40,440 --> 00:54:44,760
+ezt nevezik lineáris
+
+998
+00:54:49,599 --> 00:54:56,040
+enkolásnak vagy
+
+999
+00:54:52,319 --> 00:54:56,040
+helyettesítésnek tehát lineár
+
+1000
+00:55:00,680 --> 00:55:06,839
+encoding van egy másik amit úgy hívunk
+
+1001
+00:55:03,920 --> 00:55:10,400
+hogy one 6 encoding ez annyira hogy
+
+1002
+00:55:06,839 --> 00:55:12,400
+nullások és egyesek
+
+1003
+00:55:10,400 --> 00:55:15,880
+minthogyha egy hitmappel reprezentálnál
+
+1004
+00:55:12,400 --> 00:55:19,480
+ezt az egészet és akkor kapsz nullásokat
+
+1005
+00:55:15,880 --> 00:55:19,480
+illetve egyeseket
+
+1006
+00:55:19,960 --> 00:55:22,720
+ezt a one
+
+1007
+00:55:30,400 --> 00:55:34,359
+encodingot a pandas úgy
+
+1008
+00:55:36,720 --> 00:55:42,079
+hívja dummy variable generation ez
+
+1009
+00:55:40,160 --> 00:55:43,720
+hogyha valaki esetleg tanult tanult
+
+1010
+00:55:42,079 --> 00:55:46,200
+közületek
+
+1011
+00:55:43,720 --> 00:55:49,799
+ökonometriát akkor a pandaszt az
+
+1012
+00:55:46,200 --> 00:55:51,680
+ökonometriában ilyen panelregresszióknak
+
+1013
+00:55:49,799 --> 00:55:53,960
+az elvégzésére vagy az elkészítésére
+
+1014
+00:55:51,680 --> 00:55:56,119
+használják és a panelregresszióban
+
+1015
+00:55:53,960 --> 00:55:58,839
+ezeket az
+
+1016
+00:55:56,119 --> 00:56:00,319
+oszlopokat bemutatkozó billiárd bográt
+
+1017
+00:55:58,839 --> 00:56:02,839
+satöbbi ezeket úgy hívják hogy
+
+1018
+00:56:00,319 --> 00:56:05,559
+coverjetek kováltozók
+
+1019
+00:56:02,839 --> 00:56:07,119
+és az olyan változókat amelyeket például
+
+1020
+00:56:05,559 --> 00:56:08,720
+egy optimizálási vagy egy lineáris
+
+1021
+00:56:07,119 --> 00:56:10,280
+programozási modellnél amit sokszor
+
+1022
+00:56:08,720 --> 00:56:12,400
+használnak
+
+1023
+00:56:10,280 --> 00:56:15,079
+ökonometriában a ahhoz abba
+
+1024
+00:56:12,400 --> 00:56:16,640
+belefoglaljad azt úgy szoktad hogy ha
+
+1025
+00:56:15,079 --> 00:56:18,799
+belefoglalsz egy effektust akkor
+
+1026
+00:56:16,640 --> 00:56:20,359
+megszorozod egy egyessel hogyha pedig
+
+1027
+00:56:18,799 --> 00:56:22,359
+abban a modellben azt az effektust ki
+
+1028
+00:56:20,359 --> 00:56:26,480
+akarod kapcsolni megszorozod egy
+
+1029
+00:56:22,359 --> 00:56:29,119
+nullással és akkor ezeket ilyen
+
+1030
+00:56:26,480 --> 00:56:31,720
+töltelékváltozóknak ilyen tami
+
+1031
+00:56:29,119 --> 00:56:34,599
+változóknak hívják és akkor a pandas
+
+1032
+00:56:31,720 --> 00:56:37,839
+ebből a ebből a világból érkezve ő úgy
+
+1033
+00:56:34,599 --> 00:56:40,440
+hívja ezt hogy damy variable generation
+
+1034
+00:56:37,839 --> 00:56:44,960
+na most ebben az esetben konkrétan a mi
+
+1035
+00:56:40,440 --> 00:56:47,599
+esetünkben ezek a damik úgy néznének
+
+1036
+00:56:44,960 --> 00:56:50,039
+ki meg kell mondjuk hogy melyik melyik
+
+1037
+00:56:47,599 --> 00:56:55,160
+oszlopra szeretnénk most ebben esetben
+
+1038
+00:56:50,039 --> 00:56:55,160
+csapatos oszlopra és
+
+1039
+00:57:04,039 --> 00:57:07,039
+get
+
+1040
+00:57:07,520 --> 00:57:11,520
+így ja így van on van ez
+
+1041
+00:57:16,240 --> 00:57:20,039
+pontosan DF2 és akkor meg kell mondjuk
+
+1042
+00:57:19,160 --> 00:57:23,039
+neki
+
+1043
+00:57:20,039 --> 00:57:23,039
+hogy
+
+1044
+00:57:40,400 --> 00:57:46,559
+csapatj ez egy pandasz jól van akkor
+
+1045
+00:57:43,440 --> 00:57:49,760
+csak rosszul rosszul közelítettem meg ez
+
+1046
+00:57:46,559 --> 00:57:52,520
+egy pandas függvény ugye
+
+1047
+00:57:49,760 --> 00:57:55,640
+és akkor ez lesz a nem a nem a
+
+1048
+00:57:52,520 --> 00:57:58,240
+dataframe-re kell alkalmazni hanem egy
+
+1049
+00:57:55,640 --> 00:57:59,839
+pandas függvény és akkor ide írjuk a
+
+1050
+00:57:58,240 --> 00:58:02,000
+dataframeet nem írjuk most fölül
+
+1051
+00:57:59,839 --> 00:58:05,400
+egyelőre csak megnézzük hogy hogyan
+
+1052
+00:58:02,000 --> 00:58:05,400
+nézne ki
+
+1053
+00:58:07,520 --> 00:58:12,200
+látod itt akkor az lesz hogy jönnek a
+
+1054
+00:58:09,680 --> 00:58:14,319
+csapatoknak a nevei
+
+1055
+00:58:12,200 --> 00:58:16,440
+na akkor mehetek be oda és akkor itt
+
+1056
+00:58:14,319 --> 00:58:18,920
+annyit kell elképzelni hogy most ez
+
+1057
+00:58:16,440 --> 00:58:21,760
+ebben a sorban az amit akartok a csapat
+
+1058
+00:58:18,920 --> 00:58:23,880
+volt-e vagy se vagy a Gin stabil csapat
+
+1059
+00:58:21,760 --> 00:58:26,200
+volt-e vagy se vagy a Hoppálinka csapat
+
+1060
+00:58:23,880 --> 00:58:29,280
+volt se vagy sem és így tovább és akkor
+
+1061
+00:58:26,200 --> 00:58:31,000
+annyi oszlop lesz ahány csapat volt
+
+1062
+00:58:29,280 --> 00:58:33,839
+látod
+
+1063
+00:58:31,000 --> 00:58:36,079
+itt máris látjuk hogy két csapat annak
+
+1064
+00:58:33,839 --> 00:58:38,720
+ellenére hogy úgy néz ki hogy ugyanúgy
+
+1065
+00:58:36,079 --> 00:58:41,440
+hívják őket nem pont ugyanúgy hívják
+
+1066
+00:58:38,720 --> 00:58:46,760
+őket és ez azért van mert az az ü betű
+
+1067
+00:58:41,440 --> 00:58:48,960
+valószínűleg unikódban mást fog mást fog
+
+1068
+00:58:46,760 --> 00:58:49,839
+jelenteni ugye kicsit talán még lehet
+
+1069
+00:58:48,960 --> 00:58:53,319
+volna
+
+1070
+00:58:49,839 --> 00:58:58,200
+organizzálni de most hogyha megnézzük a
+
+1071
+00:58:53,319 --> 00:58:59,280
+a az a helyezéseket ugye akkor
+
+1072
+00:58:58,200 --> 00:59:02,839
+minden
+
+1073
+00:58:59,280 --> 00:59:05,520
+évben minden évben jön a csapat ugyanúgy
+
+1074
+00:59:02,839 --> 00:59:08,319
+az első helyezés és akkor a csapat név
+
+1075
+00:59:05,520 --> 00:59:10,440
+helyett az van hogy most ők kapnak-e itt
+
+1076
+00:59:08,319 --> 00:59:12,440
+egy nullás egy-est vagy egy egyestre
+
+1077
+00:59:10,440 --> 00:59:18,359
+utána jön a következő és kapnak-e nullás
+
+1078
+00:59:12,440 --> 00:59:18,359
+egyest hogyha ezt betesszük egybe egy DL
+
+1079
+00:59:19,280 --> 00:59:22,280
+változóba
+
+1080
+00:59:22,680 --> 00:59:30,520
+és hogyha megnézzük a DL-nek a
+
+1081
+00:59:27,160 --> 00:59:33,160
+méretét akkor az megtartotta lát behoz
+
+1082
+00:59:30,520 --> 00:59:33,160
+bejö
+
+1083
+00:59:36,280 --> 00:59:39,280
+a
+
+1084
+00:59:41,680 --> 00:59:49,039
+Xes mellé megtartottam ugyanazt a 232
+
+1085
+00:59:45,559 --> 00:59:50,559
+sort csak most a 44 oszlop helyett ugye
+
+1086
+00:59:49,039 --> 00:59:52,799
+45-nél indultunk de itt behoztunk egy
+
+1087
+00:59:50,559 --> 00:59:55,079
+pár újoszlopot a 44 oszlop helyett most
+
+1088
+00:59:52,799 --> 00:59:58,119
+156 oszlop van ami azt jelenti hogy a
+
+1089
+00:59:55,079 --> 01:00:01,200
+csapatnev a csapatok neveinek mindenféle
+
+1090
+00:59:58,119 --> 01:00:04,000
+variációban ilyen ilyen értéke voltak
+
+1091
+01:00:01,200 --> 01:00:06,240
+nézzük meg az oszlopnak a neveit nem
+
+1092
+01:00:04,000 --> 01:00:07,920
+vagyok meggyőzőve hogy mindegyik csapat
+
+1093
+01:00:06,240 --> 01:00:10,240
+csak egyszer szerepel úgyhogy azért meg
+
+1094
+01:00:07,920 --> 01:00:13,119
+fogom ezt nézni
+
+1095
+01:00:10,240 --> 01:00:13,119
+elbok úgy tani
+
+1096
+01:00:19,640 --> 01:00:25,400
+legyen igen látod tehát ezek a csapatok
+
+1097
+01:00:23,440 --> 01:00:30,359
+ez ez a csapat ez ugyanaz a csapat
+
+1098
+01:00:25,400 --> 01:00:32,920
+valójában úgyhogy itt még több még több
+
+1099
+01:00:30,359 --> 01:00:35,599
+tisztogatást kellene végezni de elvileg
+
+1100
+01:00:32,920 --> 01:00:37,240
+amikor ezt te majd kijavítod hogy ez
+
+1101
+01:00:35,599 --> 01:00:39,559
+hosszúval legyen vagy ez agytetűvel
+
+1102
+01:00:37,240 --> 01:00:41,400
+legyen akkor majd a one encoding az
+
+1103
+01:00:39,559 --> 01:00:44,960
+ugyanarra ugyanarra a csapatra fogja ezt
+
+1104
+01:00:41,400 --> 01:00:46,839
+ráhozni például ugye láttuk hogy estudyá
+
+1105
+01:00:44,960 --> 01:00:48,680
+csak ez az egy verzió van de tudjuk hogy
+
+1106
+01:00:46,839 --> 01:00:51,640
+több évben szerepeltek úgyhogy jól
+
+1107
+01:00:48,680 --> 01:00:53,079
+végezte el a one engeding a a munkáját
+
+1108
+01:00:51,640 --> 01:00:55,760
+tényleg nem vette többször őket be
+
+1109
+01:00:53,079 --> 01:00:57,599
+hogyha nem több verzióban jelentek be
+
+1110
+01:00:55,760 --> 01:01:00,520
+többiek azok nagyrészt jól néznek ki itt
+
+1111
+01:00:57,599 --> 01:01:00,520
+talán ez ugyanaz
+
+1112
+01:01:02,119 --> 01:01:07,720
+ugye talán itt itt még meg lehet meg
+
+1113
+01:01:04,760 --> 01:01:10,799
+lehet egy pár egy egy pár csapatot meg
+
+1114
+01:01:07,720 --> 01:01:12,119
+lehet javítani de egészen jól egészen
+
+1115
+01:01:10,799 --> 01:01:14,960
+jól áll még ezt
+
+1116
+01:01:12,119 --> 01:01:19,359
+adunk most ezzel fogunk akkor tovább
+
+1117
+01:01:14,960 --> 01:01:19,359
+haladni ezzel a de
+
+1118
+01:01:23,880 --> 01:01:29,160
+változal ugye Ugye itt a true false-okat
+
+1119
+01:01:26,680 --> 01:01:31,359
+talán még jobb hogyha helyettesítenénk
+
+1120
+01:01:29,160 --> 01:01:33,720
+01-essel valahogy meg lehet ezt neki
+
+1121
+01:01:31,359 --> 01:01:37,400
+mondani hogy ne ne true falseokat
+
+1122
+01:01:33,720 --> 01:01:37,400
+csinálj 01-eket
+
+1123
+01:02:02,000 --> 01:02:08,480
+halon egys kérdom akkor
+
+1124
+01:02:05,000 --> 01:02:08,480
+hogy lesz
+
+1125
+01:02:38,000 --> 01:02:43,760
+hát ezt ezt gyalog gyalog helyettesíti
+
+1126
+01:02:41,359 --> 01:02:43,760
+de nem
+
+1127
+01:02:46,119 --> 01:02:50,599
+baj mire mire mondtam azt hogy gyalog
+
+1128
+01:02:48,520 --> 01:02:52,920
+helyettesít ugye itt generált nekem egy
+
+1129
+01:02:50,599 --> 01:02:54,920
+kódrészletet amelyik végig iterál az
+
+1130
+01:02:52,920 --> 01:02:58,240
+összes olyan oszlopon ami a csapattal
+
+1131
+01:02:54,920 --> 01:03:01,119
+kezdődik csapat alulvonással kezdődik és
+
+1132
+01:02:58,240 --> 01:03:03,799
+akkor azoknak egyenként egyenként
+
+1133
+01:03:01,119 --> 01:03:05,960
+integer típust ad ami nyilván azt fog
+
+1134
+01:03:03,799 --> 01:03:08,480
+eredményezni hogy a nullák lesznek a
+
+1135
+01:03:05,960 --> 01:03:10,279
+falseok és az egyesek lesznek a trukk na
+
+1136
+01:03:08,480 --> 01:03:12,839
+de ez most már egészen jó ez most már
+
+1137
+01:03:10,279 --> 01:03:15,200
+használható
+
+1138
+01:03:12,839 --> 01:03:18,000
+elvileg ez
+
+1139
+01:03:15,200 --> 01:03:20,680
+használható géptorulasi modellben
+
+1140
+01:03:18,000 --> 01:03:22,640
+mindegyik van egy darab objectünk az
+
+1141
+01:03:20,680 --> 01:03:25,400
+valószínűleg az ID lesz azt ugye nem
+
+1142
+01:03:22,640 --> 01:03:28,599
+használhattuk fel azt ki fogjuk
+
+1143
+01:03:25,400 --> 01:03:31,839
+dobni úgyhogy legyen egy olyan hogy
+
+1144
+01:03:28,599 --> 01:03:36,880
+doop ID access
+
+1145
+01:03:31,839 --> 01:03:39,720
+1 és most hogyha megnézzük azt hogy info
+
+1146
+01:03:36,880 --> 01:03:43,160
+mindegyik oszlop szám kéne legyen így is
+
+1147
+01:03:39,720 --> 01:03:45,079
+van de az éveket ugye azt mondtuk hogy
+
+1148
+01:03:43,160 --> 01:03:47,359
+az évek talán behoznak nekünk egy olyan
+
+1149
+01:03:45,079 --> 01:03:49,720
+torzátom amis nem amit nem szeretnék és
+
+1150
+01:03:47,359 --> 01:03:52,559
+úgy is helyettesítettük őket ezzel az év
+
+1151
+01:03:49,720 --> 01:03:55,559
+kettővel ugye elvileg ebben már benne
+
+1152
+01:03:52,559 --> 01:03:55,559
+kéne legyen az év
+
+1153
+01:03:56,279 --> 01:04:01,119
+kell benne van úgyhogy akkor dobjuk ki
+
+1154
+01:03:58,680 --> 01:04:01,119
+az évet
+
+1155
+01:04:13,240 --> 01:04:18,160
+is nagyszer és akkor ezt az egészet
+
+1156
+01:04:15,640 --> 01:04:18,160
+betesszük egy
+
+1157
+01:04:19,039 --> 01:04:23,920
+D2-be és akkor ezzel ezzel megyünk
+
+1158
+01:04:21,640 --> 01:04:25,760
+tovább na most szét kell szedjük őket
+
+1159
+01:04:23,920 --> 01:04:29,960
+ugye ezt úgy szoktuk hívni hogy train
+
+1160
+01:04:25,760 --> 01:04:32,760
+test split szedjük szét őket hogy mivel
+
+1161
+01:04:29,960 --> 01:04:35,559
+szeretnénk mit prediktálni ugye itt
+
+1162
+01:04:32,760 --> 01:04:39,319
+a példa a valób világbeli példa az az
+
+1163
+01:04:35,559 --> 01:04:41,200
+lenne hogy az idei részvételt tudjuk-e
+
+1164
+01:04:39,319 --> 01:04:43,520
+prediktálni csak az alapján hogy milyen
+
+1165
+01:04:41,200 --> 01:04:45,119
+csapatok vagy a az az idei eredmény
+
+1166
+01:04:43,520 --> 01:04:46,720
+tudjuk-e prediktálni az alapján hogy
+
+1167
+01:04:45,119 --> 01:04:48,760
+milyen csapatok vonulnak fel tehát csak
+
+1168
+01:04:46,720 --> 01:04:50,880
+a csapatnak a nevéből mit kell
+
+1169
+01:04:48,760 --> 01:04:53,520
+teljesítmény produkálni vagy esetleg
+
+1170
+01:04:50,880 --> 01:04:55,079
+ahogy haladnak előre az események ugye
+
+1171
+01:04:53,520 --> 01:04:56,720
+bele tudunk venni hogy csak abból hogy
+
+1172
+01:04:55,079 --> 01:04:59,480
+hogyan szerepelt egy adott próbán
+
+1173
+01:04:56,720 --> 01:05:02,079
+tudjuk-e prediktálni esetleg a a
+
+1174
+01:04:59,480 --> 01:05:05,359
+végeredményt most erre fogjuk ezt egy
+
+1175
+01:05:02,079 --> 01:05:05,359
+kicsit összerakni
+
+1176
+01:05:08,400 --> 01:05:16,680
+hátteret csináljuk azt hogy
+
+1177
+01:05:12,319 --> 01:05:16,680
+ugye ez egy regresszió hozzuk át a
+
+1178
+01:05:18,039 --> 01:05:23,079
+regresszióság munkafizetünkel ez a hatos
+
+1179
+01:05:20,520 --> 01:05:23,079
+volt azt hiszem
+
+1180
+01:05:39,559 --> 01:05:45,640
+igen és ez a random Forest az egészen
+
+1181
+01:05:43,279 --> 01:05:49,000
+egészen jó van egy másik verziója ennek
+
+1182
+01:05:45,640 --> 01:05:52,480
+ami a Gradient Boost regresszió
+
+1183
+01:05:49,000 --> 01:05:56,440
+de az is alapvetően ilyen ilyen random
+
+1184
+01:05:52,480 --> 01:05:58,880
+forest hallgatos
+
+1185
+01:05:56,440 --> 01:05:58,880
+ezt fogjuk
+
+1186
+01:06:00,119 --> 01:06:05,680
+használni és látod random forestből van
+
+1187
+01:06:03,400 --> 01:06:08,559
+discrate és folyton van random forest
+
+1188
+01:06:05,680 --> 01:06:10,760
+classifier és van random forest
+
+1189
+01:06:08,559 --> 01:06:15,000
+regressor
+
+1190
+01:06:10,760 --> 01:06:18,000
+is hát itt annyi volt az egészen a a
+
+1191
+01:06:15,000 --> 01:06:22,039
+trükk hogy itt a random forestnél a
+
+1192
+01:06:18,000 --> 01:06:25,359
+fitnél kellett egy x és kellett egy y is
+
+1193
+01:06:22,039 --> 01:06:27,680
+ezt elutána lehet lehetni akkor nekünk
+
+1194
+01:06:25,359 --> 01:06:30,480
+de előtte félre kell tegyük őket ugye
+
+1195
+01:06:27,680 --> 01:06:33,640
+itt azt csináltuk hogy itt
+
+1196
+01:06:30,480 --> 01:06:37,839
+félretük az alapsornak egy
+
+1197
+01:06:33,640 --> 01:06:41,480
+darabját ezzel a train test
+
+1198
+01:06:37,839 --> 01:06:44,319
+splittel úgyhogy próbáljuk meg ezt az
+
+1199
+01:06:41,480 --> 01:06:47,160
+egészet reprezentálni
+
+1200
+01:06:44,319 --> 01:06:50,079
+mennyire tudja ezt automatikusan megírni
+
+1201
+01:06:47,160 --> 01:06:53,400
+mert nekünk van egy olyasmi kellene
+
+1202
+01:06:50,079 --> 01:06:53,400
+hogy want to
+
+1203
+01:06:54,319 --> 01:06:57,880
+predict a szótnak a
+
+1204
+01:06:59,680 --> 01:07:06,000
+neve helyezés
+
+1205
+01:07:03,559 --> 01:07:06,000
+ugye
+
+1206
+01:07:06,680 --> 01:07:12,039
+helyezés
+
+1207
+01:07:09,079 --> 01:07:15,400
+predict
+
+1208
+01:07:12,039 --> 01:07:15,400
+helyezés in
+
+1209
+01:07:17,319 --> 01:07:24,640
+the use random
+
+1210
+01:07:21,640 --> 01:07:24,640
+forest
+
+1211
+01:07:28,880 --> 01:07:32,640
+for standard scaler
+
+1212
+01:07:37,440 --> 01:07:39,839
+És
+
+1213
+01:07:41,160 --> 01:07:45,279
+the test dataset
+
+1214
+01:07:45,880 --> 01:07:53,680
+from the values where
+
+1215
+01:07:49,400 --> 01:07:55,000
+év2 egyenlő a maximumba annyi volt az
+
+1216
+01:07:53,680 --> 01:08:02,160
+négy
+
+1217
+01:07:55,000 --> 01:08:02,160
+ugye 2 = 4 a 2024-eseket azokat fél
+
+1218
+01:08:02,359 --> 01:08:09,799
+Letesszük nagyon sikerül it
+
+1219
+01:08:04,839 --> 01:08:09,799
+válaszol azt mót lassan kivúzzuk
+
+1220
+01:08:12,880 --> 01:08:20,719
+jó megpróbálom őket akkor részletekre
+
+1221
+01:08:15,279 --> 01:08:20,719
+szedni és lépésről lépésre menjünk végig
+
+1222
+01:08:21,080 --> 01:08:25,440
+ezeken meghaom a pontos részt
+
+1223
+01:08:25,600 --> 01:08:30,120
+is hát eleinte ugye behozott egy random
+
+1224
+01:08:28,080 --> 01:08:32,319
+forest agressort behozott egy train test
+
+1225
+01:08:30,120 --> 01:08:34,400
+splitet behozott egy metricát és
+
+1226
+01:08:32,319 --> 01:08:36,480
+behozott egy pipelineet hogyha nézzétek
+
+1227
+01:08:34,400 --> 01:08:39,839
+visszamentek a hatos munkafizethez
+
+1228
+01:08:36,480 --> 01:08:42,000
+pontosan ugyanezeket hoztuk be ugye ezek
+
+1229
+01:08:39,839 --> 01:08:44,640
+ezekkel már találkoztunk ezekkel a
+
+1230
+01:08:42,000 --> 01:08:46,640
+válaszokkal most látjuk assuming D2 is
+
+1231
+01:08:44,640 --> 01:08:48,440
+defined as in the previous quote hát nem
+
+1232
+01:08:46,640 --> 01:08:51,679
+nem annyira okos mint a kurzor nem tudja
+
+1233
+01:08:48,440 --> 01:08:54,480
+megnézni de ez így nagyjából jó lesz és
+
+1234
+01:08:51,679 --> 01:08:59,480
+akkor látod felosztja felosztja
+
+1235
+01:08:54,480 --> 01:09:02,080
+őket train tests splittel tanító és
+
+1236
+01:08:59,480 --> 01:09:04,319
+tesztelési adatsorral maga a training
+
+1237
+01:09:02,080 --> 01:09:07,319
+dathoz lesz a DL2
+
+1238
+01:09:04,319 --> 01:09:11,199
+amikor nem egyenlő négyel és a
+
+1239
+01:09:07,319 --> 01:09:13,560
+testing egyenlő négyel
+
+1240
+01:09:11,199 --> 01:09:18,679
+utána nyilván ki kell a helyezést dobni
+
+1241
+01:09:13,560 --> 01:09:18,679
+belőlük azért a legalábbis a tanulá a
+
+1242
+01:09:24,799 --> 01:09:31,199
+a x részből mert azt tehát a bemeneti
+
+1243
+01:09:29,359 --> 01:09:34,319
+részből a helyezést azt ki kell dobni
+
+1244
+01:09:31,199 --> 01:09:35,640
+mert azt szeretnénk predikt ugye nem
+
+1245
+01:09:34,319 --> 01:09:39,120
+azért hogy ne legyen neked ilyen
+
+1246
+01:09:35,640 --> 01:09:40,719
+circular referenciád hogy ugyan próbáld
+
+1247
+01:09:39,120 --> 01:09:43,359
+prediktálni a helyezést Ez benne volt a
+
+1248
+01:09:40,719 --> 01:09:45,799
+tanító adatsban akkor nyilván 100%
+
+1249
+01:09:43,359 --> 01:09:49,640
+lesz tehát kidobja a helyezéseket az
+
+1250
+01:09:45,799 --> 01:09:53,440
+X-ből látod és utána az Y az lesz neki
+
+1251
+01:09:49,640 --> 01:09:53,440
+pontosan pontosan a helyezés
+
+1252
+01:09:54,200 --> 01:09:57,880
+[Zene]
+
+1253
+01:09:55,520 --> 01:10:01,120
+ugyanazt a struktúrát utána pedig
+
+1254
+01:09:57,880 --> 01:10:03,440
+replikálja neked a kanító és a tesztedés
+
+1255
+01:10:01,120 --> 01:10:05,080
+adatsorban most elvileg hogyha megnézzük
+
+1256
+01:10:03,440 --> 01:10:09,520
+ezeknek a
+
+1257
+01:10:05,080 --> 01:10:14,440
+struktúráit akkor 232
+
+1258
+01:10:09,520 --> 01:10:16,159
+helyett és hány 154 oszlop helyett kéne
+
+1259
+01:10:14,440 --> 01:10:20,320
+legyen nekünk egy kicsit kevesebb mint
+
+1260
+01:10:16,159 --> 01:10:21,719
+232 ugye egy neyede annak és egy
+
+1261
+01:10:20,320 --> 01:10:25,840
+oszloppal
+
+1262
+01:10:21,719 --> 01:10:29,280
+kevesebb tehát nézzük meg hogy az
+
+1263
+01:10:25,840 --> 01:10:31,280
+Xtrainnek mi a formája látod pontosan
+
+1264
+01:10:29,280 --> 01:10:35,239
+egy 168 x
+
+1265
+01:10:31,280 --> 01:10:35,880
+153 utána az x tesztnek az ugyancsak 168
+
+1266
+01:10:35,239 --> 01:10:37,640
+de
+
+1267
+01:10:35,880 --> 01:10:40,679
+[Zene]
+
+1268
+01:10:37,640 --> 01:10:43,800
+az a teszt az a többi ugye a egészen a
+
+1269
+01:10:40,679 --> 01:10:45,800
+232-ig tehát volt 168-at használunk
+
+1270
+01:10:43,800 --> 01:10:48,480
+tanítani 64-en
+
+1271
+01:10:45,800 --> 01:10:50,000
+tesztelünk ez elég elég kevés adatpont
+
+1272
+01:10:48,480 --> 01:10:52,199
+tanítani de majd hogyha behozzátok
+
+1273
+01:10:50,000 --> 01:10:54,800
+normalizálva a többit akkor majd többi
+
+1274
+01:10:52,199 --> 01:10:57,040
+években az szerintem jó egész jó lesz és
+
+1275
+01:10:54,800 --> 01:11:02,320
+akkor az y-ok nyilván azoknak a mérete
+
+1276
+01:10:57,040 --> 01:11:05,239
+csak egy ugye tehát 168 x 1 és 64 x 1 ez
+
+1277
+01:11:02,320 --> 01:11:09,199
+egészen egészen jó és akkor a többi
+
+1278
+01:11:05,239 --> 01:11:10,840
+részen ugye csinál egy pipeline-t ezt
+
+1279
+01:11:09,199 --> 01:11:13,960
+mondtam az előbb hogy mit jelent a
+
+1280
+01:11:10,840 --> 01:11:17,080
+pipeline ugye ez csak azt csinálja hogy
+
+1281
+01:11:13,960 --> 01:11:19,960
+a skálázóját
+
+1282
+01:11:17,080 --> 01:11:22,480
+egyszer skálázza egyszer skálázza utána
+
+1283
+01:11:19,960 --> 01:11:24,640
+pedig illeszti rá ezt a random forest
+
+1284
+01:11:22,480 --> 01:11:26,239
+regresszont és azért szeretünk pipeline
+
+1285
+01:11:24,640 --> 01:11:28,600
+csinálni ugye itt ezt hogyha kibont
+
+1286
+01:11:26,239 --> 01:11:31,080
+akkor mutatja neked hogy mi történik
+
+1287
+01:11:28,600 --> 01:11:33,360
+benne hát most nem történik semmi mert
+
+1288
+01:11:31,080 --> 01:11:35,040
+az előbbet majdnem összveegyűtünk hogy a
+
+1289
+01:11:33,360 --> 01:11:37,440
+standardskálázót beneti adatról
+
+1290
+01:11:35,040 --> 01:11:41,239
+alkalmaztuk és nem a nem a benneti
+
+1291
+01:11:37,440 --> 01:11:44,120
+adatra de most elvileg ugye az X ugye
+
+1292
+01:11:41,239 --> 01:11:47,199
+itt most felügyelás van ez a fitnek két
+
+1293
+01:11:44,120 --> 01:11:51,480
+paraméter kell X és Y az X traint és az
+
+1294
+01:11:47,199 --> 01:11:52,920
+Y traint rá ráhelyezte vagy oda
+
+1295
+01:11:51,480 --> 01:11:54,920
+ráillesztette a random forest
+
+1296
+01:11:52,920 --> 01:11:57,960
+regresszorra elvileg akkor kellene
+
+1297
+01:11:54,920 --> 01:12:01,080
+tudjuk őket kellene tudjuk hasonlítani
+
+1298
+01:11:57,960 --> 01:12:03,520
+tehát a predikciókat meg tudnánk nézni a
+
+1299
+01:12:01,080 --> 01:12:07,639
+a tesztatsor alapján csak ne felejtsd el
+
+1300
+01:12:03,520 --> 01:12:10,440
+hogy itt a tesztatsorban benne van a az
+
+1301
+01:12:07,639 --> 01:12:13,440
+összes pontszám tehát itt itt elég nagy
+
+1302
+01:12:10,440 --> 01:12:15,920
+kéne legyen 100%-ok nagyon közeli kéne
+
+1303
+01:12:13,440 --> 01:12:19,199
+legyen a predikció most ezt próbáljuk
+
+1304
+01:12:15,920 --> 01:12:19,199
+meg inkább szemre
+
+1305
+01:12:20,000 --> 01:12:26,280
+megnézni mert ez a szám ez n tehát hogy
+
+1306
+01:12:23,320 --> 01:12:29,159
+ez van ennek egy mértékegység elő nem
+
+1307
+01:12:26,280 --> 01:12:34,239
+igazán hasznos csináljunk egy olyat
+
+1308
+01:12:29,159 --> 01:12:34,239
+hogy generate a mape error
+
+1309
+01:12:36,320 --> 01:12:43,560
+matric and score
+
+1310
+01:12:39,719 --> 01:12:47,280
+matric also explain to
+
+1311
+01:12:43,560 --> 01:12:49,639
+me how to read egyébként nem biztos hogy
+
+1312
+01:12:47,280 --> 01:12:51,280
+tényleg annyira jó lesz mert azért
+
+1313
+01:12:49,639 --> 01:12:53,639
+nagyon kevés a zavadsor tehát nem biztos
+
+1314
+01:12:51,280 --> 01:12:55,800
+hogy erről a 150 adatpontról meg tudja
+
+1315
+01:12:53,639 --> 01:12:58,840
+tanulni hogy az a szabály hogy ezeket
+
+1316
+01:12:55,800 --> 01:12:58,840
+össze kell adogatni
+
+1317
+01:13:10,239 --> 01:13:13,280
+igen igen igen ezek már
+
+1318
+01:13:15,440 --> 01:13:20,320
+megvannak beimportálja a min errort min
+
+1319
+01:13:18,080 --> 01:13:24,159
+absolute error ez a min absolute
+
+1320
+01:13:20,320 --> 01:13:26,440
+percentage error f score és a
+
+1321
+01:13:24,159 --> 01:13:28,600
+scorer és akkor megcsináltam már a
+
+1322
+01:13:26,440 --> 01:13:32,360
+predikciókat ez
+
+1323
+01:13:28,600 --> 01:13:35,480
+kell és akkor így csinálja nekünk szépen
+
+1324
+01:13:32,360 --> 01:13:35,480
+a matrikájukat
+
+1325
+01:13:39,199 --> 01:13:41,400
+az
+
+1326
+01:13:47,520 --> 01:13:53,320
+az min abszolút pers azt jelenti min
+
+1327
+01:13:50,920 --> 01:13:56,679
+abszolút a wars 10 azt jelenti hogy
+
+1328
+01:13:53,320 --> 01:14:00,480
+átlagosan 10 helyet téved ami ami
+
+1329
+01:13:56,679 --> 01:14:02,560
+egészen egészen sok tehát nekünk á
+
+1330
+01:14:00,480 --> 01:14:07,159
+34%-ba a
+
+1331
+01:14:02,560 --> 01:14:09,520
+34%-ot rosszul vagy átlagosan 34%-ot ten
+
+1332
+01:14:07,159 --> 01:14:13,239
+rosszul mondja meg hogy ki hányadik lesz
+
+1333
+01:14:09,520 --> 01:14:15,360
+meg is nézhetjük ugye azt azt kellene
+
+1334
+01:14:13,239 --> 01:14:19,320
+megnézzük hogy hogy hívják őket úgy
+
+1335
+01:14:15,360 --> 01:14:21,600
+hívják hogy red
+
+1336
+01:14:19,320 --> 01:14:24,480
+akkor tegyük be azt
+
+1337
+01:14:21,600 --> 01:14:28,480
+hogy honnan indultunk
+
+1338
+01:14:24,480 --> 01:14:28,480
+hogy X
+
+1339
+01:14:31,000 --> 01:14:37,840
+train X
+
+1340
+01:14:33,960 --> 01:14:40,080
+ugye xest az így néz ki jó és akkor ide
+
+1341
+01:14:37,840 --> 01:14:42,480
+hozzuk
+
+1342
+01:14:40,080 --> 01:14:45,480
+vissza hozzuk vissza a csapatoknak a
+
+1343
+01:14:42,480 --> 01:14:45,480
+neveit
+
+1344
+01:14:50,159 --> 01:14:53,639
+az eredoti bent amikor hogy az
+
+1345
+01:14:52,040 --> 01:14:57,080
+eredetiban
+
+1346
+01:14:53,639 --> 01:15:01,960
+voltak az melyik volt a DF-ben volt ugye
+
+1347
+01:14:57,080 --> 01:15:01,960
+itt vegyük azt az EV 2024-et
+
+1348
+01:15:14,199 --> 01:15:17,880
+akkor itt nekünk kell a
+
+1349
+01:15:20,440 --> 01:15:23,960
+helyezés és
+
+1350
+01:15:29,040 --> 01:15:32,760
+csapat hopp
+
+1351
+01:15:33,239 --> 01:15:40,760
+akkor ez legyen egy mit tudom én egy
+
+1352
+01:15:37,440 --> 01:15:43,040
+V és akkor ide hozzuk melléjük a
+
+1353
+01:15:40,760 --> 01:15:47,199
+predikciót tehát legyen a
+
+1354
+01:15:43,040 --> 01:15:47,199
+DW a
+
+1355
+01:15:47,760 --> 01:15:53,639
+helyezésben az Y
+
+1356
+01:15:51,400 --> 01:15:56,639
+predikt
+
+1357
+01:15:53,639 --> 01:16:00,199
+helyezés akkor nézzük meg a TW-t hogy
+
+1358
+01:15:56,639 --> 01:16:00,199
+föl néz ki
+
+1359
+01:16:20,719 --> 01:16:24,320
+és akkor szerintem amit kellene
+
+1360
+01:16:22,080 --> 01:16:27,239
+csináljunk az az hogy ezt a helyezést
+
+1361
+01:16:24,320 --> 01:16:28,880
+ugye ez mivel egy
+
+1362
+01:16:27,239 --> 01:16:32,239
+ez a probléma egy kicsit
+
+1363
+01:16:28,880 --> 01:16:34,080
+trükkös olyan értelemben hogy mi
+
+1364
+01:16:32,239 --> 01:16:35,560
+igazából egy osztályozási feladatot
+
+1365
+01:16:34,080 --> 01:16:37,280
+kellett volna elvégeznünk ugye tehát
+
+1366
+01:16:35,560 --> 01:16:39,920
+diszkrét számokat pedig tálunk hogy
+
+1367
+01:16:37,280 --> 01:16:44,040
+valami most az első lesz vagy a második
+
+1368
+01:16:39,920 --> 01:16:46,800
+lesz de olyan ez egy ez egy ilyen ordert
+
+1369
+01:16:44,040 --> 01:16:50,000
+típusú adat ilyen nem igazán van tehát
+
+1370
+01:16:46,800 --> 01:16:52,199
+vagy vödrökbe rostáljuk őket vagy pedig
+
+1371
+01:16:50,000 --> 01:16:55,480
+folyamatos regressziót csinálunk úgyhogy
+
+1372
+01:16:52,199 --> 01:16:57,480
+a ezért az 50 osztály az túl sok lett
+
+1373
+01:16:55,480 --> 01:16:59,639
+volna mert ez nyilván az első az a
+
+1374
+01:16:57,480 --> 01:17:01,040
+második előtt van meg a második harmadik
+
+1375
+01:16:59,639 --> 01:17:03,080
+előtt van és így tovább úgyhogy ez
+
+1376
+01:17:01,040 --> 01:17:04,560
+tényleges egyesen folytonos adat de
+
+1377
+01:17:03,080 --> 01:17:07,880
+azért mert ez regresszió ezért ez
+
+1378
+01:17:04,560 --> 01:17:11,679
+folytonos szám lesz úgyhogy ezt a
+
+1379
+01:17:07,880 --> 01:17:15,000
+helyezéspredikciót címkézzük át hogy ne
+
+1380
+01:17:11,679 --> 01:17:16,800
+csak az legyen hogy mennyi az érték
+
+1381
+01:17:15,000 --> 01:17:21,920
+hanem tényleg ebből csináljunk egy
+
+1382
+01:17:16,800 --> 01:17:24,400
+sorrendet ugye és akkor az szerintem már
+
+1383
+01:17:21,920 --> 01:17:27,360
+egészen az már nem csak egy azért lesz
+
+1384
+01:17:24,400 --> 01:17:30,480
+itt a 30% az átlagos tévedés mert itt
+
+1385
+01:17:27,360 --> 01:17:32,800
+ugye mindig ez is egy 1,38 különbségnek
+
+1386
+01:17:30,480 --> 01:17:35,560
+számít ez egy 062 különbségnek számít és
+
+1387
+01:17:32,800 --> 01:17:37,000
+így tovább de nyilván ez az első és ez a
+
+1388
+01:17:35,560 --> 01:17:39,480
+második és így tovább tehát azok egészen
+
+1389
+01:17:37,000 --> 01:17:40,679
+jól el lettek találva úgyhogy csináljunk
+
+1390
+01:17:39,480 --> 01:17:42,800
+egy olyat
+
+1391
+01:17:40,679 --> 01:17:44,560
+hogy a
+
+1392
+01:17:42,800 --> 01:17:46,719
+DW a
+
+1393
+01:17:44,560 --> 01:17:50,360
+helyezésben valahogy lehet egy olyat
+
+1394
+01:17:46,719 --> 01:17:50,360
+csinálni egy ranking
+
+1395
+01:17:53,040 --> 01:17:57,120
+talán
+
+1396
+01:17:54,639 --> 01:18:03,040
+mi
+
+1397
+01:17:57,120 --> 01:18:05,280
+igen a második a hármas lett igen na jó
+
+1398
+01:18:03,040 --> 01:18:09,880
+pontosan így is akkor ez
+
+1399
+01:18:05,280 --> 01:18:09,880
+legyen a prediktát helyezés
+
+1400
+01:18:11,360 --> 01:18:18,280
+hanem rank így és akkor most nézzük az
+
+1401
+01:18:22,120 --> 01:18:27,840
+eredményeket és akkor látod hogy most
+
+1402
+01:18:24,239 --> 01:18:29,639
+már ezt azért ez ötödik ez hatodik a
+
+1403
+01:18:27,840 --> 01:18:32,760
+7-nyolcat felcserélte de viszonylag
+
+1404
+01:18:29,639 --> 01:18:35,360
+közel voltak újra 9 10 11-et fel a 10-et
+
+1405
+01:18:32,760 --> 01:18:38,120
+kelt eltalálta kilencediket a 11-el
+
+1406
+01:18:35,360 --> 01:18:39,800
+felcserélte de azért egyáltalán hogyha
+
+1407
+01:18:38,120 --> 01:18:42,480
+azt kellene megmondjad hogy most ők a
+
+1408
+01:18:39,800 --> 01:18:45,320
+top ötben lesznek vagy a top 10-be azt
+
+1409
+01:18:42,480 --> 01:18:48,000
+azért egyáltalán nem végzi ezt a munkát
+
+1410
+01:18:45,320 --> 01:18:50,400
+rosszul el ugye itt azért 27 talál
+
+1411
+01:18:48,000 --> 01:18:54,239
+2425-ös ugyan ugyanakkora score volt
+
+1412
+01:18:50,400 --> 01:18:57,440
+azokat is nagyjából eltalálta
+
+1413
+01:18:54,239 --> 01:18:58,960
+tehát egy egészen 41-est eltalálta 40-es
+
+1414
+01:18:57,440 --> 01:19:01,280
+39-est
+
+1415
+01:18:58,960 --> 01:19:04,040
+becserélte de mindenképpen valami
+
+1416
+01:19:01,280 --> 01:19:07,040
+egészen használhatót egészen használható
+
+1417
+01:19:04,040 --> 01:19:09,679
+kovácsol össze de mondom ez egy ez egy
+
+1418
+01:19:07,040 --> 01:19:12,880
+kicsit csalóka lesz mert nekünk egy
+
+1419
+01:19:09,679 --> 01:19:15,760
+olyan predikció kellene igazából ami a
+
+1420
+01:19:12,880 --> 01:19:18,120
+pontszámok nélkül csak a nevek alapján
+
+1421
+01:19:15,760 --> 01:19:19,920
+végzi el ugyanezt
+
+1422
+01:19:18,120 --> 01:19:23,920
+azzal az információval rendelkez ugye
+
+1423
+01:19:19,920 --> 01:19:25,080
+például most te hogyha meglesz a 2025-ös
+
+1424
+01:19:23,920 --> 01:19:27,320
+listád
+
+1425
+01:19:25,080 --> 01:19:29,560
+akkor még azt meg tudod csinálni hogy
+
+1426
+01:19:27,320 --> 01:19:31,199
+esetleg tedd bele a predikciós
+
+1427
+01:19:29,560 --> 01:19:33,960
+modelledbe prediktáld meg és aztán a
+
+1428
+01:19:31,199 --> 01:19:35,679
+végén majd nézzük meg nézzük meg az
+
+1429
+01:19:33,960 --> 01:19:37,880
+eredménytől
+
+1430
+01:19:35,679 --> 01:19:39,360
+tát mé csapatok lesznek idén is
+
+1431
+01:19:37,880 --> 01:19:43,360
+résztvevők
+
+1432
+01:19:39,360 --> 01:19:44,199
+igen igen el most van van 10 perc és
+
+1433
+01:19:43,360 --> 01:19:46,600
+akkor azt
+
+1434
+01:19:44,199 --> 01:19:48,840
+megcsinálom mer elküldöm akkor az már
+
+1435
+01:19:46,600 --> 01:19:51,400
+megvan valahol lemedettem direkt jó
+
+1436
+01:19:48,840 --> 01:19:53,320
+megcsinálom most a 24-esre és akkor hát
+
+1437
+01:19:51,400 --> 01:19:56,199
+azt nyilván be kellett tanítani az egész
+
+1438
+01:19:53,320 --> 01:19:59,760
+adoron és akkor arra azzal azzal egyet
+
+1439
+01:19:56,199 --> 01:20:01,120
+még prediktálni ugye itt mi változna az
+
+1440
+01:19:59,760 --> 01:20:03,719
+változna hogy nekünk csak azok az
+
+1441
+01:20:01,120 --> 01:20:08,199
+oszlopok maradnak meg amelyekben benne
+
+1442
+01:20:03,719 --> 01:20:11,120
+van az hogy csapat illetve az elsők a
+
+1443
+01:20:08,199 --> 01:20:13,600
+helyezést prediktáljuk a pontszám az
+
+1444
+01:20:11,120 --> 01:20:16,679
+valójában annyi mint a helyezés úgyhogy
+
+1445
+01:20:13,600 --> 01:20:18,760
+azt kivesszük és az összes próbának a
+
+1446
+01:20:16,679 --> 01:20:22,159
+pontszámát kivesszük
+
+1447
+01:20:18,760 --> 01:20:22,159
+tehát nekünk egy olyan
+
+1448
+01:20:26,960 --> 01:20:33,280
+kellene az ember mindig dobott el [ __ ]
+
+1449
+01:20:30,280 --> 01:20:36,639
+meg
+
+1450
+01:20:33,280 --> 01:20:40,199
+ezt is s Excel forma vagy ilyen lista
+
+1451
+01:20:36,639 --> 01:20:41,920
+formájában jobb be valóan mindegy na itt
+
+1452
+01:20:40,199 --> 01:20:43,440
+csak itt a csapatokat nyilván nem
+
+1453
+01:20:41,920 --> 01:20:45,360
+normalizáltuk tehát azért ez így ilyen
+
+1454
+01:20:43,440 --> 01:20:48,760
+nagyon nagyon egyszerű fajék módszer de
+
+1455
+01:20:45,360 --> 01:20:52,080
+de kellene kellene ez működjön és akkor
+
+1456
+01:20:48,760 --> 01:20:54,480
+azt fogjuk csinálni hogy a de adsort
+
+1457
+01:20:52,080 --> 01:20:57,040
+csak ebben az oszlop ezeket az
+
+1458
+01:20:54,480 --> 01:20:57,040
+oszlopokat
+
+1459
+01:20:57,560 --> 01:21:04,840
+vesszük de itt ugye valójában az összes
+
+1460
+01:21:00,560 --> 01:21:04,840
+oszlopot be beleverhetjük
+
+1461
+01:21:08,360 --> 01:21:13,400
+val a 19-től egészen a 24-ig hogyha
+
+1462
+01:21:10,880 --> 01:21:14,880
+25-ösöket szeretnénk prediktálni csak
+
+1463
+01:21:13,400 --> 01:21:18,880
+mivel most már nincsenek azok nekünk meg
+
+1464
+01:21:14,880 --> 01:21:20,920
+megformázva ebben a ebben a ebben a
+
+1465
+01:21:18,880 --> 01:21:23,080
+formátumban de csinálhatunk egy olyat
+
+1466
+01:21:20,920 --> 01:21:25,000
+hogy rátomlulunk a 224-esre és azt
+
+1467
+01:21:23,080 --> 01:21:26,920
+mondom hogy ha ezek lennének újra
+
+1468
+01:21:25,000 --> 01:21:31,120
+résztvevők mert nem lesz ez annyira ne
+
+1469
+01:21:26,920 --> 01:21:33,760
+annyira más a 225-ös lista
+
+1470
+01:21:31,120 --> 01:21:35,040
+most most akkor akkor mi lenne az
+
+1471
+01:21:33,760 --> 01:21:37,120
+eredmény úgyhogy de visszamegyek egészen
+
+1472
+01:21:35,040 --> 01:21:40,760
+az elejére és akkor ezt újra kell
+
+1473
+01:21:37,120 --> 01:21:40,760
+játszani az egészet
+
+1474
+01:21:44,600 --> 01:21:51,880
+küldjem be Excelbe vagy ide listába más
+
+1475
+01:21:47,679 --> 01:21:54,440
+listaként másol chat Excel jaj kéz
+
+1476
+01:21:51,880 --> 01:21:56,840
+hát nem most szorcs
+
+1477
+01:21:54,440 --> 01:22:00,840
+jaj
+
+1478
+01:21:56,840 --> 01:22:00,840
+istenem mitok
+
+1479
+01:22:01,000 --> 01:22:06,920
+egyék vég na fog be Ferike én nézlek jó
+
+1480
+01:22:04,639 --> 01:22:10,000
+jó takkad meg a
+
+1481
+01:22:06,920 --> 01:22:13,679
+bibit de ki a csoda hozzá Big most már
+
+1482
+01:22:10,000 --> 01:22:17,480
+csús össze nem csúság össz van a
+
+1483
+01:22:13,679 --> 01:22:20,560
+halászat csak egy kicsivel csak
+
+1484
+01:22:17,480 --> 01:22:25,400
+őszaketes nem
+
+1485
+01:22:20,560 --> 01:22:25,400
+lass az akkor ezt ne ezt mentsük el
+
+1486
+01:22:26,800 --> 01:22:34,000
+d3-nak igen kivisz másik a kocsibal
+
+1487
+01:22:31,480 --> 01:22:36,800
+és hát az ékettőt azt nem tettük bele
+
+1488
+01:22:34,000 --> 01:22:41,760
+ugye kell az év2 és a helyezés
+
+1489
+01:22:36,800 --> 01:22:45,040
+is úgyhogy erre lesz szükség plusz az
+
+1490
+01:22:41,760 --> 01:22:47,520
+év2-re hosszahelyezésre
+
+1491
+01:22:45,040 --> 01:22:51,159
+ott van a ugye
+
+1492
+01:22:47,520 --> 01:22:53,239
+hát van és akkor az lesz nekünk a D3 és
+
+1493
+01:22:51,159 --> 01:22:55,880
+akkor ugyanaz marad a kódunk csak most a
+
+1494
+01:22:53,239 --> 01:22:57,639
+de 3-ból fogjuk ezeket a oszlopokat
+
+1495
+01:22:55,880 --> 01:23:00,300
+venni
+
+1496
+01:22:57,639 --> 01:23:01,679
+ami ami ugye azt jelenti
+
+1497
+01:23:00,300 --> 01:23:04,480
+[Zene]
+
+1498
+01:23:01,679 --> 01:23:08,520
+hogy sokkal kisebbek lesznek az
+
+1499
+01:23:04,480 --> 01:23:11,719
+adsoraink kevesebb oszlop lesz benne
+
+1500
+01:23:08,520 --> 01:23:14,000
+közben beküldtem a Discordra jó mindjárt
+
+1501
+01:23:11,719 --> 01:23:17,360
+odajok
+
+1502
+01:23:14,000 --> 01:23:19,360
+komolyan és ez mínuszatos tehát itt csak
+
+1503
+01:23:17,360 --> 01:23:23,360
+114 oszlop lett tehát kidobtunk egy pár
+
+1504
+01:23:19,360 --> 01:23:23,360
+oszlopot a az értékeseket
+
+1505
+01:23:26,000 --> 01:23:32,239
+és kész vagyunk utána jön utána jön a
+
+1506
+01:23:29,040 --> 01:23:36,040
+pipeline és jön a
+
+1507
+01:23:32,239 --> 01:23:38,159
+predict már neudít a szemé már nem fogsz
+
+1508
+01:23:36,040 --> 01:23:40,679
+javulni soha
+
+1509
+01:23:38,159 --> 01:23:40,679
+jézus
+
+1510
+01:23:45,880 --> 01:23:52,679
+Mária és jön a
+
+1511
+01:23:49,679 --> 01:23:55,159
+predict jó és utána teszem azt az
+
+1512
+01:23:52,679 --> 01:23:57,639
+összehasonló táblázatot hát most azt
+
+1513
+01:23:55,159 --> 01:23:59,880
+csináltuk ugye hogy 24-eseket próbáltuk
+
+1514
+01:23:57,639 --> 01:24:03,880
+egyelőre 19
+
+1515
+01:23:59,880 --> 01:24:03,880
+222-ból prediktálni
+
+1516
+01:24:08,040 --> 01:24:13,800
+ezeket beteszem egy helyre
+
+1517
+01:24:10,679 --> 01:24:20,679
+és lássuk hogy a az előző verzióhoz
+
+1518
+01:24:13,800 --> 01:24:20,679
+képest mekkora mekkora lett a romlás
+
+1519
+01:24:35,719 --> 01:24:43,040
+az a cisza fognak
+
+1520
+01:24:39,320 --> 01:24:45,679
+hát ugye itt már azért erősen erősen
+
+1521
+01:24:43,040 --> 01:24:47,639
+nagy a az összevisszaság még talán még
+
+1522
+01:24:45,679 --> 01:24:49,199
+mindig nem annyira rossz mint amennyire
+
+1523
+01:24:47,639 --> 01:24:51,199
+mint amennyire vártunk tehát itt
+
+1524
+01:24:49,199 --> 01:24:53,760
+nincsenek mondjuk ilyen 50-esek az első
+
+1525
+01:24:51,199 --> 01:24:55,560
+az első 10-ben de azért azért jóval
+
+1526
+01:24:53,760 --> 01:24:58,000
+nagyobb a a jóval nagyobb a szórás
+
+1527
+01:24:55,560 --> 01:25:01,320
+úgyhogy nyilván megpredikálhatjuk a
+
+1528
+01:24:58,000 --> 01:25:03,719
+2025-ösöket is de szerintem annak még
+
+1529
+01:25:01,320 --> 01:25:06,040
+most ezzel a modellkomplexitással nem
+
+1530
+01:25:03,719 --> 01:25:09,600
+igazán lenne nem igazán lenne értelme de
+
+1531
+01:25:06,040 --> 01:25:13,080
+nyilván úgy tudnánk elvégezni hogy a
+
+1532
+01:25:09,600 --> 01:25:15,960
+teszthez ugye
+
+1533
+01:25:13,080 --> 01:25:18,880
+a a predikcióra az x teszt helyett most
+
+1534
+01:25:15,960 --> 01:25:22,520
+nekünk az X teszt azoknak a azoknak a
+
+1535
+01:25:18,880 --> 01:25:25,360
+csapatoknak a listája
+
+1536
+01:25:22,520 --> 01:25:28,320
+aki részt vett ugye ebben a a ugye
+
+1537
+01:25:25,360 --> 01:25:31,000
+725-ben tehát csak nullások és
+
+1538
+01:25:28,320 --> 01:25:34,560
+egyesek ebben az évben ugye most az év
+
+1539
+01:25:31,000 --> 01:25:37,760
+az azt majd levágjuk őket
+
+1540
+01:25:34,560 --> 01:25:40,280
+itt és összesen ugye itt itt most 64
+
+1541
+01:25:37,760 --> 01:25:43,119
+olyan csapat volt amelyik egy egyedi
+
+1542
+01:25:40,280 --> 01:25:45,560
+nekünk lenne egy másfajta egy másfajta
+
+1543
+01:25:43,119 --> 01:25:47,080
+xestünk most szerintem nem érdemes
+
+1544
+01:25:45,560 --> 01:25:50,800
+eltöltenénk egy csomó időt azzal hogy
+
+1545
+01:25:47,080 --> 01:25:53,880
+ezt oda ide farakjuk ebbe a formátumba
+
+1546
+01:25:50,800 --> 01:25:55,840
+még elég gyenge ez a modellünk az hogy
+
+1547
+01:25:53,880 --> 01:25:58,960
+ez jól menjen ugye itt azt kellene
+
+1548
+01:25:55,840 --> 01:26:02,480
+csináljuk valójában hogy
+
+1549
+01:25:58,960 --> 01:26:04,880
+nyilván a neveket a csapatoknál
+
+1550
+01:26:02,480 --> 01:26:08,159
+normalizáljuk és utána pedig hozzuk be a
+
+1551
+01:26:04,880 --> 01:26:10,040
+többi évet még akkor is hogyha csak a a
+
+1552
+01:26:08,159 --> 01:26:12,360
+csak az öszpontszám van meg vagy csak a
+
+1553
+01:26:10,040 --> 01:26:14,280
+helyezés van meg abból az adott évből
+
+1554
+01:26:12,360 --> 01:26:16,480
+azokat próbáljuk meg mindenhez és
+
+1555
+01:26:14,280 --> 01:26:19,280
+beletanítani
+
+1556
+01:26:16,480 --> 01:26:24,320
+ennyire kell a tanítási rész aztán a
+
+1557
+01:26:19,280 --> 01:26:24,320
+lekérdezésnél csak ezt fogjuk használni
+
+1558
+01:26:25,119 --> 01:26:30,159
+na jó én erre gondoltam körülbelül ez
+
+1559
+01:26:27,360 --> 01:26:31,880
+akkor egészen végrehajtan egy egészen jó
+
+1560
+01:26:30,159 --> 01:26:33,880
+projekt lenne mert végrehajt ugye egy
+
+1561
+01:26:31,880 --> 01:26:36,320
+felügyeletlen tanulást és végrehajt egy
+
+1562
+01:26:33,880 --> 01:26:39,040
+felügyelt tanulási feladatot és azt
+
+1563
+01:26:36,320 --> 01:26:42,199
+szépen bemutatja ezt beteszed beteszed
+
+1564
+01:26:39,040 --> 01:26:46,280
+beteszed egy egy ilyen Google Col
+
+1565
+01:26:42,199 --> 01:26:48,199
+munkafüzetbe akkor azt szépen tudod el
+
+1566
+01:26:46,280 --> 01:26:50,159
+tudod mesélni a munkafüzetben és tudod
+
+1567
+01:26:48,199 --> 01:26:54,679
+kommentálni úgyhogy az nagyon szépen
+
+1568
+01:26:50,159 --> 01:26:54,679
+ellátna a a feladatot
+
+1569
+01:26:55,000 --> 01:27:00,080
+megállok én itt van-e van-e valakinek
+
+1570
+01:26:57,080 --> 01:27:00,080
+kérdése
+
+1571
+01:27:01,520 --> 01:27:04,840
+engem nincs
+
+1572
+01:27:06,320 --> 01:27:11,159
+na jó kösz szépen akkor a figyelmet majd
+
+1573
+01:27:09,040 --> 01:27:13,679
+összegzem összegzem ezt Discordon és
+
+1574
+01:27:11,159 --> 01:27:17,000
+akkor majd jövök hogy találjunk majd egy
+
+1575
+01:27:13,679 --> 01:27:19,840
+közössítőpontot amikor meg tudjuk
+
+1576
+01:27:17,000 --> 01:27:22,320
+ezt meg tudjuk ezt majd közösen be
+
+1577
+01:27:19,840 --> 01:27:24,150
+tudjátok mutatni
+
+1578
+01:27:22,320 --> 01:27:27,140
+jó köszi sziasztok
+
+1579
+01:27:24,150 --> 01:27:27,140
+[Zene]
+

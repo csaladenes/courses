@@ -1,0 +1,7812 @@
+1
+00:00:02,280 --> 00:00:05,280
+jó
+
+2
+00:00:51,559 --> 00:00:54,960
+S SK
+
+3
+00:01:39,399 --> 00:01:43,399
+légy dolgokol
+
+4
+00:02:38,360 --> 00:02:41,360
+Čó
+
+5
+00:02:41,599 --> 00:02:44,800
+egyébként nem
+
+6
+00:02:45,159 --> 00:02:52,239
+tud problémokül tudom ezt beszéltük csak
+
+7
+00:02:48,200 --> 00:02:55,480
+hogy ezt hogy azosít melyiket kell
+
+8
+00:02:52,239 --> 00:02:56,720
+azt szer nem én se tudom menni nem nem
+
+9
+00:02:55,480 --> 00:02:59,840
+tudok
+
+10
+00:02:56,720 --> 00:03:02,599
+enné az
+
+11
+00:02:59,840 --> 00:03:04,400
+vagy esetleg
+
+12
+00:03:02,599 --> 00:03:08,599
+megpróbál sok megpróbál sok mindet attól
+
+13
+00:03:04,400 --> 00:03:10,680
+függ hogy adat
+
+14
+00:03:08,599 --> 00:03:14,000
+igenat attól függ hogy az adat az
+
+15
+00:03:10,680 --> 00:03:14,000
+elosztása mi
+
+16
+00:03:17,480 --> 00:03:22,519
+hogy az ami
+
+17
+00:03:19,519 --> 00:03:24,560
+Te megcsinálod ezt a
+
+18
+00:03:22,519 --> 00:03:28,519
+szerintem akkor
+
+19
+00:03:24,560 --> 00:03:29,760
+te nagyon orkál túl nem is szoktál te
+
+20
+00:03:28,519 --> 00:03:32,920
+csinálni
+
+21
+00:03:29,760 --> 00:03:35,920
+ez ne hív olyan adat neked van egy
+
+22
+00:03:32,920 --> 00:03:37,640
+tanító adatt és akkor azon meg ez egy
+
+23
+00:03:35,920 --> 00:03:39,360
+teljesen olyan adat kéne legyen amit
+
+24
+00:03:37,640 --> 00:03:43,439
+eddig a modell nem
+
+25
+00:03:39,360 --> 00:03:46,840
+lát ebben ugye te azt
+
+26
+00:03:43,439 --> 00:03:48,599
+feltételezed hogy azt oslásod az egy
+
+27
+00:03:46,840 --> 00:03:50,879
+szoktam
+
+28
+00:03:48,599 --> 00:03:54,680
+Akkor azt nem is az
+
+29
+00:03:50,879 --> 00:03:59,360
+adatos lehet egy sokkal több adat de azt
+
+30
+00:03:54,680 --> 00:04:02,480
+elak az forban körben most ez mindig nem
+
+31
+00:03:59,360 --> 00:04:03,680
+mindig van így pontosan azért amikor te
+
+32
+00:04:02,480 --> 00:04:07,480
+ja hogyha
+
+33
+00:04:03,680 --> 00:04:08,120
+te ebből ez a sz ebből te így veszed ki
+
+34
+00:04:07,480 --> 00:04:12,480
+a
+
+35
+00:04:08,120 --> 00:04:15,519
+pontokat ezt hogyha nem veszed ki a
+
+36
+00:04:12,480 --> 00:04:17,680
+akkor a teljes szempnek az eloszlása ez
+
+37
+00:04:15,519 --> 00:04:19,680
+amit te kivettél az az Megnéz szépen
+
+38
+00:04:17,680 --> 00:04:23,280
+radom
+
+39
+00:04:19,680 --> 00:04:24,880
+el Szóval így lehet hogy teha pont ezt a
+
+40
+00:04:23,280 --> 00:04:27,400
+részét vetted ki és akkor neked az
+
+41
+00:04:24,880 --> 00:04:29,320
+eluszlásod ezt vagy ezt pont ebből vett
+
+42
+00:04:27,400 --> 00:04:30,960
+és akkor neked az eluszlátod vagy
+
+43
+00:04:29,320 --> 00:04:34,560
+valamilyen
+
+44
+00:04:30,960 --> 00:04:36,320
+ilyen úgyhogy ezt tudod használni hogy
+
+45
+00:04:34,560 --> 00:04:39,440
+ha lehetséged van tehát például nagyon
+
+46
+00:04:36,320 --> 00:04:42,919
+sok esetben tudod tudod a teljes
+
+47
+00:04:39,440 --> 00:04:45,039
+lakusztáknak az eluszlását és tudod a
+
+48
+00:04:42,919 --> 00:04:48,160
+eluszlását És akkor egy kettő eloszlást
+
+49
+00:04:45,039 --> 00:04:51,360
+meg összehasonlítani hogy van mert
+
+50
+00:04:48,160 --> 00:04:53,639
+van felmérés vagy a felsől igaz és akkor
+
+51
+00:04:51,360 --> 00:04:56,120
+neked abból van 15 ember am akit
+
+52
+00:04:53,639 --> 00:05:00,759
+megkérdeztél és specifikus akkor ezt a
+
+53
+00:04:56,120 --> 00:05:03,759
+kettő elták megpróbálni ezt hasonlít nem
+
+54
+00:05:00,759 --> 00:05:03,759
+igazá
+
+55
+00:05:04,000 --> 00:05:10,919
+csajtas akkor meg ugye hogyha tudod hogy
+
+56
+00:05:07,960 --> 00:05:14,800
+én mit szoktak mondani a azért képzőmény
+
+57
+00:05:10,919 --> 00:05:17,440
+kutató intézeteken ugye azt mondják
+
+58
+00:05:14,800 --> 00:05:22,120
+Ez akkor lesz akkor
+
+59
+00:05:17,440 --> 00:05:23,880
+lesz szignifikáns ha számolod a kízá
+
+60
+00:05:22,120 --> 00:05:26,680
+statisztik statisztikailag vagy ez
+
+61
+00:05:23,880 --> 00:05:30,199
+reprezentatíve vagy
+
+62
+00:05:26,680 --> 00:05:33,160
+reprezentatív é 5%-a kábé tehát 20ból
+
+63
+00:05:30,199 --> 00:05:37,919
+egy az meg kérdezve kábé az úgy hát azt
+
+64
+00:05:33,160 --> 00:05:41,680
+tudjuk itten köz valami szatot a köz
+
+65
+00:05:37,919 --> 00:05:45,919
+neked egy olyan esetben ível mind a két
+
+66
+00:05:41,680 --> 00:05:50,319
+elmát Van akkor pivő az nagyon
+
+67
+00:05:45,919 --> 00:05:51,319
+alacsony lesz egy meg távolják egy mások
+
+68
+00:05:50,319 --> 00:05:54,960
+akkor
+
+69
+00:05:51,319 --> 00:05:54,960
+bő akkor van egy
+
+70
+00:05:55,759 --> 00:06:03,520
+rész hát nem igazán hogyha neked hogyha
+
+71
+00:06:00,000 --> 00:06:06,840
+neked mindig ebben az adatsorban kell
+
+72
+00:06:03,520 --> 00:06:09,039
+maradni és egyetlen egy egyénnek vagy
+
+73
+00:06:06,840 --> 00:06:14,400
+részeőnek a teljesítmények kell beitálni
+
+74
+00:06:09,039 --> 00:06:16,440
+akkor nem hogyha rész fén a ljó m akkor
+
+75
+00:06:14,400 --> 00:06:21,680
+inkább valami nes mit csinálsz hát úgyis
+
+76
+00:06:16,440 --> 00:06:25,520
+úgy rolit szó nem muszáj nemató
+
+77
+00:06:21,680 --> 00:06:30,599
+szempontbá am kicsit ott
+
+78
+00:06:25,520 --> 00:06:30,599
+van hogy ha volt neked ez
+
+79
+00:06:34,039 --> 00:06:38,639
+mod ez a voltak a
+
+80
+00:06:39,520 --> 00:06:46,880
+pöttyöcskéink maradjunk egy pár Át
+
+81
+00:06:42,720 --> 00:06:49,880
+van akkor építhetsz építhetsz egy új egy
+
+82
+00:06:46,880 --> 00:06:52,360
+modellt úgy hogy kihagyod az első pötty
+
+83
+00:06:49,880 --> 00:06:54,639
+kiod az első pöttyöt akkor ezekre húzol
+
+84
+00:06:52,360 --> 00:06:56,759
+egy ilyen módon egy regesszí építetsz
+
+85
+00:06:54,639 --> 00:06:59,319
+egy olyat hogy kihagyod a
+
+86
+00:06:56,759 --> 00:07:02,639
+második akkor a második hogyha ez nincs
+
+87
+00:06:59,319 --> 00:07:06,280
+itt ugye akkor ez építsz egy olyat hogy
+
+88
+00:07:02,639 --> 00:07:07,440
+kihagyod ezt és en akkor csak ezek akkor
+
+89
+00:07:06,280 --> 00:07:10,240
+erre a
+
+90
+00:07:07,440 --> 00:07:13,599
+harmadik és akkor ezek ezek ezeknek az
+
+91
+00:07:10,240 --> 00:07:16,199
+áplad vagy a legjobb Tehát hogyha csak
+
+92
+00:07:13,599 --> 00:07:18,319
+neked ez a a szem fölöld van akkor úgy
+
+93
+00:07:16,199 --> 00:07:20,840
+hogy különböző részeit hagyod el a szem
+
+94
+00:07:18,319 --> 00:07:23,039
+fölnek hogy teljesen másold szent de úgy
+
+95
+00:07:20,840 --> 00:07:26,599
+is tudsz egy pitz hozzani egy kicsit egy
+
+96
+00:07:23,039 --> 00:07:29,680
+ilyen jobb mértékű általában ták meg
+
+97
+00:07:26,599 --> 00:07:32,360
+rátok te akkor ezeket a nem tudom
+
+98
+00:07:29,680 --> 00:07:34,960
+megcsinálod ezt a
+
+99
+00:07:32,360 --> 00:07:36,360
+hivyz féleképpen akkor azt a 10féle
+
+100
+00:07:34,960 --> 00:07:38,879
+modellt azt le lehet
+
+101
+00:07:36,360 --> 00:07:41,919
+át az egész
+
+102
+00:07:38,879 --> 00:07:43,440
+esetében a a [ __ ] esetében nem
+
+103
+00:07:41,919 --> 00:07:45,720
+matematikai szabályok vannak ott nem
+
+104
+00:07:43,440 --> 00:07:48,039
+tudod átadni magát a modellt hanem akkor
+
+105
+00:07:45,720 --> 00:07:50,120
+elviszed a prekciót késszer és az annak
+
+106
+00:07:48,039 --> 00:07:52,520
+az átlag majd az eredménynek mondod hogy
+
+107
+00:07:50,120 --> 00:07:56,879
+akkor ez hogyha kilenzer azt mondja hogy
+
+108
+00:07:52,520 --> 00:07:56,879
+ez zöld és egyszer azt mondja sá
+
+109
+00:07:57,840 --> 00:08:00,840
+az
+
+110
+00:08:07,800 --> 00:08:11,520
+eg hogy ez
+
+111
+00:09:08,440 --> 00:09:11,120
+S
+
+112
+00:09:31,399 --> 00:09:33,760
+Ez ká
+
+113
+00:10:09,120 --> 00:10:15,000
+Ez
+
+114
+00:10:11,079 --> 00:10:15,000
+most pedig már próbál
+
+115
+00:10:26,040 --> 00:10:30,040
+Oké oké
+
+116
+00:11:31,040 --> 00:11:36,160
+Jó nézzük meg egy picit
+
+117
+00:11:34,760 --> 00:11:39,040
+hogy melyik
+
+118
+00:11:36,160 --> 00:11:42,519
+a jelenleg az egyik legkirályabb
+
+119
+00:11:39,040 --> 00:11:46,600
+algoritmus hogyan hogyan fornak ezek
+
+120
+00:11:42,519 --> 00:11:50,120
+a nagyon koncept szintű
+
+121
+00:11:46,600 --> 00:11:52,040
+széből egy kicsit nehéz is az átmenet a
+
+122
+00:11:50,120 --> 00:11:53,680
+a
+
+123
+00:11:52,040 --> 00:11:55,920
+játékmélet
+
+124
+00:11:53,680 --> 00:11:58,279
+termékbe ugyan hogy a játékelméletben
+
+125
+00:11:55,920 --> 00:11:58,279
+nekünk a
+
+126
+00:11:58,720 --> 00:12:02,120
+a játékos
+
+127
+00:12:03,120 --> 00:12:09,680
+Csak talán valamit néztük a legszív
+
+128
+00:12:05,600 --> 00:12:09,680
+formában bináris döntés akkor
+
+129
+00:12:11,240 --> 00:12:17,360
+coprem biz 01
+
+130
+00:12:14,839 --> 00:12:19,680
+pillanatés akkor lesz a játék
+
+131
+00:12:17,360 --> 00:12:22,720
+elméletek forment
+
+132
+00:12:19,680 --> 00:12:25,880
+amikor kicsit több
+
+133
+00:12:22,720 --> 00:12:29,800
+áttozó döntés az nem
+
+134
+00:12:25,880 --> 00:12:32,440
+csak az nem csak elak
+
+135
+00:12:29,800 --> 00:12:35,519
+hanem
+
+136
+00:12:32,440 --> 00:12:37,720
+több nem csak a az agentünk hoz egy
+
+137
+00:12:35,519 --> 00:12:40,279
+döntést hanem van egy
+
+138
+00:12:37,720 --> 00:12:43,040
+környezet ami nekünk vissza fog jelezni
+
+139
+00:12:40,279 --> 00:12:47,959
+hogy ez a döntés ebben a példázetben jó
+
+140
+00:12:43,040 --> 00:12:52,079
+volt-e fel vagy sem eddig a játék
+
+141
+00:12:47,959 --> 00:12:54,480
+elt agent nem vagy a az ág most ez újra
+
+142
+00:12:52,079 --> 00:12:59,160
+imádot kell
+
+143
+00:12:54,480 --> 00:13:03,639
+idejében de nem játékos ugye felagyan
+
+144
+00:12:59,160 --> 00:13:07,480
+player player az envirment a az
+
+145
+00:13:03,639 --> 00:13:12,320
+egyszerű játékok az a második játék az
+
+146
+00:13:07,480 --> 00:13:12,320
+az szó a játéknak az
+
+147
+00:13:12,360 --> 00:13:18,240
+online játszunk és akkor mind lesz akkor
+
+148
+00:13:15,839 --> 00:13:21,760
+ez az envirment egy
+
+149
+00:13:18,240 --> 00:13:24,240
+bizonyos egy bizonyos utal
+
+150
+00:13:21,760 --> 00:13:28,600
+megmondjá
+
+151
+00:13:24,240 --> 00:13:31,360
+ez na most kicsit összevtem a info
+
+152
+00:13:28,600 --> 00:13:34,720
+software programoknál mert ezt a játékot
+
+153
+00:13:31,360 --> 00:13:36,959
+el fogod föl fogod játszan az envirment
+
+154
+00:13:34,720 --> 00:13:41,880
+ez nem fölvétel egy másik játékot hanem
+
+155
+00:13:36,959 --> 00:13:41,880
+tényleg az egy valós környezet ami
+
+156
+00:13:42,399 --> 00:13:49,440
+az művel
+
+157
+00:13:44,160 --> 00:13:49,440
+alapján meghasö alapján téged fik
+
+158
+00:13:49,480 --> 00:13:58,040
+szép a egyik ilyen most elem egy tá az
+
+159
+00:13:55,160 --> 00:13:58,040
+egyik ilyen
+
+160
+00:14:02,000 --> 00:14:06,320
+játék az akna kereső
+
+161
+00:14:07,440 --> 00:14:13,959
+vagy ezt azért szeretjük azételen
+
+162
+00:14:10,360 --> 00:14:20,440
+legegyszerűt azért szeretjük mert
+
+163
+00:14:13,959 --> 00:14:23,639
+A dö csak a környezet az egészen szépen
+
+164
+00:14:20,440 --> 00:14:23,639
+illusztrál az
+
+165
+00:14:39,160 --> 00:14:43,800
+impos a következő az elképzelés
+
+166
+00:14:49,240 --> 00:14:54,399
+Valaki megnézte vinden ezt a ezt régebb
+
+167
+00:14:52,199 --> 00:14:57,720
+az UI-nak volt az egyik ilyen
+
+168
+00:14:54,399 --> 00:14:57,720
+mellékprojektje Aztán
+
+169
+00:14:58,199 --> 00:15:04,079
+szerencsére miután az Open Hlósványban a
+
+170
+00:15:01,040 --> 00:15:07,079
+legtzebb szerencsélet ki valaki ezt
+
+171
+00:15:04,079 --> 00:15:09,800
+megmentette lesz megtartotta de ezt
+
+172
+00:15:07,079 --> 00:15:12,040
+régen úgy hívták ez volt a 10 évig ez
+
+173
+00:15:09,800 --> 00:15:14,399
+volt a reforcementek a tempoma az volt a
+
+174
+00:15:12,040 --> 00:15:15,320
+nem egy okul onnan jöttünk hogy voltak
+
+175
+00:15:14,399 --> 00:15:18,360
+ilyen
+
+176
+00:15:15,320 --> 00:15:20,880
+kanonikus amiket megpróbáltak különböző
+
+177
+00:15:18,360 --> 00:15:23,000
+alkotokkal megmondatz ezen közül az
+
+178
+00:15:20,880 --> 00:15:26,040
+egyik talán a bevezető vagy a második
+
+179
+00:15:23,000 --> 00:15:29,319
+bevezető probléma az a Legbevezetőbb az
+
+180
+00:15:26,040 --> 00:15:31,519
+a card po Valaki ismeri a card
+
+181
+00:15:29,319 --> 00:15:36,240
+pool card
+
+182
+00:15:31,519 --> 00:15:39,959
+p az az meglátjuk miért de ez szokott
+
+183
+00:15:36,240 --> 00:15:39,959
+jönni vezetni problém
+
+184
+00:15:42,160 --> 00:15:47,920
+Ez a kezeden való sekrének az
+
+185
+00:15:45,720 --> 00:15:52,279
+egyensúlyozása de csak egy
+
+186
+00:15:47,920 --> 00:15:52,279
+dimenzióban hogy ezeket az
+
+187
+00:15:52,800 --> 00:16:00,079
+invermentet és az action amit
+
+188
+00:15:56,560 --> 00:16:01,720
+tudsz tudsz hozni az az hogy jobbra mozg
+
+189
+00:16:00,079 --> 00:16:05,199
+jobbra mozgítod a kezedt vagy balra
+
+190
+00:16:01,720 --> 00:16:05,199
+mozdítod a kezet
+
+191
+00:16:05,759 --> 00:16:13,000
+Ez az
+
+192
+00:16:07,480 --> 00:16:15,279
+action ez ez Szóval a harmadik változó
+
+193
+00:16:13,000 --> 00:16:18,120
+ami le szokott írni egy megérőtés adná
+
+194
+00:16:15,279 --> 00:16:19,639
+egy problémát az a state space State
+
+195
+00:16:18,120 --> 00:16:23,959
+space az az hogy ez
+
+196
+00:16:19,639 --> 00:16:23,959
+a peplő az még áll vagy
+
+197
+00:16:29,079 --> 00:16:35,680
+lehet belő Akkor ahogy ahogy mutatta itt
+
+198
+00:16:32,480 --> 00:16:37,639
+a prezentáció ezek ezek iteratív
+
+199
+00:16:35,680 --> 00:16:40,920
+problémák Látod tehát ezek iteratív
+
+200
+00:16:37,639 --> 00:16:43,120
+problémák az van egy van egy van
+
+201
+00:16:40,920 --> 00:16:45,279
+egy van egy
+
+202
+00:16:43,120 --> 00:16:48,120
+lép egyik
+
+203
+00:16:45,279 --> 00:16:51,399
+lépésben Egyik lépésben te létrehozol
+
+204
+00:16:48,120 --> 00:16:51,399
+egy egy
+
+205
+00:16:54,079 --> 00:17:01,720
+act az actiont azt a tést az inverbit
+
+206
+00:16:57,399 --> 00:17:01,720
+jutalmazza megod hogy
+
+207
+00:17:02,600 --> 00:17:07,640
+eljutottál ebbe a
+
+208
+00:17:04,799 --> 00:17:11,039
+statebbe akkor neked utána az envirment
+
+209
+00:17:07,640 --> 00:17:14,240
+megmondja hogy ebben a ebben a statben
+
+210
+00:17:11,039 --> 00:17:17,120
+te kaptál egy rewardgot vagy
+
+211
+00:17:14,240 --> 00:17:19,559
+nem utána ezt
+
+212
+00:17:17,120 --> 00:17:23,160
+teva meghozod ezt a
+
+213
+00:17:19,559 --> 00:17:26,439
+döntést akkor ezt az egészet megcsinálod
+
+214
+00:17:23,160 --> 00:17:28,839
+Egy kérdés ahhoz hogy
+
+215
+00:17:26,439 --> 00:17:28,839
+én vagy
+
+216
+00:17:31,039 --> 00:17:38,200
+akár nagyon akkor nem kéne tudjuk hogy
+
+217
+00:17:34,960 --> 00:17:41,360
+a hogy merre van a
+
+218
+00:17:38,200 --> 00:17:43,919
+véje mert hogyha jobbra húzzak és jobbra
+
+219
+00:17:41,360 --> 00:17:45,760
+áll akkor oké de nem fog tudni azt hogy
+
+220
+00:17:43,919 --> 00:17:49,320
+ha jobbra húzta és balra állt akkor
+
+221
+00:17:45,760 --> 00:17:52,640
+pontosan miért halt meg ez az in a
+
+222
+00:17:49,320 --> 00:17:54,640
+játékok a játékok gyönyör az
+
+223
+00:17:52,640 --> 00:17:57,480
+environmental vannak belekúrva Ebben az
+
+224
+00:17:54,640 --> 00:17:59,840
+esetben nekünk az envirment az physikus
+
+225
+00:17:57,480 --> 00:18:03,480
+az az a fizikai jelent szabályok ami azt
+
+226
+00:17:59,840 --> 00:18:07,760
+jelenti ugye ami azt hogy ha nekünk a
+
+227
+00:18:03,480 --> 00:18:11,120
+tetőnek a teteje ugye balrá van hogy te
+
+228
+00:18:07,760 --> 00:18:14,799
+balra húzod akkor az lehet hogy
+
+229
+00:18:11,120 --> 00:18:17,640
+egyeneség nem hív mert itt lesz sebesség
+
+230
+00:18:14,799 --> 00:18:20,240
+lesz gyógyulás teljes a teljes fizik
+
+231
+00:18:17,640 --> 00:18:23,240
+szabály ezért egy kicsit nehezebb Szóval
+
+232
+00:18:20,240 --> 00:18:25,240
+state space az nem csak egy
+
+233
+00:18:23,240 --> 00:18:27,240
+01-es nem csak
+
+234
+00:18:25,240 --> 00:18:32,080
+egy
+
+235
+00:18:27,240 --> 00:18:32,080
+nulla egyes hanem ezt úgy híj
+
+236
+00:18:34,280 --> 00:18:41,840
+continuous state space van a face az egy
+
+237
+00:18:37,720 --> 00:18:45,480
+kő az a ez a cucc ez akár ez a
+
+238
+00:18:41,840 --> 00:18:50,159
+körü kő nem körben Ez is ez
+
+239
+00:18:45,480 --> 00:18:50,159
+valam ez a cucc ez egy egy
+
+240
+00:18:50,720 --> 00:18:56,559
+elipszis azért mert ez pontosan ez egy
+
+241
+00:18:54,320 --> 00:18:59,120
+ilyen folyamatos facefész ezt egy kicsit
+
+242
+00:18:56,559 --> 00:19:01,280
+nehezebb kódolni Van egy ilyen majd ezt
+
+243
+00:18:59,120 --> 00:19:01,280
+is
+
+244
+00:19:08,480 --> 00:19:15,520
+megcsináljuk A dispénnél ott van vagy
+
+245
+00:19:12,640 --> 00:19:19,320
+például Tiktor
+
+246
+00:19:15,520 --> 00:19:22,799
+vagy itt vagy vagy
+
+247
+00:19:19,320 --> 00:19:25,840
+itt Na és amit tudtok használni az
+
+248
+00:19:22,799 --> 00:19:28,360
+az játék
+
+249
+00:19:25,840 --> 00:19:30,679
+bármelyik bármelyik játéknak ebben a
+
+250
+00:19:28,360 --> 00:19:33,280
+ebben a
+
+251
+00:19:30,679 --> 00:19:36,840
+gymnáziumban ha itt megnézed kellene
+
+252
+00:19:33,280 --> 00:19:36,840
+legyenek olyanok hogy environment
+
+253
+00:19:59,559 --> 00:20:04,919
+akar lendör az
+
+254
+00:20:01,799 --> 00:20:04,919
+új cit
+
+255
+00:20:05,000 --> 00:20:07,520
+Keresk a
+
+256
+00:20:11,840 --> 00:20:15,039
+kátok az
+
+257
+00:20:21,120 --> 00:20:25,080
+az látod ez a
+
+258
+00:20:31,280 --> 00:20:35,200
+hol és akkor Akkor neked itt most az
+
+259
+00:20:33,400 --> 00:20:38,480
+action space az tényleg displate vagy
+
+260
+00:20:35,200 --> 00:20:42,480
+balra mész vagy jobbra mész de a state
+
+261
+00:20:38,480 --> 00:20:45,039
+space az egy ilyen egy ilyen folytonos
+
+262
+00:20:42,480 --> 00:20:46,360
+folytonos continuous Itt úgy hívodation
+
+263
+00:20:45,039 --> 00:20:50,799
+space a
+
+264
+00:20:46,360 --> 00:20:54,880
+continuouseket otthon Ebben fog csinálni
+
+265
+00:20:50,799 --> 00:20:54,880
+itt neked a stage space az
+
+266
+00:20:55,640 --> 00:21:00,840
+discrete Meg ezt a játékot visszafejteni
+
+267
+00:20:58,280 --> 00:21:03,640
+Itt az a lényeg hogy el kell jutni a
+
+268
+00:21:00,840 --> 00:21:06,960
+házakótól az olyan
+
+269
+00:21:03,640 --> 00:21:06,960
+nében lees
+
+270
+00:21:07,039 --> 00:21:12,400
+a
+
+271
+00:21:08,919 --> 00:21:15,120
+vagy létezik az akla kereső aklak kereső
+
+272
+00:21:12,400 --> 00:21:19,000
+verzióba is Na nézzük meg
+
+273
+00:21:15,120 --> 00:21:23,520
+hogy az action space az
+
+274
+00:21:19,000 --> 00:21:23,520
+megérhet szeretek inkább
+
+275
+00:21:30,320 --> 00:21:34,960
+Na de egyébként hogy hogy válaszoljak a
+
+276
+00:21:31,880 --> 00:21:38,320
+kérdésedre az envirment fogja neked
+
+277
+00:21:34,960 --> 00:21:40,919
+megondé hogy milyen actiont hoztál létre
+
+278
+00:21:38,320 --> 00:21:44,320
+neked az invent mondja még hogy most
+
+279
+00:21:40,919 --> 00:21:46,880
+neked akkor ez leuk lent vagy felblent
+
+280
+00:21:44,320 --> 00:21:49,679
+És az alapján hogy most az lebuk lent
+
+281
+00:21:46,880 --> 00:21:53,919
+vagy felbuklent mert lehet hogy ha pont
+
+282
+00:21:49,679 --> 00:21:56,640
+ő felfele felfele vagy emberben van nem
+
+283
+00:21:53,919 --> 00:22:00,480
+mindegy hogy innen jött oda hogy onnan
+
+284
+00:21:56,640 --> 00:22:01,600
+jött oda Ez alapján kapsz fóot és akkor
+
+285
+00:22:00,480 --> 00:22:06,240
+ezt
+
+286
+00:22:01,600 --> 00:22:09,039
+ismételget ez a nemá Itt ugye a példon a
+
+287
+00:22:06,240 --> 00:22:13,240
+játéknak a célja a reward az hogy
+
+288
+00:22:09,039 --> 00:22:16,120
+mondjuk ha egy
+
+289
+00:22:13,240 --> 00:22:17,720
+időlépést sikerült egy eggyel növelned
+
+290
+00:22:16,120 --> 00:22:21,799
+az időlépés a számát akkor kapsz egy
+
+291
+00:22:17,720 --> 00:22:24,400
+pontot Hogyha nem akkor sem
+
+292
+00:22:21,799 --> 00:22:28,120
+vagy
+
+293
+00:22:24,400 --> 00:22:31,440
+egy teljesen leent akkor kapsz egy
+
+294
+00:22:28,120 --> 00:22:31,440
+mínusz végtelet
+
+295
+00:22:31,760 --> 00:22:37,480
+Akkor itt az a cél ugye hogy
+
+296
+00:22:34,200 --> 00:22:40,240
+folyamatosan növelni a ró ele teljesen
+
+297
+00:22:37,480 --> 00:22:42,799
+random hozolöket ugye tehát ezt úgy úgy
+
+298
+00:22:40,240 --> 00:22:44,679
+kell elképzelni ez áblázat akkor azt
+
+299
+00:22:42,799 --> 00:22:48,440
+mondod hogy
+
+300
+00:22:44,679 --> 00:22:50,919
+P013 hozod jobbra jobbra balra jobbra
+
+301
+00:22:48,440 --> 00:22:52,120
+Akkor nézem hogy ezért kaptam egy egyet
+
+302
+00:22:50,919 --> 00:22:54,600
+ezért kaptam egy egyet ezért kaptam
+
+303
+00:22:52,120 --> 00:22:57,240
+egyet ezért kaptam Megf akkor kezdem
+
+304
+00:22:54,600 --> 00:23:01,200
+előre Most hozzuk egy olyan balra jobbra
+
+305
+00:22:57,240 --> 00:23:05,120
+balra balra balra és akkor menjünk
+
+306
+00:23:01,200 --> 00:23:08,159
+Utána ez a leges legegyszerűbb ugye ez a
+
+307
+00:23:05,120 --> 00:23:11,600
+random a a a random agent a random
+
+308
+00:23:08,159 --> 00:23:15,240
+algoritmus amelyik teljesen random a
+
+309
+00:23:11,600 --> 00:23:18,279
+törtés lehetne
+
+310
+00:23:15,240 --> 00:23:18,919
+kiadva két portát algoritmust
+
+311
+00:23:18,279 --> 00:23:22,400
+H
+
+312
+00:23:18,919 --> 00:23:25,279
+hogyha hogyha jobbra mentem kapsz el egy
+
+313
+00:23:22,400 --> 00:23:27,840
+egyes rewardot azt mondom hogy ez jó
+
+314
+00:23:25,279 --> 00:23:29,360
+akkor még egyszer jobbra meg kapok
+
+315
+00:23:27,840 --> 00:23:30,880
+megint egy egyes rewardot még egyszer
+
+316
+00:23:29,360 --> 00:23:34,320
+jobbra megyek megint kapok egy egyes
+
+317
+00:23:30,880 --> 00:23:38,039
+rewardot még egyszer jobbra megyek kapok
+
+318
+00:23:34,320 --> 00:23:39,679
+kapok egy zrosot akkor jövök hogy jobbra
+
+319
+00:23:38,039 --> 00:23:44,159
+megyés után megyek
+
+320
+00:23:39,679 --> 00:23:45,840
+van a a akkor lehet hogy ugyanak zó
+
+321
+00:23:44,159 --> 00:23:49,000
+akkor random választet akkor lehet hogy
+
+322
+00:23:45,840 --> 00:23:52,080
+mindegyik Akkor így egyel egyel jobban
+
+323
+00:23:49,000 --> 00:23:52,080
+kezd megtanultunk a
+
+324
+00:23:52,279 --> 00:23:57,520
+helyes ezt a fr példá
+
+325
+00:24:02,480 --> 00:24:07,240
+mutas mutas meg
+
+326
+00:24:04,520 --> 00:24:09,120
+mindenkit megnyit
+
+327
+00:24:07,240 --> 00:24:12,400
+mer ezt akarjuk
+
+328
+00:24:09,120 --> 00:24:12,400
+megáltam három
+
+329
+00:24:12,720 --> 00:24:18,240
+év kicson kiles algoritmus volt
+
+330
+00:24:19,200 --> 00:24:22,279
+hogyha idejössz
+
+331
+00:24:22,559 --> 00:24:27,880
+Jaok Na igen Hogy fejezzem megatomot
+
+332
+00:24:25,880 --> 00:24:30,240
+hogy kapcsolódik a
+
+333
+00:24:27,880 --> 00:24:32,320
+játékelmélethez Úgy úgy tűnik hogy ezek
+
+334
+00:24:30,240 --> 00:24:34,600
+az egyszerű algoritmusok az ilyen amikor
+
+335
+00:24:32,320 --> 00:24:36,799
+az environment nagyon egyszerű akkor a
+
+336
+00:24:34,600 --> 00:24:39,399
+Tat foret meg az always effect meg
+
+337
+00:24:36,799 --> 00:24:42,640
+amiket néztünk a Granch ezek ezek
+
+338
+00:24:39,399 --> 00:24:44,200
+rendben vannak De amikor a szabály
+
+339
+00:24:42,640 --> 00:24:46,559
+komplexebben tehát az environment nem
+
+340
+00:24:44,200 --> 00:24:48,760
+mindig egyértelműen emlékeztek ott már
+
+341
+00:24:46,559 --> 00:24:51,480
+csináltak egy olyat hogy fit for two
+
+342
+00:24:48,760 --> 00:24:54,080
+vagy endog egy idő után kezdett
+
+343
+00:24:51,480 --> 00:24:57,440
+grandolni Most ez mind ugyanaz hogy még
+
+344
+00:24:54,080 --> 00:25:00,679
+összetettebb szobáikat kell létrehozni
+
+345
+00:24:57,440 --> 00:25:04,240
+akkor ezt az általánosságban úgy hívják
+
+346
+00:25:00,679 --> 00:25:07,799
+hogy egy ilyen nagyon általános ez egy
+
+347
+00:25:04,240 --> 00:25:09,480
+3D ez van egy függvény egy függvény amit
+
+348
+00:25:07,799 --> 00:25:12,640
+megpróbálunk majd optimizálni úgy
+
+349
+00:25:09,480 --> 00:25:14,760
+optimizáljuk hogy ami nincsen a
+
+350
+00:25:12,640 --> 00:25:16,960
+reinforcement a játékelmélet a
+
+351
+00:25:14,760 --> 00:25:19,039
+játékemetben a reinforcement képest hogy
+
+352
+00:25:16,960 --> 00:25:21,399
+itt a reinforcement megpróbálhatjuk
+
+353
+00:25:19,039 --> 00:25:24,000
+köszönö lejátszani a játékot Megnézzük
+
+354
+00:25:21,399 --> 00:25:26,720
+hogy ez az adott úgy szokták hívni egy
+
+355
+00:25:24,000 --> 00:25:29,320
+döntéssorozatot tehát ez a jobbra jobbra
+
+356
+00:25:26,720 --> 00:25:31,000
+balra jobbra ezt döntéssorozatot ezt az
+
+357
+00:25:29,320 --> 00:25:34,320
+egészet úgy hívják hogy
+
+358
+00:25:31,000 --> 00:25:36,880
+policy Egy egy teljes döntéssorozat
+
+359
+00:25:34,320 --> 00:25:38,440
+Akkor ez az adott policy az most
+
+360
+00:25:36,880 --> 00:25:41,159
+sikerült-e fel vagy sem És akkor
+
+361
+00:25:38,440 --> 00:25:44,640
+kipróbálunk egy kipróbálunk egy párat és
+
+362
+00:25:41,159 --> 00:25:48,399
+akkor azt szoktuk csinálni hogy ez
+
+363
+00:25:44,640 --> 00:25:50,159
+a ez nekünk ki fogja választani azt hogy
+
+364
+00:25:48,399 --> 00:25:52,080
+hogyan játszodjuk azon a milyen
+
+365
+00:25:50,159 --> 00:25:53,840
+rewardokat kapunk Ez egy optimizálási
+
+366
+00:25:52,080 --> 00:25:55,559
+algoritmus Meg fogjuk nézni hogy hogyan
+
+367
+00:25:53,840 --> 00:25:57,919
+működik ez az optimizál algoritmus
+
+368
+00:25:55,559 --> 00:26:00,159
+Legalább legért szinten Csak ahhoz hogy
+
+369
+00:25:57,919 --> 00:26:04,919
+ezt megértsük ahhoz egyszer muszáj lesz
+
+370
+00:26:00,159 --> 00:26:07,679
+szépen fírjuk a a stateet és az actionet
+
+371
+00:26:04,919 --> 00:26:07,679
+Ez a terv
+
+372
+00:26:08,679 --> 00:26:12,640
+majd ki a kivetítőre
+
+373
+00:26:29,559 --> 00:26:35,880
+vagy kicsit a Kö most marad
+
+374
+00:26:45,039 --> 00:26:49,880
+it na tehát ha elindítom van egy várjál
+
+375
+00:26:48,240 --> 00:26:52,799
+most néz a többieknek van hogy mi ezt
+
+376
+00:26:49,880 --> 00:26:54,440
+elindítom tehát ez egy labirintuszerű
+
+377
+00:26:52,799 --> 00:26:57,440
+valami arról volt
+
+378
+00:26:54,440 --> 00:26:59,679
+mintázva -us 100 az egy falat jelent a
+
+379
+00:26:57,440 --> 00:27:03,360
+-usz1 az egy utat neki az a célja hogy
+
+380
+00:26:59,679 --> 00:27:04,120
+minél A maximalizálja Maximalizálja Igen
+
+381
+00:27:03,360 --> 00:27:06,240
+Tehát
+
+382
+00:27:04,120 --> 00:27:07,840
+maximalizálja Minél kevésbé menjen be
+
+383
+00:27:06,240 --> 00:27:09,399
+mínuszba
+
+384
+00:27:07,840 --> 00:27:14,320
+Akkor nem beszél hogy 100zor jobbra
+
+385
+00:27:09,399 --> 00:27:14,320
+jobbra megy és olyan a falnak van
+
+386
+00:27:15,200 --> 00:27:19,520
+Egy ideig hülyéskedik Igen Van egy
+
+387
+00:27:17,279 --> 00:27:23,159
+vizualizáció is az adatokról róla hogy
+
+388
+00:27:19,520 --> 00:27:23,159
+hogyan működik Csináltam egy néhány
+
+389
+00:27:26,399 --> 00:27:31,360
+grafikon tehát hogy hogy néz ki Eleinte
+
+390
+00:27:28,960 --> 00:27:33,279
+amikor elkezdi a képzést akkor itt mint
+
+391
+00:27:31,360 --> 00:27:36,960
+spalnak mert így hülyeséget
+
+392
+00:27:33,279 --> 00:27:39,559
+csinál és neki négy lehetősége van végső
+
+393
+00:27:36,960 --> 00:27:42,279
+soron is felmegy lemegy jobbra megy
+
+394
+00:27:39,559 --> 00:27:45,159
+balra megy Ez a négy opciója van Eleinte
+
+395
+00:27:42,279 --> 00:27:47,320
+véletlensztően össze-vissza próbálkozik
+
+396
+00:27:45,159 --> 00:27:49,159
+és van neki egy memóriája ahol elmenti
+
+397
+00:27:47,320 --> 00:27:51,039
+hogy azelőtt miket lépett Igen Mi
+
+398
+00:27:49,159 --> 00:27:54,640
+történik itt a
+
+399
+00:27:51,039 --> 00:27:57,919
+100-es ez egy jó kérdés hogy ez miért
+
+400
+00:27:54,640 --> 00:27:59,960
+hát elinte lemegy aztán felugrik
+
+401
+00:27:57,919 --> 00:28:01,919
+Igen azt hiszem hogy ugye ennek a Q
+
+402
+00:27:59,960 --> 00:28:04,279
+paraméternek van egy
+
+403
+00:28:01,919 --> 00:28:06,440
+amortizációs tehát elején random
+
+404
+00:28:04,279 --> 00:28:08,640
+döntéseket és akkor van egy ilyen rész
+
+405
+00:28:06,440 --> 00:28:10,640
+amikor az amortizációjának vége van és
+
+406
+00:28:08,640 --> 00:28:12,919
+akkor ezt gondolkodni Eleinte van ez úgy
+
+407
+00:28:10,640 --> 00:28:16,640
+hívják hogy exploration eleinte teljesen
+
+408
+00:28:12,919 --> 00:28:18,919
+randomoz döntéseket hogy nézze meg hogy
+
+409
+00:28:16,640 --> 00:28:22,440
+be kell gyűjteni valahogy az adatot hogy
+
+410
+00:28:18,919 --> 00:28:24,039
+a hogy tudja hogy balra balra jobbra az
+
+411
+00:28:22,440 --> 00:28:26,559
+negatív az hozz jelenteni Egyszerűen az
+
+412
+00:28:24,039 --> 00:28:28,399
+kell egy olyan random szituáció amikor
+
+413
+00:28:26,559 --> 00:28:30,720
+az előbb van amikor az elején van egy
+
+414
+00:28:28,399 --> 00:28:33,399
+ilyen exploration phez akkor itt van na
+
+415
+00:28:30,720 --> 00:28:35,360
+meg az exation megtanultak alapján kezd
+
+416
+00:28:33,399 --> 00:28:38,600
+Igen Aztán ételenekből kezd nagyjából jó
+
+417
+00:28:35,360 --> 00:28:42,039
+döntéseket hozni Hol is
+
+418
+00:28:38,600 --> 00:28:44,880
+volt azt hiszem hogy de csak a századik
+
+419
+00:28:42,039 --> 00:28:46,760
+éves utá kezdett ez a térkép az egít az
+
+420
+00:28:44,880 --> 00:28:49,840
+egy itt adsz neki egy másik térképet is
+
+421
+00:28:46,760 --> 00:28:52,200
+be lehet akármilyen új térképre tanítani
+
+422
+00:28:49,840 --> 00:28:54,720
+Ez a cute table ez egy kicsit óriási
+
+423
+00:28:52,200 --> 00:28:58,000
+nagy adatmaz Itt menti el a memóriájába
+
+424
+00:28:54,720 --> 00:28:59,519
+hogy miket lépett Ez egy képzés során
+
+425
+00:28:58,000 --> 00:29:02,320
+ezt fogjuk nézni most lépés lépés
+
+426
+00:28:59,519 --> 00:29:04,440
+folyamatosan miket csinál És azt mondja
+
+427
+00:29:02,320 --> 00:29:06,960
+hogy maga a kód az ilyen egyszerű kis
+
+428
+00:29:04,440 --> 00:29:10,200
+agentünk van Ennek van több Ez az első
+
+429
+00:29:06,960 --> 00:29:13,720
+két fej ez csak a pozíciója a térképen
+
+430
+00:29:10,200 --> 00:29:15,279
+Ez hogy hány kör hány képzési kör van
+
+431
+00:29:13,720 --> 00:29:18,159
+hány ilyen próbálkozás van amíg azt
+
+432
+00:29:15,279 --> 00:29:20,200
+mondjuk hogy oké most már elég jó a
+
+433
+00:29:18,159 --> 00:29:23,760
+modell tehát nem tudom hogy mennyi volt
+
+434
+00:29:20,200 --> 00:29:23,760
+ennek téve talán 10000 vagy valami
+
+435
+00:29:24,240 --> 00:29:28,600
+ilyesmi Ez a learning rate hogy milyen
+
+436
+00:29:26,480 --> 00:29:31,000
+gyorsan tanul hogyha túl gyorsan teszed
+
+437
+00:29:28,600 --> 00:29:32,519
+akkor kiugorhat lépéseket és nem biztos
+
+438
+00:29:31,000 --> 00:29:36,200
+hogy megkapja a legjobb
+
+439
+00:29:32,519 --> 00:29:40,080
+eredményt Hú y ez
+
+440
+00:29:36,200 --> 00:29:42,440
+aragyó amit mondtam az a 100-as hogy a
+
+441
+00:29:40,080 --> 00:29:45,840
+döntéseket egyszer random addig amíg az
+
+442
+00:29:42,440 --> 00:29:48,240
+elé az e és utána pedig belegzi a én ezt
+
+443
+00:29:45,840 --> 00:29:50,440
+se tudom már mii év óta végignézem
+
+444
+00:29:48,240 --> 00:29:53,200
+Discount factor discount factor az hogy
+
+445
+00:29:50,440 --> 00:29:55,559
+a az ezelőtt 10-zel való lépés mennyire
+
+446
+00:29:53,200 --> 00:29:59,000
+folyaskolja be ezt a lépést Ja igen igen
+
+447
+00:29:55,559 --> 00:30:02,159
+igen igen Hogy a mennyire befolyásolja
+
+448
+00:29:59,000 --> 00:30:04,200
+elő Igen igen igen igen Itt egy
+
+449
+00:30:02,159 --> 00:30:05,519
+véletlenszerű kezdésű pozíció helyezem
+
+450
+00:30:04,200 --> 00:30:06,760
+tehát véletlenszerűen helyezem el a
+
+451
+00:30:05,519 --> 00:30:09,919
+térképen és megvan hogy hová kell
+
+452
+00:30:06,760 --> 00:30:11,919
+eljusson Jó tehát akármilyen pozícióról
+
+453
+00:30:09,919 --> 00:30:14,200
+tudjon eljutni oda
+
+454
+00:30:11,919 --> 00:30:18,559
+Itt meg keresi hogy mi legyen a
+
+455
+00:30:14,200 --> 00:30:20,720
+következő lépése Következő lépés az Q a
+
+456
+00:30:18,559 --> 00:30:22,320
+látod hogyha egy az epil fázisban
+
+457
+00:30:20,720 --> 00:30:24,039
+vagyunk akkor random Igen És vannak
+
+458
+00:30:22,320 --> 00:30:26,799
+hogyha nem akkor a Q táblából kellene
+
+459
+00:30:24,039 --> 00:30:28,799
+egy tát get max value index az a Q
+
+460
+00:30:26,799 --> 00:30:30,720
+táblából kiveszi a legjobb igazából Itt
+
+461
+00:30:28,799 --> 00:30:32,120
+az az action az valami hogy itt volt Ja
+
+462
+00:30:30,720 --> 00:30:34,279
+igen ez a
+
+463
+00:30:32,120 --> 00:30:36,559
+felfele Ez a négy a négy dolog amit
+
+464
+00:30:34,279 --> 00:30:39,320
+csinált az spaceet ugye a state spaceet
+
+465
+00:30:36,559 --> 00:30:42,640
+változtatod az alapján hogy hova lép ki
+
+466
+00:30:39,320 --> 00:30:44,720
+Na pont ezt fog megnézni van Várjatok
+
+467
+00:30:42,640 --> 00:30:47,960
+van animáció a végén úgyhogy megy megy
+
+468
+00:30:44,720 --> 00:30:51,840
+valam sajnos csak csinál animá Figyelj
+
+469
+00:30:47,960 --> 00:30:51,840
+hogyha letuttatom akkor van egy ilyen
+
+470
+00:30:52,480 --> 00:31:01,880
+hogy kiír dolgokat De ez igen Azt
+
+471
+00:30:57,639 --> 00:31:03,480
+a megmutatja hogy izé elindult Ugye ez a
+
+472
+00:31:01,880 --> 00:31:05,760
+térkép tehát ezt ki lehetne rajzolni Itt
+
+473
+00:31:03,480 --> 00:31:08,039
+van egy
+
+474
+00:31:05,760 --> 00:31:10,440
+fetne íratni csak úgy emlékszem hogy
+
+475
+00:31:08,039 --> 00:31:13,799
+egyszerűen megír megölte a konzolt annyi
+
+476
+00:31:10,440 --> 00:31:15,440
+kiírással Ja akkor a C a null ö pozíció
+
+477
+00:31:13,799 --> 00:31:17,880
+Nem tudom valamelyik ezért közül a C
+
+478
+00:31:15,440 --> 00:31:20,360
+KénEG plus 100 vagy egy null
+
+479
+00:31:17,880 --> 00:31:21,799
+valaholit kéne Nem nem számít Azt hiszem
+
+480
+00:31:20,360 --> 00:31:25,360
+hogy csak be volt állítva hogy mi a cél
+
+481
+00:31:21,799 --> 00:31:27,720
+kiválaszt megy ott onnan indul Ugye hát
+
+482
+00:31:25,360 --> 00:31:28,840
+a 05 mindig a célpozíciós valahogy az
+
+483
+00:31:27,720 --> 00:31:31,720
+kéne
+
+484
+00:31:28,840 --> 00:31:35,519
+eljusson És nem jutottál 78-ból indulok
+
+485
+00:31:31,720 --> 00:31:39,080
+rá 77-re 76 Ja igen 78-ból indul 05-be
+
+486
+00:31:35,519 --> 00:31:42,279
+jut Az nem mindig ugyane Hát nem nem
+
+487
+00:31:39,080 --> 00:31:46,559
+mindig másik másik
+
+488
+00:31:42,279 --> 00:31:48,799
+[ __ ] Hát köszönöm Nem tudod
+
+489
+00:31:46,559 --> 00:31:48,799
+Ez
+
+490
+00:31:58,559 --> 00:32:03,399
+széodik Na nézzük meg Ugye van nekünk
+
+491
+00:32:01,360 --> 00:32:06,080
+egy action Ezeket
+
+492
+00:32:03,399 --> 00:32:08,799
+megpróbálom Muszáj lesz addig amíg
+
+493
+00:32:06,080 --> 00:32:10,240
+eljutunk innen egészen idáig egy teljes
+
+494
+00:32:08,799 --> 00:32:13,080
+iterációt muszáj vég csináljuk hogy
+
+495
+00:32:10,240 --> 00:32:16,880
+érzük meg Megpróbál ugyanazok színek
+
+496
+00:32:13,080 --> 00:32:21,159
+mind Mennyi idő van egy óra Fél óra Mik
+
+497
+00:32:16,880 --> 00:32:23,320
+mentek egy óra Jó Action
+
+498
+00:32:21,159 --> 00:32:24,960
+space Azt már tudjuk hogy mi az action
+
+499
+00:32:23,320 --> 00:32:26,679
+space Ugye négy darab action van Mik itt
+
+500
+00:32:24,960 --> 00:32:29,760
+az
+
+501
+00:32:26,679 --> 00:32:33,320
+actionök ezek fontosabb a döntések
+
+502
+00:32:29,760 --> 00:32:36,080
+amiket hozhatunk Jobbra balra
+
+503
+00:32:33,320 --> 00:32:38,720
+felé State
+
+504
+00:32:36,080 --> 00:32:42,440
+space State
+
+505
+00:32:38,720 --> 00:32:45,519
+space az hogy hol vagyunk az envirment
+
+506
+00:32:42,440 --> 00:32:48,320
+Az most új lehet A koordinátá az hát
+
+507
+00:32:45,519 --> 00:32:51,320
+igen így csak úgy hogy 00 de csak 001
+
+508
+00:32:48,320 --> 00:32:51,320
+csináljuk úgy hogy 01 2
+
+509
+00:32:51,559 --> 00:32:54,559
+3
+
+510
+00:32:55,760 --> 00:33:05,360
+ezt itt van 15 darab kocka Az a a state
+
+511
+00:33:01,840 --> 00:33:07,960
+hogy tehát nem a state az nem azt
+
+512
+00:33:05,360 --> 00:33:11,000
+jelenti hogy hol van a szí vagy hol
+
+513
+00:33:07,960 --> 00:33:14,240
+vannak a hol vannak a a tavak hanem azt
+
+514
+00:33:11,000 --> 00:33:17,000
+jelenti hogy te itt emberke hol vagy
+
+515
+00:33:14,240 --> 00:33:19,080
+melyik pozícióban vagy emberkek azt az
+
+516
+00:33:17,000 --> 00:33:24,440
+environment mondja nekem tehát ezek a
+
+517
+00:33:19,080 --> 00:33:24,440
+szabá environment az a
+
+518
+00:33:24,679 --> 00:33:32,760
+környezet amelyik valjában olyasmi Mi
+
+519
+00:33:28,600 --> 00:33:34,440
+mintogyha egy függvény lett az action és
+
+520
+00:33:32,760 --> 00:33:37,600
+a
+
+521
+00:33:34,440 --> 00:33:40,240
+state től függő Tehát neked
+
+522
+00:33:37,600 --> 00:33:42,120
+hogyha itt vagy ebben a statement és
+
+523
+00:33:40,240 --> 00:33:43,840
+hozzod egy olyan actiont hogy lefele
+
+524
+00:33:42,120 --> 00:33:45,600
+akkor neked az environmental amelyik
+
+525
+00:33:43,840 --> 00:33:47,559
+megmondja neked hogy akkor kapsz egy
+
+526
+00:33:45,600 --> 00:33:48,600
+mínus 100-at vagy akkor kapsz egyet vagy
+
+527
+00:33:47,559 --> 00:33:51,840
+hogyha itt vagy és azt mondod hogy
+
+528
+00:33:48,600 --> 00:33:53,639
+jobbra mész akkor azt azt mond plus 100
+
+529
+00:33:51,840 --> 00:33:58,240
+Tehát ezek a
+
+530
+00:33:53,639 --> 00:33:58,240
+játékobák Na jó
+
+531
+00:34:01,519 --> 00:34:12,200
+akkor az a cél az a cél ugye hogy ha ott
+
+532
+00:34:07,079 --> 00:34:12,200
+0-0ullára 0-0ullába kezdjük például az
+
+533
+00:34:16,599 --> 00:34:23,000
+már hogyha itt kezdünk
+
+534
+00:34:19,399 --> 00:34:26,720
+érte és mondjuk ez a
+
+535
+00:34:23,000 --> 00:34:26,720
+szél és Van egy
+
+536
+00:34:31,119 --> 00:34:36,119
+pár akkor már létre kell hoznunk egy
+
+537
+00:34:34,520 --> 00:34:40,159
+olyan
+
+538
+00:34:36,119 --> 00:34:42,119
+szekvenciát mit tudom én például íg ami
+
+539
+00:34:40,159 --> 00:34:48,119
+lenne
+
+540
+00:34:42,119 --> 00:34:51,919
+jobbra jobbra le jobbra ami
+
+541
+00:34:48,119 --> 00:34:51,919
+elér ez it ehhez az
+
+542
+00:34:52,480 --> 00:34:57,440
+ajanthoz hogyha
+
+543
+00:34:54,240 --> 00:34:59,800
+Ha ez azt jelenti hogy ezt kezdjük ur
+
+544
+00:34:57,440 --> 00:35:02,200
+hogy az első lépés után nekünk az
+
+545
+00:34:59,800 --> 00:35:03,680
+environment fog adni egy bizonyos
+
+546
+00:35:02,200 --> 00:35:05,480
+értéket Most teljesen mindegy hogy az
+
+547
+00:35:03,680 --> 00:35:08,119
+mínusz egy-e vagy az előbb láttuk vagy
+
+548
+00:35:05,480 --> 00:35:11,320
+-1 zeró vagy egy az a lényeg hogy
+
+549
+00:35:08,119 --> 00:35:14,240
+relatív mekkora értéke legyen
+
+550
+00:35:11,320 --> 00:35:16,400
+Uy és akkor te jobbra mentél akkor neked
+
+551
+00:35:14,240 --> 00:35:18,280
+a a state space-t hogyha egyet mentél
+
+552
+00:35:16,400 --> 00:35:20,960
+jobbra akkor a state space az
+
+553
+00:35:18,280 --> 00:35:23,680
+megváltozik nulláról egyesen ugye most
+
+554
+00:35:20,960 --> 00:35:26,520
+az egyes az egyes statesből az egyes
+
+555
+00:35:23,680 --> 00:35:29,160
+pont akkor utána neked az enyment fog
+
+556
+00:35:26,520 --> 00:35:32,480
+adni mondjuk egy legyen legyenek a
+
+557
+00:35:29,160 --> 00:35:36,680
+rewardok ezek a ezek plusz 5ök ezek
+
+558
+00:35:32,480 --> 00:35:39,400
+-us2-ak vagy mínusz végtelenek ez plusz
+
+559
+00:35:36,680 --> 00:35:41,400
+500 de nem biztos hogy plusz 500 kell
+
+560
+00:35:39,400 --> 00:35:45,040
+legyen Ugye ugy ahogy az előző játéknál
+
+561
+00:35:41,400 --> 00:35:47,119
+volt lehet ez egyszer plusz 5 és akkor
+
+562
+00:35:45,040 --> 00:35:49,319
+csak maximalizálva maximalizálva két
+
+563
+00:35:47,119 --> 00:35:51,960
+utána hogyha ez sarkában van akkor nem
+
+564
+00:35:49,319 --> 00:35:54,160
+számít mennyi a közepén van akkor nem
+
+565
+00:35:51,960 --> 00:35:56,040
+tudni tudsz jönni innen is meg tudsz
+
+566
+00:35:54,160 --> 00:35:58,280
+jönni ott
+
+567
+00:35:56,040 --> 00:35:59,880
+is Na és akkor neked az environment
+
+568
+00:35:58,280 --> 00:36:02,880
+jobbra mentél az environment ad neked
+
+569
+00:35:59,880 --> 00:36:06,079
+akkor pluszot Utána lefele mész ad neked
+
+570
+00:36:02,880 --> 00:36:09,440
+megint egy plusztot Utána hogyha még egy
+
+571
+00:36:06,079 --> 00:36:12,160
+lefele mindegy lefelé csinál nem hogyha
+
+572
+00:36:09,440 --> 00:36:15,680
+azt mondanád hogy még egy lefelé
+
+573
+00:36:12,160 --> 00:36:18,240
+akarok akkor most kap már egy mínusz
+
+574
+00:36:15,680 --> 00:36:20,520
+200-at Nem hogy utána folytathatod de a
+
+575
+00:36:18,240 --> 00:36:24,000
+végén amikor összeadod akkor ennek a
+
+576
+00:36:20,520 --> 00:36:26,280
+ennek a az útalnak ennek nagyon nagy
+
+577
+00:36:24,000 --> 00:36:29,960
+negatív lesz Általában folytathatod mert
+
+578
+00:36:26,280 --> 00:36:33,520
+általában megvan hogy hány darab lépés
+
+579
+00:36:29,960 --> 00:36:33,520
+van Hány darab lépés
+
+580
+00:36:33,599 --> 00:36:36,760
+van a
+
+581
+00:36:37,240 --> 00:36:42,520
+szimuláció Ezeket ezt ezt hívjuk egy
+
+582
+00:36:39,839 --> 00:36:45,319
+ilyen egy korszaknak egy epoknak hogy
+
+583
+00:36:42,520 --> 00:36:47,560
+hányszor hányszor lépünk amik elérünk a
+
+584
+00:36:45,319 --> 00:36:49,760
+vég Na ezt megpróbáljuk most akkor
+
+585
+00:36:47,560 --> 00:36:51,800
+megcsinálni Python
+
+586
+00:36:49,760 --> 00:36:54,359
+Nyilván ezt úgy fogod megtanulni hogy
+
+587
+00:36:51,800 --> 00:36:56,119
+eleinte random kezdett szimulálni hogy
+
+588
+00:36:54,359 --> 00:36:58,160
+fel jobbra jobbra jobbra megnézed hogy
+
+589
+00:36:56,119 --> 00:37:00,040
+mennyi Utána fel balra balra balra
+
+590
+00:36:58,160 --> 00:37:03,400
+Megnézet hogy megy egészen addig amíg
+
+591
+00:37:00,040 --> 00:37:06,000
+elejted random hoztad a döntéseket de
+
+592
+00:37:03,400 --> 00:37:08,440
+egy idő után te itt rá rá fogsz jönni
+
+593
+00:37:06,000 --> 00:37:12,040
+hogy te amikor én itt voltam ennél a
+
+594
+00:37:08,440 --> 00:37:15,280
+amikor én ennél a négyzetnél
+
+595
+00:37:12,040 --> 00:37:19,240
+voltam és ott hoztam egy lefele
+
+596
+00:37:15,280 --> 00:37:22,560
+döntést akkor azok a végejlettek
+
+597
+00:37:19,240 --> 00:37:25,640
+átlagosan kevesebb pontszámba fesőbb
+
+598
+00:37:22,560 --> 00:37:27,720
+pontszámhoz vezett mint mikor hoztam egy
+
+599
+00:37:25,640 --> 00:37:30,560
+ilyen
+
+600
+00:37:27,720 --> 00:37:30,560
+Ugye ez volt a
+
+601
+00:37:30,640 --> 00:37:36,680
+szükség És akkor kezded nézni azt
+
+602
+00:37:34,119 --> 00:37:39,800
+hogy nem találok meg nem találom a
+
+603
+00:37:36,680 --> 00:37:43,000
+szekvenciát meg hogy hogy jutottam
+
+604
+00:37:39,800 --> 00:37:45,560
+idáig És akkor hogyha tudom hogy ez a
+
+605
+00:37:43,000 --> 00:37:48,079
+szekvencia már létezik akkor nagyobb
+
+606
+00:37:45,560 --> 00:37:49,480
+eséllyel fogom választani nagyobb
+
+607
+00:37:48,079 --> 00:37:52,200
+eséllyel fogom
+
+608
+00:37:49,480 --> 00:37:55,480
+választani ezt az útvonalat Meg tudom
+
+609
+00:37:52,200 --> 00:37:57,720
+hogy aztán később ugye a a az elvárt
+
+610
+00:37:55,480 --> 00:38:00,079
+értéke az expected felnek a
+
+611
+00:37:57,720 --> 00:38:04,560
+szimulációnak
+
+612
+00:38:00,079 --> 00:38:07,640
+nagy így fog működni a legkisebb frozen
+
+613
+00:38:04,560 --> 00:38:09,280
+léktől a legnagyobb válság modellig
+
+614
+00:38:07,640 --> 00:38:12,720
+mindegyik reinforcement learning modell
+
+615
+00:38:09,280 --> 00:38:15,200
+pontosan itt fog működni annyi hogy na
+
+616
+00:38:12,720 --> 00:38:18,240
+egy nagy nyelvű modell ugye a amit amit
+
+617
+00:38:15,200 --> 00:38:20,079
+simulálsz a state space az mindegyik szó
+
+618
+00:38:18,240 --> 00:38:24,400
+valjában mindegyik token amit néztük a
+
+619
+00:38:20,079 --> 00:38:27,359
+múltkori múltkori atóval és a hogy hány
+
+620
+00:38:24,400 --> 00:38:29,960
+hányat lépsz előre az ugye dinamikus
+
+621
+00:38:27,359 --> 00:38:32,880
+szimulálhatsz egy öt 5000 hosszú
+
+622
+00:38:29,960 --> 00:38:38,240
+választálsz egy két kettő token hosszú
+
+623
+00:38:32,880 --> 00:38:40,359
+válasz a re ugye az az jön a enforcement
+
+624
+00:38:38,240 --> 00:38:42,720
+learning with human
+
+625
+00:38:40,359 --> 00:38:44,200
+feedback tá valahol neked az ember
+
+626
+00:38:42,720 --> 00:38:45,800
+megmondja hogy ez jó válaszolt vagy
+
+627
+00:38:44,200 --> 00:38:48,040
+rossz
+
+628
+00:38:45,800 --> 00:38:49,359
+válaszolták na nézd meg a legegyszerű
+
+629
+00:38:48,040 --> 00:38:51,599
+legegyszerűbb úgyhogy minden szépen
+
+630
+00:38:49,359 --> 00:38:53,240
+össze össze fog állni a végére hogyha
+
+631
+00:38:51,599 --> 00:38:57,319
+sikerült csak ez elég nehéz ez mennyit
+
+632
+00:38:53,240 --> 00:39:01,160
+végig de lássuk kérdés kérdez a a gép
+
+633
+00:38:57,319 --> 00:39:05,440
+amit elártál az az csak a lépésnek
+
+634
+00:39:01,160 --> 00:39:07,480
+minősége vagy vagy káderíti érté na
+
+635
+00:39:05,440 --> 00:39:09,680
+pontosan ez történt az előbb A a a az
+
+636
+00:39:07,480 --> 00:39:12,920
+elején azért volt nekünk az a az első
+
+637
+00:39:09,680 --> 00:39:15,359
+100 lépés mert az első 100 lépésben a a
+
+638
+00:39:12,920 --> 00:39:16,760
+policy az a tehát az policy az ugye az
+
+639
+00:39:15,359 --> 00:39:18,880
+azt mondtuk az a szabályom ami alapján
+
+640
+00:39:16,760 --> 00:39:20,599
+hozza a döntéseket az a random az elején
+
+641
+00:39:18,880 --> 00:39:23,680
+akkor felderíti
+
+642
+00:39:20,599 --> 00:39:27,240
+hogy legyen elég legyen elég lépés arra
+
+643
+00:39:23,680 --> 00:39:30,240
+hogy legyen esélye annak kibukkanni hogy
+
+644
+00:39:27,240 --> 00:39:33,520
+ez a jobbra le jobbra ez plusz 5thöz
+
+645
+00:39:30,240 --> 00:39:35,280
+vezet és a jobbra nem ne ez 200-hoz
+
+646
+00:39:33,520 --> 00:39:37,720
+vezet hogyha nincs elég random az elején
+
+647
+00:39:35,280 --> 00:39:40,119
+akkor nem tudsz erre igazán jól igazán
+
+648
+00:39:37,720 --> 00:39:42,119
+jól rátok Az elején ez random de aztán
+
+649
+00:39:40,119 --> 00:39:43,920
+idő után ugye kezd így visszaépíteni És
+
+650
+00:39:42,119 --> 00:39:47,720
+akkor ezért vannak ezek a paraméterek
+
+651
+00:39:43,920 --> 00:39:49,520
+Volt ugye ez az paraméter meg volt a B a
+
+652
+00:39:47,720 --> 00:39:53,079
+discount vector paraméter Ezt fogja
+
+653
+00:39:49,520 --> 00:39:55,240
+nekünk meghatározni hogy mekkora az
+
+654
+00:39:53,079 --> 00:39:59,440
+onnan fog jönni hogy exoration Az elején
+
+655
+00:39:55,240 --> 00:40:03,400
+ugye a felfedezés és utána jön majd a ez
+
+656
+00:39:59,440 --> 00:40:03,400
+a ez egy kré valójában a
+
+657
+00:40:04,560 --> 00:40:11,560
+fü az a tick az azt hogy akkor kezdi egy
+
+658
+00:40:08,359 --> 00:40:14,359
+idő után egy idő után kezdi beleépíteni
+
+659
+00:40:11,560 --> 00:40:16,040
+azt amit tanult a hazaj nem biztos hogy
+
+660
+00:40:14,359 --> 00:40:17,920
+legitimális csapatot kapja beak Nem
+
+661
+00:40:16,040 --> 00:40:20,480
+biztos hogy ezért amikor kétszer egymást
+
+662
+00:40:17,920 --> 00:40:24,359
+lefutatta más megoldást kaptunk Tehát ez
+
+663
+00:40:20,480 --> 00:40:26,240
+is ugye ez is megoldás és ez is ez is
+
+664
+00:40:24,359 --> 00:40:28,960
+megoldás
+
+665
+00:40:26,240 --> 00:40:33,319
+Persze ebben az esetben azt hiszem hogy
+
+666
+00:40:28,960 --> 00:40:36,400
+2 3 4 5 6 vagy 2 3 4 5 6 ezek pontosan
+
+667
+00:40:33,319 --> 00:40:38,119
+pontosan egyformák de a egy kicsit
+
+668
+00:40:36,400 --> 00:40:40,640
+trükkös ugye mert itt hogyha a rewardot
+
+669
+00:40:38,119 --> 00:40:42,920
+azért kapod hogy egy
+
+670
+00:40:40,640 --> 00:40:45,160
+olyan mennyit tudsz életben maradni
+
+671
+00:40:42,920 --> 00:40:46,880
+tehát hogyha egy olyan egy olyan kockára
+
+672
+00:40:45,160 --> 00:40:49,280
+lépsz ahol te pozitív rewardot kapsz
+
+673
+00:40:46,880 --> 00:40:52,240
+akkor ő a leghosszabb fogja neked meg
+
+674
+00:40:49,280 --> 00:40:54,520
+megtalálni ahol ugye életben tud maradni
+
+675
+00:40:52,240 --> 00:40:57,680
+és a végén eljut a a végén eljut a
+
+676
+00:40:54,520 --> 00:40:59,760
+riportz Ez már aznek a része de abszolút
+
+677
+00:40:57,680 --> 00:41:03,079
+azért mert az expation nem biztos hogy
+
+678
+00:40:59,760 --> 00:41:05,599
+kétszer ugyanaz válhatnak csak valójában
+
+679
+00:41:03,079 --> 00:41:08,079
+a az arány ez nagyon pici szokott lenni
+
+680
+00:41:05,599 --> 00:41:11,599
+a a szimulációhoz
+
+681
+00:41:08,079 --> 00:41:11,599
+képest gyártak
+
+682
+00:41:11,960 --> 00:41:19,040
+kereszt Na nézzük meg ezt Ezt már
+
+683
+00:41:16,000 --> 00:41:22,400
+megbeszéltük hogy ez ez az action space
+
+684
+00:41:19,040 --> 00:41:25,000
+Akkor a stage space-t a gymnziumban úgy
+
+685
+00:41:22,400 --> 00:41:27,920
+hívják hogy observation space
+
+686
+00:41:25,000 --> 00:41:27,920
+Más úgy hívják hogy
+
+687
+00:41:30,760 --> 00:41:36,000
+space Jó És akkor itt a a rewardok
+
+688
+00:41:33,319 --> 00:41:38,119
+hogyha elértél ez ez sokkal egyszerűbb a
+
+689
+00:41:36,000 --> 00:41:39,960
+reward mint ahogy én felvázoltam hogyha
+
+690
+00:41:38,119 --> 00:41:43,680
+elértél itt a plusz 500 helyett kapsz
+
+691
+00:41:39,960 --> 00:41:44,880
+egy egyest másképp pedig csak nullásokat
+
+692
+00:41:43,680 --> 00:41:47,359
+kapsz Ugye
+
+693
+00:41:44,880 --> 00:41:49,480
+ez a legegyszerűbb szavnek hogy ha
+
+694
+00:41:47,359 --> 00:41:51,920
+beleértél hogyha beleértél akkor akkor
+
+695
+00:41:49,480 --> 00:41:54,720
+az csak nulla
+
+696
+00:41:51,920 --> 00:41:56,520
+hogyha mész tovább akkor az is az is
+
+697
+00:41:54,720 --> 00:41:58,319
+csak nulla Az a lényeg hogy írja írja el
+
+698
+00:41:56,520 --> 00:42:00,000
+a végére
+
+699
+00:41:58,319 --> 00:42:02,040
+Ja
+
+700
+00:42:00,000 --> 00:42:03,359
+Itt azt akarom megnézni hogy a hol ez
+
+701
+00:42:02,040 --> 00:42:06,440
+kéne legyen a hol akkor meg kéne
+
+702
+00:42:03,359 --> 00:42:08,079
+büntetni valójában Tehát az akkor hogyha
+
+703
+00:42:06,440 --> 00:42:10,359
+bemész egy holba akkor szerintem benne
+
+704
+00:42:08,079 --> 00:42:13,640
+van a benne van itt a
+
+705
+00:42:10,359 --> 00:42:14,920
+Termination szabálya között hogy akkor
+
+706
+00:42:13,640 --> 00:42:17,359
+vége a
+
+707
+00:42:14,920 --> 00:42:19,160
+játék Látod tehát player movint a
+
+708
+00:42:17,359 --> 00:42:24,599
+holdtár ez a ez a hol ez valójában
+
+709
+00:42:19,160 --> 00:42:24,599
+mínusz végtelen nem zeró belekódolták
+
+710
+00:42:25,200 --> 00:42:33,000
+az a fren az rendes rendes
+
+711
+00:42:29,559 --> 00:42:35,720
+kocka És akkor azt mondta hogy hoppá 100
+
+712
+00:42:33,000 --> 00:42:37,119
+lépés van mindig 100 lépés van Tehát a
+
+713
+00:42:35,720 --> 00:42:39,160
+valáb itt azt csinálja hogyha itt
+
+714
+00:42:37,119 --> 00:42:40,760
+elérünk a -us200-ba akkor az összes
+
+715
+00:42:39,160 --> 00:42:42,880
+többi az
+
+716
+00:42:40,760 --> 00:42:46,119
+az nem nem
+
+717
+00:42:42,880 --> 00:42:48,720
+többi Na jó
+
+718
+00:42:46,119 --> 00:42:52,280
+Az elején ez az egész ez az egész
+
+719
+00:42:48,720 --> 00:42:54,079
+környezet ez ezt úgy hívják hogy gym
+
+720
+00:42:52,280 --> 00:42:57,599
+akkor mindegyik envirmentnek ez például
+
+721
+00:42:54,079 --> 00:43:00,720
+a fake version one vagy ahogy a craftnak
+
+722
+00:42:57,599 --> 00:43:02,800
+ugyanúgy megvan a craft version one ez
+
+723
+00:43:00,720 --> 00:43:06,640
+létezik úgyhogy ez az első ez így ahogy
+
+724
+00:43:02,800 --> 00:43:09,400
+van Megpróbálom csinálni így élő ezt így
+
+725
+00:43:06,640 --> 00:43:12,559
+ahogy van ezzel kellene a zene fel kell
+
+726
+00:43:09,400 --> 00:43:14,880
+installáljuk a ezeket az első az első
+
+727
+00:43:12,559 --> 00:43:18,240
+három csalát futassátok le azért van
+
+728
+00:43:14,880 --> 00:43:19,960
+mert lesz a végén ki akarom ezt rajzolni
+
+729
+00:43:18,240 --> 00:43:24,440
+és akkor
+
+730
+00:43:19,960 --> 00:43:26,240
+ezt ezt ehhez kell egy ilyen open gel
+
+731
+00:43:24,440 --> 00:43:29,040
+rajzolgat Ahhoz fel kell tenni egy pár
+
+732
+00:43:26,240 --> 00:43:30,559
+másik pár másik cuccot tudjun tudjunk
+
+733
+00:43:29,040 --> 00:43:33,240
+egy ilyen giftet egy ilyen giftet
+
+734
+00:43:30,559 --> 00:43:36,079
+generálni De ez csak azért kell hogyha
+
+735
+00:43:33,240 --> 00:43:36,079
+hogyha nagyobb
+
+736
+00:43:38,160 --> 00:43:41,200
+hogyha nagyobb modelleket használtok
+
+737
+00:43:39,480 --> 00:43:43,720
+ebben a gynesumból akkor érdemes ezt
+
+738
+00:43:41,200 --> 00:43:47,480
+áttenni GPU fantákra Itt hogyha
+
+739
+00:43:43,720 --> 00:43:50,200
+kiválasztod hogy legyen GPU például egy
+
+740
+00:43:47,480 --> 00:43:52,520
+A100-as vagy egy T4-es akkor akkor
+
+741
+00:43:50,200 --> 00:43:53,880
+gyorsabban fog jönni Ennél nem szám nem
+
+742
+00:43:52,520 --> 00:43:56,319
+olyan ez nem
+
+743
+00:43:53,880 --> 00:43:59,319
+olyan mert például az én teszek egy
+
+744
+00:43:56,319 --> 00:43:59,319
+A1-as az az a
+
+745
+00:44:02,680 --> 00:44:08,079
+leg jó feltesszük a feltesszük az Open
+
+746
+00:44:09,760 --> 00:44:15,520
+GL-t és feltesszük a gyvet ezzel az
+
+747
+00:44:13,280 --> 00:44:15,520
+adott
+
+748
+00:44:20,960 --> 00:44:28,040
+verzióval Jó ez a itt ez a tém annyit
+
+749
+00:44:24,240 --> 00:44:30,400
+csinál hogy szép szép progressbárokat
+
+750
+00:44:28,040 --> 00:44:33,839
+fog rajzolni Tehát nem azt írja hogy
+
+751
+00:44:30,400 --> 00:44:37,319
+0-50% hanem szépen progress bar Ennyi a
+
+752
+00:44:33,839 --> 00:44:39,040
+ennyi a kozmetika Na és akkor
+
+753
+00:44:37,319 --> 00:44:41,480
+beimportáljuk Ugye először is
+
+754
+00:44:39,040 --> 00:44:44,160
+létrehozunk egy environmentet egy frozen
+
+755
+00:44:41,480 --> 00:44:47,480
+lake típusú environmentet Itt többféle
+
+756
+00:44:44,160 --> 00:44:50,720
+térkép többféle térkép is
+
+757
+00:44:47,480 --> 00:44:52,720
+lehet Most ami az alap 4 n-est van ebből
+
+758
+00:44:50,720 --> 00:44:54,720
+más fajta is Itt pont leírja Itt mindig
+
+759
+00:44:52,720 --> 00:44:57,240
+az kell kezdődni hogy azért nehéz
+
+760
+00:44:54,720 --> 00:44:59,800
+reinforcement learning problémákat
+
+761
+00:44:57,240 --> 00:45:00,880
+csinálni mert maga az environment hogy
+
+762
+00:44:59,800 --> 00:45:03,480
+milyen
+
+763
+00:45:00,880 --> 00:45:05,880
+szabályok léteznek ebben a játékban azt
+
+764
+00:45:03,480 --> 00:45:07,839
+nagyon nehéz meg kitalálni Ezért
+
+765
+00:45:05,880 --> 00:45:09,680
+működnek jól a számítógépes játékokra
+
+766
+00:45:07,839 --> 00:45:11,839
+mert ott a szabályok ki vannak találva
+
+767
+00:45:09,680 --> 00:45:14,359
+hogy pontosan pontosan mit tértik rá így
+
+768
+00:45:11,839 --> 00:45:16,720
+amikor át kell Vagy például ezért tudnak
+
+769
+00:45:14,359 --> 00:45:20,040
+nagyon jól sakkozni a reinforcementosok
+
+770
+00:45:16,720 --> 00:45:22,640
+mert a szabályok azok egyértelmű de
+
+771
+00:45:20,040 --> 00:45:25,119
+eldönteni hogy te most
+
+772
+00:45:22,640 --> 00:45:26,680
+kapsz a kölcsönt vagy nem az sokkal
+
+773
+00:45:25,119 --> 00:45:28,680
+összetettebb döntést Ott nem annyira
+
+774
+00:45:26,680 --> 00:45:31,920
+egyszerű mikároz az én bajet Úgyhogy egy
+
+775
+00:45:28,680 --> 00:45:33,760
+bizonyos bizonyos limited mer Itt van
+
+776
+00:45:31,920 --> 00:45:36,720
+egy olyan paraméter hogy is ez annyi
+
+777
+00:45:33,760 --> 00:45:38,599
+hogy ha itt megindulsz és itt nincsen
+
+778
+00:45:36,720 --> 00:45:41,680
+nincsen hol akkor elcsúszul egészen a
+
+779
+00:45:38,599 --> 00:45:45,920
+végéig vagy nem az alapverzióból ugye
+
+780
+00:45:41,680 --> 00:45:49,839
+felé Na jó és akkor nézzük meg hogy mi
+
+781
+00:45:45,920 --> 00:45:53,040
+az observation space és
+
+782
+00:45:49,839 --> 00:45:58,319
+egyet egyet érünk
+
+783
+00:45:53,040 --> 00:45:58,319
+látod tehát döntünk egyet random
+
+784
+00:45:59,440 --> 00:46:04,280
+Hogyha kérsz egy újat
+
+785
+00:46:01,200 --> 00:46:07,480
+akkor egészen nullától nullától 15-ig
+
+786
+00:46:04,280 --> 00:46:10,200
+ezt meg kéne meg kéne lehető
+
+787
+00:46:07,480 --> 00:46:14,400
+valahogy listázni Nem biztos hogy ez így
+
+788
+00:46:10,200 --> 00:46:14,400
+fog menni de megfavág
+
+789
+00:46:31,160 --> 00:46:37,800
+Hát köszönöm annyira úgyhogy
+
+790
+00:46:35,079 --> 00:46:40,800
+szeret valahogy ki lehető ki lehet őket
+
+791
+00:46:37,800 --> 00:46:40,800
+ujatni
+
+792
+00:46:41,359 --> 00:46:44,680
+Jaj n am úgy
+
+793
+00:46:49,160 --> 00:46:54,960
+azt igen Az hogy ez hány darab van
+
+794
+00:46:51,240 --> 00:46:54,960
+belőle megvan valahogy hogy mi
+
+795
+00:47:07,720 --> 00:47:15,880
+a így van kérünk egyáltalán Nem a
+
+796
+00:47:11,839 --> 00:47:18,400
+jó Na megvan nekünk a 16 observation és
+
+797
+00:47:15,880 --> 00:47:21,040
+akkor utána jön az action space Ugyanígy
+
+798
+00:47:18,400 --> 00:47:23,720
+kérünk az action spaceől is egybet Ebből
+
+799
+00:47:21,040 --> 00:47:23,720
+néván csak négy
+
+800
+00:47:23,760 --> 00:47:30,440
+van Az mindegy hogyha jobbra jobbra
+
+801
+00:47:26,680 --> 00:47:34,839
+balra fej le ugye az 01 2 3
+
+802
+00:47:30,440 --> 00:47:37,559
+az és akkor tehát összesen van 16 state
+
+803
+00:47:34,839 --> 00:47:40,160
+és négy possible actioner A state az
+
+804
+00:47:37,559 --> 00:47:43,160
+hogy te hol vagy te milyen állapotban
+
+805
+00:47:40,160 --> 00:47:43,160
+lehet
+
+806
+00:47:43,559 --> 00:47:52,079
+Na jó akkor itt csinálunk egy olyat hogy
+
+807
+00:47:48,160 --> 00:47:56,040
+Qtből Qt-ből egy olyan függvény
+
+808
+00:47:52,079 --> 00:47:59,200
+lesz amelyik akkora mint ahány ahány
+
+809
+00:47:56,040 --> 00:48:01,319
+state és ahány action van Ezt próbáljuk
+
+810
+00:47:59,200 --> 00:48:02,559
+meg elképzelni hogy ez ez hogy jön ide
+
+811
+00:48:01,319 --> 00:48:06,440
+be
+
+812
+00:48:02,559 --> 00:48:06,440
+Ugye ez a Q table ez
+
+813
+00:48:07,839 --> 00:48:16,200
+az abban a abban a pozícióban ahol te
+
+814
+00:48:12,200 --> 00:48:19,200
+vagy mi az optimális döntés mi az
+
+815
+00:48:16,200 --> 00:48:20,640
+optimális action de nem csak azt mondja
+
+816
+00:48:19,200 --> 00:48:22,160
+meg neked hogy mi az optimális action
+
+817
+00:48:20,640 --> 00:48:24,599
+hanem
+
+818
+00:48:22,160 --> 00:48:28,319
+hogyha valamit actiont hozol a négy
+
+819
+00:48:24,599 --> 00:48:30,960
+action közül akkor mi a az a válható
+
+820
+00:48:28,319 --> 00:48:32,040
+remote az expected remote tehát ez egy
+
+821
+00:48:30,960 --> 00:48:36,079
+ilyen egy
+
+822
+00:48:32,040 --> 00:48:38,160
+ilyen globalisztikus
+
+823
+00:48:36,079 --> 00:48:41,400
+statisztikai
+
+824
+00:48:38,160 --> 00:48:44,280
+várzak lát vár várt érték vár várható
+
+825
+00:48:41,400 --> 00:48:48,040
+érték tehát ez egy várható értéktáblázat
+
+826
+00:48:44,280 --> 00:48:50,240
+ez a kép eleinte teljesen random vagy
+
+827
+00:48:48,040 --> 00:48:53,079
+ugye tehát eleinte elindulsz egy adott
+
+828
+00:48:50,240 --> 00:48:55,920
+stage spaceől azt mondja hogy bármelyik
+
+829
+00:48:53,079 --> 00:48:58,119
+stage spaceből hogyha indulsz bármilyen
+
+830
+00:48:55,920 --> 00:49:01,720
+hogyha hozol nem tudjuk hogy mi van ott
+
+831
+00:48:58,119 --> 00:49:03,280
+a a térképen annak Ó egyenlő egyenlő az
+
+832
+00:49:01,720 --> 00:49:04,880
+értéke úgyhogy mindegyik mindegyik
+
+833
+00:49:03,280 --> 00:49:06,839
+nullok Ezért néztük meg neki a
+
+834
+00:49:04,880 --> 00:49:09,760
+példájában hogy az elején ugye ez a
+
+835
+00:49:06,839 --> 00:49:12,079
+kérből mindig null Ha utána kezdesz
+
+836
+00:49:09,760 --> 00:49:13,160
+lépegetni elején nem csinálsz semmit
+
+837
+00:49:12,079 --> 00:49:17,440
+Elég nem csinálsz semmit Random
+
+838
+00:49:13,160 --> 00:49:20,280
+lépegetsz de hogy te hoztod a
+
+839
+00:49:17,440 --> 00:49:22,760
+megztod egy action Tudod hogy melyik
+
+840
+00:49:20,280 --> 00:49:24,880
+stage space-be jutottál be mikor
+
+841
+00:49:22,760 --> 00:49:26,599
+lejátszott neked a 100 lépés amikor
+
+842
+00:49:24,880 --> 00:49:31,359
+lejátszottad azt
+
+843
+00:49:26,599 --> 00:49:34,920
+a ezt a korcapot akkor az één meg fogod
+
+844
+00:49:31,359 --> 00:49:38,920
+mondani hogy a totál volt az
+
+845
+00:49:34,920 --> 00:49:42,680
+mennyi És akkor azt beírod beírod a
+
+846
+00:49:38,920 --> 00:49:45,240
+Qablebe hogy ha ezek jönnének
+
+847
+00:49:42,680 --> 00:49:48,520
+totál 200
+
+848
+00:49:45,240 --> 00:49:52,319
+Akkor valahogy azt kéne val
+
+849
+00:49:48,520 --> 00:49:55,520
+bele erőszakolni vagy bele belekódolni
+
+850
+00:49:52,319 --> 00:49:57,400
+hogy ezt a spex megtet tehát hogy
+
+851
+00:49:55,520 --> 00:49:59,240
+hazotkod mennyi
+
+852
+00:49:57,400 --> 00:50:05,480
+vál
+
+853
+00:49:59,240 --> 00:50:05,480
+azt jelenlegi döntésekre előre előre
+
+854
+00:50:05,640 --> 00:50:10,079
+Gyertek bocsánat kicsit hamarabb
+
+855
+00:50:07,720 --> 00:50:10,079
+kezdtünk
+
+856
+00:50:15,480 --> 00:50:21,160
+mert nézzük csak meg a felmélet hozzá
+
+857
+00:50:25,280 --> 00:50:31,280
+Ja lehet egyébként igen lehet customet
+
+858
+00:50:28,520 --> 00:50:34,240
+csinálni hogyha megnézitek itt
+
+859
+00:50:31,280 --> 00:50:37,319
+a megnézitek itt a dokumentációt akkor
+
+860
+00:50:34,240 --> 00:50:39,240
+tudsz tudsz custom valamet csinálni
+
+861
+00:50:37,319 --> 00:50:43,720
+Tehát hol van a start hol van a
+
+862
+00:50:39,240 --> 00:50:47,720
+cél hol van a frozen és
+
+863
+00:50:43,720 --> 00:50:47,720
+csinál csillat
+
+864
+00:50:49,760 --> 00:50:56,680
+Na most mi azt hiszem abet
+
+865
+00:50:51,799 --> 00:50:56,680
+csinál a PC4est
+
+866
+00:51:06,480 --> 00:51:10,680
+Jó nincs Megnéz mindjárt
+
+867
+00:51:13,559 --> 00:51:16,559
+mitő
+
+868
+00:51:17,480 --> 00:51:22,200
+is maga a policy lesz
+
+869
+00:51:23,000 --> 00:51:28,839
+az kivel szokták jönni nagy kível Ez a
+
+870
+00:51:29,319 --> 00:51:33,880
+policy A policy az a
+
+871
+00:51:34,319 --> 00:51:38,359
+logika ami alapján hozod a
+
+872
+00:51:43,559 --> 00:51:51,119
+dőt Tehát a policy fogja neked
+
+873
+00:51:46,079 --> 00:51:53,839
+meghatározni hogy a jobbra le jobbra le
+
+874
+00:51:51,119 --> 00:51:55,960
+le utalán melyik törtésre következik Ez
+
+875
+00:51:53,839 --> 00:51:58,839
+a
+
+876
+00:51:55,960 --> 00:52:00,599
+polic az elején egy teljesen random
+
+877
+00:51:58,839 --> 00:52:01,799
+policit alkalmazunk elején teljesen
+
+878
+00:52:00,599 --> 00:52:06,720
+random
+
+879
+00:52:01,799 --> 00:52:09,000
+hozé Utána ezt a ezt a káblát vagy ezt a
+
+880
+00:52:06,720 --> 00:52:11,400
+greedy
+
+881
+00:52:09,000 --> 00:52:12,880
+algoritmust tudjátok hogy miért az alap
+
+882
+00:52:11,400 --> 00:52:15,119
+greedy algoritmus miért nevezik ezt
+
+883
+00:52:12,880 --> 00:52:18,240
+greedy algoritmus mindig van itt ez a
+
+884
+00:52:15,119 --> 00:52:19,960
+legjobb válassza a pillanatban mindig a
+
+885
+00:52:18,240 --> 00:52:21,559
+legjobb pontosan mindig a legjobb
+
+886
+00:52:19,960 --> 00:52:23,520
+válassza az adott az adott pillanatban
+
+887
+00:52:21,559 --> 00:52:26,520
+Tehát hogyha ezos feladatok táncs meg a
+
+888
+00:52:23,520 --> 00:52:30,319
+végző egy dinamikus programozás hogyha
+
+889
+00:52:26,520 --> 00:52:30,319
+valaki ilyen dinamikus
+
+890
+00:52:33,760 --> 00:52:39,200
+már az a neve
+
+891
+00:52:36,520 --> 00:52:43,200
+grein nem tudt
+
+892
+00:52:39,200 --> 00:52:43,200
+csinálni ráfog
+
+893
+00:52:47,040 --> 00:52:50,880
+az a lényeg az a lényeg úgy kell
+
+894
+00:52:48,760 --> 00:52:53,280
+elképzelni hogy azért mert ezt előre
+
+895
+00:52:50,880 --> 00:52:57,799
+szúl adjuk és tudjuk hogy mennyi lesz az
+
+896
+00:52:53,280 --> 00:53:00,920
+expected word mindig az hogyha ebben a
+
+897
+00:52:57,799 --> 00:53:04,480
+ebben a négyzetben van és
+
+898
+00:53:00,920 --> 00:53:06,480
+hozzája hogyha ezt a döntést hozza akkor
+
+899
+00:53:04,480 --> 00:53:09,280
+az expected reward az nagyobb lesz
+
+900
+00:53:06,480 --> 00:53:11,599
+mintogyha ezt a döntést hozta volna
+
+901
+00:53:09,280 --> 00:53:14,880
+akkor azon credit policy az azt jelenti
+
+902
+00:53:11,599 --> 00:53:17,480
+hogy neki akkor a következő ez
+
+903
+00:53:14,880 --> 00:53:22,720
+lesz Érthet ez
+
+904
+00:53:17,480 --> 00:53:22,720
+na akkor a policy eleinte random
+
+905
+00:53:23,040 --> 00:53:31,079
+lesz utána pedig át fog váltani
+
+906
+00:53:27,440 --> 00:53:34,839
+kritik Ezt az átváltást egy ilyen ar
+
+907
+00:53:31,079 --> 00:53:36,920
+terecske ez az yt ezt fogja kontrollálni
+
+908
+00:53:34,839 --> 00:53:40,400
+Pontosan ez lesz az amit kérdeztél hogy
+
+909
+00:53:36,920 --> 00:53:43,760
+mekkora a különbség az Xen és a
+
+910
+00:53:40,400 --> 00:53:45,920
+a execution
+
+911
+00:53:43,760 --> 00:53:47,000
+között Ez történik most a következő
+
+912
+00:53:45,920 --> 00:53:49,160
+egyszer végigmegyünk akkor utána
+
+913
+00:53:47,000 --> 00:53:51,319
+visszatérünk még egyszer megpróbáljuk
+
+914
+00:53:49,160 --> 00:53:53,079
+akkor érthető lesz De ez történik ebben
+
+915
+00:53:51,319 --> 00:53:55,000
+a
+
+916
+00:53:53,079 --> 00:53:57,559
+függvényben Látod
+
+917
+00:53:55,000 --> 00:54:00,640
+eleinte lesz egy ilyen lesz egy ilyen
+
+918
+00:53:57,559 --> 00:54:04,200
+érték Ez az érték ez meg fogja mondani
+
+919
+00:54:00,640 --> 00:54:06,119
+neked hogy most annak függvényében
+
+920
+00:54:04,200 --> 00:54:08,400
+hozunk egy random döntést annak
+
+921
+00:54:06,119 --> 00:54:12,400
+függvényében hogy ez a random döntés egy
+
+922
+00:54:08,400 --> 00:54:15,720
+adott epsil értéknél nagyobb-e vagy sem
+
+923
+00:54:12,400 --> 00:54:19,240
+mindig ki fogod venni a Q látod a Q
+
+924
+00:54:15,720 --> 00:54:21,839
+táblából a legjobbat Tehát amíg az
+
+925
+00:54:19,240 --> 00:54:25,559
+epilonnál kisebb kisebb idő időben
+
+926
+00:54:21,839 --> 00:54:28,240
+vagyunk addig action space sample ez mit
+
+927
+00:54:25,559 --> 00:54:31,599
+jelentet emlékeztek ez egy gondolom is
+
+928
+00:54:28,240 --> 00:54:35,079
+eleinte csak meg randomeket hozzuk
+
+929
+00:54:31,599 --> 00:54:37,319
+Látom hogyha azt kipakottuk akkor a kód
+
+930
+00:54:35,079 --> 00:54:41,040
+láblából mindig ki fogjuk venni azt
+
+931
+00:54:37,319 --> 00:54:41,040
+amelyik a leg
+
+932
+00:54:42,160 --> 00:54:48,079
+nagyobb rewardot fog
+
+933
+00:54:45,280 --> 00:54:51,079
+vezetni Így jelenek számok hozzá amit
+
+934
+00:54:48,079 --> 00:54:51,079
+megértsük
+
+935
+00:54:53,720 --> 00:54:58,280
+A sima greedy policy Tehát ez volt az
+
+936
+00:54:56,640 --> 00:55:02,640
+greedy
+
+937
+00:54:58,280 --> 00:55:02,640
+policy A másik az a sima grady
+
+938
+00:55:03,359 --> 00:55:08,119
+policy Sima grady policy azt jelenti
+
+939
+00:55:05,839 --> 00:55:09,839
+hogy nem nincsenos rész nincsen
+
+940
+00:55:08,119 --> 00:55:11,400
+exploration Mindig megpróbáljuk a
+
+941
+00:55:09,839 --> 00:55:14,319
+legnagyobbot
+
+942
+00:55:11,400 --> 00:55:16,160
+választani Utána van egy hány
+
+943
+00:55:14,319 --> 00:55:20,880
+paraméter
+
+944
+00:55:16,160 --> 00:55:20,880
+Hány hány epizód legyen
+
+945
+00:55:21,079 --> 00:55:29,960
+ugye ezt ezt a ezt a step szájzót a
+
+946
+00:55:26,160 --> 00:55:34,280
+100-at ezt lejátsz lejátszod egy
+
+947
+00:55:29,960 --> 00:55:38,039
+párszor Ez is 100 ez is 100 ez
+
+948
+00:55:34,280 --> 00:55:38,039
+is most elvez egy
+
+949
+00:55:38,440 --> 00:55:43,480
+epizódnak akkor ezt az egészet meg iszuk
+
+950
+00:55:41,039 --> 00:55:46,400
+persze van egy olyan hogy learning rate
+
+951
+00:55:43,480 --> 00:55:51,960
+azt mindjárt meglátjuk hogy ez mi az ez
+
+952
+00:55:46,400 --> 00:55:51,960
+pontosan az lesz hogy ahhoz hogy ha
+
+953
+00:55:52,520 --> 00:55:59,280
+már akkor az mennyire
+
+954
+00:55:56,280 --> 00:56:03,119
+befolyásolja a jelet hogy most ezt a ezt
+
+955
+00:55:59,280 --> 00:56:06,319
+a következő döntést javasolni de ez hogy
+
+956
+00:56:03,119 --> 00:56:07,599
+jobbra lefele megjelent egy pár szót
+
+957
+00:56:06,319 --> 00:56:10,480
+Volt amikor
+
+958
+00:56:07,599 --> 00:56:15,839
+utána ez volt a jó válasz volt amikor
+
+959
+00:56:10,480 --> 00:56:15,839
+utána ez volt a jó válasz Tehát ez így
+
+960
+00:56:17,960 --> 00:56:23,799
+kettével Ez elvezetett ez is elvezetett
+
+961
+00:56:20,880 --> 00:56:25,880
+mondjuk plusz 2000 Ez is elvezetett
+
+962
+00:56:23,799 --> 00:56:28,880
+plusz
+
+963
+00:56:25,880 --> 00:56:33,920
+2000 Na de
+
+964
+00:56:28,880 --> 00:56:37,359
+a lépés szám ahogy lépeztek most például
+
+965
+00:56:33,920 --> 00:56:41,039
+hogyha a 910 lépésnél vagyok És akkor
+
+966
+00:56:37,359 --> 00:56:45,240
+volt egyszer még egy olyan hogy 9 10
+
+967
+00:56:41,039 --> 00:56:48,400
+11 volt egy olyan is hogy 3 4 5 tehát
+
+968
+00:56:45,240 --> 00:56:51,480
+egy kicsit régen egy másik fajta döntés
+
+969
+00:56:48,400 --> 00:56:54,480
+ami ugyanannyira ugyan ugyanannyira jó
+
+970
+00:56:51,480 --> 00:56:54,480
+akkor
+
+971
+00:56:56,200 --> 00:57:03,799
+a ez hogy fogja nekünkni hogy a kettő
+
+972
+00:57:00,240 --> 00:57:06,920
+között ezt a döntést ezt a döntést
+
+973
+00:57:03,799 --> 00:57:09,559
+súlyozd megő között hozzá randó
+
+974
+00:57:06,920 --> 00:57:12,319
+egy de nem egy uniform random hanem egy
+
+975
+00:57:09,559 --> 00:57:14,599
+súlyozott random döntést ami azt jelenti
+
+976
+00:57:12,319 --> 00:57:17,480
+hogy mennyire vesszük figyelembe azokat
+
+977
+00:57:14,599 --> 00:57:21,640
+a döntéseket amelyek távolabb voltak a a
+
+978
+00:57:17,480 --> 00:57:24,520
+a múltban Tehát ugye ahhoz hogy ahhoz
+
+979
+00:57:21,640 --> 00:57:28,319
+hogy itt hogyha itt
+
+980
+00:57:24,520 --> 00:57:32,440
+vagyok és erre kellene
+
+981
+00:57:28,319 --> 00:57:35,680
+menjek akkor számít lehet hogy számít
+
+982
+00:57:32,440 --> 00:57:38,520
+hogy innen jöttem vagy innen jöttem És
+
+983
+00:57:35,680 --> 00:57:42,240
+akkor ennek az útvonalnak
+
+984
+00:57:38,520 --> 00:57:44,880
+hogy hogyha lefele lefele épp most itt
+
+985
+00:57:42,240 --> 00:57:47,200
+itt jobbra kell menni akkor számít az
+
+986
+00:57:44,880 --> 00:57:49,640
+hogy itt eddig lefele lefelé
+
+987
+00:57:47,200 --> 00:57:52,880
+hoztam minthogy itt például itt is
+
+988
+00:57:49,640 --> 00:57:55,720
+jobbra kell menni eddig csak egy így
+
+989
+00:57:52,880 --> 00:57:59,839
+jobbra ezt itt hoztam és utána ugyancsak
+
+990
+00:57:55,720 --> 00:58:02,839
+ugyancsakra a a helysz Tehát
+
+991
+00:57:59,839 --> 00:58:06,640
+e úgy van ez lefordítva hogy mennyire
+
+992
+00:58:02,839 --> 00:58:09,440
+mennyire gyorsan tan mekkora az
+
+993
+00:58:06,640 --> 00:58:12,119
+eddig eddig létrehozott action mekkora
+
+994
+00:58:09,440 --> 00:58:13,839
+az amortizációja mennyire ez egy kicsi
+
+995
+00:58:12,119 --> 00:58:15,160
+pályán az úgy nem annyira látványos
+
+996
+00:58:13,839 --> 00:58:17,839
+hogyha perszele számoznak akkor fog
+
+997
+00:58:15,160 --> 00:58:22,039
+látszani ugye egy nagyobb pályán számít
+
+998
+00:58:17,839 --> 00:58:25,079
+az hogy milyen útvonal kérett pozíció a
+
+999
+00:58:22,039 --> 00:58:27,599
+száadik lépésnéként megnézi azt hogy a
+
+1000
+00:58:25,079 --> 00:58:29,440
+20 lépésnéként mit csinálsz azt csinális
+
+1001
+00:58:27,599 --> 00:58:31,760
+és hogyha ugyanaz Ez a pertem akkor
+
+1002
+00:58:29,440 --> 00:58:36,039
+nagyobb esély elcsinálni azt egy szarítá
+
+1003
+00:58:31,760 --> 00:58:36,039
+mint amikor a 20 akkor megértek
+
+1004
+00:58:42,839 --> 00:58:47,079
+pontosan az evaluation episód az ugyan
+
+1005
+00:58:45,119 --> 00:58:49,319
+mint a training episód csak azok az ugye
+
+1006
+00:58:47,079 --> 00:58:52,079
+az fix az envirmentek általában
+
+1007
+00:58:49,319 --> 00:58:54,720
+lésre van még egy olyan hogy gamma az
+
+1008
+00:58:52,079 --> 00:58:57,480
+nem számít az ugye csak a káblának az
+
+1009
+00:58:54,720 --> 00:59:01,079
+egyik paramétere
+
+1010
+00:58:57,480 --> 00:59:04,440
+Az epilont még az elején az exploration
+
+1011
+00:59:01,079 --> 00:59:04,440
+fázisban szoktuk
+
+1012
+00:59:04,520 --> 00:59:08,359
+válni Nem számít Nem számít Nézzük meg
+
+1013
+00:59:07,240 --> 00:59:11,000
+hogy mi
+
+1014
+00:59:08,359 --> 00:59:13,039
+történik Létrehozzuk az enmentet
+
+1015
+00:59:11,000 --> 00:59:16,240
+indulunk a
+
+1016
+00:59:13,039 --> 00:59:18,799
+a nulladik nulladik
+
+1017
+00:59:16,240 --> 00:59:20,119
+lépésből Megnézzük hogy kész van-e
+
+1018
+00:59:18,799 --> 00:59:21,720
+meghalt vagy ez most pont egy
+
+1019
+00:59:20,119 --> 00:59:23,200
+unenvironment Úgy is lehetne hogy ugye
+
+1020
+00:59:21,720 --> 00:59:24,559
+nincsen vége de ez pont egy
+
+1021
+00:59:23,200 --> 00:59:28,079
+unenvironment hogyha azt mondtuk hogy ha
+
+1022
+00:59:24,559 --> 00:59:30,200
+bemegyünk a lyukba akkor meghal
+
+1023
+00:59:28,079 --> 00:59:32,480
+Vagy ugye akkor lehet talán hogyha
+
+1024
+00:59:30,200 --> 00:59:34,359
+bemegyünk a jobba vagy hogyha elértjük a
+
+1025
+00:59:32,480 --> 00:59:37,880
+a az
+
+1026
+00:59:34,359 --> 00:59:41,599
+ajándékhoz Utána kezdünk menni megnézzük
+
+1027
+00:59:37,880 --> 00:59:44,920
+hogy az action az az grade alapján
+
+1028
+00:59:41,599 --> 00:59:47,240
+melyik az optimális action És
+
+1029
+00:59:44,920 --> 00:59:49,319
+utána annak függvényében hogy honnan
+
+1030
+00:59:47,240 --> 00:59:51,799
+indultunk az environment hogy lépünk
+
+1031
+00:59:49,319 --> 00:59:54,240
+egyet ugye step És a stepfüggvény ehhez
+
+1032
+00:59:51,799 --> 00:59:56,720
+azt fogja csinálni hogy akkor tudva hogy
+
+1033
+00:59:54,240 --> 00:59:59,319
+hol vagyunk meghoztunk egy döntést
+
+1034
+00:59:56,720 --> 01:00:00,799
+visszaadja nekünk az új stateet Tehát
+
+1035
+00:59:59,319 --> 01:00:03,640
+hogyha például itt voltunk és jobbra
+
+1036
+01:00:00,799 --> 01:00:07,760
+mentünk akkor ez lesz az új
+
+1037
+01:00:03,640 --> 01:00:09,920
+state Megmondja hogy beleestél a a jég
+
+1038
+01:00:07,760 --> 01:00:11,760
+lyukba vagy nem neked egy rewardot
+
+1039
+01:00:09,920 --> 01:00:14,280
+megmondja hogy eléptél-e a végéhez hogy
+
+1040
+01:00:11,760 --> 01:00:16,599
+beleesté beleestél a lyukba és ad neked
+
+1041
+01:00:14,280 --> 01:00:21,119
+egy ilyen hogy na egy volt azt csak az
+
+1042
+01:00:16,599 --> 01:00:23,799
+ki kiradjuk és valábban ennyi Akkor
+
+1043
+01:00:21,119 --> 01:00:26,760
+meghúztuk a lépést és akkor utána ez itt
+
+1044
+01:00:23,799 --> 01:00:29,039
+a trükköst rész utána updateeljük
+
+1045
+01:00:26,760 --> 01:00:31,799
+frissítjük a Q függvét Nézzük meg hogy
+
+1046
+01:00:29,039 --> 01:00:36,720
+hogy frissítjük Erre van egy matematikai
+
+1047
+01:00:31,799 --> 01:00:36,720
+egyenlet ami itt kicsit szebb az üzem
+
+1048
+01:01:35,400 --> 01:01:37,559
+Ez
+
+1049
+01:01:46,280 --> 01:01:50,839
+E ez ez a fulmint Nézzük meg hogy mit
+
+1050
+01:01:49,160 --> 01:01:53,119
+csinál ez
+
+1051
+01:01:50,839 --> 01:01:56,160
+a ugye ez
+
+1052
+01:01:53,119 --> 01:01:59,000
+táblacot action
+
+1053
+01:01:56,160 --> 01:02:03,440
+state azt kéne elvileg meg kéne mondjam
+
+1054
+01:01:59,000 --> 01:02:07,640
+látod az argumentumai az az hogy
+
+1055
+01:02:03,440 --> 01:02:10,520
+milyen statement milyen actiont hoztál
+
+1056
+01:02:07,640 --> 01:02:12,160
+mind a kettő mind a kettő fog neked
+
+1057
+01:02:10,520 --> 01:02:16,200
+kiszámolja ezt a co
+
+1058
+01:02:12,160 --> 01:02:19,119
+értéket ez a coérték ez ugye ez a ez a
+
+1059
+01:02:16,200 --> 01:02:19,119
+táó érték ez
+
+1060
+01:02:20,359 --> 01:02:25,640
+hogy függeni fog attól függni fog
+
+1061
+01:02:26,880 --> 01:02:34,039
+attól mennyi volt a abban az addig amíg
+
+1062
+01:02:30,440 --> 01:02:38,720
+odáig eljutottál mennyi volt annak a kó
+
+1063
+01:02:34,039 --> 01:02:38,720
+értéke Elképzelni hogy egyszerűen
+
+1064
+01:02:38,760 --> 01:02:44,279
+a az már elég [ __ ] ennek elég nagy
+
+1065
+01:02:41,720 --> 01:02:45,880
+Qértéke lesz inci hogy idáig
+
+1066
+01:02:44,279 --> 01:02:47,440
+elállítottál mert innen már a cél csak
+
+1067
+01:02:45,880 --> 01:02:49,920
+egyre
+
+1068
+01:02:47,440 --> 01:02:52,839
+van Akkor nyilván ezt figyelembe kell
+
+1069
+01:02:49,920 --> 01:02:54,440
+venni hogy ez alapján fogod-e majd
+
+1070
+01:02:52,839 --> 01:02:59,599
+jobbra vagy balra
+
+1071
+01:02:54,440 --> 01:03:02,680
+vagy szó vicces Ez pontos az hogy hol
+
+1072
+01:02:59,599 --> 01:03:05,480
+volt az elején
+
+1073
+01:03:02,680 --> 01:03:08,520
+a exation bázisban végigfuttatott lesz
+
+1074
+01:03:05,480 --> 01:03:11,160
+egy pár amelyik tényleg elér a a végére
+
+1075
+01:03:08,520 --> 01:03:13,240
+és akkor azt mondod hogy ezek olyan
+
+1076
+01:03:11,160 --> 01:03:15,279
+olyan olyan cellák amelyek közel vannak
+
+1077
+01:03:13,240 --> 01:03:17,359
+a végéhez azok nagyobb q értékkel fognak
+
+1078
+01:03:15,279 --> 01:03:19,760
+rendelkezni Ez azt mondja még neki az
+
+1079
+01:03:17,359 --> 01:03:22,720
+óriában hogy hogyha ennek a Q értéke
+
+1080
+01:03:19,760 --> 01:03:25,359
+lesz 100 és ennek a Q-rértéke lesz 90 és
+
+1081
+01:03:22,720 --> 01:03:26,799
+ennek a cellának a Q értéke lesz 80 Ez
+
+1082
+01:03:25,359 --> 01:03:29,240
+nagyjából megmondja nektünk erre kell
+
+1083
+01:03:26,799 --> 01:03:32,359
+menni mert így így
+
+1084
+01:03:29,240 --> 01:03:35,240
+meg Na függ attól hogy itt mi volt az
+
+1085
+01:03:32,359 --> 01:03:38,240
+előzakóérték akkor itt van egy olyan
+
+1086
+01:03:35,240 --> 01:03:41,760
+hogy R a t +
+
+1087
+01:03:38,240 --> 01:03:46,079
+1-ben és f a t + 1-ben és itt van egy
+
+1088
+01:03:41,760 --> 01:03:46,079
+ilyen van egy ilyen alfa
+
+1089
+01:03:48,760 --> 01:03:56,240
+Czekó hogy mi volt a jelenlegi
+
+1090
+01:03:51,720 --> 01:03:59,319
+hóérték próbál meg azt határozni hogy
+
+1091
+01:03:56,240 --> 01:04:01,400
+mekkora az érték minden egyes ez ebben a
+
+1092
+01:03:59,319 --> 01:04:03,119
+statebben ugye ebben a
+
+1093
+01:04:01,400 --> 01:04:07,960
+state-ben
+
+1094
+01:04:03,119 --> 01:04:10,960
+actiont akkora az érték melyik melyik
+
+1095
+01:04:07,960 --> 01:04:14,400
+actiont olyanja Ugye mit csinált az
+
+1096
+01:04:10,960 --> 01:04:17,200
+algoritmus egy actiont adt vissza Látod
+
+1097
+01:04:14,400 --> 01:04:21,559
+a a policynek a válasza egy action mit
+
+1098
+01:04:17,200 --> 01:04:21,559
+csinálunk ebben az pozícióban
+
+1099
+01:04:23,319 --> 01:04:30,000
+Jó tehát figyelembe veszi azt hogy
+
+1100
+01:04:26,559 --> 01:04:32,119
+gondoltuk hogy kapunk rewardot de
+
+1101
+01:04:30,000 --> 01:04:37,119
+nyilván hogyha kapunk hogyha kapunk
+
+1102
+01:04:32,119 --> 01:04:41,079
+rewardot akkor azt beépítjük a a
+
+1103
+01:04:37,119 --> 01:04:46,000
+Qértékbe Van ez a gamma ez
+
+1104
+01:04:41,079 --> 01:04:48,240
+a discount vektor a az aizációs
+
+1105
+01:04:46,000 --> 01:04:51,400
+paraméter Utána jön itt ez ez a
+
+1106
+01:04:48,240 --> 01:04:52,480
+trükköcsebb rész Itt nézd meg
+
+1107
+01:04:51,400 --> 01:04:55,079
+azt
+
+1108
+01:04:52,480 --> 01:04:58,279
+hogy ez a
+
+1109
+01:04:55,079 --> 01:05:00,880
+klasszikus gradient tehát mennyire
+
+1110
+01:04:58,279 --> 01:05:02,839
+milyen irányba változik nekünk a Qértéke
+
+1111
+01:05:00,880 --> 01:05:07,480
+jó irányba haladunk rossz irányba
+
+1112
+01:05:02,839 --> 01:05:11,200
+haladunk Megnézi hogy a a cof az új
+
+1113
+01:05:07,480 --> 01:05:15,559
+state cofake a régi statehez
+
+1114
+01:05:11,200 --> 01:05:15,559
+képest mennyit változat
+
+1115
+01:05:15,720 --> 01:05:19,599
+Akkor ezzel a gammával ugye annak
+
+1116
+01:05:17,680 --> 01:05:21,279
+függényében hogy hol vagyunk mennyire
+
+1117
+01:05:19,599 --> 01:05:25,160
+vagyunk vissza menjünk bele menjünk
+
+1118
+01:05:21,279 --> 01:05:27,119
+vissza az időben Ezt figyelek Tehát ezt
+
+1119
+01:05:25,160 --> 01:05:30,680
+úgy kell átpószelni hogy
+
+1120
+01:05:27,119 --> 01:05:32,319
+ha ha innen jövünk a 80-as a 90-be
+
+1121
+01:05:30,680 --> 01:05:34,039
+mondjuk azt hogy ez egy ruszútvonal és
+
+1122
+01:05:32,319 --> 01:05:36,799
+ez egy
+
+1123
+01:05:34,039 --> 01:05:40,760
+60-as akkor
+
+1124
+01:05:36,799 --> 01:05:42,279
+hogyha innen jövünk a 80-astól tudod a
+
+1125
+01:05:40,760 --> 01:05:44,440
+90-es
+
+1126
+01:05:42,279 --> 01:05:46,960
+az jobban azt jelenti hogy a jó
+
+1127
+01:05:44,440 --> 01:05:47,839
+útvonalon vagyunk mintogyha minden
+
+1128
+01:05:46,960 --> 01:05:50,720
+jövünk a
+
+1129
+01:05:47,839 --> 01:05:53,839
+60-as Ezt így kell elképzelni Tehát
+
+1130
+01:05:50,720 --> 01:05:53,839
+ebben benne van az hogy az
+
+1131
+01:05:54,480 --> 01:06:01,200
+új hol
+
+1132
+01:05:57,079 --> 01:06:05,400
+vagy megoldás 80-ból a 90-ben vagy a
+
+1133
+01:06:01,200 --> 01:06:05,400
+80-ból a 90-ben Nekem az a a
+
+1134
+01:06:07,279 --> 01:06:12,079
+szüle Nézzük meg nézzük meg számokkal
+
+1135
+01:06:09,680 --> 01:06:12,079
+Nézzük meg
+
+1136
+01:06:14,920 --> 01:06:21,319
+számokkal Megcsináljuk Cable th frozen
+
+1137
+01:06:17,839 --> 01:06:24,000
+lake train Itt akkor megpróbáljuk ott
+
+1138
+01:06:21,319 --> 01:06:25,720
+megtanítani Ugye azt mondtuk hogy 10000
+
+1139
+01:06:24,000 --> 01:06:28,440
+próbálja
+
+1140
+01:06:25,720 --> 01:06:30,640
+meg 100zerszer megpróbálja Akkor most
+
+1141
+01:06:28,440 --> 01:06:35,000
+itt kéne legyen nekünk egy kótláblánk
+
+1142
+01:06:30,640 --> 01:06:35,000
+ami amiben már nem nullák van
+
+1143
+01:06:35,039 --> 01:06:41,599
+Hoppá van vannak most már látod
+
+1144
+01:06:38,799 --> 01:06:43,920
+ilyen nem nulla ért kenyóbáljuk
+
+1145
+01:06:41,599 --> 01:06:46,480
+megérteni hogy itt mi történt Megvan
+
+1146
+01:06:43,920 --> 01:06:49,839
+nekünk a kutláblánk Ugye négy darab
+
+1147
+01:06:46,480 --> 01:06:51,960
+oszlop van az azt jelenti és 16 sor azt
+
+1148
+01:06:49,839 --> 01:06:54,680
+jelenti hogy mindegyik statement nek
+
+1149
+01:06:51,960 --> 01:06:57,680
+megmondja hogy mi az optimális vagy mik
+
+1150
+01:06:54,680 --> 01:06:59,520
+a a döntéseknek a az értékei Ugye a
+
+1151
+01:06:57,680 --> 01:07:03,720
+legelső
+
+1152
+01:06:59,520 --> 01:07:06,119
+cellában 073 077 csak meg rajzam fel
+
+1153
+01:07:03,720 --> 01:07:06,119
+ugyanazt
+
+1154
+01:07:08,920 --> 01:07:12,920
+amelyiket valahol
+
+1155
+01:07:23,640 --> 01:07:28,799
+Itt van egy itt
+
+1156
+01:07:26,400 --> 01:07:31,960
+van Itt van
+
+1157
+01:07:28,799 --> 01:07:31,960
+egy az
+
+1158
+01:07:34,520 --> 01:07:39,799
+emberkel Ez maj random menjünk végig
+
+1159
+01:07:46,319 --> 01:07:50,760
+rajta Nem ram Jó
+
+1160
+01:07:52,480 --> 01:07:57,480
+Na az azt jelenti hogyha a nulla statem
+
+1161
+01:07:55,079 --> 01:07:59,000
+vagyunk a stateb vagyunk akkor azt
+
+1162
+01:07:57,480 --> 01:08:01,359
+mondja
+
+1163
+01:07:59,000 --> 01:08:03,920
+hogy mehetsz Most nem tudom melyik
+
+1164
+01:08:01,359 --> 01:08:06,039
+action melyik action de azt
+
+1165
+01:08:03,920 --> 01:08:08,400
+hiszem ki tudjuk azt mindjárt deríteni
+
+1166
+01:08:06,039 --> 01:08:11,799
+hogy melyik a balra jobbra fel lett De
+
+1167
+01:08:08,400 --> 01:08:13,960
+azt hiszem hogy úgy van hogy balra fel
+
+1168
+01:08:11,799 --> 01:08:18,120
+jobbra le
+
+1169
+01:08:13,960 --> 01:08:20,560
+Eleinte nem ugye nem nem úgy van hogy a
+
+1170
+01:08:18,120 --> 01:08:23,560
+ez a ez a két hetesek ezek a jobbra és a
+
+1171
+01:08:20,560 --> 01:08:23,560
+le
+
+1172
+01:08:25,319 --> 01:08:31,920
+igen igen 16 mindegyik
+
+1173
+01:08:28,480 --> 01:08:34,279
+hát ez már ugye ezt ezt 10000-ször
+
+1174
+01:08:31,920 --> 01:08:36,839
+láthatjuk ő már megtanulta hogy melyik
+
+1175
+01:08:34,279 --> 01:08:38,640
+melyik az optimális action mindjárt
+
+1176
+01:08:36,839 --> 01:08:41,000
+megpróbáljuk szétszedni a tabulát itt
+
+1177
+01:08:38,640 --> 01:08:45,080
+azt mondja neked hogy amikor a nulladik
+
+1178
+01:08:41,000 --> 01:08:47,520
+akkor akkor úgy lesz hogy fel jobbra le
+
+1179
+01:08:45,080 --> 01:08:49,920
+balra nyilván mehetsz fel kezdheted a
+
+1180
+01:08:47,520 --> 01:08:51,440
+fejel el tehát ott nem kimennél a
+
+1181
+01:08:49,920 --> 01:08:53,319
+pályáról nem kapsz semmi a rewardot de
+
+1182
+01:08:51,440 --> 01:08:55,080
+nem is kapsz penaltit ugye az egy kicsit
+
+1183
+01:08:53,319 --> 01:08:57,040
+kicsebb az értéke mint hogyha jobbra
+
+1184
+01:08:55,080 --> 01:09:01,080
+mennél akkor mehetsz
+
+1185
+01:08:57,040 --> 01:09:05,120
+jobbra vagy mehetsz lefele azért kapsz
+
+1186
+01:09:01,080 --> 01:09:07,799
+07 077et hogy utána hogyha a második
+
+1187
+01:09:05,120 --> 01:09:10,759
+staten vagy hogyha lefele mész akkor
+
+1188
+01:09:07,799 --> 01:09:13,000
+kapsz egy nullát látod ha lefele mész
+
+1189
+01:09:10,759 --> 01:09:14,359
+akkor kapnál Hogy lehet hogy rosszul van
+
+1190
+01:09:13,000 --> 01:09:16,440
+nekem a backpaint hogy merit lehet hogy
+
+1191
+01:09:14,359 --> 01:09:18,960
+így van körbe de ott hogyha lefele mész
+
+1192
+01:09:16,440 --> 01:09:21,520
+akkor ez a ez az a nulla akkor kész
+
+1193
+01:09:18,960 --> 01:09:24,400
+akkor vége van a a az egész ténnek Ugye
+
+1194
+01:09:21,520 --> 01:09:26,679
+az a legjobb hogyha akár mellett innen
+
+1195
+01:09:24,400 --> 01:09:29,120
+akár visszamehetsz de azt kéne legyen
+
+1196
+01:09:26,679 --> 01:09:31,279
+legkisebb reward a 73-ast valószínűleg
+
+1197
+01:09:29,120 --> 01:09:33,640
+ugye a 73-as tehát elvileg elmehetsz
+
+1198
+01:09:31,279 --> 01:09:36,560
+arra és utána visszamehetsz semmi semmi
+
+1199
+01:09:33,640 --> 01:09:39,159
+nem történik De még jobb hogyha hogyha
+
+1200
+01:09:36,560 --> 01:09:42,440
+folytatod akkor kapsz egy
+
+1201
+01:09:39,159 --> 01:09:44,000
+nyolcas újra
+
+1202
+01:09:42,440 --> 01:09:45,960
+Nem ez ez mindig ez a felfele lesz Ezek
+
+1203
+01:09:44,000 --> 01:09:48,520
+a ezek a 7-3nak a tetején ott vagy a
+
+1204
+01:09:45,960 --> 01:09:51,000
+táblának a tetején ez a felfele Ez a
+
+1205
+01:09:48,520 --> 01:09:52,960
+felfele akkor nem történik semmi Akkor a
+
+1206
+01:09:51,000 --> 01:09:55,239
+hét hetes lenne az hogy visszamész az
+
+1207
+01:09:52,960 --> 01:09:56,719
+elejére mert akkor sikerült valószínűleg
+
+1208
+01:09:55,239 --> 01:10:02,920
+és akkor a ny1-es lenne hogyha mennék
+
+1209
+01:09:56,719 --> 01:10:02,920
+tovább mert közel szét A hármas tétben
+
+1210
+01:10:06,199 --> 01:10:11,120
+ugyanígy végig végig tudod játszani Itt
+
+1211
+01:10:07,960 --> 01:10:13,400
+egyszer elírsz a 15-ösnél 15-ös ttén
+
+1212
+01:10:11,120 --> 01:10:15,520
+hogyha itt vagy és akkor ez lesz a
+
+1213
+01:10:13,400 --> 01:10:17,960
+harmadik action ha jobbra mész akkor
+
+1214
+01:10:15,520 --> 01:10:20,159
+megkapod az egyet akkor vége van Kée
+
+1215
+01:10:17,960 --> 01:10:25,360
+legyen még egy egyes hogyha itt vagy
+
+1216
+01:10:20,159 --> 01:10:29,000
+ennél a 12 state vagy
+
+1217
+01:10:25,360 --> 01:10:31,360
+valamilyes itt van egy pár
+
+1218
+01:10:29,000 --> 01:10:33,800
+095-ös Nem tudom hogy itt miért nincsen
+
+1219
+01:10:31,360 --> 01:10:36,920
+egyes Ké legyen itt még egyes
+
+1220
+01:10:33,800 --> 01:10:40,159
+Bilisztikus lehet hogy nem pont ez a
+
+1221
+01:10:36,920 --> 01:10:43,440
+15-ös az 11
+
+1222
+01:10:40,159 --> 01:10:45,640
+11 ez 15
+
+1223
+01:10:43,440 --> 01:10:48,199
+14 háromból
+
+1224
+01:10:45,640 --> 01:10:52,800
+fedett 1
+
+1225
+01:10:48,199 --> 01:10:55,080
+2 fet ez mitjük oda tehát hogyha itt van
+
+1226
+01:10:52,800 --> 01:10:56,880
+Ja mert ez egy ez egy tó jól van jól van
+
+1227
+01:10:55,080 --> 01:10:59,159
+jó akkor jól van nincsen két egyes mert
+
+1228
+01:10:56,880 --> 01:11:02,120
+az egy az mögötte az x fölött egy tó
+
+1229
+01:10:59,159 --> 01:11:04,080
+ugye ez tó ez is tó tehát az x-vel nem
+
+1230
+01:11:02,120 --> 01:11:05,760
+tudsz felvenni csak innent sőt hogyha
+
+1231
+01:11:04,080 --> 01:11:07,280
+ennél ezt a kockát akartam nézni hogy
+
+1232
+01:11:05,760 --> 01:11:10,840
+miért nem lehet innen lemenni azért mert
+
+1233
+01:11:07,280 --> 01:11:13,560
+ez ez 0 null Az az egy tó oda oda nem
+
+1234
+01:11:10,840 --> 01:11:16,320
+tudsz úgy eljutni hogy hogy jó
+
+1235
+01:11:13,560 --> 01:11:19,320
+legyen Fölötte fölöttéről nem tudsz
+
+1236
+01:11:16,320 --> 01:11:21,199
+jönni mert ott van meg vagy halva Innen
+
+1237
+01:11:19,320 --> 01:11:23,840
+hogyha mész akkor kapsz egy
+
+1238
+01:11:21,199 --> 01:11:27,360
+nullát Másik kettő pedig nem létezik
+
+1239
+01:11:23,840 --> 01:11:31,320
+mert a célból kellene felmen célnek
+
+1240
+01:11:27,360 --> 01:11:34,199
+vége Na jó megcsinálod a Qáblát ez a
+
+1241
+01:11:31,320 --> 01:11:38,239
+betanítás és akkor utána lejátszatod az
+
+1242
+01:11:34,199 --> 01:11:38,239
+agentel ezeket a lépéseket
+
+1243
+01:11:42,040 --> 01:11:45,719
+Hát meg tud kinálni lépés
+
+1244
+01:11:49,960 --> 01:11:54,719
+csöésre Hát minden volt ez csak az hogy
+
+1245
+01:11:52,400 --> 01:11:59,440
+megoldotta Persze
+
+1246
+01:11:54,719 --> 01:11:59,440
+megoldottam Akkor itt elottatjuk
+
+1247
+01:12:07,480 --> 01:12:10,920
+Hogyha kisebb lesz a tanítás akkor
+
+1248
+01:12:09,239 --> 01:12:13,320
+valószínűleg
+
+1249
+01:12:10,920 --> 01:12:14,880
+meghal Játszok majd egy pár paraméter
+
+1250
+01:12:13,320 --> 01:12:17,800
+Mindjárt tartok szeretet játszunk egy
+
+1251
+01:12:14,880 --> 01:12:20,440
+pár map Hogyha csak 10 epizódig tanítom
+
+1252
+01:12:17,800 --> 01:12:21,760
+akkor gyors leszárlak mást fog kinézni
+
+1253
+01:12:20,440 --> 01:12:24,440
+más számok lesznek
+
+1254
+01:12:21,760 --> 01:12:27,120
+benne 10 epizódig nem is érem oda
+
+1255
+01:12:24,440 --> 01:12:30,440
+kellenek
+
+1256
+01:12:27,120 --> 01:12:34,199
+Az így is
+
+1257
+01:12:30,440 --> 01:12:34,199
+egyes lesz
+
+1258
+01:12:36,920 --> 01:12:39,239
+valami
+
+1259
+01:12:41,920 --> 01:12:44,920
+hardkodó
+
+1260
+01:12:50,880 --> 01:12:53,880
+csak
+
+1261
+01:12:55,880 --> 01:13:01,840
+nincs akkor egy kicsit kisebb vagy valam
+
+1262
+01:13:04,280 --> 01:13:06,880
+Hagyj
+
+1263
+01:13:12,520 --> 01:13:15,520
+meg
+
+1264
+01:13:18,760 --> 01:13:24,719
+Hát na mindjárt ráveszem hogy legyen
+
+1265
+01:13:21,159 --> 01:13:24,719
+legyen egy kicsit bénább
+
+1266
+01:13:37,440 --> 01:13:39,760
+súly is
+
+1267
+01:13:43,800 --> 01:13:50,320
+meg lehet hogy van valam statem alatkó
+
+1268
+01:13:47,639 --> 01:13:50,320
+Mindjárt megnézem egy
+
+1269
+01:13:51,040 --> 01:13:56,639
+kicsit de betettem ezt a Discordból
+
+1270
+01:13:54,040 --> 01:14:00,280
+hogyha ha sikerül akkor meg kéne
+
+1271
+01:13:56,639 --> 01:14:01,840
+próbáljad elindítani te is És
+
+1272
+01:14:00,280 --> 01:14:05,159
+egy kicsit kísérletezzünk más
+
+1273
+01:14:01,840 --> 01:14:05,159
+environmentekkel Ugye itt
+
+1274
+01:14:05,560 --> 01:14:09,239
+mit létre tudjuk hozni mi az
+
+1275
+01:14:06,960 --> 01:14:11,159
+environmenteket Hozzunk létre egy pár
+
+1276
+01:14:09,239 --> 01:14:13,000
+environmentet nézzük meg hogy tudunk-e
+
+1277
+01:14:11,159 --> 01:14:14,280
+olyat találni amelyik nehéz vagy miért
+
+1278
+01:14:13,000 --> 01:14:16,880
+nem és akkor nézzük meg kicit hogy
+
+1279
+01:14:14,280 --> 01:14:19,760
+hogyan változik ez a kutábla Lépé
+
+1280
+01:14:16,880 --> 01:14:22,280
+lépésről lépésről De tontsunk egy káb
+
+1281
+01:14:19,760 --> 01:14:22,280
+szünetet
+
+1282
+01:14:22,760 --> 01:14:29,600
+jönnel 8 kb Ti már el kell menjetek ugye
+
+1283
+01:14:28,040 --> 01:14:32,600
+menjetek nyat Csak írjunk egy írjunk egy
+
+1284
+01:14:29,600 --> 01:14:32,600
+jelenlétet
+
+1285
+01:14:48,280 --> 01:14:54,480
+Kcső Kicső Persze
+
+1286
+01:14:52,360 --> 01:14:58,360
+kincső Ferenc
+
+1287
+01:14:54,480 --> 01:15:01,360
+Péter Péter Te vagy Akkor kapsz
+
+1288
+01:14:58,360 --> 01:15:01,360
+mindegyiket
+
+1289
+01:15:16,000 --> 01:15:18,880
+Te hogy Attila
+
+1290
+01:15:19,000 --> 01:15:23,400
+vagy attila nincs Attila
+
+1291
+01:15:24,880 --> 01:15:29,040
+Jó
+
+1292
+01:15:26,719 --> 01:15:31,360
+Jó Hendri Hé
+
+1293
+01:15:29,040 --> 01:15:35,840
+Henrietta nincs
+
+1294
+01:15:31,360 --> 01:15:35,840
+itt Barát bejárt te vagy
+
+1295
+01:15:39,040 --> 01:15:44,400
+másik kurcus nem volt
+
+1296
+01:15:41,239 --> 01:15:47,239
+ugye volt vagy felírva a
+
+1297
+01:15:44,400 --> 01:15:50,400
+lap ja te másik te ebben nincs teben nem
+
+1298
+01:15:47,239 --> 01:15:50,400
+vagy benne
+
+1299
+01:15:51,800 --> 01:16:00,400
+Jó nem baj mind a kettő itt oda Ja
+
+1300
+01:15:56,400 --> 01:16:02,000
+jó Tas kellemen tas szilási
+
+1301
+01:16:00,400 --> 01:16:04,480
+Igen Fordítva van Tehát az előző volt az
+
+1302
+01:16:02,000 --> 01:16:06,600
+ilyen játék a
+
+1303
+01:16:04,480 --> 01:16:10,639
+bias
+
+1304
+01:16:06,600 --> 01:16:14,520
+fesz matlák nem volt itt
+
+1305
+01:16:10,639 --> 01:16:14,520
+most is már market
+
+1306
+01:16:18,480 --> 01:16:25,400
+nagy botond most nem volt nem is
+
+1307
+01:16:22,239 --> 01:16:30,600
+volt zsolt ő volt egyszer
+
+1308
+01:16:25,400 --> 01:16:30,600
+asszonó dávid itt van mind a kettő ugye
+
+1309
+01:16:32,400 --> 01:16:37,520
+Múltkor nem vagy beírva az harmadik dát
+
+1310
+01:16:35,199 --> 01:16:37,520
+Igen Az
+
+1311
+01:16:39,600 --> 01:16:45,440
+élet új fontos
+
+1312
+01:16:42,400 --> 01:16:48,440
+ab De se jó
+
+1313
+01:16:45,440 --> 01:16:48,440
+utára
+
+1314
+01:16:48,880 --> 01:16:55,920
+Hát akkor
+
+1315
+01:16:50,960 --> 01:16:57,840
+Bennyelmi itt vagy másik sincs meg sincs
+
+1316
+01:16:55,920 --> 01:17:02,560
+Én is megkérdezem
+
+1317
+01:16:57,840 --> 01:17:02,560
+Tehát hol el neked sincs
+
+1318
+01:17:04,679 --> 01:17:11,080
+Mondjuk ők ez voltam de de
+
+1319
+01:17:08,199 --> 01:17:13,800
+és Tamás itt volt egész Tamás az első
+
+1320
+01:17:11,080 --> 01:17:15,080
+négyen nem voltál ugye igen mert voltak
+
+1321
+01:17:13,800 --> 01:17:17,120
+az nem egy párat be kell írjuk mert
+
+1322
+01:17:15,080 --> 01:17:19,679
+majdnem meg fognak kérdez kérdezésk
+
+1323
+01:17:17,120 --> 01:17:25,880
+fognak
+
+1324
+01:17:19,679 --> 01:17:28,840
+Az helyzetával voltunk csal téged meg fö
+
+1325
+01:17:25,880 --> 01:17:31,960
+az első négy igen az első négy nincs meg
+
+1326
+01:17:28,840 --> 01:17:37,280
+ugye többi leszek csak hogy az első lesz
+
+1327
+01:17:31,960 --> 01:17:41,360
+az még kettő beírok egy szem jó igen
+
+1328
+01:17:37,280 --> 01:17:42,440
+dezus mind holnap lehet egyával k igen
+
+1329
+01:17:41,360 --> 01:17:44,199
+igen mindjárt megbeszéljük akkor azt
+
+1330
+01:17:42,440 --> 01:17:46,920
+hogy szerintem holnap egy órával
+
+1331
+01:17:44,199 --> 01:17:51,159
+késezlik hogy mindenki tudjon
+
+1332
+01:17:46,920 --> 01:17:55,159
+elérni más jó ferenc péter vos tamás itt
+
+1333
+01:17:51,159 --> 01:17:55,159
+voltatok az április másodát
+
+1334
+01:17:58,719 --> 01:18:01,880
+Az elő
+
+1335
+01:18:04,520 --> 01:18:08,920
+igen akkor beírom majd a Discordra is
+
+1336
+01:18:06,440 --> 01:18:10,239
+Holnap kezdünk
+
+1337
+01:18:08,920 --> 01:18:14,120
+Jaj mert te csak a másodikba vagy Ne
+
+1338
+01:18:10,239 --> 01:18:14,120
+hallod Második vag Így van Így
+
+1339
+01:18:14,280 --> 01:18:21,400
+van Játék elméletó És te vagy Lázár Balá
+
+1340
+01:18:19,679 --> 01:18:23,560
+így van
+
+1341
+01:18:21,400 --> 01:18:26,840
+Neked kettő hiányzásod van Azt még meg
+
+1342
+01:18:23,560 --> 01:18:28,960
+lehet írni Az az egy egy alkalom
+
+1343
+01:18:26,840 --> 01:18:31,360
+egy
+
+1344
+01:18:28,960 --> 01:18:34,040
+mász és hogy lesz
+
+1345
+01:18:31,360 --> 01:18:36,280
+az van még már nem mind kettőt ütem egy
+
+1346
+01:18:34,040 --> 01:18:39,520
+pár szomos
+
+1347
+01:18:36,280 --> 01:18:42,440
+együtt együcs
+
+1348
+01:18:39,520 --> 01:18:46,880
+Mindegyik alkalom itt van
+
+1349
+01:18:42,440 --> 01:18:46,880
+Hogyha izé benézted akkor be
+
+1350
+01:18:46,920 --> 01:18:52,719
+Na jó de várjál akkor hát holnap akkor
+
+1351
+01:18:49,760 --> 01:18:54,080
+kezdjünk
+
+1352
+01:18:52,719 --> 01:18:56,400
+Kezdjünk
+
+1353
+01:18:54,080 --> 01:18:59,199
+5-kor
+
+1354
+01:18:56,400 --> 01:19:00,600
+és azt ugyanúgy mint ma másfél órát
+
+1355
+01:18:59,199 --> 01:19:01,960
+tartunk csak az EA játékából
+
+1356
+01:19:00,600 --> 01:19:05,159
+Megpróbáljuk egy kicsit kiakasztani
+
+1357
+01:19:01,960 --> 01:19:09,360
+modelleeket és akkor ezt ezt
+
+1358
+01:19:05,159 --> 01:19:12,199
+ugyanígy olyan hat 6:45-kor kábé kezdjük
+
+1359
+01:19:09,360 --> 01:19:14,040
+ezt a holnapi alkalomra Csak egy egy
+
+1360
+01:19:12,199 --> 01:19:18,480
+másik environmentet szeretnék ahol
+
+1361
+01:19:14,040 --> 01:19:21,120
+folytonos a a state
+
+1362
+01:19:18,480 --> 01:19:23,320
+Jó nem baj
+
+1363
+01:19:21,120 --> 01:19:25,440
+Csak akkor ebből azt szeretném ugye a
+
+1364
+01:19:23,320 --> 01:19:26,760
+bemutatókra ebből azt szeretném hát
+
+1365
+01:19:25,440 --> 01:19:28,320
+mondtam azt hogy csináljuk az Axel
+
+1366
+01:19:26,760 --> 01:19:31,320
+Rodosból de hátha akkor akkor jobb
+
+1367
+01:19:28,320 --> 01:19:34,840
+hogyha megpróbálunk a a gymből az Open
+
+1368
+01:19:31,320 --> 01:19:37,320
+AI gymből egy másik példát például a a
+
+1369
+01:19:34,840 --> 01:19:39,000
+CPT vagy valamelyik másikat hátha
+
+1370
+01:19:37,320 --> 01:19:41,080
+valakinek sikerül voltak olyanok akiknek
+
+1371
+01:19:39,000 --> 01:19:45,360
+sikerült az EU-be bemutassuk a
+
+1372
+01:19:41,080 --> 01:19:45,360
+többieknek és azoknak kész is van
+
+1373
+01:19:46,239 --> 01:19:50,560
+Nem az csak ilyen hogy majd összegyűlünk
+
+1374
+01:19:48,040 --> 01:19:52,639
+szerdán és akkor mondom holnap megnézünk
+
+1375
+01:19:50,560 --> 01:19:54,239
+egy pár célozott módszert hogy hogy
+
+1376
+01:19:52,639 --> 01:19:56,239
+lehet becsapni a nagy nyelvmodelleeket
+
+1377
+01:19:54,239 --> 01:19:58,320
+és hátha tudsz hozni egy sajátot az
+
+1378
+01:19:56,239 --> 01:19:59,960
+király szerdán És akkor szer mindenki
+
+1379
+01:19:58,320 --> 01:20:02,480
+együtt megnézi hogy hogy tudnátok
+
+1380
+01:19:59,960 --> 01:20:05,280
+becsapni a nagyjából
+
+1381
+01:20:02,480 --> 01:20:05,280
+Azt kérdezem
+
+1382
+01:20:05,440 --> 01:20:09,440
+hogy beszéltem
+
+1383
+01:20:10,520 --> 01:20:15,960
+Jó jó szív szívesen meg tudok magam Ezt
+
+1384
+01:20:14,199 --> 01:20:17,840
+ezt minden amit most elmeséltem ezt este
+
+1385
+01:20:15,960 --> 01:20:22,120
+beírom a discordba úgyhogy meglesz a
+
+1386
+01:20:17,840 --> 01:20:23,639
+pont mit kell csinálni Á igen vagy
+
+1387
+01:20:22,120 --> 01:20:25,840
+nem baj az
+
+1388
+01:20:23,639 --> 01:20:28,560
+nem neked kettő
+
+1389
+01:20:25,840 --> 01:20:31,920
+hiányzásod Igen csak jön egy másik
+
+1390
+01:20:28,560 --> 01:20:31,920
+oktató megyek
+
+1391
+01:20:32,920 --> 01:20:36,920
+vaccsorázikáz mindegy
+
+1392
+01:20:39,120 --> 01:20:44,400
+Jó tartet utána próbáljuk meg megnézni
+
+1393
+01:20:42,159 --> 01:20:48,920
+lépés lépésre ezt a Qáblát azzal a három
+
+1394
+01:20:44,400 --> 01:20:48,920
+emberké aki vagy négyel
+
+1395
+01:20:49,639 --> 01:20:51,760
+Igen
+
+1396
+01:21:44,600 --> 01:21:47,600
+Č
+
+1397
+01:25:06,560 --> 01:25:09,960
+mondtad hogy
+
+1398
+01:25:14,119 --> 01:25:20,560
+lesz van egy ilyen olda ahol elég Igen
+
+1399
+01:25:24,400 --> 01:25:28,560
+fokus kocási cikkern vagy nem
+
+1400
+01:25:35,040 --> 01:25:44,920
+citó van egy működik ez fogadó [ __ ]
+
+1401
+01:25:41,239 --> 01:25:50,480
+innen vannak az adatok
+
+1402
+01:25:44,920 --> 01:25:54,679
+zatírom hogy mit kettő ezt a ez
+
+1403
+01:25:50,480 --> 01:25:57,320
+nagyon egység vagy hogy csinál
+
+1404
+01:25:54,679 --> 01:26:01,679
+Ben
+
+1405
+01:25:57,320 --> 01:26:05,960
+megá j kép hát azt
+
+1406
+01:26:01,679 --> 01:26:10,000
+képz ezek minden
+
+1407
+01:26:05,960 --> 01:26:13,520
+kad j meg is tudni akkor hogy nekünk
+
+1408
+01:26:10,000 --> 01:26:15,800
+ezek a negatilációk láció mondják nem
+
+1409
+01:26:13,520 --> 01:26:20,440
+biztos hogy
+
+1410
+01:26:15,800 --> 01:26:26,480
+az jap akkor beled hogy
+
+1411
+01:26:20,440 --> 01:26:26,480
+ugye a azt k akarom hogy a
+
+1412
+01:26:27,800 --> 01:26:37,239
+ugye van a modellek azok alapján azok ez
+
+1413
+01:26:32,840 --> 01:26:39,159
+ki r2 igen tehát nem nem a
+
+1414
+01:26:37,239 --> 01:26:41,360
+konkedményeket arra meg fejezet nem
+
+1415
+01:26:39,159 --> 01:26:45,560
+hanem hogy hogy tudjuk felmérni hogy ez
+
+1416
+01:26:41,360 --> 01:26:47,159
+jó-e mer igen csinálok classation is az
+
+1417
+01:26:45,560 --> 01:26:49,400
+is alapás hogy hogy dönt hogy mennyi hát
+
+1418
+01:26:47,159 --> 01:26:50,159
+pontosan mindegyiknek a a regesszónak és
+
+1419
+01:26:49,400 --> 01:26:52,719
+a
+
+1420
+01:26:50,159 --> 01:26:55,679
+klasszik itt kipúzn egys paraméter hogy
+
+1421
+01:26:52,719 --> 01:26:59,119
+azt kritchel vagy mélyen paramétereket
+
+1422
+01:26:55,679 --> 01:27:00,679
+használok ezt minden ez 10apot
+
+1423
+01:26:59,119 --> 01:27:02,719
+mindig faszabb lenne hogyha találnak
+
+1424
+01:27:00,679 --> 01:27:05,920
+valami olyas tehát a úgy tudnák
+
+1425
+01:27:02,719 --> 01:27:07,800
+validálni a mószont hogy hát találnak
+
+1426
+01:27:05,920 --> 01:27:10,639
+egy olyan problémát egyik egy egy
+
+1427
+01:27:07,800 --> 01:27:12,960
+konkrét cikk amelyik hasonlóra végez az
+
+1428
+01:27:10,639 --> 01:27:15,080
+és ott ott az emberek ugyanezt a
+
+1429
+01:27:12,960 --> 01:27:17,119
+módszert használták ez hogy lesz olyan
+
+1430
+01:27:15,080 --> 01:27:19,639
+ezt a módszert használni áltil általáos
+
+1431
+01:27:17,119 --> 01:27:22,280
+cikkne hátha lenne valami sport akkor
+
+1432
+01:27:19,639 --> 01:27:24,920
+azt mondjuk hogy máská használják úgy
+
+1433
+01:27:22,280 --> 01:27:29,800
+verzió lehet is ezt használjuk
+
+1434
+01:27:24,920 --> 01:27:29,800
+Ühüm Kíek Jó
+
+1435
+01:27:30,400 --> 01:27:36,239
+Igen nyugodtan kicsit meg ezt
+
+1436
+01:27:31,560 --> 01:27:36,239
+megpróbálom szétni és akkor majd Č
+
+1437
+01:49:07,920 --> 01:49:14,400
+Ezt
+
+1438
+01:49:09,560 --> 01:49:14,400
+kell miérdes Tôi
+
+1439
+01:50:04,119 --> 01:50:10,119
+Van ez a kolab amit vetettem az
+
+1440
+01:50:05,520 --> 01:50:10,119
+Discordba az a sima még az a neve hogy
+
+1441
+01:50:13,239 --> 01:50:19,520
+frozen azon vé kéne menjünk lépésről
+
+1442
+01:50:17,560 --> 01:50:23,040
+épünk Közben rájöttem hogy miért nem
+
+1443
+01:50:19,520 --> 01:50:24,920
+ment az előbb mert nem
+
+1444
+01:50:23,040 --> 01:50:26,360
+meghívja saját magát ugye tehát úgy volt
+
+1445
+01:50:24,920 --> 01:50:30,520
+a polusivan
+
+1446
+01:50:26,360 --> 01:50:32,560
+hogy a meglévő epsil grid értéket
+
+1447
+01:50:30,520 --> 01:50:34,280
+felhasználja és akkor egyszer már
+
+1448
+01:50:32,560 --> 01:50:36,920
+rátanult a 10000 alatt hogy ez az
+
+1449
+01:50:34,280 --> 01:50:38,719
+optimális akkor meghívta saját magát Itt
+
+1450
+01:50:36,920 --> 01:50:44,320
+kéne egy olyan egy init látod itt mint a
+
+1451
+01:50:38,719 --> 01:50:45,800
+tetején hogy initi table zero zero zero
+
+1452
+01:50:44,320 --> 01:50:50,760
+Ú hogyha ide mindig betesszük azt hogy
+
+1453
+01:50:45,800 --> 01:50:50,760
+initializ akkor akkor fog látszani a
+
+1454
+01:50:51,960 --> 01:50:58,199
+különbség Ez most így jó
+
+1455
+01:50:55,159 --> 01:51:01,079
+10000 napok Ezek lesznek az értékek És
+
+1456
+01:50:58,199 --> 01:51:03,079
+hogyha lecsökkentjük 10-re akkor már
+
+1457
+01:51:01,079 --> 01:51:04,679
+kevésbé lesz
+
+1458
+01:51:03,079 --> 01:51:06,760
+font
+
+1459
+01:51:04,679 --> 01:51:08,560
+Akkorulás mindegyik nem tudod telni
+
+1460
+01:51:06,760 --> 01:51:10,599
+messzire
+
+1461
+01:51:08,560 --> 01:51:12,320
+Ezzel játsz ezeken a paraméterekel
+
+1462
+01:51:10,599 --> 01:51:15,159
+fogunk egy picit
+
+1463
+01:51:12,320 --> 01:51:18,239
+játszózni Közben kiírogatjuk azokat és
+
+1464
+01:51:15,159 --> 01:51:22,480
+lépésről lépésre Most nézzük meg hogyha
+
+1465
+01:51:18,239 --> 01:51:22,480
+100 epokot 100 epokot tanít
+
+1466
+01:51:24,040 --> 01:51:27,599
+csak ak fog
+
+1467
+01:51:29,920 --> 01:51:34,599
+bénázni Jó
+
+1468
+01:51:31,920 --> 01:51:38,239
+megcsináltam
+
+1469
+01:51:34,599 --> 01:51:38,239
+100 Á itt is már
+
+1470
+01:51:38,480 --> 01:51:44,239
+09107 10 az nem volt annyi Van írva vagy
+
+1471
+01:51:41,239 --> 01:51:44,239
+55
+
+1472
+01:51:45,040 --> 01:51:48,960
+Ez tiszta nulla az egész Akkor nem tudsz
+
+1473
+01:51:46,800 --> 01:51:48,960
+ezt
+
+1474
+01:51:51,560 --> 01:51:57,119
+csinálni Még egyszer 10-zel ugyanígy
+
+1475
+01:51:54,119 --> 01:51:57,119
+lások
+
+1476
+01:52:08,719 --> 01:52:11,840
+Ne inicializáljuk
+
+1477
+01:52:12,400 --> 01:52:19,440
+hanem maradjon
+
+1478
+01:52:15,800 --> 01:52:21,079
+ott Ja csak úgy iszér ott lett egy Zuzér
+
+1479
+01:52:19,440 --> 01:52:25,880
+a
+
+1480
+01:52:21,079 --> 01:52:25,880
+hét még hogyha lősz 10-et
+
+1481
+01:52:37,360 --> 01:52:42,480
+Na most már kezdünk négy most már a
+
+1482
+01:52:39,639 --> 01:52:44,679
+fejvedér azért a kilencre
+
+1483
+01:52:42,480 --> 01:52:47,679
+A
+
+1484
+01:52:44,679 --> 01:52:47,679
+mi
+
+1485
+01:52:48,800 --> 01:52:55,960
+pont itt most nullák ugye ezek nullák a
+
+1486
+01:52:52,400 --> 01:52:58,280
+20 vagy hány epokba egy párszor rájutott
+
+1487
+01:52:55,960 --> 01:53:01,040
+ide de volt amikor meghalt akkor mi lett
+
+1488
+01:52:58,280 --> 01:53:02,560
+ennek az átlagodnak
+
+1489
+01:53:01,040 --> 01:53:04,599
+csak találtam egy másik csávót aki
+
+1490
+01:53:02,560 --> 01:53:08,360
+nagyon szépen leírja azt
+
+1491
+01:53:04,599 --> 01:53:12,360
+hogy mi történik a paraméterekkel akkor
+
+1492
+01:53:08,360 --> 01:53:12,360
+ezek közül megkér pár tehát
+
+1493
+01:53:16,079 --> 01:53:21,199
+meg volt egy prezentációm is való
+
+1494
+01:53:18,199 --> 01:53:21,199
+találost
+
+1495
+01:53:44,960 --> 01:53:48,960
+Cooler meg
+
+1496
+01:54:13,520 --> 01:54:18,520
+Ezt nem
+
+1497
+01:54:14,960 --> 01:54:18,520
+talál Vagy csak ennyi
+
+1498
+01:54:19,920 --> 01:54:22,920
+van
+
+1499
+01:54:24,320 --> 01:54:29,360
+Egy munkafet mi az
+
+1500
+01:54:55,440 --> 01:55:00,920
+van egy csávó akinek van egy csomó ilyen
+
+1501
+01:54:58,760 --> 01:55:04,719
+meg ilyen játékokra Hát a holnapra el
+
+1502
+01:55:00,920 --> 01:55:04,719
+tudnákeni doot
+
+1503
+01:55:08,760 --> 01:55:13,199
+Ez
+
+1504
+01:55:09,800 --> 01:55:15,440
+az a csávó és ezt csinált egy csomó
+
+1505
+01:55:13,199 --> 01:55:17,480
+environment ugye environmentek közül a a
+
+1506
+01:55:15,440 --> 01:55:18,520
+gymes environmentek azok ilyen nagyon
+
+1507
+01:55:17,480 --> 01:55:20,400
+játék
+
+1508
+01:55:18,520 --> 01:55:22,920
+environmentek És akkor ez a csávó
+
+1509
+01:55:20,400 --> 01:55:25,440
+csinált egy pár ilyen klasszikus arcade
+
+1510
+01:55:22,920 --> 01:55:29,199
+játéknak a az
+
+1511
+01:55:25,440 --> 01:55:29,199
+envirment Például túl is
+
+1512
+01:55:29,639 --> 01:55:34,920
+megvan Na csak még próbáljuk ezt este
+
+1513
+01:55:32,599 --> 01:55:39,000
+megnézem egy picit El tudjuk indított
+
+1514
+01:55:34,920 --> 01:55:39,000
+volna kezdj kezdjen
+
+1515
+01:55:39,079 --> 01:55:44,480
+játszani Meg volt Mario is
+
+1516
+01:55:42,079 --> 01:55:46,599
+valahol másik balon egy ilyen taxis
+
+1517
+01:55:44,480 --> 01:55:51,480
+játék de ez ugyanaz mint a Frozen
+
+1518
+01:55:46,599 --> 01:55:51,480
+Lake Csak van két terük
+
+1519
+01:56:07,320 --> 01:56:12,520
+Na mindegy nézzük meg is picit ezeket a
+
+1520
+01:56:08,719 --> 01:56:20,199
+paramétereket Ugye ez az alap mert
+
+1521
+01:56:12,520 --> 01:56:20,199
+a vissza visszaépítjük bele a Q értéket
+
+1522
+01:56:21,000 --> 01:56:26,960
+Nekünk így van az egyenletben
+
+1523
+01:56:23,800 --> 01:56:28,760
+Ez egy egyszerű Tehát a Q table state
+
+1524
+01:56:26,960 --> 01:56:30,199
+action Nekünk ez most nem egy függvény
+
+1525
+01:56:28,760 --> 01:56:31,719
+hanem egy distint függvény de ugyanúgy
+
+1526
+01:56:30,199 --> 01:56:38,400
+visszaépítjük
+
+1527
+01:56:31,719 --> 01:56:41,480
+vele Az ez plusz jön a x az egész mind
+
+1528
+01:56:38,400 --> 01:56:44,599
+Tehát nekünk ez az a ez a ez a learning
+
+1529
+01:56:41,480 --> 01:56:49,679
+rate Learning rate az
+
+1530
+01:56:44,599 --> 01:56:53,119
+a az az arról szól hogy mennyire gyorsan
+
+1531
+01:56:49,679 --> 01:56:55,560
+updateeli updateeli maga Ezt
+
+1532
+01:56:53,119 --> 01:56:58,400
+illusztrálni úgy
+
+1533
+01:56:55,560 --> 01:57:00,960
+lehet
+
+1534
+01:56:58,400 --> 01:57:02,480
+a ez nem mindig jó hogy ezt ki kell
+
+1535
+01:57:00,960 --> 01:57:05,639
+próbálgatni hogy melyik melyik fog
+
+1536
+01:57:02,480 --> 01:57:07,730
+működni De mindig jó hogy ha hát hogyha
+
+1537
+01:57:05,639 --> 01:57:10,790
+például te hát ez
+
+1538
+01:57:07,730 --> 01:57:10,790
+[Zene]
+
+1539
+01:57:12,840 --> 01:57:16,599
+külön van egy nagyobb
+
+1540
+01:57:21,000 --> 01:57:28,000
+táat tudod
+
+1541
+01:57:23,320 --> 01:57:33,560
+hogy tudod te ide alattál az azt jelenti
+
+1542
+01:57:28,000 --> 01:57:37,199
+hogy például a az action között nagyobb
+
+1543
+01:57:33,560 --> 01:57:42,079
+legyenek a jobbrák és a le itt a fel és
+
+1544
+01:57:37,199 --> 01:57:45,119
+a balak meg általosságban erre kell
+
+1545
+01:57:42,079 --> 01:57:46,719
+erre nem kell tarts függvények kell leg
+
+1546
+01:57:45,119 --> 01:57:49,040
+nem tudom h it hogy
+
+1547
+01:57:46,719 --> 01:57:51,280
+hogy megpróbálj szétszni de
+
+1548
+01:57:49,040 --> 01:57:53,760
+függvényekkel az a legegyszerűbb hogyha
+
+1549
+01:57:51,280 --> 01:57:53,760
+hogyha
+
+1550
+01:57:53,840 --> 01:58:01,239
+például van egy színusz
+
+1551
+01:57:56,760 --> 01:58:03,679
+kör akkor azt túlzottan ezt meg akarod
+
+1552
+01:58:01,239 --> 01:58:07,000
+meg akarod vaccolni
+
+1553
+01:58:03,679 --> 01:58:10,880
+Akkor fik attól hogy milyen milyen
+
+1554
+01:58:07,000 --> 01:58:12,400
+diszkét azást veszett
+
+1555
+01:58:10,880 --> 01:58:15,400
+volt egy ilyen
+
+1556
+01:58:12,400 --> 01:58:15,400
+oszilálás
+
+1557
+01:58:15,840 --> 01:58:19,360
+szegoszilálás tesztel
+
+1558
+01:58:21,639 --> 01:58:25,000
+updateet oscillations
+
+1559
+01:59:17,960 --> 01:59:21,679
+Tudjátok mi volt az MCC vendégnek
+
+1560
+01:59:33,280 --> 01:59:36,280
+külön
+
+1561
+01:59:39,800 --> 01:59:43,119
+spaceek de
+
+1562
+01:59:51,719 --> 01:59:57,000
+De
+
+1563
+01:59:52,480 --> 01:59:57,000
+megokott van nekem van nekem csak az se
+
+1564
+01:59:59,480 --> 02:00:04,639
+azt hogy hol vagy az épület
+
+1565
+02:00:25,520 --> 02:00:28,560
+kessek egyikát
+
+1566
+02:02:10,960 --> 02:02:17,520
+kicsit
+
+1567
+02:02:13,840 --> 02:02:21,000
+kassz törmékrétez optimizálnak esetben
+
+1568
+02:02:17,520 --> 02:02:26,599
+az hogy mennyire gyorsabb például hogyha
+
+1569
+02:02:21,000 --> 02:02:30,239
+ezt a ezt a gört megszed egy egy vonatok
+
+1570
+02:02:26,599 --> 02:02:34,599
+Mennyire gyorsan változtatod
+
+1571
+02:02:30,239 --> 02:02:34,599
+a megzének a
+
+1572
+02:02:34,920 --> 02:02:38,560
+parodal hogy ha nagyon
+
+1573
+02:02:45,560 --> 02:02:48,679
+lassan szok
+
+1574
+02:02:58,480 --> 02:03:03,040
+hogyha nagyon lassan változatik most
+
+1575
+02:03:00,159 --> 02:03:05,119
+remélem csinál egy ilyen kí azt írja
+
+1576
+02:03:03,040 --> 02:03:06,639
+hogy ugye hogyha neked van egy ilyen
+
+1577
+02:03:05,119 --> 02:03:09,400
+függvényed
+
+1578
+02:03:06,639 --> 02:03:11,719
+egy és akkor itt van neki egy ilyen
+
+1579
+02:03:09,400 --> 02:03:15,199
+lokal
+
+1580
+02:03:11,719 --> 02:03:17,840
+való akkor neked az optimal ugye az
+
+1581
+02:03:15,199 --> 02:03:21,159
+optimalizát Ezt a pontot kellene meg
+
+1582
+02:03:17,840 --> 02:03:23,800
+tovább Nagyon lassan változtatok azt
+
+1583
+02:03:21,159 --> 02:03:27,040
+hogy innen szerintem melyik a következő
+
+1584
+02:03:23,800 --> 02:03:30,079
+pont pedig pályá melyik a következő pont
+
+1585
+02:03:27,040 --> 02:03:32,400
+pályá melyik a következő pont rajzol egy
+
+1586
+02:03:30,079 --> 02:03:34,840
+PSD És akkor azt mondja hogy most már
+
+1587
+02:03:32,400 --> 02:03:39,159
+túllőttem a célot akkor a következő
+
+1588
+02:03:34,840 --> 02:03:41,360
+pécnél visszafogja a
+
+1589
+02:03:39,159 --> 02:03:43,040
+körbefet Milyen milyen csak egy ilyen
+
+1590
+02:03:41,360 --> 02:03:47,119
+kicsit kicsit akkor megint túlőtt a
+
+1591
+02:03:43,040 --> 02:03:49,320
+következő pontot akkor akkor itt azt
+
+1592
+02:03:47,119 --> 02:03:53,440
+hogyha túlőtt akkor lefele fogja a vér
+
+1593
+02:03:49,320 --> 02:03:56,719
+fekét megtalálja ezt a pontot hogyha
+
+1594
+02:03:53,440 --> 02:03:58,480
+nagyob lesznek a a a lépések ezt a bör
+
+1595
+02:03:56,719 --> 02:04:00,639
+csot
+
+1596
+02:03:58,480 --> 02:04:02,280
+megpróbálni akkor azt mondod hogy ebben
+
+1597
+02:04:00,639 --> 02:04:05,840
+a festben
+
+1598
+02:04:02,280 --> 02:04:08,800
+én egy szeretnék akkor megnézed hogy itt
+
+1599
+02:04:05,840 --> 02:04:10,920
+a a pontja kicsit benne fet úgyhogy
+
+1600
+02:04:08,800 --> 02:04:13,719
+kicsit errejuk akkor a következő Itt
+
+1601
+02:04:10,920 --> 02:04:16,440
+lesz ekkor lesz itt megnézem hát tőha
+
+1602
+02:04:13,719 --> 02:04:19,440
+megér egy kicsit van akkor itt a követ
+
+1603
+02:04:16,440 --> 02:04:21,559
+ez lesz it már de azért nötik a cél
+
+1604
+02:04:19,440 --> 02:04:25,639
+úgyhogy innen inkább visszatos meg akkor
+
+1605
+02:04:21,559 --> 02:04:28,920
+az így megtalálja nyot a megvális a
+
+1606
+02:04:25,639 --> 02:04:31,239
+learning az valami valami ilyesmi tehát
+
+1607
+02:04:28,920 --> 02:04:35,559
+hogy mennyire gyógyan vált hogy tartson
+
+1608
+02:04:31,239 --> 02:04:35,559
+neked a Q a Q értéket tehát az
+
+1609
+02:04:38,599 --> 02:04:44,599
+egész az egész
+
+1610
+02:04:41,400 --> 02:04:47,960
+változás ugye az ezelőtti Qértékhez
+
+1611
+02:04:44,599 --> 02:04:50,960
+képest mekkoros legyen az új az új
+
+1612
+02:04:47,960 --> 02:04:50,960
+Qértéknek
+
+1613
+02:04:51,159 --> 02:04:57,040
+hogyha nagyobb a nagyobb a learning
+
+1614
+02:04:53,960 --> 02:04:58,320
+akkor azt mondja hogy more adaptable to
+
+1615
+02:04:57,040 --> 02:05:01,520
+changes in
+
+1616
+02:04:58,320 --> 02:05:04,440
+the environment Tehát
+
+1617
+02:05:01,520 --> 02:05:06,520
+hogyha nagyobb a változatosság ebben
+
+1618
+02:05:04,440 --> 02:05:08,079
+most itt nincs elő tű nagy változatosság
+
+1619
+02:05:06,520 --> 02:05:08,880
+nagyobb a változatosság akkor jobb a
+
+1620
+02:05:08,079 --> 02:05:11,679
+nagyobb
+
+1621
+02:05:08,880 --> 02:05:13,599
+learning Most ezt ezt improvizálom de
+
+1622
+02:05:11,679 --> 02:05:16,800
+hátha ki tudnánk próbálni Lássuk meg
+
+1623
+02:05:13,599 --> 02:05:19,679
+tudnánk kipróbálni ezt
+
+1624
+02:05:16,800 --> 02:05:22,119
+hogy mindig pont ugyanaz kell Tehát ez
+
+1625
+02:05:19,679 --> 02:05:25,320
+körülbelül mennyi volt
+
+1626
+02:05:22,119 --> 02:05:29,239
+50 50 És még lefuttattuk vagy kétszer
+
+1627
+02:05:25,320 --> 02:05:29,239
+háromszor Hát 70nel
+
+1628
+02:05:31,000 --> 02:05:36,639
+eljut Eljut idáig Jó 07 07 lesz az
+
+1629
+02:05:34,639 --> 02:05:39,480
+optimális Srácok ezt be kell tegyünk Egy
+
+1630
+02:05:36,639 --> 02:05:39,480
+random stateet
+
+1631
+02:05:40,119 --> 02:05:46,880
+Lehet mindig ugyanoda jut Döntsük csak
+
+1632
+02:05:43,679 --> 02:05:46,880
+ezt el
+
+1633
+02:05:51,800 --> 02:05:54,679
+lesz copy
+
+1634
+02:05:54,920 --> 02:06:01,639
+array egyszerűja a
+
+1635
+02:05:57,520 --> 02:06:08,559
+pajson és ez np ez egy
+
+1636
+02:06:01,639 --> 02:06:08,559
+gyerek az és akkor még egyszeruk
+
+1637
+02:06:10,199 --> 02:06:16,559
+leciálás ezt tegyük bele a
+
+1638
+02:06:12,960 --> 02:06:16,559
+kettősbő ugyanaz lesz
+
+1639
+02:06:18,360 --> 02:06:22,199
+És most mondjuk őket egy már hogy van-e
+
+1640
+02:06:25,639 --> 02:06:30,119
+különbség Hát kicsi van mert ugye ezek
+
+1641
+02:06:27,960 --> 02:06:32,440
+ezek randomok sőt nem is kicsi jó nagy
+
+1642
+02:06:30,119 --> 02:06:35,599
+közösség van úgyhogy be kell tegyük azt
+
+1643
+02:06:32,440 --> 02:06:38,719
+hogy random sta
+
+1644
+02:06:35,599 --> 02:06:41,719
+valahol Tehát hol vannak itt a random
+
+1645
+02:06:38,719 --> 02:06:41,719
+számok
+
+1646
+02:06:41,920 --> 02:06:47,280
+a legelején amikor meghozzuk azt akkor
+
+1647
+02:06:44,679 --> 02:06:50,639
+itt kéne legyen egy jaj ez environment
+
+1648
+02:06:47,280 --> 02:06:53,239
+stab action Ez ne legyen ilyen hanem
+
+1649
+02:06:50,639 --> 02:06:56,239
+kéne legyen ez Itt van Lehet random
+
+1650
+02:06:53,239 --> 02:06:56,239
+stateetni
+
+1651
+02:07:06,880 --> 02:07:10,920
+State az
+
+1652
+02:07:11,280 --> 02:07:15,239
+így random
+
+1653
+02:07:13,360 --> 02:07:18,639
+seed az
+
+1654
+02:07:15,239 --> 02:07:18,639
+legyen egybe
+
+1655
+02:07:19,079 --> 02:07:23,520
+2 Nézzük meg
+
+1656
+02:07:28,679 --> 02:07:34,440
+Ezt nem tudom a kolap nem tud jól
+
+1657
+02:07:32,199 --> 02:07:38,239
+úgyhogy csak egy pillanat meg kérdezek
+
+1658
+02:07:34,440 --> 02:07:38,239
+hogy kérdezt segíts
+
+1659
+02:07:57,360 --> 02:08:02,920
+chipot
+
+1660
+02:07:59,040 --> 02:08:02,920
+set state for the
+
+1661
+02:08:04,679 --> 02:08:09,840
+step Ja csak így itt kint egészen kint
+
+1662
+02:08:14,480 --> 02:08:19,079
+Jó próbájuk [ __ ] meg
+
+1663
+02:08:33,119 --> 02:08:39,079
+azó betesszük ezt a kettősbe Még egyszer
+
+1664
+02:08:35,920 --> 02:08:40,719
+lefutassuk Betesszük ezt az egyesbe
+
+1665
+02:08:39,079 --> 02:08:46,119
+Kivonjuk őket
+
+1666
+02:08:40,719 --> 02:08:46,119
+egymásból Á kis különbség van Krisztik
+
+1667
+02:08:46,239 --> 02:08:49,199
+Vanet még van
+
+1668
+02:08:50,320 --> 02:08:54,960
+random Ez environment step Ez biztos
+
+1669
+02:08:52,679 --> 02:08:58,239
+hogy random Epsilon grey policy Itt is
+
+1670
+02:08:54,960 --> 02:09:01,239
+van egy random Meg kelljük azt itt
+
+1671
+02:08:58,239 --> 02:09:01,239
+pillanat
+
+1672
+02:09:12,520 --> 02:09:17,320
+Ez így Jó vagy
+
+1673
+02:09:14,800 --> 02:09:19,679
+nem jó ez így nem jó mert azon greedy az
+
+1674
+02:09:17,320 --> 02:09:19,679
+is
+
+1675
+02:09:21,159 --> 02:09:24,800
+randomként Mindegy hagyjuk így Jól van
+
+1676
+02:09:23,280 --> 02:09:26,760
+ez
+
+1677
+02:09:24,800 --> 02:09:31,119
+így És nézzük csak meg hogyha
+
+1678
+02:09:26,760 --> 02:09:31,119
+megváltoztatjuk a learning rateet mi
+
+1679
+02:09:34,239 --> 02:09:37,239
+történt
+
+1680
+02:09:38,760 --> 02:09:45,639
+Frozen
+
+1681
+02:09:41,280 --> 02:09:45,639
+0,7el meg hogy megoldotta
+
+1682
+02:09:46,400 --> 02:09:50,599
+Mindő volt zom De akkor ember
+
+1683
+02:09:50,880 --> 02:09:54,559
+van nem sehol
+
+1684
+02:09:55,280 --> 02:10:05,760
+Jó csak néző néző
+
+1685
+02:10:00,119 --> 02:10:05,760
+ki Azért azért nem tud se hova menni Még
+
+1686
+02:10:08,599 --> 02:10:13,599
+egyszer 70-et megyünk többet
+
+1687
+02:10:20,880 --> 02:10:27,639
+Egyébkot Jó most
+
+1688
+02:10:23,679 --> 02:10:31,239
+mártam 097 majdnem elér a végre Mindegy
+
+1689
+02:10:27,639 --> 02:10:31,239
+akkor el fog írni
+
+1690
+02:10:34,119 --> 02:10:38,040
+Jó mert már az
+
+1691
+02:10:35,880 --> 02:10:43,920
+optimátus És akkor csináljunk egy olyat
+
+1692
+02:10:38,040 --> 02:10:43,920
+hogy LT sokkal kisebb legyen mintogy 0,1
+
+1693
+02:10:47,239 --> 02:10:50,880
+És ezt is nulláról trére
+
+1694
+02:10:52,239 --> 02:10:56,599
+egyjük Nézzük meg ezt a kettő
+
+1695
+02:10:59,159 --> 02:11:08,719
+is Az értékeken 06 és 09 az utolsó
+
+1696
+02:11:05,199 --> 02:11:08,719
+Igen Igen És vagyunk ki őket
+
+1697
+02:11:09,719 --> 02:11:14,400
+egymás viszonylag nagyobb legyen a
+
+1698
+02:11:12,239 --> 02:11:17,960
+különbség
+
+1699
+02:11:14,400 --> 02:11:21,159
+Már 06 a különbség
+
+1700
+02:11:17,960 --> 02:11:24,159
+07 08 reggelvégén Na ez szerintem
+
+1701
+02:11:21,159 --> 02:11:28,599
+rosszul Ez most sokkal rosszabb kéet
+
+1702
+02:11:24,159 --> 02:11:28,599
+sincsen Volt ez is egy
+
+1703
+02:11:33,360 --> 02:11:38,119
+de most ez másik úal Másik úal
+
+1704
+02:11:41,880 --> 02:11:48,880
+Vegyük 001-et vagy abszolút mit csinál
+
+1705
+02:11:45,040 --> 02:11:52,520
+ez a 001 001 azt mondja
+
+1706
+02:11:48,880 --> 02:11:55,599
+hogy a Q táblát majdnem majdnem abszolút
+
+1707
+02:11:52,520 --> 02:11:58,719
+nem updateelem lépésről lépésre csak
+
+1708
+02:11:55,599 --> 02:12:02,679
+csak egy nagyon picit
+
+1709
+02:11:58,719 --> 02:12:06,239
+update ezt még most nem nullához közel
+
+1710
+02:12:02,679 --> 02:12:06,239
+így nullához közeli értékekkel
+
+1711
+02:12:17,559 --> 02:12:22,480
+így Akkor ezzel meg fog állni Lehet nem
+
+1712
+02:12:19,480 --> 02:12:22,480
+fog menni meg
+
+1713
+02:12:24,280 --> 02:12:29,360
+állni
+
+1714
+02:12:26,960 --> 02:12:32,599
+Nézzük Na ezt csinálja Ezt csinálja a
+
+1715
+02:12:29,360 --> 02:12:34,239
+lingek egy nagyon nagyon nagy learninget
+
+1716
+02:12:32,599 --> 02:12:36,040
+kicsi ez a pálya nem fog nem fog
+
+1717
+02:12:34,239 --> 02:12:38,800
+látszani de próbáljuk majd egy nagyobb
+
+1718
+02:12:36,040 --> 02:12:41,679
+játékkal hogyha learning rate teszek egy
+
+1719
+02:12:38,800 --> 02:12:44,119
+098-at akkor azt fogja csinálni akkor
+
+1720
+02:12:41,679 --> 02:12:47,719
+azt csinálja ugye hogy most így így
+
+1721
+02:12:44,119 --> 02:12:50,920
+stabil lesz a függ mert most nem veszi
+
+1722
+02:12:47,719 --> 02:12:52,760
+azt figyelembe hogy addig hol voltunk
+
+1723
+02:12:50,920 --> 02:12:56,760
+annyira
+
+1724
+02:12:52,760 --> 02:12:59,800
+hanem az új a tehát a Q változást hozzuk
+
+1725
+02:12:56,760 --> 02:13:02,320
+hogy hoztak következő lépést a jelenlegi
+
+1726
+02:12:59,800 --> 02:13:04,480
+stéhez képest mekkora várhatod így
+
+1727
+02:13:02,320 --> 02:13:07,040
+jobban elkezdik Hát nem veszi azt
+
+1728
+02:13:04,480 --> 02:13:09,040
+figyelembe hogy itt már volt nekünk 80
+
+1729
+02:13:07,040 --> 02:13:11,840
+80-k
+
+1730
+02:13:09,040 --> 02:13:13,760
+hanem csak azt nézi hogy menjek menjek
+
+1731
+02:13:11,840 --> 02:13:16,199
+abba az irányba Tehát hogy lehet hogy
+
+1732
+02:13:13,760 --> 02:13:18,360
+itt van egy például itt enné enn
+
+1733
+02:13:16,199 --> 02:13:21,920
+lépésnél nem veszi azt figyelembe hogy
+
+1734
+02:13:18,360 --> 02:13:23,880
+ha itt erre megyek akkor zeró lesz hanem
+
+1735
+02:13:21,920 --> 02:13:26,480
+csak ebbe általánosában ebbe erre az
+
+1736
+02:13:23,880 --> 02:13:29,159
+irányra akarok jönni Úgyhogy ez
+
+1737
+02:13:26,480 --> 02:13:33,880
+szerintem kevésbé kéne jó legyen mint
+
+1738
+02:13:29,159 --> 02:13:36,559
+a mint a KB 07-es Nézzük
+
+1739
+02:13:33,880 --> 02:13:39,119
+csak itt most nagyon Ezek is nullák
+
+1740
+02:13:36,559 --> 02:13:43,000
+lesznek Ú van ez nagyszerű
+
+1741
+02:13:39,119 --> 02:13:43,000
+Nagyszerű Ez is meg fog állni egy
+
+1742
+02:13:44,159 --> 02:13:50,599
+helybe Ez is megáll egy helybe De látod
+
+1743
+02:13:47,440 --> 02:13:52,520
+itt random random itt kaptunk egy 09-et
+
+1744
+02:13:50,599 --> 02:13:55,079
+mert pont az egyikbe eljutott egészen
+
+1745
+02:13:52,520 --> 02:13:56,960
+odáig A nagyon nagy learning rateel nem
+
+1746
+02:13:55,079 --> 02:14:00,199
+tud
+
+1747
+02:13:56,960 --> 02:14:02,960
+odáig Jó akkor nézzük meg a
+
+1748
+02:14:00,199 --> 02:14:05,880
+többit Tegyük vissza ezt 07-re
+
+1749
+02:14:02,960 --> 02:14:09,239
+Evaluation episodes
+
+1750
+02:14:05,880 --> 02:14:11,800
+Az ezt bemegyünk Nézzük meg a többieket
+
+1751
+02:14:09,239 --> 02:14:14,800
+Van ez az R ugye ez this is the reward
+
+1752
+02:14:11,800 --> 02:14:16,840
+received after taking A Ez esetünkben
+
+1753
+02:14:14,800 --> 02:14:19,559
+csak a nulla vagy a vagy vagy az egy
+
+1754
+02:14:16,840 --> 02:14:21,760
+hogy álljutatunk a végére Akkor itt van
+
+1755
+02:14:19,559 --> 02:14:23,400
+ez a gamma Ez a ganga ez a gamma Ez a
+
+1756
+02:14:21,760 --> 02:14:25,920
+decay rate amit mi úgy hívtunk hogy
+
+1757
+02:14:23,400 --> 02:14:25,920
+decay rate
+
+1758
+02:14:28,679 --> 02:14:33,840
+azér itt van ez a gamma
+
+1759
+02:14:35,599 --> 02:14:40,400
+gamma az az megmondja az a discount
+
+1760
+02:14:38,040 --> 02:14:41,960
+factor az megmondja hogy how much the
+
+1761
+02:14:40,400 --> 02:14:43,679
+values
+
+1762
+02:14:41,960 --> 02:14:46,679
+future
+
+1763
+02:14:43,679 --> 02:14:46,679
+immediate
+
+1764
+02:14:50,920 --> 02:14:56,719
+makes longer ez az hogy a az útvonalat
+
+1765
+02:14:54,440 --> 02:14:59,079
+ameddig eljutottunk odáig mennyire
+
+1766
+02:14:56,719 --> 02:15:01,920
+abortizáljuk hogy egyből csak az a a az
+
+1767
+02:14:59,079 --> 02:15:03,079
+előző lépést vagy a következő pár lépést
+
+1768
+02:15:01,920 --> 02:15:05,000
+nézzük meg ezt is hogyha megv
+
+1769
+02:15:03,079 --> 02:15:06,719
+Változtatjuk ezt a gammát De miért van
+
+1770
+02:15:05,000 --> 02:15:09,199
+nekünk külön decay rate gamma mert itt
+
+1771
+02:15:06,719 --> 02:15:10,840
+van egy decay rate is Ja ez az
+
+1772
+02:15:09,199 --> 02:15:12,880
+exploration Jó az font mindjárt megmutat
+
+1773
+02:15:10,840 --> 02:15:17,239
+megmondom azt mindjárt hogy az mire van
+
+1774
+02:15:12,880 --> 02:15:20,000
+Ezt változtatjuk meg 095-ről mondjuk
+
+1775
+02:15:17,239 --> 02:15:24,440
+0,5 Ez a nagyon kicsi gamma ez mit
+
+1776
+02:15:20,000 --> 02:15:27,760
+csinálna ugye a nagyon kicsi gamma az
+
+1777
+02:15:24,440 --> 02:15:31,119
+ezt majdnem majdnem lehessen lezzáljuk
+
+1778
+02:15:27,760 --> 02:15:32,320
+Csak a reok csak a rewardszal
+
+1779
+02:15:31,119 --> 02:15:36,679
+Tehát a
+
+1780
+02:15:32,320 --> 02:15:39,360
+a lóamba makes focus on immediate safety
+
+1781
+02:15:36,679 --> 02:15:41,159
+választik Tehát a az azt jelenti hogyha
+
+1782
+02:15:39,360 --> 02:15:43,520
+lát egy lát egy rewardot hogy a
+
+1783
+02:15:41,159 --> 02:15:45,800
+következő lépésnél kaptam egyes rewardot
+
+1784
+02:15:43,520 --> 02:15:47,920
+akkor azt a lépést fogja venni Mindegy
+
+1785
+02:15:45,800 --> 02:15:49,440
+hogy körülötte van még három tó mert
+
+1786
+02:15:47,920 --> 02:15:51,440
+látta hogy jobbra kellett volna lépni
+
+1787
+02:15:49,440 --> 02:15:54,199
+akkor egyre jobbra fog
+
+1788
+02:15:51,440 --> 02:15:56,199
+lépni Nézzük csak meg itt Ezt szerintem
+
+1789
+02:15:54,199 --> 02:16:00,040
+újra nem fogja megoldani hanem ilyen két
+
+1790
+02:15:56,199 --> 02:16:00,040
+nagy kilences lesz
+
+1791
+02:16:02,440 --> 02:16:08,760
+Nem is nem is tudott eljutni odáig Az
+
+1792
+02:16:05,280 --> 02:16:10,800
+túl túl túl durva volt ez a 005 Menjünk
+
+1793
+02:16:08,760 --> 02:16:13,679
+egy olyan
+
+1794
+02:16:10,800 --> 02:16:17,719
+50-esre
+
+1795
+02:16:13,679 --> 02:16:20,880
+55 Ez biztos hogy megoldja Aha Látod itt
+
+1796
+02:16:17,719 --> 02:16:24,760
+nem mindegyikbe jut el a végére
+
+1797
+02:16:20,880 --> 02:16:24,760
+Különbségek hol lesznek
+
+1798
+02:16:25,000 --> 02:16:30,920
+igen nem jut null csak 0,7-ben jut el a
+
+1799
+02:16:27,520 --> 02:16:33,920
+végére Azt j hogy
+
+1800
+02:16:30,920 --> 02:16:33,920
+szükk
+
+1801
+02:16:35,280 --> 02:16:40,240
+szök Jó úgy is elmegy Úgy is elmegy Ez
+
+1802
+02:16:38,000 --> 02:16:44,639
+nem elég el
+
+1803
+02:16:40,240 --> 02:16:47,800
+Hát egyet csinálni hogy szökös
+
+1804
+02:16:44,639 --> 02:16:47,800
+vagy egy
+
+1805
+02:16:50,719 --> 02:16:53,719
+25-ös
+
+1806
+02:16:55,000 --> 02:16:59,960
+valaki így is meg nagyon nagyon az baj
+
+1807
+02:16:58,559 --> 02:17:01,519
+hogy nagyon nehéz eltalálni mert nagyon
+
+1808
+02:16:59,960 --> 02:17:04,559
+sok mindent nagyon szerzitív Vagy megáll
+
+1809
+02:17:01,519 --> 02:17:07,519
+egy helybe vagy már úgy is már úgy is
+
+1810
+02:17:04,559 --> 02:17:10,719
+megoldja mer ez igen 25-ösel már 0-0
+
+1811
+02:17:07,519 --> 02:17:10,719
+lesz az egész
+
+1812
+02:17:11,639 --> 02:17:17,880
+45-össel az epizódszámon de úgy ez 2.0
+
+1813
+02:17:15,479 --> 02:17:19,319
+lesz Á ez jó Na ez jó Ez meg fog állni
+
+1814
+02:17:17,880 --> 02:17:22,319
+egy
+
+1815
+02:17:19,319 --> 02:17:22,319
+helybe
+
+1816
+02:17:31,519 --> 02:17:35,840
+Szüket Ha itt kapott
+
+1817
+02:17:33,920 --> 02:17:38,639
+kettősöket ugye ez ilyen ez ilyen
+
+1818
+02:17:35,840 --> 02:17:41,519
+közepes gamma akkor itt itt tudja hogy
+
+1819
+02:17:38,639 --> 02:17:44,000
+kávé erre kell menni Más mint az előbb a
+
+1820
+02:17:41,519 --> 02:17:47,240
+learning kilences napot meg megoldotta
+
+1821
+02:17:44,000 --> 02:17:49,359
+Hogyha idáig akkor akkor megoldotta
+
+1822
+02:17:47,240 --> 02:17:51,840
+Na ezek ezek a paraméterek a másik az az
+
+1823
+02:17:49,359 --> 02:17:54,479
+Y kategória Az Y kategóriának a
+
+1824
+02:17:51,840 --> 02:17:57,599
+paramétere Az Y
+
+1825
+02:17:54,479 --> 02:18:01,599
+az az valójában nem
+
+1826
+02:17:57,599 --> 02:18:04,280
+egy ugye ez lesz a különbség hogy
+
+1827
+02:18:01,599 --> 02:18:07,519
+mikor hoz teljesen random döntést vagy
+
+1828
+02:18:04,280 --> 02:18:11,240
+mikor hoz a Q táblából kihozott
+
+1829
+02:18:07,519 --> 02:18:13,880
+optimális döntést Ezt úgy szokták hívni
+
+1830
+02:18:11,240 --> 02:18:16,639
+hogy
+
+1831
+02:18:13,880 --> 02:18:19,000
+exploration Ez amikor random
+
+1832
+02:18:16,639 --> 02:18:19,000
+vagy
+
+1833
+02:18:22,040 --> 02:18:27,399
+exploitation Ez az amikor amikor a
+
+1834
+02:18:24,519 --> 02:18:30,679
+kütábla és
+
+1835
+02:18:27,399 --> 02:18:34,200
+a az előbb amit láttunk a az előző
+
+1836
+02:18:30,679 --> 02:18:37,080
+példában ugye az a ott ott egy a 100
+
+1837
+02:18:34,200 --> 02:18:40,439
+lépés után volt egy hirvtelen
+
+1838
+02:18:37,080 --> 02:18:43,519
+átmenet Elv az azt jelenti hogy megnézte
+
+1839
+02:18:40,439 --> 02:18:46,120
+hogy melyik lépésnél vagyunk Utána az
+
+1840
+02:18:43,519 --> 02:18:48,280
+epil pedig egyről átváltott átváltott
+
+1841
+02:18:46,120 --> 02:18:50,800
+nullára Itt egy kicsit trükkösebben van
+
+1842
+02:18:48,280 --> 02:18:55,599
+megcsinálva Van egy decay itt tehát van
+
+1843
+02:18:50,800 --> 02:18:58,960
+nekünk egy értékünk amelyik amelyik így
+
+1844
+02:18:55,599 --> 02:19:02,200
+lépés lépésről lépésre lépésről lépésre
+
+1845
+02:18:58,960 --> 02:19:06,639
+csökken Kezdő kezd egy
+
+1846
+02:19:02,200 --> 02:19:06,639
+max-nal akkor utána látod a
+
+1847
+02:19:06,760 --> 02:19:12,240
+a van egy minimum epil tehát minden
+
+1848
+02:19:09,800 --> 02:19:14,840
+egyes lépésnél van egy nagyon kicsi
+
+1849
+02:19:12,240 --> 02:19:18,760
+esély egy 5% esély hogy ezt a lépést is
+
+1850
+02:19:14,840 --> 02:19:21,359
+random random fogom meglépni Ez a 005
+
+1851
+02:19:18,760 --> 02:19:23,439
+De az elején ugye az
+
+1852
+02:19:21,359 --> 02:19:27,840
+elején van egy
+
+1853
+02:19:23,439 --> 02:19:30,359
+max ami egyből kivon 0,5 tehát 95% az
+
+1854
+02:19:27,840 --> 02:19:32,240
+elején plusz a 0,5 amivel kezdődik Tehát
+
+1855
+02:19:30,359 --> 02:19:34,920
+a legelső lépésben ez teljesen random
+
+1856
+02:19:32,240 --> 02:19:37,240
+lesz És akkor utána van egy exponential
+
+1857
+02:19:34,920 --> 02:19:40,080
+decay tehát minden egyes minden egyes
+
+1858
+02:19:37,240 --> 02:19:42,359
+léping fönt ugye ez kezd eggyel ide
+
+1859
+02:19:40,080 --> 02:19:46,359
+leplayelődik
+
+1860
+02:19:42,359 --> 02:19:47,640
+0,05-re ahogy ahogy ezek mennek előre
+
+1861
+02:19:46,359 --> 02:19:51,240
+ugye ez minden
+
+1862
+02:19:47,640 --> 02:19:57,200
+steppre minden steppre igaz Akkor mit
+
+1863
+02:19:51,240 --> 02:20:00,920
+jelent ez a az epil gri policy az függ
+
+1864
+02:19:57,200 --> 02:20:04,439
+ettől aztól
+
+1865
+02:20:00,920 --> 02:20:06,680
+Visszamegyünk ugye itt létre ő az epil
+
+1866
+02:20:04,439 --> 02:20:10,720
+polis generál egy random számot és
+
+1867
+02:20:06,680 --> 02:20:13,520
+megnézi ez a nulla és egy között megnézi
+
+1868
+02:20:10,720 --> 02:20:15,560
+azz minden egyes generál egy random
+
+1869
+02:20:13,520 --> 02:20:18,520
+számot utána generál egy random számotá
+
+1870
+02:20:15,560 --> 02:20:20,319
+generál egy egy random számot így
+
+1871
+02:20:18,520 --> 02:20:22,399
+össze-evissza minden egyes lépésnél
+
+1872
+02:20:20,319 --> 02:20:25,200
+akkor megnézik hogy ez a random szám
+
+1873
+02:20:22,399 --> 02:20:30,359
+nagyobb-e mint az hogyha nagyobb a
+
+1874
+02:20:25,200 --> 02:20:33,840
+random szám mint a mint az akkor veszi a
+
+1875
+02:20:30,359 --> 02:20:37,000
+a tútáblából az értéket hogyha kisebb
+
+1876
+02:20:33,840 --> 02:20:39,240
+akkor veszi a random értéket Akkor az
+
+1877
+02:20:37,000 --> 02:20:41,760
+elején mivel az óriási a random
+
+1878
+02:20:39,240 --> 02:20:44,600
+generáció nagy esélye alatta lesz a
+
+1879
+02:20:41,760 --> 02:20:48,880
+görbe alatt akkor eleinte inkább random
+
+1880
+02:20:44,600 --> 02:20:50,800
+döntéseket hoz Miután az dellődött idáig
+
+1881
+02:20:48,880 --> 02:20:52,680
+ő továbbra is 01 között kérja a
+
+1882
+02:20:50,800 --> 02:20:59,280
+randomszámokat ezért egyre inkább a
+
+1883
+02:20:52,680 --> 02:20:59,280
+randomról szépen áttér a Q a Qra
+
+1884
+02:20:59,720 --> 02:21:01,880
+Ezt
+
+1885
+02:21:02,920 --> 02:21:08,399
+csináljátok
+
+1886
+02:21:05,520 --> 02:21:12,240
+Ezek Na ennyi a cool learning valójában
+
+1887
+02:21:08,399 --> 02:21:14,080
+Kicsit egy kicsit kell klikkelgetni hogy
+
+1888
+02:21:12,240 --> 02:21:17,319
+megértsed hogy mi történik Ugye nyilván
+
+1889
+02:21:14,080 --> 02:21:19,720
+még én is értem teljesen De várjatok még
+
+1890
+02:21:17,319 --> 02:21:22,720
+egy pár tudom megklikkelni
+
+1891
+02:21:19,720 --> 02:21:24,560
+Holnap megnézzük egy folyamatos tpace-et
+
+1892
+02:21:22,720 --> 02:21:27,080
+megpróbálom elindítani a doomot hátha
+
+1893
+02:21:24,560 --> 02:21:29,439
+sikerülne egyet szerdán dozunk egy
+
+1894
+02:21:27,080 --> 02:21:31,880
+reinforcement learning
+
+1895
+02:21:29,439 --> 02:21:33,600
+algoritmussal de felteszem a felteszem a
+
+1896
+02:21:31,880 --> 02:21:35,560
+Discordra munkafőzeteket amiket
+
+1897
+02:21:33,600 --> 02:21:39,760
+használtunk
+
+1898
+02:21:35,560 --> 02:21:43,920
+Akkor 5-kor kezdjük hónapteszem ezt is a
+
+1899
+02:21:39,760 --> 02:21:47,560
+Discord Akkor kell hozzá hozzá
+
+1900
+02:21:43,920 --> 02:21:50,560
+igen Kiírtél hozzá fél
+
+1901
+02:21:47,560 --> 02:21:50,560
+tek
+
+1902
+02:21:50,600 --> 02:21:55,479
+Igen igen igen Ja csináljunk ebből
+
+1903
+02:21:52,479 --> 02:21:55,479
+bublit
+
+1904
+02:22:00,720 --> 02:22:06,479
+Oké jó A második is másodikat is
+
+1905
+02:22:06,880 --> 02:22:12,240
+megcsináljuk de az már annyiénk akkor az
+
+1906
+02:22:09,680 --> 02:22:14,479
+nem az enyém az csak beészteltem Itt van
+
+1907
+02:22:12,240 --> 02:22:17,280
+egy másik csávó aki egy kicsit jobban
+
+1908
+02:22:14,479 --> 02:22:19,359
+kommentálgatja hogy mi történik
+
+1909
+02:22:17,280 --> 02:22:21,000
+De ugyanaz az ötlet Ezek mind a hugging
+
+1910
+02:22:19,359 --> 02:22:24,240
+face vannak A hugging facenek van egy
+
+1911
+02:22:21,000 --> 02:22:27,800
+nagyon szép kurzusa Deep reinforcement
+
+1912
+02:22:24,240 --> 02:22:31,280
+learning E ezt használom
+
+1913
+02:22:27,800 --> 02:22:33,040
+én Aha Itt bent vannak ezek a szép ábrák
+
+1914
+02:22:31,280 --> 02:22:36,800
+Csak elég elég
+
+1915
+02:22:33,040 --> 02:22:38,880
+matkes annyira nem egyszer de mindenki
+
+1916
+02:22:36,800 --> 02:22:41,200
+amilyen példákat találtok mindegyik
+
+1917
+02:22:38,880 --> 02:22:42,920
+mindenki elvégezte azt a kócsot hogy
+
+1918
+02:22:41,200 --> 02:22:45,920
+össze megpróbálta összehackelni a
+
+1919
+02:22:42,920 --> 02:22:45,920
+feladatokat
+
+1920
+02:22:46,240 --> 02:22:49,240
+a
+
+1921
+02:22:54,200 --> 02:22:58,080
+jogálló a kapcsolatban
+
+1922
+02:22:58,920 --> 02:23:06,399
+gyerezek nekem kellené az hozzá bármit
+
+1923
+02:23:02,399 --> 02:23:09,240
+és azon kívül a románság előnek a tárot
+
+1924
+02:23:06,399 --> 02:23:12,760
+hát szerintem szerintem az úgy
+
+1925
+02:23:09,240 --> 02:23:16,080
+jó csak a Ki kiírot azotik
+
+1926
+02:23:12,760 --> 02:23:19,880
+igen én nem vagyok egyed arra kezdődik
+
+1927
+02:23:16,080 --> 02:23:21,800
+hogy az jó Tényleg az
+
+1928
+02:23:19,880 --> 02:23:23,479
+szerintem az csak jó jövőre lesz úgy is
+
+1929
+02:23:21,800 --> 02:23:26,760
+hogy már nem is tudom két két év múlva
+
+1930
+02:23:23,479 --> 02:23:28,720
+mer az idén volt Igen
+
+1931
+02:23:26,760 --> 02:23:31,279
+Az jó dolog ebben meg látod hogy két év
+
+1932
+02:23:28,720 --> 02:23:34,399
+múlva vagy ha nem keres most véokat el
+
+1933
+02:23:31,279 --> 02:23:34,399
+vagy fogalva
+
+1934
+02:23:34,720 --> 02:23:39,800
+Akkor
+
+1935
+02:23:35,760 --> 02:23:41,359
+már az megint azt csak ugye ott azt úgy
+
+1936
+02:23:39,800 --> 02:23:44,840
+kell azt hiszem az eddig a hétvégéig
+
+1937
+02:23:41,359 --> 02:23:47,960
+kell lesz a jegyes liberáját izé mit
+
+1938
+02:23:44,840 --> 02:23:51,040
+tudom én mi igen lehet de azt azt nekem
+
+1939
+02:23:47,960 --> 02:23:52,560
+küld el nekem küld elől van mindenn
+
+1940
+02:23:51,040 --> 02:23:53,560
+legyen az a neve hogy állandsb nem az
+
+1941
+02:23:52,560 --> 02:23:56,720
+hogy
+
+1942
+02:23:53,560 --> 02:23:59,200
+ott te kit írtál hivatalosan én
+
+1943
+02:23:56,720 --> 02:24:02,920
+gyöngyérkeztem és utána szóltál nálam
+
+1944
+02:23:59,200 --> 02:24:05,640
+belek igen de megbeszél mondta csak
+
+1945
+02:24:02,920 --> 02:24:08,359
+Akkor küldje már nem ne akkor küldjed
+
+1946
+02:24:05,640 --> 02:24:11,240
+nekem és én én adok neki egy jegyet vagy
+
+1947
+02:24:08,359 --> 02:24:11,240
+szétveszheted nyilván
+
+1948
+02:24:13,279 --> 02:24:20,880
+ő cset én adom a jegyek hogy be más
+
+1949
+02:24:18,000 --> 02:24:20,880
+valami
+
+1950
+02:24:26,880 --> 02:24:34,160
+végő hát nem téged nem hát tudom tudom
+
+1951
+02:24:30,760 --> 02:24:34,160
+tudom szednek
+
+1952
+02:25:03,960 --> 02:25:06,279
+Sziasztok
+
+1953
+02:26:06,760 --> 02:26:09,760
+Ja
+

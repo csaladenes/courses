@@ -1,0 +1,9060 @@
+1
+00:00:33,200 --> 00:00:36,200
+sziasztok
+
+2
+00:00:37,280 --> 00:00:41,480
+helló
+
+3
+00:00:39,399 --> 00:00:43,360
+helló
+
+4
+00:00:41,480 --> 00:00:46,680
+na lássuk
+
+5
+00:00:43,360 --> 00:00:49,160
+elég elég alacsony lesz it a létszám Azt
+
+6
+00:00:46,680 --> 00:00:52,239
+akartam meg meg kell beszéljünk néhány
+
+7
+00:00:49,160 --> 00:00:57,000
+logisztikai részletet Ö azt akartam
+
+8
+00:00:52,239 --> 00:00:58,879
+elején megkérdezni hogy
+
+9
+00:00:57,000 --> 00:01:00,840
+ugye engem az egyáltalán egy kicsit
+
+10
+00:00:58,879 --> 00:01:02,960
+ilyen mostohaként kezel úgyhogy én nem
+
+11
+00:01:00,840 --> 00:01:06,479
+tudom mindig pontosan napra pontosan
+
+12
+00:01:02,960 --> 00:01:09,280
+hogy mik a mik a legutóbbi dolgok
+
+13
+00:01:06,479 --> 00:01:10,840
+Úgyhogy ez most az utolsó hét a tanítási
+
+14
+00:01:09,280 --> 00:01:14,400
+hétben vagy a következő hét az utolsó
+
+15
+00:01:10,840 --> 00:01:14,400
+hét vagy hogy van
+
+16
+00:01:18,479 --> 00:01:27,200
+azt hiszem a következő az utolsó
+
+17
+00:01:22,079 --> 00:01:29,560
+a harmadéveseknek nektek Igen igen Jó jó
+
+18
+00:01:27,200 --> 00:01:31,240
+Akkor akkor az pont jó Akkor az pont
+
+19
+00:01:29,560 --> 00:01:33,880
+hogy az úgy ugye mert eredetileg mi az
+
+20
+00:01:31,240 --> 00:01:37,520
+orrendben úgy úgy terveztük hogy akkor
+
+21
+00:01:33,880 --> 00:01:42,399
+jövő héten tartunk majd még élőben
+
+22
+00:01:37,520 --> 00:01:44,240
+órákat Most kértem azokra a termeket
+
+23
+00:01:42,399 --> 00:01:45,920
+Meg fogom nézni akkor az orrendet Azt
+
+24
+00:01:44,240 --> 00:01:48,000
+hiszem hogy szerda reggel van nekünk úgy
+
+25
+00:01:45,920 --> 00:01:51,560
+vagy az volt a múltkor
+
+26
+00:01:48,000 --> 00:01:54,560
+találóm Az szerintem megmarad De akkor
+
+27
+00:01:51,560 --> 00:01:56,240
+már valószínűleg csak csak ilyen kérdett
+
+28
+00:01:54,560 --> 00:01:57,799
+felüeleket kellene tartsunk Tehát el
+
+29
+00:01:56,240 --> 00:02:01,960
+szeretnék jutni
+
+30
+00:01:57,799 --> 00:02:05,280
+ma ebből a tantárból addig hogy legyen
+
+31
+00:02:01,960 --> 00:02:08,080
+legyen amit legyen amit
+
+32
+00:02:05,280 --> 00:02:10,879
+kérdezni Na jó van-e van-e bármilyen
+
+33
+00:02:08,080 --> 00:02:13,599
+kérdésetek mielő itt elkezdjük
+
+34
+00:02:10,879 --> 00:02:15,000
+Meddig vannak a leadási határidők ezt
+
+35
+00:02:13,599 --> 00:02:18,440
+meg kell beszéljük de ezt jövő héten az
+
+36
+00:02:15,000 --> 00:02:18,440
+élőben meg meg fogjuk beszélni
+
+37
+00:02:19,120 --> 00:02:24,680
+Szerintem meg kell nézem azt
+
+38
+00:02:21,840 --> 00:02:28,920
+hogy vajon ez hogy van nektek beírva úgy
+
+39
+00:02:24,680 --> 00:02:32,440
+van beírva mint mint vizsgás tantárgy
+
+40
+00:02:28,920 --> 00:02:32,440
+vagy úgy van beírva mint kolokvímum
+
+41
+00:02:34,920 --> 00:02:40,400
+tantárgy vagy ezt nem tudjátok
+
+42
+00:02:38,280 --> 00:02:43,440
+azt nem úgy tudom Nem tudjátok nem baj
+
+43
+00:02:40,400 --> 00:02:43,440
+megnézem mindent akkor
+
+44
+00:02:43,560 --> 00:02:50,680
+valahol Mind a két esetben
+
+45
+00:02:46,840 --> 00:02:53,800
+én azt mondanám hogy a a
+
+46
+00:02:50,680 --> 00:02:57,000
+a logisztikailag lehetséges utolsó nap
+
+47
+00:02:53,800 --> 00:02:58,760
+nekem az az teljesen belefér ami
+
+48
+00:02:57,000 --> 00:02:59,760
+valószínűleg a szessziónak az utolsó
+
+49
+00:02:58,760 --> 00:03:03,040
+napja
+
+50
+00:02:59,760 --> 00:03:05,159
+nektek ami nem tudom mikor van
+
+51
+00:03:03,040 --> 00:03:09,640
+valamikor Nézzem csak meg egy pillanat
+
+52
+00:03:05,159 --> 00:03:09,640
+strukturánul iskolára hogy van ez
+
+53
+00:03:11,959 --> 00:03:17,440
+Van párunknak még egy extra tantárgya az
+
+54
+00:03:14,400 --> 00:03:19,760
+elaborary lucrary delicence
+
+55
+00:03:17,440 --> 00:03:22,840
+Igen A oda nem oda ki tudtak engem
+
+56
+00:03:19,760 --> 00:03:24,879
+választani vagy nem
+
+57
+00:03:22,840 --> 00:03:27,959
+azt hiszem hogy ki de ebben még nem
+
+58
+00:03:24,879 --> 00:03:29,640
+vagyok biztos Nem néztem meg mert voltak
+
+59
+00:03:27,959 --> 00:03:31,080
+olyan évek amikor nem tudtak
+
+60
+00:03:29,640 --> 00:03:34,040
+kiválasztani a
+
+61
+00:03:31,080 --> 00:03:37,319
+diákok Kén lássátok most a képernyőt
+
+62
+00:03:34,040 --> 00:03:37,319
+Igen tetszik
+
+63
+00:03:38,640 --> 00:03:45,159
+Itt az ilyen card tactic associátokat
+
+64
+00:03:42,120 --> 00:03:48,000
+Látod nincs itt nálam senki Úgyhogy az
+
+65
+00:03:45,159 --> 00:03:50,280
+elaborá
+
+66
+00:03:48,000 --> 00:03:53,640
+delicencienél a
+
+67
+00:03:50,280 --> 00:03:54,959
+a vagy hogyha választottatok már más
+
+68
+00:03:53,640 --> 00:03:57,120
+tanárt de tudjátok hogy felem
+
+69
+00:03:54,959 --> 00:03:59,400
+csináljátok az államvizsgát akkor annak
+
+70
+00:03:57,120 --> 00:04:02,040
+a másik tanárnak
+
+71
+00:03:59,400 --> 00:04:03,480
+szóljatok hogy elkülditek nekem az
+
+72
+00:04:02,040 --> 00:04:04,840
+államvizsgát és én majd adok jegyet és
+
+73
+00:04:03,480 --> 00:04:06,200
+visszaküldöm nekik Csak ezt írjatok
+
+74
+00:04:04,840 --> 00:04:07,640
+írjátok el egy emailbbe és sküdjétek el
+
+75
+00:04:06,200 --> 00:04:11,280
+nekem én adok jegyet és ők majd ide
+
+76
+00:04:07,640 --> 00:04:12,920
+beírják Oké Hogyha még nem választottál
+
+77
+00:04:11,280 --> 00:04:16,879
+más tanár de velem csinál az állvizsgát
+
+78
+00:04:12,920 --> 00:04:16,879
+akkor a a default az kardos
+
+79
+00:04:17,000 --> 00:04:23,280
+Réka Jó akkor azt akartam megnézni hogy
+
+80
+00:04:20,359 --> 00:04:27,040
+orár és hogy néz nekünk ez az
+
+81
+00:04:23,280 --> 00:04:29,680
+orár ki
+
+82
+00:04:27,040 --> 00:04:29,680
+orá
+
+83
+00:04:30,039 --> 00:04:33,440
+specializar De ez nem
+
+84
+00:04:40,639 --> 00:04:45,320
+megy De itt van Jó
+
+85
+00:04:49,560 --> 00:04:59,199
+És akkor ti vagytok a Limbang Magar
+
+86
+00:04:54,440 --> 00:05:02,360
+És hát itt itt ugye van más is de
+
+87
+00:04:59,199 --> 00:05:02,360
+alapvetően informatika
+
+88
+00:05:07,880 --> 00:05:14,919
+ekonomiká Jó ebben nincsen Az enyémbe
+
+89
+00:05:11,039 --> 00:05:17,039
+írja hogy melyik hét mikor van Azaz
+
+90
+00:05:14,919 --> 00:05:20,800
+megnézem mi és most azt hiszem akik kell
+
+91
+00:05:17,039 --> 00:05:24,039
+írja Itt írja Septamina 14 Az június
+
+92
+00:05:20,800 --> 00:05:28,000
+8-áig tart valójában a fél év de nektek
+
+93
+00:05:24,039 --> 00:05:28,000
+azt hiszem nem mert ti harmadek
+
+94
+00:05:31,919 --> 00:05:37,639
+vagytok Volt egy olyan nagy struktúra
+
+95
+00:05:34,639 --> 00:05:37,639
+iskolár
+
+96
+00:05:41,680 --> 00:05:43,840
+Ez
+
+97
+00:05:51,919 --> 00:05:55,919
+az PUminal
+
+98
+00:05:56,319 --> 00:06:03,319
+Igen jövő hét jövő hét vége
+
+99
+00:06:00,400 --> 00:06:06,880
+vasárnap a a
+
+100
+00:06:03,319 --> 00:06:08,919
+hivatalos a hivatalos félév vége úgyhogy
+
+101
+00:06:06,880 --> 00:06:11,319
+jövő héten még tudunk tartani órát aztán
+
+102
+00:06:08,919 --> 00:06:14,280
+azután akkor már meg kellene
+
+103
+00:06:11,319 --> 00:06:16,000
+csináljuk hogy hát online találkozhatunk
+
+104
+00:06:14,280 --> 00:06:17,759
+de akkor csak az ilyen kérdezfelelőknek
+
+105
+00:06:16,000 --> 00:06:20,080
+fog elmenni
+
+106
+00:06:17,759 --> 00:06:24,680
+És akkor nektek a sess unid examené az
+
+107
+00:06:20,080 --> 00:06:26,919
+június 8-áig tart Plusz még egy sessun
+
+108
+00:06:24,680 --> 00:06:29,479
+tance június
+
+109
+00:06:26,919 --> 00:06:31,720
+15-ig Hát szerintem akkor a Leodandonak
+
+110
+00:06:29,479 --> 00:06:35,360
+a hadárideje az a rendes szesszónak a
+
+111
+00:06:31,720 --> 00:06:40,560
+végére fogom én azt tenni Június 8-ra
+
+112
+00:06:35,360 --> 00:06:40,560
+olyan három hét múlvára Mit
+
+113
+00:06:42,360 --> 00:06:49,720
+szóltok nagyon jó
+
+114
+00:06:46,560 --> 00:06:53,160
+Vagy az nem jó Megfele megfelele Ez jó
+
+115
+00:06:49,720 --> 00:06:54,840
+Az jó Jó És akkor még hogyha hogyha
+
+116
+00:06:53,160 --> 00:06:56,759
+valakinek azt akkor megpróbálom
+
+117
+00:06:54,840 --> 00:06:59,319
+kiértékelni és még
+
+118
+00:06:56,759 --> 00:07:03,759
+hogyha valakinek nem tetszik akkor még
+
+119
+00:06:59,319 --> 00:07:03,759
+belefér a akár még egy második leadás is
+
+120
+00:07:04,199 --> 00:07:11,520
+15-ig Jó És akkor a bemutató Aha Az első
+
+121
+00:07:07,919 --> 00:07:14,720
+héten lesz Július Július 1 hetén lesz a
+
+122
+00:07:11,520 --> 00:07:16,599
+dolgozatoknak a bemutatója
+
+123
+00:07:14,720 --> 00:07:19,000
+Jó az úgy még rendben van Még van két
+
+124
+00:07:16,599 --> 00:07:24,319
+hét utána elkép elképzelni hogy mit
+
+125
+00:07:19,000 --> 00:07:24,319
+mutatsz be Jó rendben Akkor térjünk
+
+126
+00:07:25,319 --> 00:07:33,120
+vissza térjünk
+
+127
+00:07:27,479 --> 00:07:33,120
+vissza ehhez a tantárgyhoz Konkrétan
+
+128
+00:07:42,039 --> 00:07:47,680
+ugye ez
+
+129
+00:07:43,440 --> 00:07:47,680
+volt a BI2
+
+130
+00:07:48,720 --> 00:07:53,919
+És hogyha megnézzük hogy tudom hogy ez
+
+131
+00:07:51,000 --> 00:07:56,960
+most már elég rég találkoztunk de nézzük
+
+132
+00:07:53,919 --> 00:08:00,520
+meg hogyha hogyha visszanézitek akkor
+
+133
+00:07:56,960 --> 00:08:02,919
+ugye itt legutoljára a azzal
+
+134
+00:08:00,520 --> 00:08:05,639
+foglalkoztunk hogy Power
+
+135
+00:08:02,919 --> 00:08:07,520
+Bibban megpróbáltunk vizualizációkat
+
+136
+00:08:05,639 --> 00:08:09,639
+összerakni megnéztünk ilyen custom
+
+137
+00:08:07,520 --> 00:08:11,639
+vizualizációkat megnéztük hogy lehet ezt
+
+138
+00:08:09,639 --> 00:08:14,199
+a Vegas vizualizációt bekonfigurálni
+
+139
+00:08:11,639 --> 00:08:17,199
+Power BI-ban és eddig adatt
+
+140
+00:08:14,199 --> 00:08:20,720
+transzformációkat végeztünk a backend
+
+141
+00:08:17,199 --> 00:08:23,280
+rendben a ami ugye a power query volt
+
+142
+00:08:20,720 --> 00:08:24,960
+Lehet a frontendben is végezni
+
+143
+00:08:23,280 --> 00:08:28,960
+transzformációkat
+
+144
+00:08:24,960 --> 00:08:32,039
+ami ami a egy kicsit másik Az a neve
+
+145
+00:08:28,960 --> 00:08:33,760
+hogy ezen az a neve hogy Dax Na most
+
+146
+00:08:32,039 --> 00:08:35,919
+emlékszem hogy nekünk volt egy
+
+147
+00:08:33,760 --> 00:08:38,360
+adatsorunk amit amit használtunk a Power
+
+148
+00:08:35,919 --> 00:08:40,800
+BI-ban Ö
+
+149
+00:08:38,360 --> 00:08:43,240
+esetleg valószínűleg nem foglalkoztatok
+
+150
+00:08:40,800 --> 00:08:45,160
+ezzel mert egyéb más dolgot dolgaitok
+
+151
+00:08:43,240 --> 00:08:46,959
+volt de esetleg valakinek van-e olyan
+
+152
+00:08:45,160 --> 00:08:49,000
+adatsora amit esetleg megpróbáltná már
+
+153
+00:08:46,959 --> 00:08:51,080
+betenni Power BI-ba vagy más projekthhez
+
+154
+00:08:49,000 --> 00:08:54,839
+használható és használhatnánk itt most
+
+155
+00:08:51,080 --> 00:08:54,839
+közben én elindítom a Power BI-omat a
+
+156
+00:09:01,839 --> 00:09:06,600
+háttérben Jó hogyha nincs akkor akkor
+
+157
+00:09:04,160 --> 00:09:08,079
+lássuk elő előhalászom azt amit
+
+158
+00:09:06,600 --> 00:09:10,320
+használtunk Itt valószínűleg betettem
+
+159
+00:09:08,079 --> 00:09:10,320
+ide a
+
+160
+00:09:16,680 --> 00:09:25,000
+fáokat Kód az látod itt hogyha fenneb
+
+161
+00:09:19,720 --> 00:09:25,000
+görgetsz akkor vannak ilyen PB Pix
+
+162
+00:09:27,959 --> 00:09:34,880
+fálok Azaz nagyszerű És akkor azt a B2-s
+
+163
+00:09:32,079 --> 00:09:39,160
+PVX-et nézzük meg
+
+164
+00:09:34,880 --> 00:09:39,160
+Egy pillanat hogy azt szedjem elő
+
+165
+00:10:45,880 --> 00:10:52,360
+Ja hogyha szeretnéd követni akkor ezt a
+
+166
+00:10:48,560 --> 00:10:56,279
+B2-es PVX falt hogyha letöltöd akkor
+
+167
+00:10:52,360 --> 00:10:58,519
+azzal ebből kiindulva fogjuk folytatni
+
+168
+00:10:56,279 --> 00:11:01,000
+Tegyem át nektek itt a Power Pirral az
+
+169
+00:10:58,519 --> 00:11:01,000
+OBS-t
+
+170
+00:11:45,399 --> 00:11:49,120
+Csak ez miért nem látszik
+
+171
+00:12:13,480 --> 00:12:19,839
+jó És akkor hozzuk ide be ezt a B2Bet
+
+172
+00:12:56,680 --> 00:13:01,440
+Jó emlékszem Egy ilyen egy ilyen
+
+173
+00:12:58,399 --> 00:13:03,800
+tesztadatsort használtunk amit valan az
+
+174
+00:13:01,440 --> 00:13:05,959
+egyik klienseimtől van és ugye azt
+
+175
+00:13:03,800 --> 00:13:07,920
+néztük hogy van nekik van nekik hierar
+
+176
+00:13:05,959 --> 00:13:10,320
+van egy applikációjuk és akkor annak a
+
+177
+00:13:07,920 --> 00:13:12,079
+használatát kell ők nézzék
+
+178
+00:13:10,320 --> 00:13:14,720
+hierarchikusan
+
+179
+00:13:12,079 --> 00:13:17,240
+És eleinte ugye csak behoztunk egy
+
+180
+00:13:14,720 --> 00:13:20,040
+behoztunk egy pár vizualizációt kezdtük
+
+181
+00:13:17,240 --> 00:13:23,639
+nézni hogy a vizualizációk egymással
+
+182
+00:13:20,040 --> 00:13:25,600
+hogyan hogyan interakcionálnak ugye És
+
+183
+00:13:23,639 --> 00:13:28,600
+utána csináltunk
+
+184
+00:13:25,600 --> 00:13:29,959
+ilyen szűrőket ugye ezeket slicereknek
+
+185
+00:13:28,600 --> 00:13:32,920
+hívta a Power BI azért hogy
+
+186
+00:13:29,959 --> 00:13:34,880
+megkülönböztessük őket az ilyen oldal
+
+187
+00:13:32,920 --> 00:13:37,440
+oldalpanelbeli szűrőktől amiket
+
+188
+00:13:34,880 --> 00:13:38,910
+filtereknek hívtunk
+
+189
+00:13:37,440 --> 00:13:41,160
+És volt
+
+190
+00:13:38,910 --> 00:13:44,519
+[Zene]
+
+191
+00:13:41,160 --> 00:13:46,639
+még ezután próbáltunk egy egy ilyen
+
+192
+00:13:44,519 --> 00:13:49,320
+oldalt összerakni amelyik valahogy
+
+193
+00:13:46,639 --> 00:13:52,199
+valahogy kinézet Ugye an csak annyit
+
+194
+00:13:49,320 --> 00:13:54,120
+mondtunk hogy az az valószínűleg a best
+
+195
+00:13:52,199 --> 00:13:57,120
+practice hogy szétválasztjuk a
+
+196
+00:13:54,120 --> 00:13:59,000
+vizualizációs részt a szűrős résztől Na
+
+197
+00:13:57,120 --> 00:14:01,519
+itt lehet hogy nem csak egy
+
+198
+00:13:59,000 --> 00:14:06,160
+vizualizációt egy vizualizációt hozol
+
+199
+00:14:01,519 --> 00:14:09,040
+létre hanem hanem egy párat például
+
+200
+00:14:06,160 --> 00:14:12,880
+És általában azt azt azt szokták az
+
+201
+00:14:09,040 --> 00:14:15,160
+emberek preferálni hogyha úgy úgy még
+
+202
+00:14:12,880 --> 00:14:17,639
+most is úgy van hogy az iparban azért
+
+203
+00:14:15,160 --> 00:14:19,759
+eléggé eléggé hitetlenek a csak a
+
+204
+00:14:17,639 --> 00:14:21,440
+vizualizációkkal szemben úgyhogy
+
+205
+00:14:19,759 --> 00:14:24,000
+általában nekik meg kell mutatni azt
+
+206
+00:14:21,440 --> 00:14:26,920
+hogy a vizualizáció milyen adatokra épül
+
+207
+00:14:24,000 --> 00:14:28,600
+Úgyhogy egy táblázatot és egy mindig egy
+
+208
+00:14:26,920 --> 00:14:30,320
+az oldalon szokott lenni egy táblázat
+
+209
+00:14:28,600 --> 00:14:33,320
+azért hogy az ember lássa hogy ha én
+
+210
+00:14:30,320 --> 00:14:36,160
+ráklikkelek erre a filterre akkor ez val
+
+211
+00:14:33,320 --> 00:14:38,839
+való valójában változtatja-e a számokat
+
+212
+00:14:36,160 --> 00:14:42,079
+vagy sem és akkor utána jön a
+
+213
+00:14:38,839 --> 00:14:43,560
+vizualizáció Azután megnéztünk custom
+
+214
+00:14:42,079 --> 00:14:46,800
+filtereket ugye vagy custom
+
+215
+00:14:43,560 --> 00:14:49,680
+vizualizációkat Tehát
+
+216
+00:14:46,800 --> 00:14:52,160
+itt be lehet be lehetett jaj azt hiszem
+
+217
+00:14:49,680 --> 00:14:53,480
+be kellett jelentkezni ugye itt bele be
+
+218
+00:14:52,160 --> 00:14:57,759
+lehetett
+
+219
+00:14:53,480 --> 00:15:00,079
+hozni a a Power BI Marketplacerről
+
+220
+00:14:57,759 --> 00:15:01,160
+custom visualök hogyha nem akarsz
+
+221
+00:15:00,079 --> 00:15:04,040
+bejelentkezni vagy nem tudsz
+
+222
+00:15:01,160 --> 00:15:07,600
+bejelentkezni ugye akkor a
+
+223
+00:15:04,040 --> 00:15:09,959
+a custom hogyha felmész a Power BI
+
+224
+00:15:07,600 --> 00:15:12,199
+marketplace-re és onnan letöltesz egyet
+
+225
+00:15:09,959 --> 00:15:14,600
+akkor beimportálhatod úgy mint fál
+
+226
+00:15:12,199 --> 00:15:18,399
+például beimportáltuk ezt a ezt a
+
+227
+00:15:14,600 --> 00:15:21,399
+timeline slicert és egy teneb nevű
+
+228
+00:15:18,399 --> 00:15:21,399
+vizualizációt
+
+229
+00:15:21,519 --> 00:15:25,560
+Most nem nem is kell nekem egyelőre több
+
+230
+00:15:23,199 --> 00:15:28,720
+biztos megvan az előző felvételen Ez
+
+231
+00:15:25,560 --> 00:15:32,279
+azért jó mert ugye azt mondtuk hogy az
+
+232
+00:15:28,720 --> 00:15:35,000
+idő dimenziót kicsit nehez kicsit
+
+233
+00:15:32,279 --> 00:15:39,079
+nehéz filterezni A powerb nem kezel
+
+234
+00:15:35,000 --> 00:15:43,240
+annyira jól Ö hogyha beteszünk egy alap
+
+235
+00:15:39,079 --> 00:15:46,639
+slicert és itt van nekünk az adatsorunk
+
+236
+00:15:43,240 --> 00:15:49,240
+ugye akkor még hogyha van is egy olyan
+
+237
+00:15:46,639 --> 00:15:51,199
+adat típusunk amelyik tényleg időtípusú
+
+238
+00:15:49,240 --> 00:15:54,560
+tehát itt be van konfigurálva hogy a a
+
+239
+00:15:51,199 --> 00:15:57,319
+típusa idő legyen Itt ugye megvan a
+
+240
+00:15:54,560 --> 00:16:00,319
+formázása neked Ő automatikusan a Power
+
+241
+00:15:57,319 --> 00:16:04,959
+BI fog kreálni egy ilyen hierarchiát egy
+
+242
+00:16:00,319 --> 00:16:04,959
+ilyen időhierarchiát ugye date
+
+243
+00:16:09,680 --> 00:16:15,639
+hierarchy Az az
+
+244
+00:16:12,839 --> 00:16:18,800
+amiben benne van az hogy mi az év mi a
+
+245
+00:16:15,639 --> 00:16:22,279
+quarter mi a a mi a hónap és így tovább
+
+246
+00:16:18,800 --> 00:16:25,000
+használhatod úgy magára mint a dat neked
+
+247
+00:16:22,279 --> 00:16:27,240
+ő automatikusan betesz egy egy slicer
+
+248
+00:16:25,000 --> 00:16:29,639
+típust de itt hogyha a ki tudod
+
+249
+00:16:27,240 --> 00:16:33,240
+választani hogy milyen típusú legyen
+
+250
+00:16:29,639 --> 00:16:34,519
+általában ugye ez kettő kettő dátumot
+
+251
+00:16:33,240 --> 00:16:38,120
+fog
+
+252
+00:16:34,519 --> 00:16:40,639
+jelenteni meddig de ezt nem igazán lehet
+
+253
+00:16:38,120 --> 00:16:43,120
+testni nem igazán lehet formázni úgyhogy
+
+254
+00:16:40,639 --> 00:16:45,839
+nagyon gyakran persze tehetsz sima sima
+
+255
+00:16:43,120 --> 00:16:47,480
+legőldülőlistát is Ugye ebben az esetben
+
+256
+00:16:45,839 --> 00:16:50,959
+nekünk azt hiszem csak hónapok vannak
+
+257
+00:16:47,480 --> 00:16:50,959
+nincsenek napok
+
+258
+00:16:52,160 --> 00:16:57,959
+Vagy vagy relatívot is tehát hogy az
+
+259
+00:16:55,279 --> 00:17:00,560
+utóbbi három nap vagy három hónap
+
+260
+00:16:57,959 --> 00:17:02,720
+whatever Vannak erre bizonyos szituációk
+
+261
+00:17:00,560 --> 00:17:04,520
+amikor ez amikor ez hasznos de nagyon
+
+262
+00:17:02,720 --> 00:17:07,000
+gyakran nekünk aljában egy ilyen
+
+263
+00:17:04,520 --> 00:17:09,199
+hierarchikus valami kell És akkor azt
+
+264
+00:17:07,000 --> 00:17:11,919
+szoktam én csinálni hogy a date
+
+265
+00:17:09,199 --> 00:17:14,199
+hierarchiából behozod az évet behozod a
+
+266
+00:17:11,919 --> 00:17:15,720
+napot és behozod vagy behozod a hónapot
+
+267
+00:17:14,199 --> 00:17:18,640
+és behozod a napot Persze hogyha van
+
+268
+00:17:15,720 --> 00:17:20,799
+korter akkor kortert is És egy egyszerű
+
+269
+00:17:18,640 --> 00:17:22,120
+egyszerű legördülő listás slicerrel
+
+270
+00:17:20,799 --> 00:17:25,039
+neked szépen ki tudja az ember
+
+271
+00:17:22,120 --> 00:17:27,120
+választani hogy kell neki az összes 2025
+
+272
+00:17:25,039 --> 00:17:28,799
+vagy kell neki csak a március amit azt
+
+273
+00:17:27,120 --> 00:17:30,760
+hiszem itt csak január és február van
+
+274
+00:17:28,799 --> 00:17:33,160
+Kell neki gyakor csak a január csak a
+
+275
+00:17:30,760 --> 00:17:35,440
+február és így tovább És akkor hogyha
+
+276
+00:17:33,160 --> 00:17:37,799
+lennének napok most nekünk itt azt
+
+277
+00:17:35,440 --> 00:17:39,400
+hiszem hogy pont nincs semmi benne vagy
+
+278
+00:17:37,799 --> 00:17:42,039
+megvan hogy egy adott dátumunk van
+
+279
+00:17:39,400 --> 00:17:42,039
+januárban
+
+280
+00:17:42,080 --> 00:17:49,919
+talán Mi is itt a az érték a dat itt
+
+281
+00:17:47,160 --> 00:17:52,799
+csak annyi van hogy January 2025 úgyhogy
+
+282
+00:17:49,919 --> 00:17:55,679
+ez nem tartalmaz napot de például a Last
+
+283
+00:17:52,799 --> 00:17:58,080
+Refresht látod az az tartalmaz napot
+
+284
+00:17:55,679 --> 00:17:59,799
+Úgyhogy ha a last refresh hierarchiát
+
+285
+00:17:58,080 --> 00:18:02,240
+nézzük csak így tesznek akkor ebben
+
+286
+00:17:59,799 --> 00:18:04,880
+szépen lesz egy
+
+287
+00:18:02,240 --> 00:18:07,559
+year month és
+
+288
+00:18:04,880 --> 00:18:10,240
+day És akkor itt szépen meg tudok nézni
+
+289
+00:18:07,559 --> 00:18:12,520
+hogy itt lenne mondjuk az április és nem
+
+290
+00:18:10,240 --> 00:18:14,120
+tudom 4edike volt vagy mi volt a a
+
+291
+00:18:12,520 --> 00:18:17,080
+refresh És akkor itt ezeket a napokat
+
+292
+00:18:14,120 --> 00:18:19,960
+lehet használni
+
+293
+00:18:17,080 --> 00:18:22,960
+Na ugye ez egy kicsit mégis ilyen
+
+294
+00:18:19,960 --> 00:18:25,919
+összetett ilyen nehézkes
+
+295
+00:18:22,960 --> 00:18:27,880
+úgyhogy nagyon gyakran az idő
+
+296
+00:18:25,919 --> 00:18:30,720
+dimenziónak a filterezésére az emberek
+
+297
+00:18:27,880 --> 00:18:33,760
+egy custom visualt
+
+298
+00:18:30,720 --> 00:18:36,200
+használnak Ezért közül az egyik ez a
+
+299
+00:18:33,760 --> 00:18:39,000
+timeline nevű visual ez is egy hivatalos
+
+300
+00:18:36,200 --> 00:18:41,280
+Microsoft visu úgyhogy elég jó
+
+301
+00:18:39,000 --> 00:18:43,039
+támogatása van És akkor eppen ki tudja
+
+302
+00:18:41,280 --> 00:18:45,159
+az ember választani hogy most én az év
+
+303
+00:18:43,039 --> 00:18:47,320
+hierarchián vagyok a quarter hierarchián
+
+304
+00:18:45,159 --> 00:18:50,240
+vagyok a month vagy akár a week
+
+305
+00:18:47,320 --> 00:18:53,360
+hierarchián vagy akár a day hierarchián
+
+306
+00:18:50,240 --> 00:18:57,200
+És akkor ebben ebben tud lépkedni a
+
+307
+00:18:53,360 --> 00:19:00,440
+a az emberke És akkor ez azért kicsit
+
+308
+00:18:57,200 --> 00:19:04,120
+felhasználóbarátabb mint a mint a
+
+309
+00:19:00,440 --> 00:19:07,799
+slicer Na ez volt a ez volt a második
+
+310
+00:19:04,120 --> 00:19:08,960
+rész És akkor még megnéztünk valamit a
+
+311
+00:19:07,799 --> 00:19:11,880
+harmadik
+
+312
+00:19:08,960 --> 00:19:15,120
+részben Azt mondtuk hogy jók ezek az
+
+313
+00:19:11,880 --> 00:19:17,520
+alap power vizualizációk de mi már az
+
+314
+00:19:15,120 --> 00:19:20,799
+első féléves adatvizualizációs kurzusban
+
+315
+00:19:17,520 --> 00:19:23,280
+olyan sokat tanultunk a a Vegáról hogy
+
+316
+00:19:20,799 --> 00:19:25,120
+akkor miért ne használnánk Vega
+
+317
+00:19:23,280 --> 00:19:27,120
+vizualizációkat Akkor azt csináltuk hogy
+
+318
+00:19:25,120 --> 00:19:29,400
+behoztunk egy custom visualt az volt a
+
+319
+00:19:27,120 --> 00:19:31,320
+neve hogy Deneb Ez rajta van a
+
+320
+00:19:29,400 --> 00:19:33,440
+marketplace de rajta van a GitHubon is
+
+321
+00:19:31,320 --> 00:19:34,679
+Mi letöltöttük a GitHubról is behoztuk
+
+322
+00:19:33,440 --> 00:19:37,360
+mint
+
+323
+00:19:34,679 --> 00:19:42,679
+fál tehát itt behoztuk mint fál Ez egy
+
+324
+00:19:37,360 --> 00:19:42,679
+Jason file És akkor hogyha volt egy
+
+325
+00:19:43,559 --> 00:19:48,919
+alapvizualizációnk tudom ezt most
+
+326
+00:19:45,720 --> 00:19:48,919
+kiválasztani nem
+
+327
+00:19:52,360 --> 00:19:59,520
+tudom De tudom Akkor miért nem tudom
+
+328
+00:19:55,120 --> 00:19:59,520
+duplikálni csak duplikálni szerélek Az
+
+329
+00:20:03,679 --> 00:20:11,840
+az tehát úgy kezdődött hogy ha volt egy
+
+330
+00:20:08,039 --> 00:20:14,799
+alap vonaldiagram vizualizációnk az a
+
+331
+00:20:11,840 --> 00:20:16,720
+beépített
+
+332
+00:20:14,799 --> 00:20:19,320
+Power BI-os vonaldiagram vizualizáció
+
+333
+00:20:16,720 --> 00:20:21,480
+mint az előző oldalakon akkor miután ezt
+
+334
+00:20:19,320 --> 00:20:25,840
+beállítottuk azután csak egyszerűen
+
+335
+00:20:21,480 --> 00:20:28,200
+áttettük denebbre és az úgy nagyjából
+
+336
+00:20:25,840 --> 00:20:30,600
+nagyjából működött Na de itt megálltunk
+
+337
+00:20:28,200 --> 00:20:32,760
+nem igazán állítgattuk be azt hogy mi
+
+338
+00:20:30,600 --> 00:20:34,480
+történik ezután Úgyhogy most innen innen
+
+339
+00:20:32,760 --> 00:20:37,840
+szeretném folytatni és talán akkor
+
+340
+00:20:34,480 --> 00:20:39,799
+teszünk néhány DAX számolást és és
+
+341
+00:20:37,840 --> 00:20:41,679
+ezután muszáj lesz áttérjünk arra hogy
+
+342
+00:20:39,799 --> 00:20:43,960
+mindenki valami saját adatot hoz és
+
+343
+00:20:41,679 --> 00:20:46,360
+akkor azok majd érdekesebbé teszik
+
+344
+00:20:43,960 --> 00:20:46,360
+ezeket a
+
+345
+00:20:46,559 --> 00:20:51,000
+vizualizációkat Talán még egy dolog amit
+
+346
+00:20:49,200 --> 00:20:52,960
+amit nem említettem Most nem olyan
+
+347
+00:20:51,000 --> 00:20:56,400
+adatsorunk van hogy benne legyen
+
+348
+00:20:52,960 --> 00:20:57,880
+valamilyen földrajz információ
+
+349
+00:20:56,400 --> 00:20:59,840
+De talán lesz olyan aki térképet
+
+350
+00:20:57,880 --> 00:21:02,320
+szeretne csinálni és akkor itt itt nem
+
+351
+00:20:59,840 --> 00:21:05,600
+igazán vannak erre opciók Van ezek a
+
+352
+00:21:02,320 --> 00:21:07,600
+beépített opciók vannak hogyha olyan
+
+353
+00:21:05,600 --> 00:21:10,320
+térképet olyan világtérképet csináljunk
+
+354
+00:21:07,600 --> 00:21:10,320
+még egy oldalt
+
+355
+00:21:11,320 --> 00:21:16,919
+erre Tehát itt ugye a vizualizációs az
+
+356
+00:21:14,120 --> 00:21:19,200
+adatvizualizációs kurzusnál
+
+357
+00:21:16,919 --> 00:21:20,760
+megkülönböztettünk kettő fajta térképet
+
+358
+00:21:19,200 --> 00:21:22,320
+amelyik egyik amelyik ilyen satírozott
+
+359
+00:21:20,760 --> 00:21:24,320
+egy másik amelyik hogy pontocskák vannak
+
+360
+00:21:22,320 --> 00:21:26,159
+koordinátáknál Ugye az egyik az a
+
+361
+00:21:24,320 --> 00:21:29,200
+coropleth map amelyik a különböző
+
+362
+00:21:26,159 --> 00:21:31,919
+területeknek egyetlen egy értéke társi A
+
+363
+00:21:29,200 --> 00:21:34,080
+másik az pedig a pont pont map ahol
+
+364
+00:21:31,919 --> 00:21:36,679
+különböző koordináták vannak Na most
+
+365
+00:21:34,080 --> 00:21:38,520
+erre vannak itt van összesen négy opció
+
+366
+00:21:36,679 --> 00:21:40,200
+amiből valójában csak ami valójában csak
+
+367
+00:21:38,520 --> 00:21:42,799
+kettő
+
+368
+00:21:40,200 --> 00:21:44,919
+Tehát hogyha kiválasztod ezt a ezt a
+
+369
+00:21:42,799 --> 00:21:47,760
+mapet amelyiket csak úgy hívja Power BI
+
+370
+00:21:44,919 --> 00:21:49,919
+hogy map akkor ő látod ez egy ez egy
+
+371
+00:21:47,760 --> 00:21:52,279
+buboréktérkép lesz tehát ő fogja várni
+
+372
+00:21:49,919 --> 00:21:55,200
+azt hogy beteszel egy hosszúság és a
+
+373
+00:21:52,279 --> 00:21:57,720
+szélességi koordinát egy méretet a
+
+374
+00:21:55,200 --> 00:22:00,320
+buborékoknak esetleg esetleg ugye egy
+
+375
+00:21:57,720 --> 00:22:03,279
+színt Ez a legend ez általában a a
+
+376
+00:22:00,320 --> 00:22:05,679
+színformációt fogja tartalmazni nekünk
+
+377
+00:22:03,279 --> 00:22:07,520
+Most nem igazán van ilyen van ilyen
+
+378
+00:22:05,679 --> 00:22:09,559
+adatsor de mindjárt letöltünk egy egy
+
+379
+00:22:07,520 --> 00:22:11,360
+érdekesebb teszt adatsort
+
+380
+00:22:09,559 --> 00:22:14,120
+És akkor megpróbáljuk
+
+381
+00:22:11,360 --> 00:22:19,960
+azzal
+
+382
+00:22:14,120 --> 00:22:19,960
+van egy egy másfajta ez a ez a field
+
+383
+00:22:20,279 --> 00:22:25,080
+map Ez nekem most egyrészt ugyanannak
+
+384
+00:22:27,360 --> 00:22:34,279
+tűnik Jaj igen A field tehát ugyanazok a
+
+385
+00:22:32,279 --> 00:22:36,720
+ugyanazok a konfigurációs mezők csak a
+
+386
+00:22:34,279 --> 00:22:39,200
+field mapnél ez ugyanaz a vizuál
+
+387
+00:22:36,720 --> 00:22:42,840
+valójában A field mapnél ott a
+
+388
+00:22:39,200 --> 00:22:45,559
+locationhöz fogod behúzni azt a
+
+389
+00:22:42,840 --> 00:22:47,919
+geoon mezőt amelyik tartalmazza neked a
+
+390
+00:22:45,559 --> 00:22:50,320
+kontúrvonalat ugye hogy csinálják
+
+391
+00:22:47,919 --> 00:22:51,880
+térképet és akkor hogyha szeretnél akkor
+
+392
+00:22:50,320 --> 00:22:56,120
+ezt a kettőt lehet kombinálni teszel
+
+393
+00:22:51,880 --> 00:22:58,880
+pöttyöcskéket is És azon túl van a a
+
+394
+00:22:56,120 --> 00:23:01,120
+shape map ez nincsen ugye háttere tehát
+
+395
+00:22:58,880 --> 00:23:02,360
+előre előre be van töltve neked hogy te
+
+396
+00:23:01,120 --> 00:23:05,000
+most itt
+
+397
+00:23:02,360 --> 00:23:08,400
+milyen milyen gejont használsz Hát ezt
+
+398
+00:23:05,000 --> 00:23:13,320
+ki lehet majd ki lehet majd cserélni
+
+399
+00:23:08,400 --> 00:23:15,480
+illetve van a az Azure Map amelyik ugye
+
+400
+00:23:13,320 --> 00:23:18,279
+hason olyan mint a Google Maps csak ez
+
+401
+00:23:15,480 --> 00:23:22,080
+régen Bing Mapsnek hívták Most ez a
+
+402
+00:23:18,279 --> 00:23:24,200
+Microsoftnak a a térképje Ezt is tudod
+
+403
+00:23:22,080 --> 00:23:26,480
+ezt is tudod használni Ez ugyanaz mint a
+
+404
+00:23:24,200 --> 00:23:28,080
+legesleelső amelyik amelyiket úgy hívja
+
+405
+00:23:26,480 --> 00:23:30,440
+hogy sima map csak ez ugye az Open
+
+406
+00:23:28,080 --> 00:23:33,159
+Street mapet használja Én azt javaslom
+
+407
+00:23:30,440 --> 00:23:34,919
+hogy hogyha ezen maradunk ez teljesen
+
+408
+00:23:33,159 --> 00:23:36,679
+rendben van
+
+409
+00:23:34,919 --> 00:23:39,120
+Na jó menjünk vissza a vega
+
+410
+00:23:36,679 --> 00:23:41,679
+vizualizációhoz hogy ezt egy kicsit
+
+411
+00:23:39,120 --> 00:23:43,360
+másképp miért szeretjük vagy miért
+
+412
+00:23:41,679 --> 00:23:45,320
+egyáltalán miért használnánk vega
+
+413
+00:23:43,360 --> 00:23:47,799
+vizualizációt Hát ugye azért mert azt
+
+414
+00:23:45,320 --> 00:23:50,720
+mondtuk hogy ezen a kurzuson
+
+415
+00:23:47,799 --> 00:23:54,720
+használunk AI segítségeket és az AI
+
+416
+00:23:50,720 --> 00:23:58,640
+segítségek azok kódot tudnak generálni a
+
+417
+00:23:54,720 --> 00:24:02,000
+Power BI pedig nem kód úgyhogy egy vega
+
+418
+00:23:58,640 --> 00:24:04,039
+vizualizáció viszont az már kód Ö
+
+419
+00:24:02,000 --> 00:24:06,000
+úgyhogy ha megnyitod a Vega
+
+420
+00:24:04,039 --> 00:24:08,039
+vizualizációt ezt kicsit másképp kell
+
+421
+00:24:06,000 --> 00:24:10,960
+editálni ugye ez vannak olyan custom
+
+422
+00:24:08,039 --> 00:24:14,360
+visualok amelyeknek a vizuálon belül
+
+423
+00:24:10,960 --> 00:24:14,360
+vannak a beállításaik
+
+424
+00:24:15,720 --> 00:24:19,400
+Mégis be mégis bejelentkezek mégis hozok
+
+425
+00:24:17,760 --> 00:24:23,320
+még egy másik custom visuált hogy ezt
+
+426
+00:24:19,400 --> 00:24:23,320
+tudjam egy picit jobban elmesélni
+
+427
+00:24:34,000 --> 00:24:37,159
+Csak hozzok egy jelszót
+
+428
+00:25:07,919 --> 00:25:12,120
+Hát igen csak elfelejtettem ezt a
+
+429
+00:25:09,720 --> 00:25:12,120
+jelszót
+
+430
+00:26:18,600 --> 00:26:24,360
+Csak egy pillanat megyek ezen az account
+
+431
+00:26:20,240 --> 00:26:24,360
+verification processen keresztül
+
+432
+00:28:15,000 --> 00:28:18,000
+No
+
+433
+00:29:30,440 --> 00:29:32,880
+Yes
+
+434
+00:29:34,840 --> 00:29:40,600
+sikerült Jó na lássuk Most akkor hogyha
+
+435
+00:29:37,519 --> 00:29:40,600
+odamegyek hogy custom
+
+436
+00:29:41,159 --> 00:29:46,120
+visual akkor ez jaj ez ilyen előugró
+
+437
+00:29:43,720 --> 00:29:49,960
+ablak lesz Ti nem látjátok na várj
+
+438
+00:29:46,120 --> 00:29:49,960
+akkor tegyük át a
+
+439
+00:29:56,200 --> 00:30:01,039
+desktopra Így most kellene látszó
+
+440
+00:30:02,039 --> 00:30:06,760
+Tehát itt azt csináltam hogy rámentem
+
+441
+00:30:03,600 --> 00:30:11,720
+ide hogy get more
+
+442
+00:30:06,760 --> 00:30:14,200
+visuals és akkor előjön ez az előugró
+
+443
+00:30:11,720 --> 00:30:18,640
+ablak És akkor itt keresünk egy olyat
+
+444
+00:30:14,200 --> 00:30:21,200
+hogy Sand Dance Az is egy az is
+
+445
+00:30:18,640 --> 00:30:25,200
+egy hivatalos
+
+446
+00:30:21,200 --> 00:30:25,200
+Microsoft vizualizáció
+
+447
+00:30:39,240 --> 00:30:42,000
+És akkor ezt adjuk
+
+448
+00:30:42,799 --> 00:30:48,320
+hozzá Nagyszerű És akkor itt utána lesz
+
+449
+00:30:46,960 --> 00:30:52,640
+lesz nekünk még egy ilyen custom
+
+450
+00:30:48,320 --> 00:30:52,640
+visualizáció aminek azonál szendence
+
+451
+00:30:53,399 --> 00:30:57,840
+Ezt azért
+
+452
+00:30:54,840 --> 00:30:57,840
+csináltam
+
+453
+00:30:59,240 --> 00:31:05,600
+hogy legyen ez 3B Mutassam meg hogy
+
+454
+00:31:03,360 --> 00:31:08,159
+vannak olyan custom vizualizációk
+
+455
+00:31:05,600 --> 00:31:09,679
+amelyeket vizualizációnak a beállításain
+
+456
+00:31:08,159 --> 00:31:11,720
+belül kell beállítani Úgyhogy ezt ezt
+
+457
+00:31:09,679 --> 00:31:15,279
+amelyik van ezt a ezt a vegát ki fogom
+
+458
+00:31:11,720 --> 00:31:15,279
+cserélni egy sendensre
+
+459
+00:31:21,600 --> 00:31:28,159
+Nagyszerű Ez lehet egész voltalos
+
+460
+00:31:24,960 --> 00:31:32,519
+is Na és akkor ugye a
+
+461
+00:31:28,159 --> 00:31:32,519
+vegánál vegát is áttesszük egész
+
+462
+00:31:37,639 --> 00:31:43,000
+oldalosra Nagyszerű A vegánál a
+
+463
+00:31:40,240 --> 00:31:45,000
+vizualizáció tehát maga a custom
+
+464
+00:31:43,000 --> 00:31:47,679
+vizualizáció kontrollálja azt hogy
+
+465
+00:31:45,000 --> 00:31:51,000
+hogyan néz ki neked a view módban vagy
+
+466
+00:31:47,679 --> 00:31:53,600
+az edit módban Sendő ott ott valójában
+
+467
+00:31:51,000 --> 00:31:56,159
+nekik mindegy Van nekik view mód is és
+
+468
+00:31:53,600 --> 00:31:58,120
+edit mód is de ezért hasznos ilyenkor
+
+469
+00:31:56,159 --> 00:32:00,639
+itt hogyha rámész a vizualizációnak a
+
+470
+00:31:58,120 --> 00:32:04,200
+tetejére van egy olyan hogy focus mode
+
+471
+00:32:00,639 --> 00:32:06,679
+amelyik csak ezt a vizualizációt mutatja
+
+472
+00:32:04,200 --> 00:32:10,039
+a teljes a teljes
+
+473
+00:32:06,679 --> 00:32:12,320
+oldal teljes oldalon És akkor itt nekik
+
+474
+00:32:10,039 --> 00:32:14,519
+ugye mindegyik custom vizualizáció be
+
+475
+00:32:12,320 --> 00:32:17,440
+tud hozni
+
+476
+00:32:14,519 --> 00:32:18,480
+saját saját beállításokat Ez HTML-ben
+
+477
+00:32:17,440 --> 00:32:20,399
+teljesen
+
+478
+00:32:18,480 --> 00:32:21,880
+konfigurálható Így ezeknél a
+
+479
+00:32:20,399 --> 00:32:22,919
+vizualizációknál csak annyit kell
+
+480
+00:32:21,880 --> 00:32:25,080
+csinálni
+
+481
+00:32:22,919 --> 00:32:27,440
+hogy bármelyik dimenziót amelyiket
+
+482
+00:32:25,080 --> 00:32:29,440
+szeretnéd használni azt rá kell tenni
+
+483
+00:32:27,440 --> 00:32:31,559
+ide a valueshoz Ugye nem úgy hogy külön
+
+484
+00:32:29,440 --> 00:32:32,840
+megvan mint a többinél hogy a Power BI
+
+485
+00:32:31,559 --> 00:32:34,559
+megmondja hogy melyik tengelyre mi kell
+
+486
+00:32:32,840 --> 00:32:36,679
+legyen Te a vizualizációt a custom
+
+487
+00:32:34,559 --> 00:32:38,600
+vizualizációt a a beáltokon belül
+
+488
+00:32:36,679 --> 00:32:40,240
+kezeled Mindegyiket áthozzuk ide és
+
+489
+00:32:38,600 --> 00:32:42,000
+akkor nem tudom itt kiválasszuk itt hogy
+
+490
+00:32:40,240 --> 00:32:44,600
+ebben az
+
+491
+00:32:42,000 --> 00:32:46,120
+esetben valószínűleg scatter plotot
+
+492
+00:32:44,600 --> 00:32:51,080
+szeretnénk
+
+493
+00:32:46,120 --> 00:32:53,559
+Ö az x tengelyre rátesszük a a monthot
+
+494
+00:32:51,080 --> 00:32:57,240
+valószínűleg és az y tengelyre
+
+495
+00:32:53,559 --> 00:33:01,320
+valószínűleg rátesszük a
+
+496
+00:32:57,240 --> 00:33:04,720
+a totált vagy a matricet Igen a totál az
+
+497
+00:33:01,320 --> 00:33:07,399
+ugye hogy folyamatosan összegzi
+
+498
+00:33:04,720 --> 00:33:09,399
+őket És akkor mit volt mik voltak itt
+
+499
+00:33:07,399 --> 00:33:12,639
+nekünk voltak ownerek Tegyük rá az
+
+500
+00:33:09,399 --> 00:33:14,960
+ownereket is ugye voltak portfóliók
+
+501
+00:33:12,639 --> 00:33:16,679
+És akkor ez alapján hogyha például feset
+
+502
+00:33:14,960 --> 00:33:19,120
+a feset az azt jelenti hogy több kis
+
+503
+00:33:16,679 --> 00:33:22,240
+vizualizációt csinál ugye hogyha
+
+504
+00:33:19,120 --> 00:33:24,799
+szétfeszetelnénk őket owner szerint
+
+505
+00:33:22,240 --> 00:33:26,840
+akkor hát ezek mindegyhez tartoznak
+
+506
+00:33:24,799 --> 00:33:28,880
+akkor nem tudom portfólió szerint akkor
+
+507
+00:33:26,840 --> 00:33:31,240
+szétválogatja ugye hogy februárban és
+
+508
+00:33:28,880 --> 00:33:34,440
+januárban is volt különkülön portfólió
+
+509
+00:33:31,240 --> 00:33:36,840
+És na most ez látod ez kevés
+
+510
+00:33:34,440 --> 00:33:38,760
+kevés adatponttal
+
+511
+00:33:36,840 --> 00:33:40,320
+Ez nem annyira nem annyira szembetűnő de
+
+512
+00:33:38,760 --> 00:33:41,840
+amikor nagyon sok adatpontod van ugye
+
+513
+00:33:40,320 --> 00:33:44,480
+akkor itt ezek olyanok lesznek mint egy
+
+514
+00:33:41,840 --> 00:33:46,799
+ilyen kis homokszem és abból egészen
+
+515
+00:33:44,480 --> 00:33:48,799
+látványos vizualizációt lehet csinálni
+
+516
+00:33:46,799 --> 00:33:50,960
+Na és akkor ő ő valahogy úgy képzelte
+
+517
+00:33:48,799 --> 00:33:53,399
+ezt a nem tudom nekem itt az ikonok nem
+
+518
+00:33:50,960 --> 00:33:56,080
+teljesen nem teljesen töltődnek be de
+
+519
+00:33:53,399 --> 00:33:57,840
+valahogy úgy kép úgy képzelte ezt a
+
+520
+00:33:56,080 --> 00:34:01,679
+sentenceet a Microsoft el hogy akkor
+
+521
+00:33:57,840 --> 00:34:01,679
+csinálsz ilyen lépéseket
+
+522
+00:34:03,399 --> 00:34:07,960
+Hogyha visszamész a vizualizációba akkor
+
+523
+00:34:05,600 --> 00:34:09,520
+lehet ebből csinálni egy lépést és akkor
+
+524
+00:34:07,960 --> 00:34:12,000
+hogyha lépegetsz a különböző
+
+525
+00:34:09,520 --> 00:34:15,240
+megjelenítések között akkor lesz neked
+
+526
+00:34:12,000 --> 00:34:17,000
+lesz neked egy ilyen szép átmenet ugye
+
+527
+00:34:15,240 --> 00:34:19,000
+tehát hogyha például átmész ebből
+
+528
+00:34:17,000 --> 00:34:21,079
+trimapbe akkor így szépen át fog menni
+
+529
+00:34:19,000 --> 00:34:23,119
+vagy visszamész scatterbe akkor lesz egy
+
+530
+00:34:21,079 --> 00:34:26,639
+ilyen lesz egy ilyen
+
+531
+00:34:23,119 --> 00:34:30,520
+átmenet Na jó miért hoztam ezt a
+
+532
+00:34:26,639 --> 00:34:33,599
+sendence példát be azért mert valójában
+
+533
+00:34:30,520 --> 00:34:35,879
+a háttérben ezek is vega
+
+534
+00:34:33,599 --> 00:34:39,040
+viizualizációk Úgyhogy ha meg tudod a
+
+535
+00:34:35,879 --> 00:34:42,720
+hogyha rámész itt arra hogy show vége a
+
+536
+00:34:39,040 --> 00:34:45,760
+spec akkor ezek is vega vizualizációk
+
+537
+00:34:42,720 --> 00:34:49,079
+Úgyhogy k ez egy ez egy ilyen sleeper a
+
+538
+00:34:45,760 --> 00:34:51,960
+vega hogy mindenhol mindenhol ott van
+
+539
+00:34:49,079 --> 00:34:54,560
+Na de szerintem ez a mi már többet
+
+540
+00:34:51,960 --> 00:34:58,000
+tudunk annál mintogy vizuálisan ilyen
+
+541
+00:34:54,560 --> 00:35:01,359
+gimmic kód gimmik szerint használjuk ezt
+
+542
+00:34:58,000 --> 00:35:03,240
+Úgyhogy ha ha direkt használjuk a mega
+
+543
+00:35:01,359 --> 00:35:07,280
+viizualizációt ugye ami itt a Dene
+
+544
+00:35:03,240 --> 00:35:10,119
+plugin az az nekünk jobb távolabbra
+
+545
+00:35:07,280 --> 00:35:12,359
+juttat el Itt van egy olyan vagy hogyan
+
+546
+00:35:10,119 --> 00:35:15,320
+vagy hogyha odamész a a full
+
+547
+00:35:12,359 --> 00:35:18,119
+screenbe de ez nem elég a vegánál hanem
+
+548
+00:35:15,320 --> 00:35:20,200
+itt van egy olyan külön neki hogy edit
+
+549
+00:35:18,119 --> 00:35:24,880
+És akkor az edit át átváltja a
+
+550
+00:35:20,200 --> 00:35:28,599
+vizualizációt ilyen ilyen edit módra
+
+551
+00:35:24,880 --> 00:35:31,800
+ahol hát egészen ugye
+
+552
+00:35:28,599 --> 00:35:34,280
+egészen ismerős környezettel találkozunk
+
+553
+00:35:31,800 --> 00:35:36,680
+Ez ez a standard vega konfiguráció És
+
+554
+00:35:34,280 --> 00:35:38,720
+akkor itt tudjuk használni nekünk szépen
+
+555
+00:35:36,680 --> 00:35:41,640
+az összes dimenziókat Ugyanúgy ahogy itt
+
+556
+00:35:38,720 --> 00:35:45,200
+a a value megvannak neked a dimenzióknak
+
+557
+00:35:41,640 --> 00:35:47,000
+a nevei azokat te használhatod Itt ugye
+
+558
+00:35:45,200 --> 00:35:50,040
+például a month helyett hogyha yourt
+
+559
+00:35:47,000 --> 00:35:52,160
+teszel akkor neked átvált átváltja a
+
+560
+00:35:50,040 --> 00:35:54,640
+tengelyt jörre be Lehet azt én be
+
+561
+00:35:52,160 --> 00:35:56,280
+szoktam azt tenni hogy automatikusan
+
+562
+00:35:54,640 --> 00:35:58,960
+mint pontosan mint az online editor
+
+563
+00:35:56,280 --> 00:36:01,520
+automatikusan ezeket a változtatásokat
+
+564
+00:35:58,960 --> 00:36:04,920
+vegye át és akkor itt egészen jól szépen
+
+565
+00:36:01,520 --> 00:36:08,800
+lehet használni és hatékonyan dolgozni
+
+566
+00:36:04,920 --> 00:36:10,760
+Na úgyhogy szerintem az lenne nyilván
+
+567
+00:36:08,800 --> 00:36:12,720
+használhattok a saját projekthez
+
+568
+00:36:10,760 --> 00:36:14,240
+használhattok bármelyik beépített Power
+
+569
+00:36:12,720 --> 00:36:16,400
+BI vizualizációt Van még egy csomó
+
+570
+00:36:14,240 --> 00:36:18,720
+érdekes custom vizualizáció is például
+
+571
+00:36:16,400 --> 00:36:20,800
+hogyha senki diagramot szeretnél
+
+572
+00:36:18,720 --> 00:36:23,079
+rajzolni vagy hogyha hálózatdiagrammot
+
+573
+00:36:20,800 --> 00:36:23,960
+szeretnél rajzolni vagy bármilyen ilyen
+
+574
+00:36:23,079 --> 00:36:26,480
+ilyen
+
+575
+00:36:23,960 --> 00:36:28,480
+folyamatábrát arra nem igazán nem igazán
+
+576
+00:36:26,480 --> 00:36:30,880
+vannak jó beépített eszközök Látod
+
+577
+00:36:28,480 --> 00:36:34,200
+használhatod ezt a senki diagrammót vagy
+
+578
+00:36:30,880 --> 00:36:36,200
+ezt ezt ezt azt hiszem pont én csináltam
+
+579
+00:36:34,200 --> 00:36:38,119
+Az egyik ez az egyik szkit diagramot azt
+
+580
+00:36:36,200 --> 00:36:41,040
+én csináltam És
+
+581
+00:36:38,119 --> 00:36:42,960
+akkor akkor innen választhatsz nyugodtan
+
+582
+00:36:41,040 --> 00:36:46,440
+Van van például egy ilyen halocskás is
+
+583
+00:36:42,960 --> 00:36:49,359
+az is egy szenkit diagram Vagy hogyha a
+
+584
+00:36:46,440 --> 00:36:51,720
+hálózati vizualizációt szeretnél arra
+
+585
+00:36:49,359 --> 00:36:55,240
+ugye vannak vannak van ez a hur diagram
+
+586
+00:36:51,720 --> 00:36:57,400
+a cord vagy igazi tényleges hálózat arra
+
+587
+00:36:55,240 --> 00:36:59,240
+nem igazán vannak jó jó megoldások
+
+588
+00:36:57,400 --> 00:37:01,920
+úgyhogy ki lehet bármelyiket amit itt
+
+589
+00:36:59,240 --> 00:37:04,240
+találtok nyugodtan Ö lát például van itt
+
+590
+00:37:01,920 --> 00:37:07,319
+egy ilyen metró től képest hogyha ezt
+
+591
+00:37:04,240 --> 00:37:09,520
+hogyha ezt szeretnéd Sok esetben Power
+
+592
+00:37:07,319 --> 00:37:11,800
+BI-ban
+
+593
+00:37:09,520 --> 00:37:13,319
+én a vizualizációtól szoktam indulni
+
+594
+00:37:11,800 --> 00:37:15,400
+ugye mert mi tudjuk a vizualizációs
+
+595
+00:37:13,319 --> 00:37:17,000
+elméletet tudjuk hogy körülbelül mi
+
+596
+00:37:15,400 --> 00:37:19,040
+lenne egy érdekes megjelenítése az
+
+597
+00:37:17,000 --> 00:37:21,160
+adatoknak és akkor választok valamilyen
+
+598
+00:37:19,040 --> 00:37:23,280
+érdekes vizualizációt amelyik nem az
+
+599
+00:37:21,160 --> 00:37:26,000
+alap beépített utána megpróbálom az
+
+600
+00:37:23,280 --> 00:37:28,920
+adatokat a ahhoz a vizualizációhoz
+
+601
+00:37:26,000 --> 00:37:31,920
+formázni Na de hogyha hogyha nem
+
+602
+00:37:28,920 --> 00:37:34,520
+szeretnétek ezt a a az alap beépített
+
+603
+00:37:31,920 --> 00:37:37,440
+vagy a custom vizuálokat akkor beteszed
+
+604
+00:37:34,520 --> 00:37:40,520
+a denebet és azt rajzolsz vele amit amit
+
+605
+00:37:37,440 --> 00:37:42,680
+szeretnél Érdekes lenne hátha majd hátha
+
+606
+00:37:40,520 --> 00:37:45,800
+majd valaki megpróbálja replikálni az
+
+607
+00:37:42,680 --> 00:37:48,359
+első féléves vizualizációs projektjét
+
+608
+00:37:45,800 --> 00:37:51,240
+amelyik Vegában volt teljesen Power
+
+609
+00:37:48,359 --> 00:37:52,319
+BI-ban És akkor ez azért ugye ez azért
+
+610
+00:37:51,240 --> 00:37:54,800
+jó
+
+611
+00:37:52,319 --> 00:37:56,480
+mert az első fél éves vizualizációs
+
+612
+00:37:54,800 --> 00:37:58,079
+projektnél még csak így különálló
+
+613
+00:37:56,480 --> 00:38:00,599
+vizualizációkat
+
+614
+00:37:58,079 --> 00:38:02,440
+készítettünk de nem igazán tudtuk azt
+
+615
+00:38:00,599 --> 00:38:04,800
+hogy hogy lehet több vizualizációt
+
+616
+00:38:02,440 --> 00:38:06,720
+összekötni egymással Na most azt neked
+
+617
+00:38:04,800 --> 00:38:08,480
+most a kurzor megcsinálja nagyrészt ugye
+
+618
+00:38:06,720 --> 00:38:10,680
+hogyha azt mondod hogy tegyél nekem egy
+
+619
+00:38:08,480 --> 00:38:12,560
+legődülő lista gombot amelyikbe ki lehet
+
+620
+00:38:10,680 --> 00:38:16,040
+választani hogy most ez melyik
+
+621
+00:38:12,560 --> 00:38:16,800
+portfólióhoz tartozik azt neked HTMLben
+
+622
+00:38:16,040 --> 00:38:19,319
+össze
+
+623
+00:38:16,800 --> 00:38:20,680
+összehackeli valószínűleg one shot egy
+
+624
+00:38:19,319 --> 00:38:23,520
+egy
+
+625
+00:38:20,680 --> 00:38:24,880
+promptal De hogyha te jobban szeretnéd
+
+626
+00:38:23,520 --> 00:38:26,839
+kontrollálni vagy jobban szeretnéd
+
+627
+00:38:24,880 --> 00:38:29,400
+érteni hogy mi történik akkor Power
+
+628
+00:38:26,839 --> 00:38:33,200
+PI-ban egy egészen egészen jó kezelő
+
+629
+00:38:29,400 --> 00:38:33,960
+felületet össze lehet rakni
+
+630
+00:38:33,200 --> 00:38:39,000
+Na
+
+631
+00:38:33,960 --> 00:38:41,800
+jó ugye megnéztük a eddig hogy a
+
+632
+00:38:39,000 --> 00:38:44,200
+háttérben a backentben milyen
+
+633
+00:38:41,800 --> 00:38:46,280
+adattranszformációk
+
+634
+00:38:44,200 --> 00:38:48,800
+lehetségesek És azt mondtuk hogy ezeket
+
+635
+00:38:46,280 --> 00:38:51,960
+a lépéseket ahogy adogatjuk hozzá ezt
+
+636
+00:38:48,800 --> 00:38:54,119
+nevezzük a power querynek Most nekem
+
+637
+00:38:51,960 --> 00:38:56,680
+most a fálom az eltűnt de az volt a
+
+638
+00:38:54,119 --> 00:38:59,920
+lényeg hogy itt voltak különböző lépések
+
+639
+00:38:56,680 --> 00:39:02,680
+és ugye megvolt a ez az advanced editor
+
+640
+00:38:59,920 --> 00:39:05,200
+és azt mondtuk hogy így jönnek egymásnan
+
+641
+00:39:02,680 --> 00:39:07,560
+lépések Itt is direkt ki lehet ezt
+
+642
+00:39:05,200 --> 00:39:09,760
+szerkeszteni és hogyha ezt meg szeretnéd
+
+643
+00:39:07,560 --> 00:39:11,560
+iratni egy AI assistenssel vagy egy AI
+
+644
+00:39:09,760 --> 00:39:13,280
+agenttel akkor ezt ezt a fajta power
+
+645
+00:39:11,560 --> 00:39:16,560
+query kódot azért egészen jól megír
+
+646
+00:39:13,280 --> 00:39:19,000
+megírogatja Van még egy még fölsőbb
+
+647
+00:39:16,560 --> 00:39:21,280
+layer amit amiről nem beszélgettünk de
+
+648
+00:39:19,000 --> 00:39:22,119
+ez csak azért mert állítólag van nektek
+
+649
+00:39:21,280 --> 00:39:25,040
+külön
+
+650
+00:39:22,119 --> 00:39:27,640
+kurzusotok SQL-ből Tehát itt amikor
+
+651
+00:39:25,040 --> 00:39:29,359
+neked a forrásod nem egy fál ugye mer
+
+652
+00:39:27,640 --> 00:39:31,680
+egy fál forrást használtunk hogy legyen
+
+653
+00:39:29,359 --> 00:39:34,200
+szép és egyszerű hogyha a forrásod nem
+
+654
+00:39:31,680 --> 00:39:37,680
+egy fál hanem egy SQL adatbázis akkor az
+
+655
+00:39:34,200 --> 00:39:40,079
+első lépésbe a teljes SQL kód az az a
+
+656
+00:39:37,680 --> 00:39:42,880
+lekérdezés része lesz
+
+657
+00:39:40,079 --> 00:39:46,359
+Tehát valójában
+
+658
+00:39:42,880 --> 00:39:48,800
+három transzformálási lehetőség van mert
+
+659
+00:39:46,359 --> 00:39:50,920
+beleírhatod az SQL kódba is azt hogyha
+
+660
+00:39:48,800 --> 00:39:52,839
+te már szeretnél adatokat csoportosítani
+
+661
+00:39:50,920 --> 00:39:55,400
+vagy átlagolni
+
+662
+00:39:52,839 --> 00:39:57,680
+hogyha az az a leghatékonyabb hogyha az
+
+663
+00:39:55,400 --> 00:39:59,079
+SK-be beleír a dem mindig lehetséges
+
+664
+00:39:57,680 --> 00:40:01,560
+Lehet hogy szét kell válasszod az
+
+665
+00:39:59,079 --> 00:40:03,920
+oszlopot és akkor utána csak az a hogyha
+
+666
+00:40:01,560 --> 00:40:06,119
+például van egy terméknév és a közepén
+
+667
+00:40:03,920 --> 00:40:08,760
+van egy kötőjel és az első az a divízió
+
+668
+00:40:06,119 --> 00:40:10,560
+és a második a terméknek a kategóriája
+
+669
+00:40:08,760 --> 00:40:12,920
+akkor ezt SQL-ben nehéz megcsinálni
+
+670
+00:40:10,560 --> 00:40:15,280
+minden string műveleket tehát a
+
+671
+00:40:12,920 --> 00:40:17,640
+számműveleteket arra nagyon jó az SQL de
+
+672
+00:40:15,280 --> 00:40:19,800
+a string műveletekre vagy nem tudja vagy
+
+673
+00:40:17,640 --> 00:40:22,560
+nagyon lassú lesz arra jobb a power
+
+674
+00:40:19,800 --> 00:40:25,280
+query és akkor behúzod egyszer az összes
+
+675
+00:40:22,560 --> 00:40:28,319
+adatot a power querybe és akkor itt
+
+676
+00:40:25,280 --> 00:40:30,359
+megcsinálod a a string műveleteket az
+
+677
+00:40:28,319 --> 00:40:32,640
+különböző oszlopoknak a a
+
+678
+00:40:30,359 --> 00:40:34,400
+csoportosításait És akkor utána mikor
+
+679
+00:40:32,640 --> 00:40:40,400
+ezt elkészítetted
+
+680
+00:40:34,400 --> 00:40:40,400
+akkor van amikor nem föltétlenül nem
+
+681
+00:40:46,240 --> 00:40:52,280
+föltétlenül Jaj nektek nem mutatta ezt
+
+682
+00:40:49,119 --> 00:40:56,480
+a hát
+
+683
+00:40:52,280 --> 00:40:59,520
+én egy desktopot akarom mutatni pontosan
+
+684
+00:40:56,480 --> 00:41:02,079
+Tehát én amíg az utóbbit meséltem addig
+
+685
+00:40:59,520 --> 00:41:04,079
+itt itt voltam az 50 torban és azt
+
+686
+00:41:02,079 --> 00:41:06,400
+mondtam hogy ezek azok a lépések És a
+
+687
+00:41:04,079 --> 00:41:09,680
+legelső lépésnél ugye mi most egy fá
+
+688
+00:41:06,400 --> 00:41:13,680
+forrást használtunk de használhattunk
+
+689
+00:41:09,680 --> 00:41:16,960
+volna használhattunk volna egy SQL egy
+
+690
+00:41:13,680 --> 00:41:20,319
+SQL adott bázist is És akkor az fog
+
+691
+00:41:16,960 --> 00:41:23,280
+történni hogy itt neked a teljes SQL
+
+692
+00:41:20,319 --> 00:41:25,480
+lekérdezés belemegy az első lépésbe és
+
+693
+00:41:23,280 --> 00:41:27,680
+itt hozhatod létre a módosítást vagy ha
+
+694
+00:41:25,480 --> 00:41:31,599
+nem akkor lépéseket teszel ide be ez a
+
+695
+00:41:27,680 --> 00:41:33,839
+power query vagy visszatérsz és itt a
+
+696
+00:41:31,599 --> 00:41:36,599
+frontendbe mert nem mindig hasznos az
+
+697
+00:41:33,839 --> 00:41:40,040
+hogyha nekünk most így néz ki az adat
+
+698
+00:41:36,599 --> 00:41:42,400
+hogy előre kiszámoltassuk Például hogyha
+
+699
+00:41:40,040 --> 00:41:44,480
+én kizeretném azt
+
+700
+00:41:42,400 --> 00:41:47,160
+számolni hogy mennyi volt mondjuk az
+
+701
+00:41:44,480 --> 00:41:49,240
+átlagos érték
+
+702
+00:41:47,160 --> 00:41:52,240
+a GME Document hubra vagy a vagy a
+
+703
+00:41:49,240 --> 00:41:54,280
+Castrolra akkor ezt ki tudnám külön egy
+
+704
+00:41:52,240 --> 00:41:56,280
+másik táblázatban a háttérben ugye
+
+705
+00:41:54,280 --> 00:41:57,800
+számolni de nem mint főleg hogyha nagy
+
+706
+00:41:56,280 --> 00:41:59,480
+táblázataink vannak az nem mindig
+
+707
+00:41:57,800 --> 00:42:02,280
+hatékony
+
+708
+00:41:59,480 --> 00:42:05,400
+Ezért lehet hogy csak létrehozunk egy
+
+709
+00:42:02,280 --> 00:42:08,760
+egy ilyen apparent ugye egy ilyen
+
+710
+00:42:05,400 --> 00:42:12,319
+látszólagos számolást a frontendben azt
+
+711
+00:42:08,760 --> 00:42:14,720
+pedig DAX kódban fogjuk létrehozni Kettő
+
+712
+00:42:12,319 --> 00:42:17,400
+fajta számolás van Kettő fajta számolás
+
+713
+00:42:14,720 --> 00:42:19,359
+van DAX Códeban Az egyiket azt úgy
+
+714
+00:42:17,400 --> 00:42:22,280
+hívják hogy column és a másikat úgy
+
+715
+00:42:19,359 --> 00:42:25,800
+hívják hogy measure Használjuk ezt a
+
+716
+00:42:22,280 --> 00:42:29,079
+combined táblázatot és becsukogatom őket
+
+717
+00:42:25,800 --> 00:42:29,079
+hozzunk hogyha jobb
+
+718
+00:42:32,480 --> 00:42:37,839
+klikkelsz Hát remélem hogy látszik a
+
+719
+00:42:34,960 --> 00:42:39,280
+jobb klikkelés kéne látszódjon Hogyha
+
+720
+00:42:37,839 --> 00:42:42,160
+jobb klikkelsz akkor itt van egy olyan
+
+721
+00:42:39,280 --> 00:42:43,880
+hogy new column vagy new measure
+
+722
+00:42:42,160 --> 00:42:46,480
+Általában ezek közül szoktok használni
+
+723
+00:42:43,880 --> 00:42:49,640
+valamelyiket hogyha létrehozunk egy új
+
+724
+00:42:46,480 --> 00:42:51,040
+oszlopot akkor az azt csinálja hogy
+
+725
+00:42:49,640 --> 00:42:53,559
+minden soron
+
+726
+00:42:51,040 --> 00:42:56,119
+végigmegy és megnézi az ott levő
+
+727
+00:42:53,559 --> 00:42:58,599
+értékeket a többi oszlopban és az
+
+728
+00:42:56,119 --> 00:43:01,880
+alapján
+
+729
+00:42:58,599 --> 00:43:04,319
+megpróbál egy új oszlopot létrehozni Az
+
+730
+00:43:01,880 --> 00:43:06,880
+iparban ezt általában úgy hívják hogy
+
+731
+00:43:04,319 --> 00:43:08,760
+calculated column Szóval azért hogy
+
+732
+00:43:06,880 --> 00:43:11,839
+megkülönböztessünk megkülönböztessük
+
+733
+00:43:08,760 --> 00:43:13,720
+őket az eredeti adatbázisban vagy az
+
+734
+00:43:11,839 --> 00:43:15,559
+eredeti adattáblánkban szereplő
+
+735
+00:43:13,720 --> 00:43:18,440
+oszlopoktól amiket úgy hívjunk hogy row
+
+736
+00:43:15,559 --> 00:43:20,520
+vagy true column Most a calculated
+
+737
+00:43:18,440 --> 00:43:23,000
+columnál pedig ugye itt behozhatunk más
+
+738
+00:43:20,520 --> 00:43:27,440
+oszlopokat Például hogyha szeretnénk egy
+
+739
+00:43:23,000 --> 00:43:31,400
+olyant hogy portfólió és owner ezt a két
+
+740
+00:43:27,440 --> 00:43:33,119
+stringet ő ragassza össze
+
+741
+00:43:31,400 --> 00:43:38,760
+Itt a szinttaxis neked megmondja
+
+742
+00:43:33,119 --> 00:43:38,760
+megmondja neked a a nagynyelvi modell
+
+743
+00:43:38,920 --> 00:43:44,160
+Tehát például egy egy
+
+744
+00:43:42,400 --> 00:43:47,280
+ilyen
+
+745
+00:43:44,160 --> 00:43:50,760
+pipával ragasszuk őket
+
+746
+00:43:47,280 --> 00:43:53,720
+össze két spacel és
+
+747
+00:43:50,760 --> 00:43:58,040
+akkor létrehoz neked itt
+
+748
+00:43:53,720 --> 00:44:01,520
+egy calculated kum Addig amíg létrehozza
+
+749
+00:43:58,040 --> 00:44:01,520
+megmutatom itt azt
+
+750
+00:44:15,839 --> 00:44:21,599
+hogy kábé az lenne erre a prompt
+
+751
+00:44:19,280 --> 00:44:23,960
+hogy
+
+752
+00:44:21,599 --> 00:44:26,319
+create eleinte meg szoktam mondani neki
+
+753
+00:44:23,960 --> 00:44:26,319
+ugye az
+
+754
+00:44:32,240 --> 00:44:38,760
+Balculum
+
+755
+00:44:34,839 --> 00:44:42,880
+that merges
+
+756
+00:44:38,760 --> 00:44:42,880
+others source and
+
+757
+00:44:45,760 --> 00:44:50,319
+target in the
+
+758
+00:44:48,040 --> 00:44:53,319
+middle Ezt eggen Jól meg szokta
+
+759
+00:44:50,319 --> 00:44:53,319
+oneotolni
+
+760
+00:44:56,319 --> 00:45:00,640
+Hát ott káb k tehát ugyanaz ugyanazt
+
+761
+00:44:58,760 --> 00:45:01,880
+csinálja mint mi Én nem nem jegyzem meg
+
+762
+00:45:00,640 --> 00:45:04,319
+én se ezt hogy most pontosan a
+
+763
+00:45:01,880 --> 00:45:07,160
+strinkonkatálás hogy működik vagy így az
+
+764
+00:45:04,319 --> 00:45:09,760
+átlagoknak a mik a pontos nevei Van
+
+765
+00:45:07,160 --> 00:45:11,040
+amelyik ugye average van amelyik mean
+
+766
+00:45:09,760 --> 00:45:12,400
+Ezt általában meg lehet kérdezni egy
+
+767
+00:45:11,040 --> 00:45:15,000
+nagy nyelvű modelltől is egészen jól
+
+768
+00:45:12,400 --> 00:45:17,319
+megmondja neked Csak itt az történik
+
+769
+00:45:15,000 --> 00:45:19,680
+hogy ha visszamész a táblázatba akkor
+
+770
+00:45:17,319 --> 00:45:21,440
+most van egy új oszlop Ez a ez az a
+
+771
+00:45:19,680 --> 00:45:23,480
+calculated kalam És akkor tényleg így
+
+772
+00:45:21,440 --> 00:45:25,720
+össze ugye vette minden egyes sorba
+
+773
+00:45:23,480 --> 00:45:28,000
+vette ezeket az értékeket vette ezeket
+
+774
+00:45:25,720 --> 00:45:30,200
+az értékeket és egymáshoz lap
+
+775
+00:45:28,000 --> 00:45:33,359
+ragasztotta
+
+776
+00:45:30,200 --> 00:45:36,119
+őket Ezeket ugyanúgy lehet használni
+
+777
+00:45:33,359 --> 00:45:37,000
+ezeket a calculated columnökat ugyanúgy
+
+778
+00:45:36,119 --> 00:45:40,760
+lehet
+
+779
+00:45:37,000 --> 00:45:43,200
+használni mint bármelyik másik oszlopon
+
+780
+00:45:40,760 --> 00:45:45,520
+Itt hogyha nekünk van külön portfólio
+
+781
+00:45:43,200 --> 00:45:48,240
+owner
+
+782
+00:45:45,520 --> 00:45:51,880
+source akkor teljesen ez
+
+783
+00:45:48,240 --> 00:45:54,240
+egy hasonlóképpen viselkedő még akkor is
+
+784
+00:45:51,880 --> 00:45:56,119
+hogyha üres ugye hasonlóképpen viselkedő
+
+785
+00:45:54,240 --> 00:45:58,640
+oszlop mint a mint az összes többi ez
+
+786
+00:45:56,119 --> 00:46:00,960
+néha hasznos hogyha kifejezetten akar
+
+787
+00:45:58,640 --> 00:46:03,079
+hogyha ilyen azonosítókat kell egyedi
+
+788
+00:46:00,960 --> 00:46:06,000
+azonosítókat kreálni például több
+
+789
+00:46:03,079 --> 00:46:08,359
+oszlopból nem mindig
+
+790
+00:46:06,000 --> 00:46:10,760
+nem mindig
+
+791
+00:46:08,359 --> 00:46:12,480
+szükséges ezt előre a háttérben a power
+
+792
+00:46:10,760 --> 00:46:13,720
+kében kiszámolni hanem csak kiszámolni
+
+793
+00:46:12,480 --> 00:46:17,160
+itt a
+
+794
+00:46:13,720 --> 00:46:19,480
+frontendben Na most egy másik fajta egy
+
+795
+00:46:17,160 --> 00:46:23,880
+másik
+
+796
+00:46:19,480 --> 00:46:28,319
+fajta frontendx lehetőség az
+
+797
+00:46:23,880 --> 00:46:30,240
+a measure A measure az egy számolás Ez
+
+798
+00:46:28,319 --> 00:46:32,960
+nem fogja elvégezni neked mindegyik
+
+799
+00:46:30,240 --> 00:46:34,760
+oszlopra külön hanem annak függvényében
+
+800
+00:46:32,960 --> 00:46:36,480
+hogy éppen mi a kontextus milyen
+
+801
+00:46:34,760 --> 00:46:38,240
+vizualizációnál vagyunk vagy milyen
+
+802
+00:46:36,480 --> 00:46:40,480
+táblázatnál vagyunk neked mindig
+
+803
+00:46:38,240 --> 00:46:44,400
+kiszámolja ezt Tehát ez egy számolás
+
+804
+00:46:40,480 --> 00:46:47,640
+kell legyen Hozzunk létre egy új
+
+805
+00:46:44,400 --> 00:46:50,319
+mezasurt Például legyen az
+
+806
+00:46:47,640 --> 00:46:52,160
+hogy ami nem ilyen egyértelmű legyen
+
+807
+00:46:50,319 --> 00:46:55,839
+mondjuk a
+
+808
+00:46:52,160 --> 00:46:55,839
+medián a
+
+809
+00:47:00,559 --> 00:47:04,280
+valuen És akkor hogyha megnézed a
+
+810
+00:47:02,599 --> 00:47:08,119
+táblázatot most nincsen új
+
+811
+00:47:04,280 --> 00:47:10,119
+oszlop másfajta ikont is kap Látod ez ez
+
+812
+00:47:08,119 --> 00:47:11,920
+egy ilyen FX-es ikont kap Ez egy ilyen
+
+813
+00:47:10,119 --> 00:47:14,240
+számológépet
+
+814
+00:47:11,920 --> 00:47:17,480
+És akkor most az történik menjünk vissza
+
+815
+00:47:14,240 --> 00:47:19,440
+egy olyan oldalhoz ahol voltak már
+
+816
+00:47:17,480 --> 00:47:21,960
+meglévő
+
+817
+00:47:19,440 --> 00:47:23,839
+filtereink Jó jól van Akkor az már
+
+818
+00:47:21,960 --> 00:47:26,480
+használhatjuk az ürest is Itt hogyha
+
+819
+00:47:23,839 --> 00:47:26,480
+létrehozunk
+
+820
+00:47:26,800 --> 00:47:32,119
+egy egy táblázatot volt nekünk egy
+
+821
+00:47:29,640 --> 00:47:34,839
+táblázatok amelyben benne volt mindegyik
+
+822
+00:47:32,119 --> 00:47:34,839
+Ezt kerestem
+
+823
+00:47:39,000 --> 00:47:44,760
+Igen Hát hogy néz ki nekünk most a nyers
+
+824
+00:47:42,319 --> 00:47:46,960
+a nyers adat ugye volt egy hónap volt
+
+825
+00:47:44,760 --> 00:47:50,520
+egy év volt egy
+
+826
+00:47:46,960 --> 00:47:52,400
+hónap akkor azt hiszem ezek léteznek
+
+827
+00:47:50,520 --> 00:47:54,559
+Volt a metrika hogy milyen metrikát
+
+828
+00:47:52,400 --> 00:47:57,240
+mérünk Ez nem biztos hogy kell létezik
+
+829
+00:47:54,559 --> 00:47:57,240
+ez az egész
+
+830
+00:47:57,359 --> 00:48:04,359
+egy forrás rendszerben akkor az azalatt
+
+831
+00:48:00,760 --> 00:48:08,680
+volt a portfólió azalatt volt az
+
+832
+00:48:04,359 --> 00:48:12,800
+owner volt egy matric a csoport volt egy
+
+833
+00:48:08,680 --> 00:48:15,359
+matric és akkor ez a
+
+834
+00:48:12,800 --> 00:48:17,359
+teljes a teljes adat és akkor mindegyik
+
+835
+00:48:15,359 --> 00:48:19,880
+metrika vagy metrika csoport létezett
+
+836
+00:48:17,359 --> 00:48:22,880
+havonta évente és havonta és voltak
+
+837
+00:48:19,880 --> 00:48:24,920
+ilyen különálló értékek Most itt láttad
+
+838
+00:48:22,880 --> 00:48:27,599
+hogy az történt amikor én elvettem innen
+
+839
+00:48:24,920 --> 00:48:30,640
+azt hogy Matrixa vagy matric csoport
+
+840
+00:48:27,599 --> 00:48:32,680
+akkor a PowerB valójában kezd számolni
+
+841
+00:48:30,640 --> 00:48:36,160
+ugye különböző
+
+842
+00:48:32,680 --> 00:48:36,160
+értékeket Az azért
+
+843
+00:48:36,440 --> 00:48:43,640
+van mert itt itt neked ő létrehoz egyből
+
+844
+00:48:40,559 --> 00:48:45,640
+egy tehát by default amikor te beteszel
+
+845
+00:48:43,640 --> 00:48:47,640
+egy számszerű valamit Most ezt
+
+846
+00:48:45,640 --> 00:48:50,319
+átneveztük totálnak de ez valójában
+
+847
+00:48:47,640 --> 00:48:53,319
+hogyha rá rámész akkor ugye ez ez a
+
+848
+00:48:50,319 --> 00:48:56,400
+value csak ez összegezve van De hogyha
+
+849
+00:48:53,319 --> 00:48:58,480
+beteszel egy egy random
+
+850
+00:48:56,400 --> 00:49:01,200
+táblázatba hogyha beteszel te egy
+
+851
+00:48:58,480 --> 00:49:04,319
+számszerű értéket akkor ő automatikusan
+
+852
+00:49:01,200 --> 00:49:06,440
+próbál neked csinálni egy mezőt rajta És
+
+853
+00:49:04,319 --> 00:49:08,839
+ez általában az összeg a default De itt
+
+854
+00:49:06,440 --> 00:49:10,359
+hogyha rámész akkor ki lehet azt venni
+
+855
+00:49:08,839 --> 00:49:14,079
+Hát látod itt nekem ne csináljál
+
+856
+00:49:10,359 --> 00:49:17,799
+automatikus meurt hanem az összes
+
+857
+00:49:14,079 --> 00:49:19,559
+értéket mutassad Látod tehát itt például
+
+858
+00:49:17,799 --> 00:49:23,280
+ennél a táblázatnál hogyha kivesszük ezt
+
+859
+00:49:19,559 --> 00:49:25,960
+az automatikus összegzést akkor nyilván
+
+860
+00:49:23,280 --> 00:49:28,960
+ugyanerre lesz például több több érték
+
+861
+00:49:25,960 --> 00:49:31,640
+is ugye akkor nem összegzi
+
+862
+00:49:28,960 --> 00:49:34,640
+őket Egy measure viszont amelyiket mi
+
+863
+00:49:31,640 --> 00:49:36,359
+hozzuk létre az mindig fogja összegezni
+
+864
+00:49:34,640 --> 00:49:39,240
+Tehát hogyha nekem most egy olyan
+
+865
+00:49:36,359 --> 00:49:39,240
+táblázatom
+
+866
+00:49:40,119 --> 00:49:47,440
+van amelyikbe mondjuk csak a hát itt van
+
+867
+00:49:44,359 --> 00:49:50,680
+két source például csak a source van és
+
+868
+00:49:47,440 --> 00:49:52,880
+akkor melléje hozom a mezast amit mi
+
+869
+00:49:50,680 --> 00:49:54,799
+kiszámoltunk akkor ugye ez ennél nem
+
+870
+00:49:52,880 --> 00:49:58,599
+lehet számítani vagy nem lehet
+
+871
+00:49:54,799 --> 00:50:00,960
+beállítani a számítás fajtáját
+
+872
+00:49:58,599 --> 00:50:03,359
+És ugye itt most mediánt kértünk a
+
+873
+00:50:00,960 --> 00:50:05,640
+mezőre ami elvileg azt jelenti hogy
+
+874
+00:50:03,359 --> 00:50:08,160
+ugyanaz ugyanazt kellene nekünk adja
+
+875
+00:50:05,640 --> 00:50:10,640
+mintogyha itt betesszük azt hogy source
+
+876
+00:50:08,160 --> 00:50:13,240
+és itt a value-nál beállítjuk azt hogy
+
+877
+00:50:10,640 --> 00:50:16,480
+medián akkor ugyanaz lesz a ugyanaz lesz
+
+878
+00:50:13,240 --> 00:50:18,480
+az érték Nyilván hogyha kezdünk több
+
+879
+00:50:16,480 --> 00:50:21,760
+dimenziót adni hozzá például hogyha meg
+
+880
+00:50:18,480 --> 00:50:24,240
+szeretnék nézni hogy nem is portfólio
+
+881
+00:50:21,760 --> 00:50:26,760
+hanem ownerként ugye kik az ügyes
+
+882
+00:50:24,240 --> 00:50:29,319
+ownerek és kik a kevésbé ügyes ownerek
+
+883
+00:50:26,760 --> 00:50:31,839
+Tehát Vinod ő általában egyest kap Vakas
+
+884
+00:50:29,319 --> 00:50:34,000
+általában 09-et többiek általában nullát
+
+885
+00:50:31,839 --> 00:50:36,880
+kapnak ugye Úgyhogy
+
+886
+00:50:34,000 --> 00:50:38,880
+ez ez nem föltétlenül most így egy
+
+887
+00:50:36,880 --> 00:50:40,799
+nagyon egyszerű számolást használtunk
+
+888
+00:50:38,880 --> 00:50:43,119
+ugye csak egy csak egy mediánt ami már
+
+889
+00:50:40,799 --> 00:50:45,440
+eleve benne van az alapvető
+
+890
+00:50:43,119 --> 00:50:47,520
+számolásokban be De mi lenne hogyha nem
+
+891
+00:50:45,440 --> 00:50:51,400
+csak egy mediánt szeretnénk hanem ide
+
+892
+00:50:47,520 --> 00:50:54,119
+ide valami például egy egy valamilyen
+
+893
+00:50:51,400 --> 00:50:58,720
+összetettebb ugye hogy például a medián
+
+894
+00:50:54,119 --> 00:51:01,440
+elosztva az average el az mennyi akkor
+
+895
+00:50:58,720 --> 00:51:02,920
+ugye ez a számolás ez a számolás ez
+
+896
+00:51:01,440 --> 00:51:05,680
+megmarad ebben de az average
+
+897
+00:51:02,920 --> 00:51:10,720
+valószínűleg nulla Ez a számolás ez itt
+
+898
+00:51:05,680 --> 00:51:12,960
+megőrződik ebben a a ebben a formátumban
+
+899
+00:51:10,720 --> 00:51:15,319
+Úgyhogy ezek ezek a mezőök És akkor
+
+900
+00:51:12,960 --> 00:51:16,720
+bármilyen vizualizációban ezt majd te
+
+901
+00:51:15,319 --> 00:51:21,000
+fogod tudni
+
+902
+00:51:16,720 --> 00:51:21,000
+használni Itt hogyha visszamegyünk
+
+903
+00:51:22,119 --> 00:51:26,079
+a vagy a sendenses vagy a vegás vagy a
+
+904
+00:51:25,000 --> 00:51:28,280
+beépített
+
+905
+00:51:26,079 --> 00:51:31,079
+vizualizációba akkor itt a totál helyet
+
+906
+00:51:28,280 --> 00:51:33,960
+használhatjuk kifejezetten kifejezetten
+
+907
+00:51:31,079 --> 00:51:37,839
+a mezőt és akkor szépen ugye ez fog
+
+908
+00:51:33,960 --> 00:51:37,839
+nekünk itt változni
+
+909
+00:51:38,760 --> 00:51:43,960
+Valójában ennyi a teljes tehát a Power
+
+910
+00:51:41,559 --> 00:51:46,839
+Guy elméleti részének ennyi en ennyi a
+
+911
+00:51:43,960 --> 00:51:49,480
+háttere
+
+912
+00:51:46,839 --> 00:51:52,280
+Úgyhogy itt most az kellene következzen
+
+913
+00:51:49,480 --> 00:51:56,160
+vagy az fog következni
+
+914
+00:51:52,280 --> 00:51:58,640
+hogy próbáljatok meg valamilyen adatsort
+
+915
+00:51:56,160 --> 00:52:00,280
+hozni amiről amiből aztán tudunk
+
+916
+00:51:58,640 --> 00:52:02,240
+csinálni egy Powerbell vizualizációt És
+
+917
+00:52:00,280 --> 00:52:04,559
+mondtam lehet tablót is hogyha valaki
+
+918
+00:52:02,240 --> 00:52:07,040
+tablót szeretné akkor a ugyanezek a
+
+919
+00:52:04,559 --> 00:52:09,440
+lebontások ott is ugyanígy lehet
+
+920
+00:52:07,040 --> 00:52:10,480
+számolásokat illetve a backendben és a
+
+921
+00:52:09,440 --> 00:52:13,280
+frontendben
+
+922
+00:52:10,480 --> 00:52:14,559
+végezni Arra majd a majd akkor megyek
+
+923
+00:52:13,280 --> 00:52:16,599
+bele hogyha valaki tényleg tablót
+
+924
+00:52:14,559 --> 00:52:21,079
+választ Megnézzük a tablóst
+
+925
+00:52:16,599 --> 00:52:23,520
+is De a következő heti alkalmakra akkor
+
+926
+00:52:21,079 --> 00:52:26,160
+azt amit élőben tartok nyilván ugyanúgy
+
+927
+00:52:23,520 --> 00:52:28,200
+live streamelem és felveszem azt is
+
+928
+00:52:26,160 --> 00:52:30,079
+akkor érdemes lenne egy valakinek az
+
+929
+00:52:28,200 --> 00:52:33,000
+adatsorával dolgozni mint ahogyan azt
+
+930
+00:52:30,079 --> 00:52:34,599
+tettük a másik más kulcsosokon is hanem
+
+931
+00:52:33,000 --> 00:52:36,400
+akkor nyilván én hozok egy összetettebb
+
+932
+00:52:34,599 --> 00:52:38,440
+adatsort amivel lehet vizualizációkat
+
+933
+00:52:36,400 --> 00:52:41,799
+készíteni de sokkal jobb az hogyha
+
+934
+00:52:38,440 --> 00:52:44,799
+hogyha valami élő van És az lenne akkor
+
+935
+00:52:41,799 --> 00:52:46,359
+a cél hogy nem is tudom hogy ennek a
+
+936
+00:52:44,799 --> 00:52:48,240
+projektnek csináltam-e leírást Hogyha
+
+937
+00:52:46,359 --> 00:52:50,760
+még nem csináltam akkor a Discordon majd
+
+938
+00:52:48,240 --> 00:52:54,280
+csinálok egy pontos leírást De az lenne
+
+939
+00:52:50,760 --> 00:52:56,520
+a cél hogy mindenki egy Power BI ft
+
+940
+00:52:54,280 --> 00:52:59,319
+tudjon összerakni amiben vannak
+
+941
+00:52:56,520 --> 00:53:00,960
+összekötött összecsatolt vizualizációk
+
+942
+00:52:59,319 --> 00:53:04,280
+Gyorsan megnézem hogy van-e itt a
+
+943
+00:53:00,960 --> 00:53:07,520
+projekteknek leírása Lehet hogy
+
+944
+00:53:04,280 --> 00:53:07,520
+nincsen Még
+
+945
+00:53:11,520 --> 00:53:17,839
+nincsen Bett de van Jól van
+
+946
+00:53:14,920 --> 00:53:22,440
+akkor igen hogyha megnézitek
+
+947
+00:53:17,839 --> 00:53:22,440
+ugye mi volt itt nekünk
+
+948
+00:53:26,599 --> 00:53:30,200
+tehát
+
+949
+00:53:27,680 --> 00:53:32,760
+BI2-nél van egy olyan csatorna hogy
+
+950
+00:53:30,200 --> 00:53:34,440
+projektek és akkor itt itt itt el itt le
+
+951
+00:53:32,760 --> 00:53:36,960
+van írva hogy körülbelül hogy kell ezt
+
+952
+00:53:34,440 --> 00:53:40,440
+elképzelni Tehát hozzunk létre hozzunk
+
+953
+00:53:36,960 --> 00:53:43,440
+létre egy adatvizualizációs
+
+954
+00:53:40,440 --> 00:53:46,079
+testot és annyi az egész hogy legyen
+
+955
+00:53:43,440 --> 00:53:48,760
+interaktív tudját valamire tud valamire
+
+956
+00:53:46,079 --> 00:53:50,880
+felhasználni Most én itt arra használtam
+
+957
+00:53:48,760 --> 00:53:53,200
+volna ezt fel ugye hogy például a
+
+958
+00:53:50,880 --> 00:53:55,319
+különböző portfólió
+
+959
+00:53:53,200 --> 00:53:57,760
+tulajdonosoknak mutassam a hónapról
+
+960
+00:53:55,319 --> 00:53:59,760
+hónapra való teljesítményét vagy vagy
+
+961
+00:53:57,760 --> 00:54:02,359
+valami hasonló ugye ez egy nagyon játék
+
+962
+00:53:59,760 --> 00:54:04,240
+adatsor de hogyha hoz hoztok majd élőt
+
+963
+00:54:02,359 --> 00:54:09,240
+akkor azt akkor majd meglátjuk hogy
+
+964
+00:54:04,240 --> 00:54:09,240
+milyen történetet lehet abból összerakni
+
+965
+00:54:09,520 --> 00:54:13,960
+És akkor azt mondtuk ugye hogy itt
+
+966
+00:54:11,640 --> 00:54:16,240
+is itt is bemutatjuk ezeket a
+
+967
+00:54:13,960 --> 00:54:17,559
+projekteket röviden Az az teljesen
+
+968
+00:54:16,240 --> 00:54:20,000
+rendben
+
+969
+00:54:17,559 --> 00:54:23,240
+van Ezt majd akkor megbeszéljük jövő hét
+
+970
+00:54:20,000 --> 00:54:23,240
+Pontosan pontosan
+
+971
+00:54:26,440 --> 00:54:33,760
+hogy
+
+972
+00:54:28,440 --> 00:54:33,760
+jó Van-e van-e bárkinek kérdése
+
+973
+00:54:39,319 --> 00:54:45,119
+jó hogyha nincs akkor átnyargalunk a
+
+974
+00:54:41,640 --> 00:54:47,920
+másik kurzusra a a
+
+975
+00:54:45,119 --> 00:54:50,680
+dockeresre az integrált informatikai
+
+976
+00:54:47,920 --> 00:54:54,200
+rendszerekre Csak azelőtt tartsunk egy
+
+977
+00:54:50,680 --> 00:54:56,280
+tartsunk egy pici szünetet Tehát most
+
+978
+00:54:54,200 --> 00:54:58,760
+most kettő van olyan
+
+979
+00:54:56,280 --> 00:55:03,040
+215 körül kezdjük a
+
+980
+00:54:58,760 --> 00:55:03,040
+következőt Addig megállok
+
+981
+00:55:06,160 --> 00:55:12,160
+A link az ez marad ugyanaz meg nem nem
+
+982
+00:55:08,440 --> 00:55:12,160
+is állítom meg a hívást
+
+983
+01:01:17,160 --> 01:01:19,160
+อ
+
+984
+01:01:43,039 --> 01:01:46,039
+M
+
+985
+01:05:19,119 --> 01:05:22,119
+T
+
+986
+01:09:12,279 --> 01:09:15,279
+F
+
+987
+01:10:48,950 --> 01:10:52,080
+[Zene]
+
+988
+01:15:43,900 --> 01:15:47,020
+[Zene]
+
+989
+01:26:00,440 --> 01:26:03,440
+H
+
+990
+01:28:43,360 --> 01:28:46,880
+Sziasztok visszajöttem
+
+991
+01:28:51,960 --> 01:28:56,360
+Helló helló
+
+992
+01:28:54,080 --> 01:28:57,800
+Kis kis késéssel Lássuk Írok egyet
+
+993
+01:28:56,360 --> 01:29:02,600
+Discordba
+
+994
+01:28:57,800 --> 01:29:02,600
+hogy aki esetleg már kilépett
+
+995
+01:29:30,199 --> 01:29:37,159
+Jó ez a Ossz meg az egészet újra Hát az
+
+996
+01:29:35,080 --> 01:29:40,239
+így jó lesz
+
+997
+01:29:37,159 --> 01:29:42,199
+Igen Lássuk meddig jutottunk ennél a
+
+998
+01:29:40,239 --> 01:29:44,119
+kurzusnál
+
+999
+01:29:42,199 --> 01:29:47,159
+Ugye ez a
+
+1000
+01:29:44,119 --> 01:29:50,000
+tokeres Azt mondtuk
+
+1001
+01:29:47,159 --> 01:29:52,520
+hogy megtanultunk elindítani egyszerre
+
+1002
+01:29:50,000 --> 01:29:52,520
+több
+
+1003
+01:29:53,920 --> 01:29:59,480
+szolgáltatást és próbáltunk
+
+1004
+01:29:57,400 --> 01:30:01,440
+csatlakozni próbáltunk csatlakozni a
+
+1005
+01:29:59,480 --> 01:30:03,360
+tokerhez a távoli
+
+1006
+01:30:01,440 --> 01:30:07,480
+tockerhez és azt mondtuk hogy most
+
+1007
+01:30:03,360 --> 01:30:10,400
+megpróbálunk majd egy fál
+
+1008
+01:30:07,480 --> 01:30:12,719
+segítségével elindítani egy teljes egy
+
+1009
+01:30:10,400 --> 01:30:15,360
+teljes környezetet
+
+1010
+01:30:12,719 --> 01:30:17,199
+Ezt próbáljuk most ezt próbáljuk a mai
+
+1011
+01:30:15,360 --> 01:30:20,480
+alkalommal akkor
+
+1012
+01:30:17,199 --> 01:30:22,760
+véghez véghez vinni Csak egy pillanat
+
+1013
+01:30:20,480 --> 01:30:28,440
+hogy ott nyissam meg az
+
+1014
+01:30:22,760 --> 01:30:28,440
+AWS-emet és ott állítsam ezt be
+
+1015
+01:30:53,080 --> 01:30:56,080
+T
+
+1016
+01:31:49,000 --> 01:31:52,360
+Azt nem akar
+
+1017
+01:31:52,679 --> 01:31:58,600
+vékihagyni az óra ez fel lesz véve
+
+1018
+01:31:55,480 --> 01:32:01,560
+recording igen igen ez fel obsveszem ezt
+
+1019
+01:31:58,600 --> 01:32:03,800
+az jobb jobb lesz mint a
+
+1020
+01:32:01,560 --> 01:32:06,800
+zoomos muszáj felvegyem mert kettően
+
+1021
+01:32:03,800 --> 01:32:06,800
+vagyunk
+
+1022
+01:32:06,920 --> 01:32:09,480
+Az lesz hogy hár
+
+1023
+01:32:53,920 --> 01:32:57,920
+Az jó
+
+1024
+01:34:03,520 --> 01:34:09,000
+Itt csak elindítom a felhős a felhős
+
+1025
+01:34:06,000 --> 01:34:09,000
+AWS-t
+
+1026
+01:34:12,920 --> 01:34:19,960
+mert hogyha te hogyha te
+
+1027
+01:34:16,199 --> 01:34:22,920
+hely futtokat a dokert akkor az ennél
+
+1028
+01:34:19,960 --> 01:34:26,920
+kevesebb csak hogy ez legyen meg hogyha
+
+1029
+01:34:22,920 --> 01:34:26,920
+valaki ezt az utat szeretné
+
+1030
+01:34:27,760 --> 01:34:32,800
+követni és már nyilván egy hónapja nem
+
+1031
+01:34:30,080 --> 01:34:32,800
+jelentkez kezdtem
+
+1032
+01:34:51,360 --> 01:34:57,119
+beon Jó És hol voltunk itt voltunk
+
+1033
+01:35:22,760 --> 01:35:26,560
+Meg szoktam állítani én a szervereket
+
+1034
+01:35:24,320 --> 01:35:29,320
+mert hogyha nem állítod meg tehát nem
+
+1035
+01:35:26,560 --> 01:35:31,560
+nem csak nem muszáj Csak nem terminateel
+
+1036
+01:35:29,320 --> 01:35:33,600
+hanem az letérlié hanem csak stoppal
+
+1037
+01:35:31,560 --> 01:35:35,560
+Hogyha nem állítod meg akkor kiszaladsz
+
+1038
+01:35:33,600 --> 01:35:38,040
+Az ugye vannak azok az ingyenes órák és
+
+1039
+01:35:35,560 --> 01:35:43,040
+akkor kiszaladsz
+
+1040
+01:35:38,040 --> 01:35:46,440
+belőle Az 750 óra ami egy hónap és egy
+
+1041
+01:35:43,040 --> 01:35:50,360
+kicsi Na jó akkor innen innen folytatjuk
+
+1042
+01:35:46,440 --> 01:35:51,480
+Igen mondom értem
+
+1043
+01:35:50,360 --> 01:35:54,760
+Tessék
+
+1044
+01:35:51,480 --> 01:35:58,960
+É ilyen szomadásom is egyszer belefutott
+
+1045
+01:35:54,760 --> 01:36:01,360
+hogy nem állt a les kaput számől
+
+1046
+01:35:58,960 --> 01:36:03,320
+Hát ilyen nem olyan nagy de egy ilyen
+
+1047
+01:36:01,360 --> 01:36:06,960
+25-30 dollár per hónap hogyha hagyod
+
+1048
+01:36:03,320 --> 01:36:08,920
+hogy menjen Az annyi volt
+
+1049
+01:36:06,960 --> 01:36:11,320
+Na
+
+1050
+01:36:08,920 --> 01:36:13,159
+jó hát ezt hogyha kurzuson használta
+
+1051
+01:36:11,320 --> 01:36:15,199
+akkor megpróbálhatjuk az egyetemen
+
+1052
+01:36:13,159 --> 01:36:17,000
+elszámoltatni hogyha valami személyes
+
+1053
+01:36:15,199 --> 01:36:18,400
+akkor annyira nem Munor el volt Munor el
+
+1054
+01:36:17,000 --> 01:36:21,560
+volt
+
+1055
+01:36:18,400 --> 01:36:23,960
+Ja Na jó Ugye itt megkapod az IP címedet
+
+1056
+01:36:21,560 --> 01:36:26,199
+vagy a DNS-es IP-t vagy a vagy a konkrét
+
+1057
+01:36:23,960 --> 01:36:29,840
+IP címet és akkor ezt felhasználva
+
+1058
+01:36:26,199 --> 01:36:33,040
+kellene tudjál csatlakozni ehhez a ehhez
+
+1059
+01:36:29,840 --> 01:36:36,400
+a szerverhez Mi eddig amit használtunk
+
+1060
+01:36:33,040 --> 01:36:38,920
+ugye ez a in browser connect volt és
+
+1061
+01:36:36,400 --> 01:36:41,080
+akkor ezzel itt a browseren keresztül
+
+1062
+01:36:38,920 --> 01:36:43,880
+tudsz tudsz
+
+1063
+01:36:41,080 --> 01:36:45,880
+csatlakozni ami nagyjából működik csak
+
+1064
+01:36:43,880 --> 01:36:48,639
+most hogy fálokat szeretnénk
+
+1065
+01:36:45,880 --> 01:36:51,239
+szerkeszteni akkor elég elég nehézkes
+
+1066
+01:36:48,639 --> 01:36:51,239
+lesz
+
+1067
+01:36:51,600 --> 01:36:57,360
+De ez arra jó hogy megnézzük hogy
+
+1068
+01:36:54,360 --> 01:36:59,280
+dockerünk az van-e Hát például itt ezen
+
+1069
+01:36:57,360 --> 01:37:02,159
+a gépen nincs
+
+1070
+01:36:59,280 --> 01:37:04,360
+is És akkor kell hozzá egy
+
+1071
+01:37:02,159 --> 01:37:05,719
+szudó Kell hozzá egy szudó Akkor
+
+1072
+01:37:04,360 --> 01:37:07,600
+csináljunk egy
+
+1073
+01:37:05,719 --> 01:37:09,679
+szudóst hogy
+
+1074
+01:37:07,600 --> 01:37:12,679
+működjön Na
+
+1075
+01:37:09,679 --> 01:37:12,679
+jó
+
+1076
+01:37:13,040 --> 01:37:19,360
+A közben azt akarom nézni hogy ez obsen
+
+1077
+01:37:15,960 --> 01:37:21,360
+jól van Jól van
+
+1078
+01:37:19,360 --> 01:37:24,520
+A általában
+
+1079
+01:37:21,360 --> 01:37:28,239
+elfogadott módszer a szerverekhez való
+
+1080
+01:37:24,520 --> 01:37:31,360
+csatlakozáshoz az az SSH
+
+1081
+01:37:28,239 --> 01:37:34,000
+lesz Van ez az SSH kliensel való
+
+1082
+01:37:31,360 --> 01:37:37,520
+csatlakozás És akkor az körülbelül
+
+1083
+01:37:34,000 --> 01:37:41,560
+körülbelül így néz ki Na most ez nyilván
+
+1084
+01:37:37,520 --> 01:37:43,520
+Linuxra vonatkozik úgyhogy neked egyből
+
+1085
+01:37:41,560 --> 01:37:46,840
+ugye amikor összeraktuk ezt a
+
+1086
+01:37:43,520 --> 01:37:48,920
+szervert akkor a security groupnál
+
+1087
+01:37:46,840 --> 01:37:51,080
+létrehoztunk egy security groupot Nekem
+
+1088
+01:37:48,920 --> 01:37:55,360
+ennek az a neve hogy launchert
+
+1089
+01:37:51,080 --> 01:37:58,080
+2 És ott letöltöttél egy fált aminek az
+
+1090
+01:37:55,360 --> 01:38:01,480
+volt a kiterjesztése hogy PEM
+
+1091
+01:37:58,080 --> 01:38:04,280
+És akkor ezt a Pam fát látod ezt a Pam
+
+1092
+01:38:01,480 --> 01:38:08,320
+fát kéri majd neked az SSH
+
+1093
+01:38:04,280 --> 01:38:10,560
+csatlakozáskor az SSK eszköz Na most
+
+1094
+01:38:08,320 --> 01:38:13,040
+Windowsban ez egy kicsit kicsit
+
+1095
+01:38:10,560 --> 01:38:16,800
+körülményes úgyhogy megmutatom most a
+
+1096
+01:38:13,040 --> 01:38:19,520
+Windowsos a Windowsos útvonalat
+
+1097
+01:38:16,800 --> 01:38:21,760
+Apple-ön vagy Linuxon ez alapból alapból
+
+1098
+01:38:19,520 --> 01:38:24,639
+ez megy De itt hogyha megnézitek a
+
+1099
+01:38:21,760 --> 01:38:24,639
+Discordban
+
+1100
+01:38:27,320 --> 01:38:32,040
+akkor Á nem is írtam le nem is írtam le
+
+1101
+01:38:30,119 --> 01:38:33,440
+Igen akkor akkor muszáj végigmenjünk
+
+1102
+01:38:32,040 --> 01:38:35,199
+Muszáj végigmenjünk részletesen a
+
+1103
+01:38:33,440 --> 01:38:39,520
+Windows-os részen mert valószínűleg ezt
+
+1104
+01:38:35,199 --> 01:38:42,040
+fogják Ja itt van SS kulcsok beállítása
+
+1105
+01:38:39,520 --> 01:38:46,040
+Windowson mert az aki majd ezt
+
+1106
+01:38:42,040 --> 01:38:47,920
+felvételről nézi az hasonló nehézségekbe
+
+1107
+01:38:46,040 --> 01:38:50,480
+ütközhet Ugye
+
+1108
+01:38:47,920 --> 01:38:52,440
+alapvetően elindítod a elindítod a
+
+1109
+01:38:50,480 --> 01:38:55,840
+Discord vagy a a
+
+1110
+01:38:52,440 --> 01:38:58,800
+kurzorodat és akkor itt annyit kellene
+
+1111
+01:38:55,840 --> 01:39:00,880
+történjen hogy a
+
+1112
+01:38:58,800 --> 01:39:02,840
+bővítményeknél hogyha keresünk valami
+
+1113
+01:39:00,880 --> 01:39:06,280
+olyasmire hogy
+
+1114
+01:39:02,840 --> 01:39:09,880
+SSH akkor lesz egy olyan hogy remote SSK
+
+1115
+01:39:06,280 --> 01:39:12,440
+Ez a standard Microsoft Microsoft
+
+1116
+01:39:09,880 --> 01:39:14,159
+bővítmény Ezt ezt ezt azért tedd fel
+
+1117
+01:39:12,440 --> 01:39:16,000
+hogyha még nem tetted fel csak menjél rá
+
+1118
+01:39:14,159 --> 01:39:19,679
+hogy install
+
+1119
+01:39:16,000 --> 01:39:22,159
+É akkor utána hogyha ez hogyha ez megvan
+
+1120
+01:39:19,679 --> 01:39:25,520
+akkor
+
+1121
+01:39:22,159 --> 01:39:28,239
+a a kurzornak vagy a VS kódnak bármilyen
+
+1122
+01:39:25,520 --> 01:39:32,000
+kódszerkesztőt hogyha használsz Ctrl
+
+1123
+01:39:28,239 --> 01:39:33,840
+Shift P ez előhozza ezt
+
+1124
+01:39:32,000 --> 01:39:36,560
+a
+
+1125
+01:39:33,840 --> 01:39:39,119
+commandt és akkor itt oda fogunk menni
+
+1126
+01:39:36,560 --> 01:39:41,360
+hogy connect to
+
+1127
+01:39:39,119 --> 01:39:43,000
+host Csak itt egyből nekünk meg fogja
+
+1128
+01:39:41,360 --> 01:39:44,920
+kérdezni hogy melyikhez melyikhez
+
+1129
+01:39:43,000 --> 01:39:46,000
+szeretnél csatlakozni Nekem ilen már be
+
+1130
+01:39:44,920 --> 01:39:50,400
+van állítva
+
+1131
+01:39:46,000 --> 01:39:52,880
+előre De itt neked a az elején nem lesz
+
+1132
+01:39:50,400 --> 01:39:55,360
+semmi úgyhogy azt fogod csinálni hogy
+
+1133
+01:39:52,880 --> 01:39:57,440
+configure úgyis lehet hogy add new SSH
+
+1134
+01:39:55,360 --> 01:39:59,520
+host de akkor itt a vonal itt a command
+
+1135
+01:39:57,440 --> 01:40:02,360
+line-ban kell beírogatni Úgyhogy az még
+
+1136
+01:39:59,520 --> 01:40:06,199
+jobb hogyha odamész hogy configure SSH
+
+1137
+01:40:02,360 --> 01:40:08,239
+hosts és az alap tehát a felhasználódhoz
+
+1138
+01:40:06,199 --> 01:40:10,159
+tartozó config fát
+
+1139
+01:40:08,239 --> 01:40:13,239
+válasszat Tehát még egyszer hogy
+
+1140
+01:40:10,159 --> 01:40:18,880
+jutottam ehhez a fához el
+
+1141
+01:40:13,239 --> 01:40:20,960
+ctrl shift P előhozza ezt a
+
+1142
+01:40:18,880 --> 01:40:23,760
+parancsablakot Azt szeretnéd használni
+
+1143
+01:40:20,960 --> 01:40:25,119
+hogy connect to SSH host Egyébként ezt
+
+1144
+01:40:23,760 --> 01:40:27,360
+úgy is elő lehet hozni hogy miután
+
+1145
+01:40:25,119 --> 01:40:29,719
+feltetted ezt a bővítményt neked a bal
+
+1146
+01:40:27,360 --> 01:40:31,360
+alsó sarokban létrejön egy ilyen egy
+
+1147
+01:40:29,719 --> 01:40:34,239
+ilyen gombocska amelyik az hogy open
+
+1148
+01:40:31,360 --> 01:40:36,599
+remote window És akkor ez ugyanoda
+
+1149
+01:40:34,239 --> 01:40:39,679
+ugyanazt hozza elé Látod connect to host
+
+1150
+01:40:36,599 --> 01:40:42,440
+remote SSH-val
+
+1151
+01:40:39,679 --> 01:40:44,480
+Itt ugye nem add new hanem configursh
+
+1152
+01:40:42,440 --> 01:40:48,159
+hosts és itt kiválasztod a személyes
+
+1153
+01:40:44,480 --> 01:40:50,119
+felhasználód alatt levő fajt Na most ide
+
+1154
+01:40:48,159 --> 01:40:52,280
+lehet ez neked alapból nincsen semmi de
+
+1155
+01:40:50,119 --> 01:40:54,800
+az bele van téve hogy host alliance host
+
+1156
+01:40:52,280 --> 01:40:57,520
+name host name user user Ez egy példa
+
+1157
+01:40:54,800 --> 01:41:01,239
+hogy hogy kell ezt használni Úgyhogy ide
+
+1158
+01:40:57,520 --> 01:41:04,239
+be fogjuk azt tenni hogy host Ide adsz
+
+1159
+01:41:01,239 --> 01:41:08,040
+neki egy nevet bármilyen bármilyen
+
+1160
+01:41:04,239 --> 01:41:11,800
+nevet utána jön a host name ide írhatod
+
+1161
+01:41:08,040 --> 01:41:17,719
+az IP címet vagy azt a DNS-es IP címet
+
+1162
+01:41:11,800 --> 01:41:17,719
+tehát a host namehez látod itt jön neked
+
+1163
+01:41:18,119 --> 01:41:24,360
+ez amit én ide betettem Ide beteszed azt
+
+1164
+01:41:22,400 --> 01:41:27,480
+meg is változott az enyém ahogy kinézett
+
+1165
+01:41:24,360 --> 01:41:27,480
+a helyzet
+
+1166
+01:41:28,320 --> 01:41:32,239
+Ez azért van tehát ez volt nekem itt
+
+1167
+01:41:30,440 --> 01:41:34,080
+alapvetően benne Most megváltozott erre
+
+1168
+01:41:32,239 --> 01:41:37,360
+Ez azért van mert amikor
+
+1169
+01:41:34,080 --> 01:41:38,800
+újraindítod mikor megállítod a a egy
+
+1170
+01:41:37,360 --> 01:41:42,360
+kicsit kell
+
+1171
+01:41:38,800 --> 01:41:46,719
+vigyázni de amikor megállítod az egyik
+
+1172
+01:41:42,360 --> 01:41:50,080
+instanceet az egyik aws instanceet és
+
+1173
+01:41:46,719 --> 01:41:53,040
+újraindítod akkor ő kap egy új EP címet
+
+1174
+01:41:50,080 --> 01:41:54,840
+Ahhoz hogy neked statikus IP címe legyen
+
+1175
+01:41:53,040 --> 01:41:58,400
+ahhoz neked itt be kell egy olyant
+
+1176
+01:41:54,840 --> 01:42:01,159
+konfigurálni hogy elastic IP És akkor az
+
+1177
+01:41:58,400 --> 01:42:03,639
+ez ez egy fizetés szolgáltat fizetés
+
+1178
+01:42:01,159 --> 01:42:06,159
+szolgáltatás És akkor mindig ugyanaz a
+
+1179
+01:42:03,639 --> 01:42:08,520
+mindig ugyanazt az IP címet fogja kapni
+
+1180
+01:42:06,159 --> 01:42:11,280
+a virtuális képed De nem baj mert így
+
+1181
+01:42:08,520 --> 01:42:13,639
+megtanuljuk hogy hogy kell hogy kell ezt
+
+1182
+01:42:11,280 --> 01:42:17,119
+kezelni Tehát mindig amikor újraindítod
+
+1183
+01:42:13,639 --> 01:42:19,880
+akkor akkor kapn kap egy új IP címet
+
+1184
+01:42:17,119 --> 01:42:22,040
+Azért mert kapott egy új IP címet
+
+1185
+01:42:19,880 --> 01:42:26,599
+Új lesz a public Ezt kell nekünk
+
+1186
+01:42:22,040 --> 01:42:29,960
+használni Látod a a public IP V4 DNS-e
+
+1187
+01:42:26,599 --> 01:42:32,440
+is más lesz Ez kell a host host fileba
+
+1188
+01:42:29,960 --> 01:42:34,639
+menjen A felhasználó az Ubuntuó Ezt
+
+1189
+01:42:32,440 --> 01:42:37,440
+onnan is tudjuk hogy mikor visszamegyünk
+
+1190
+01:42:34,639 --> 01:42:40,320
+a connect racehez akkor neked látod
+
+1191
+01:42:37,440 --> 01:42:41,960
+alapvetően az Ubuntóval lépik be Meg itt
+
+1192
+01:42:40,320 --> 01:42:44,000
+ez írja is valahol azt hiszem az
+
+1193
+01:42:41,960 --> 01:42:46,080
+instance connectnél hogy az username
+
+1194
+01:42:44,000 --> 01:42:48,960
+látod az Ubuntu
+
+1195
+01:42:46,080 --> 01:42:51,480
+Úgyhogy az maradtó És akkor ide jön az
+
+1196
+01:42:48,960 --> 01:42:54,320
+identity file Ez a PE
+
+1197
+01:42:51,480 --> 01:42:56,960
+file Ahol van neked ez a Pam F Nekem
+
+1198
+01:42:54,320 --> 01:42:56,960
+pont nem itt
+
+1199
+01:43:08,800 --> 01:43:14,280
+van Vagy ott van Nem tudom már hogy hol
+
+1200
+01:43:11,280 --> 01:43:14,280
+van
+
+1201
+01:43:26,400 --> 01:43:32,480
+Ott van Akkor pillanat keressem meg hogy
+
+1202
+01:43:28,840 --> 01:43:32,480
+hol van ez az identity
+
+1203
+01:43:46,520 --> 01:43:49,520
+H
+
+1204
+01:44:48,760 --> 01:44:53,639
+Ez lehet hogy pont nincs meg nekem
+
+1205
+01:44:49,960 --> 01:44:53,639
+úgyhogy kellsek egy másikat
+
+1206
+01:45:13,080 --> 01:45:16,560
+Az az kész it
+
+1207
+01:45:41,800 --> 01:45:46,159
+van egy 2023-as
+
+1208
+01:45:54,080 --> 01:45:58,480
+van Nézzek valamit
+
+1209
+01:46:36,360 --> 01:46:39,239
+Na nincs meg Nem baj csinálunk egy
+
+1210
+01:46:37,599 --> 01:46:41,400
+security
+
+1211
+01:46:39,239 --> 01:46:44,599
+groupot Azt is megmutatom hogy akkor
+
+1212
+01:46:41,400 --> 01:46:44,599
+hogy kell
+
+1213
+01:46:47,880 --> 01:46:51,119
+Tehát kéne legyen egy olyan hogy
+
+1214
+01:46:49,480 --> 01:46:53,880
+security
+
+1215
+01:46:51,119 --> 01:46:55,880
+groups És akkor hogyha itt létrehozunk
+
+1216
+01:46:53,880 --> 01:46:59,040
+egy új security
+
+1217
+01:46:55,880 --> 01:47:03,239
+groupot nevezzük ezt a BA
+
+1218
+01:46:59,040 --> 01:47:03,239
+2024-nek vagy 25-nek most
+
+1219
+01:47:04,480 --> 01:47:10,679
+már az pont jó És az lesz a az inbound
+
+1220
+01:47:08,520 --> 01:47:12,239
+rules Ide is azt tesszük hogy old
+
+1221
+01:47:10,679 --> 01:47:14,679
+traffic hogy tudjunk
+
+1222
+01:47:12,239 --> 01:47:17,679
+bárhonnan bárhonnan csatlakozni ehhez a
+
+1223
+01:47:14,679 --> 01:47:17,679
+géphez
+
+1224
+01:47:22,480 --> 01:47:25,199
+És from
+
+1225
+01:47:29,119 --> 01:47:32,560
+anywhere new
+
+1226
+01:47:40,920 --> 01:47:46,520
+groupf Jaj csak az
+
+1227
+01:47:43,440 --> 01:47:48,840
+egész az egész instance instancehoz van
+
+1228
+01:47:46,520 --> 01:47:51,199
+hozzá rendelve Na nem baj akkor gyorsan
+
+1229
+01:47:48,840 --> 01:47:53,480
+csinálunk egy még egy
+
+1230
+01:47:51,199 --> 01:47:57,520
+instanceet Más csak hogyha le
+
+1231
+01:47:53,480 --> 01:47:57,520
+tudnám le tudnám tölteni
+
+1232
+01:47:57,960 --> 01:48:03,080
+hogyha hát megvan Le tudom tölteni Le
+
+1233
+01:48:00,840 --> 01:48:03,080
+tudom
+
+1234
+01:48:15,719 --> 01:48:19,679
+tölteni Szerintem nem tudod letölteni
+
+1235
+01:48:18,280 --> 01:48:21,400
+Pont ez a lényeg De nem baj csinálunk
+
+1236
+01:48:19,679 --> 01:48:25,199
+egy új
+
+1237
+01:48:21,400 --> 01:48:26,960
+keepért Az lesz a neve hogy pa
+
+1238
+01:48:25,199 --> 01:48:31,119
+2025
+
+1239
+01:48:26,960 --> 01:48:31,119
+RS és kész
+
+1240
+01:48:31,560 --> 01:48:36,400
+az és azt letöltötte És akkor hozzá
+
+1241
+01:48:34,040 --> 01:48:36,400
+kellene
+
+1242
+01:48:37,679 --> 01:48:42,800
+rendeljük hozzá kellene
+
+1243
+01:48:40,800 --> 01:48:46,560
+rendeljük ezt a
+
+1244
+01:48:42,800 --> 01:48:51,639
+kulcsot Ez lehet hogy automatikusan
+
+1245
+01:48:46,560 --> 01:48:51,639
+működik a Launch Resard kettőshez
+
+1246
+01:48:58,679 --> 01:49:02,400
+Jól van szerintem ez fog működni
+
+1247
+01:49:02,760 --> 01:49:10,440
+alapból Na jó visszamegyünk
+
+1248
+01:49:05,760 --> 01:49:14,320
+a ide És csináltam egy új kulcsot Az az
+
+1249
+01:49:10,440 --> 01:49:15,719
+enyémnek most a neve hogy B25
+
+1250
+01:49:14,320 --> 01:49:19,440
+Akkor
+
+1251
+01:49:15,719 --> 01:49:21,840
+ez nem ott található hanem másik helyen
+
+1252
+01:49:19,440 --> 01:49:21,840
+B
+
+1253
+01:49:34,639 --> 01:49:39,400
+Ade be kell írni a pontos útvonalat hogy
+
+1254
+01:49:37,239 --> 01:49:42,040
+hol van ez a
+
+1255
+01:49:39,400 --> 01:49:45,280
+kulcs backlashekkel
+
+1256
+01:49:42,040 --> 01:49:47,440
+Na és akkor most elvileg még nem fog
+
+1257
+01:49:45,280 --> 01:49:50,080
+működni de megmutatom hogy megmutatom
+
+1258
+01:49:47,440 --> 01:49:51,599
+hogy kellene működjön Most hogyha te
+
+1259
+01:49:50,080 --> 01:49:54,599
+Appleen vagy akkor valószínűleg kellene
+
+1260
+01:49:51,599 --> 01:49:54,599
+menj
+
+1261
+01:49:54,679 --> 01:50:01,080
+De ugye itt a beállításoknál még itt
+
+1262
+01:49:57,719 --> 01:50:03,280
+mond valamit mond valamit ő hogy meg
+
+1263
+01:50:01,080 --> 01:50:03,280
+kell
+
+1264
+01:50:08,440 --> 01:50:15,880
+csinálni mégpedig azt
+
+1265
+01:50:12,000 --> 01:50:18,040
+hogy meg kell változtatni a hozzáférést
+
+1266
+01:50:15,880 --> 01:50:20,199
+Ez a change mod ez azt jelenti hogy a
+
+1267
+01:50:18,040 --> 01:50:22,040
+jogokat hogy ki kinek hozzáférhető ez a
+
+1268
+01:50:20,199 --> 01:50:23,639
+kulcs meg kell változtatni Na most ez
+
+1269
+01:50:22,040 --> 01:50:27,119
+egy Linux parancs ez nem működik a
+
+1270
+01:50:23,639 --> 01:50:29,800
+Windows-ba de hogyha hogyha Apple-ön
+
+1271
+01:50:27,119 --> 01:50:31,480
+vagy akkor ez ezt ezt használhatod
+
+1272
+01:50:29,800 --> 01:50:35,639
+Windowsban egy kicsit trükkösebb
+
+1273
+01:50:31,480 --> 01:50:39,360
+Megkeresed hogy hol van ez a fál
+
+1274
+01:50:35,639 --> 01:50:39,360
+és megnyitjuk a
+
+1275
+01:50:39,440 --> 01:50:46,199
+tulajdonságait Utána pedig a Kubuntuba
+
+1276
+01:50:42,679 --> 01:50:50,040
+nem működik Windows tessék Ubuntuba nem
+
+1277
+01:50:46,199 --> 01:50:53,199
+működik Nem működne Á nem az akkor
+
+1278
+01:50:50,040 --> 01:50:55,800
+működik Jó Nagyon jó kérdés Ugye azt
+
+1279
+01:50:53,199 --> 01:50:57,920
+kérdezi Tamás hogy Ubuntua hogyha
+
+1280
+01:50:55,800 --> 01:51:00,000
+megnyitjuk a Windows Subsystem Linuxot
+
+1281
+01:50:57,920 --> 01:51:02,760
+Ubuntuba akkor nem-e tudjuk
+
+1282
+01:51:00,000 --> 01:51:04,960
+megváltoztatni ezt a CH3 modot de igen
+
+1283
+01:51:02,760 --> 01:51:06,679
+csak akkor ezt is egyszer akkor a
+
+1284
+01:51:04,960 --> 01:51:09,679
+kurzort is egyszer meg kell nyissuk
+
+1285
+01:51:06,679 --> 01:51:09,679
+VSL-ben
+
+1286
+01:51:10,840 --> 01:51:16,360
+ugye próbáljuk ki most ezt teljesen on
+
+1287
+01:51:13,480 --> 01:51:20,760
+the fly Próbáljuk ki Nyissun ki egy
+
+1288
+01:51:16,360 --> 01:51:20,760
+mappát ugye open folder
+
+1289
+01:51:28,440 --> 01:51:33,040
+még most indítja el úgyhogy kicsikel
+
+1290
+01:51:30,040 --> 01:51:33,040
+várjak
+
+1291
+01:51:36,239 --> 01:51:42,880
+Azt hiszem hogy a remote SSH-t neked
+
+1292
+01:51:39,520 --> 01:51:45,960
+a teljes Windowsos a host környezetbe
+
+1293
+01:51:42,880 --> 01:51:48,119
+teszi fel a a kurzornak nem a Windows
+
+1294
+01:51:45,960 --> 01:51:49,920
+Subsystem Linuxon belül de lehet hogy
+
+1295
+01:51:48,119 --> 01:51:52,280
+ott is feleten meg fogom
+
+1296
+01:51:49,920 --> 01:51:54,040
+nézni Az úgy sokkal egyszerűbb Abszolút
+
+1297
+01:51:52,280 --> 01:51:56,040
+az úgy sokkal könnyebb Akkor azt fogjuk
+
+1298
+01:51:54,040 --> 01:51:58,199
+csinálni Na de közben nekem amíg ezt
+
+1299
+01:51:56,040 --> 01:52:01,040
+elindítja addig megmutatom a Windowsos
+
+1300
+01:51:58,199 --> 01:52:03,639
+útvonalat Tehát elmész a propertieshez
+
+1301
+01:52:01,040 --> 01:52:05,320
+és ott van egy olyan hogy security
+
+1302
+01:52:03,639 --> 01:52:07,760
+Itt odamész hogy
+
+1303
+01:52:05,320 --> 01:52:11,920
+advanced kinyit egy másik ablakot egy
+
+1304
+01:52:07,760 --> 01:52:13,599
+ilyen securitynek kinéző ablakot
+
+1305
+01:52:11,920 --> 01:52:16,159
+Itt
+
+1306
+01:52:13,599 --> 01:52:20,560
+mindenkinek itt ahol írja hogy
+
+1307
+01:52:16,159 --> 01:52:24,960
+owner itt odamész hogy change és csak a
+
+1308
+01:52:20,560 --> 01:52:24,960
+te felhasználódat írod be
+
+1309
+01:52:31,119 --> 01:52:35,119
+Itt az owner a te felhasználód kell
+
+1310
+01:52:33,040 --> 01:52:37,719
+legyen És a
+
+1311
+01:52:35,119 --> 01:52:41,800
+permissionnél mindegyiket le mindegyiket
+
+1312
+01:52:37,719 --> 01:52:41,800
+le kell töröljed az
+
+1313
+01:52:49,199 --> 01:52:52,199
+egészet
+
+1314
+01:52:52,679 --> 01:52:57,639
+Így És akkor utána egyetlen egy
+
+1315
+01:52:55,199 --> 01:53:01,679
+permissiont adsz hozzá
+
+1316
+01:52:57,639 --> 01:53:01,679
+amelyik te leszel saját magad
+
+1317
+01:53:02,119 --> 01:53:08,000
+itt és neked full controlt adsz magadnak
+
+1318
+01:53:08,079 --> 01:53:12,400
+Tehát így kell kinézni a végén hogy
+
+1319
+01:53:09,719 --> 01:53:14,520
+egyetlen egy elo van és az az o amelyik
+
+1320
+01:53:12,400 --> 01:53:14,520
+te
+
+1321
+01:53:20,199 --> 01:53:24,360
+vagy És akkor így kéne kilézzen ezt Itt
+
+1322
+01:53:23,560 --> 01:53:26,880
+hogyha
+
+1323
+01:53:24,360 --> 01:53:29,840
+visszamész a itt már nem számít hogy mi
+
+1324
+01:53:26,880 --> 01:53:31,760
+van Ez szükséges hogyha ezt nem csinálod
+
+1325
+01:53:29,840 --> 01:53:33,000
+meg akkor nem fog nem fog neked az SSH
+
+1326
+01:53:31,760 --> 01:53:36,880
+menni Ez egy
+
+1327
+01:53:33,000 --> 01:53:38,560
+ilyen extra biztonsági lépés Na nézzük
+
+1328
+01:53:36,880 --> 01:53:42,159
+meg
+
+1329
+01:53:38,560 --> 01:53:43,440
+hogy elvileg elvileg akkor VSL-en ker
+
+1330
+01:53:42,159 --> 01:53:45,440
+megpróbáljuk mindjárt azt de elvileg
+
+1331
+01:53:43,440 --> 01:53:47,599
+VSL-en keresztül hátha tudnánk
+
+1332
+01:53:45,440 --> 01:53:50,000
+csatlakozni Nézzük meg hogy nyissuk meg
+
+1333
+01:53:47,599 --> 01:53:53,679
+ezt a mappát
+
+1334
+01:53:50,000 --> 01:53:53,679
+Oké kinyitok egy
+
+1335
+01:53:54,280 --> 01:53:59,639
+terminált Megnézzük a terminálba hogy
+
+1336
+01:53:57,239 --> 01:54:03,119
+hogy hol vagyunk ezen a ezen a Windows
+
+1337
+01:53:59,639 --> 01:54:03,119
+subsistem Linuxon
+
+1338
+01:54:08,170 --> 01:54:11,300
+[Zene]
+
+1339
+01:54:12,320 --> 01:54:18,199
+És ezen a Windows subsistent Linuxon
+
+1340
+01:54:14,480 --> 01:54:23,040
+kéne legyen nekünk egy olyan
+
+1341
+01:54:18,199 --> 01:54:26,400
+hogy MNT Ez MNT ez onnan jön hogy mount
+
+1342
+01:54:23,040 --> 01:54:29,639
+És itt itt megvannak a meghajtóid Akkor
+
+1343
+01:54:26,400 --> 01:54:32,480
+itt ugyancsak a arra a helyre ahol van
+
+1344
+01:54:29,639 --> 01:54:35,119
+nekünk a kulcs oda kellene navigálni Én
+
+1345
+01:54:32,480 --> 01:54:35,119
+most elmegyek
+
+1346
+01:54:53,199 --> 01:54:58,719
+oda És akkor itt megvan ez a pamp file
+
+1347
+01:54:56,560 --> 01:55:01,679
+És akkor pontosan ahogy itt írja ugye
+
+1348
+01:54:58,719 --> 01:55:06,079
+change mode to 400-ra tehát azt kell ide
+
+1349
+01:55:01,679 --> 01:55:10,440
+beírjuk hogy ch mode 400 Ez a full
+
+1350
+01:55:06,079 --> 01:55:13,280
+control a Linuxba és ide jön tehát 400-
+
+1351
+01:55:10,440 --> 01:55:16,480
+mint szám és utána jön a fálnak a neve
+
+1352
+01:55:13,280 --> 01:55:16,480
+ami nekem va
+
+1353
+01:55:18,520 --> 01:55:22,679
+2025-ben és ez végbe kellene menjen Na
+
+1354
+01:55:21,840 --> 01:55:24,880
+most
+
+1355
+01:55:22,679 --> 01:55:29,880
+innen kellene
+
+1356
+01:55:24,880 --> 01:55:29,880
+tudjak connect to ssh hostra
+
+1357
+01:55:32,159 --> 01:55:37,880
+Lassuk itt meg miután beállítottam ezt a
+
+1358
+01:55:34,800 --> 01:55:37,880
+Básat ez meg kellene
+
+1359
+01:55:38,000 --> 01:55:43,679
+jelenjen Teljesen újabblakot nyit ki a
+
+1360
+01:55:40,360 --> 01:55:47,719
+kurzor Itt megpróbálja kinyitani Lássuk
+
+1361
+01:55:43,679 --> 01:55:47,719
+hogy mennyire jártunk sikerrel
+
+1362
+01:55:58,639 --> 01:56:04,520
+Nem lett ez
+
+1363
+01:56:00,079 --> 01:56:06,880
+jó Nem jó ez a kulcs Tehát muszáj a jó
+
+1364
+01:56:04,520 --> 01:56:09,960
+ötlet volt ez hogy a VSL-en keresztül
+
+1365
+01:56:06,880 --> 01:56:12,920
+megcsinálni de de nem működik De nézzük
+
+1366
+01:56:09,960 --> 01:56:16,119
+meg hogy ezzel a direktel ezzel a a
+
+1367
+01:56:12,920 --> 01:56:19,079
+direkt parancsal esetleg még működik-e
+
+1368
+01:56:16,119 --> 01:56:19,079
+Ez az utolsó
+
+1369
+01:56:27,960 --> 01:56:35,199
+próbálkozásunként Bad
+
+1370
+01:56:31,040 --> 01:56:35,199
+permissions És hogyha szudóval
+
+1371
+01:56:41,000 --> 01:56:49,000
+csináljuk Permissions for BA225 are to
+
+1372
+01:56:45,040 --> 01:56:51,360
+open Látod ez nem tetszik ez neki Muszáj
+
+1373
+01:56:49,000 --> 01:56:54,599
+Windowsba valahogy muszáj megcsinálni Ki
+
+1374
+01:56:51,360 --> 01:56:56,159
+fogok minden menni ki fogok a VSből
+
+1375
+01:56:54,599 --> 01:57:00,040
+menni.Open
+
+1376
+01:56:56,159 --> 01:57:00,040
+Ö reopen folder in
+
+1377
+01:57:08,400 --> 01:57:13,360
+Windows és visszanavigálunk oda ahol van
+
+1378
+01:57:11,040 --> 01:57:13,360
+ez a
+
+1379
+01:57:26,119 --> 01:57:32,599
+kulcs És akkor innen
+
+1380
+01:57:30,000 --> 01:57:35,280
+connect Nézzük csak meg a konfigurációs
+
+1381
+01:57:32,599 --> 01:57:39,199
+fálunkat hogy minden rendben van-e itt
+
+1382
+01:57:35,280 --> 01:57:42,880
+rajta Igen 2025-ös pamp fál És ez a
+
+1383
+01:57:39,199 --> 01:57:45,440
+2025-ös spam fil-nak a permissionjai
+
+1384
+01:57:42,880 --> 01:57:45,440
+hogy néznek
+
+1385
+01:57:48,920 --> 01:57:53,639
+ki ez elég
+
+1386
+01:57:51,440 --> 01:57:57,960
+elég
+
+1387
+01:57:53,639 --> 01:57:57,960
+ilyen ilyen fejfájásos Erre
+
+1388
+01:57:59,719 --> 01:58:05,599
+emlékszem Full control Én vagyok az Azaz
+
+1389
+01:58:07,400 --> 01:58:11,760
+Úgyhogy ez elvileg jó kéne legyen És
+
+1390
+01:58:09,760 --> 01:58:15,199
+akkor most hogyha innen megpróbáljuk azt
+
+1391
+01:58:11,760 --> 01:58:19,800
+hogy connect to SSH
+
+1392
+01:58:15,199 --> 01:58:21,760
+host és utána VA 2024 akkor így ha nem
+
+1393
+01:58:19,800 --> 01:58:24,840
+működik akkor az azért van mert nem
+
+1394
+01:58:21,760 --> 01:58:27,079
+csináltam jó SSH kulcsot vagy nem a
+
+1395
+01:58:24,840 --> 01:58:29,320
+24-est használom mint ahogy tehát valót
+
+1396
+01:58:27,079 --> 01:58:32,440
+át kell cseréljem az
+
+1397
+01:58:29,320 --> 01:58:36,079
+AWS-be nem azt használom amelyiket a
+
+1398
+01:58:32,440 --> 01:58:36,079
+szerver elvárná Hát
+
+1399
+01:58:49,920 --> 01:58:55,400
+igen Na ez nem tetszett
+
+1400
+01:58:53,560 --> 01:58:57,320
+neki Még egyet megpróbálom
+
+1401
+01:58:55,400 --> 01:59:00,199
+megváltoztatni aztán feladom is Megyek a
+
+1402
+01:58:57,320 --> 01:59:01,599
+browseres browseres instance connectel
+
+1403
+01:59:00,199 --> 01:59:03,560
+Úgy is meg tudjuk csinálni csak kicsit
+
+1404
+01:59:01,599 --> 01:59:06,400
+nehezebb lesz
+
+1405
+01:59:03,560 --> 01:59:09,199
+Tehát hogyha még egyszer odamegyek hogy
+
+1406
+01:59:06,400 --> 01:59:10,280
+connect akkor mindenképpen ezt a 24-es
+
+1407
+01:59:09,199 --> 01:59:12,599
+kulcsot
+
+1408
+01:59:10,280 --> 01:59:15,840
+várja Úgyhogy azt fogjuk csinálni hogy
+
+1409
+01:59:12,599 --> 01:59:15,840
+létrehozzunk egy teljesen
+
+1410
+01:59:27,679 --> 01:59:33,000
+újat Csak egy pillanat lássuk nem lehet
+
+1411
+01:59:29,960 --> 01:59:33,000
+ezt kicserélni hogy
+
+1412
+01:59:44,639 --> 01:59:50,079
+ö nem lehet kicserélni azért nem ment
+
+1413
+01:59:47,199 --> 01:59:52,239
+Mindegyik mindegyik
+
+1414
+01:59:50,079 --> 01:59:55,840
+Úgyhogy csináljunk egy teljesen egy
+
+1415
+01:59:52,239 --> 01:59:59,400
+teljesen újat Azt fogjuk csinálni
+
+1416
+01:59:55,840 --> 02:00:00,960
+hogy launch an instance
+
+1417
+01:59:59,400 --> 02:00:02,520
+Ezzel most gyorsan végigmegyek Ezt már
+
+1418
+02:00:00,960 --> 02:00:05,760
+nyilván a múltkor
+
+1419
+02:00:02,520 --> 02:00:09,639
+megcsináltuk Egy Ubuntut
+
+1420
+02:00:05,760 --> 02:00:12,480
+szeretnék T2 micro free
+
+1421
+02:00:09,639 --> 02:00:14,840
+tiert Keeper Most már ki tudjuk
+
+1422
+02:00:12,480 --> 02:00:17,199
+választani hogy a 25-öst szeretnék
+
+1423
+02:00:14,840 --> 02:00:21,639
+használni És
+
+1424
+02:00:17,199 --> 02:00:21,639
+használjuk a SSH from
+
+1425
+02:00:22,960 --> 02:00:28,719
+everywhere És legyen ez 8 gigás Hát
+
+1426
+02:00:25,800 --> 02:00:30,920
+legyen vagy 20
+
+1427
+02:00:28,719 --> 02:00:30,920
+és
+
+1428
+02:00:40,079 --> 02:00:45,920
+Kudinov Na úgy néz ki hogy a a kulcsot
+
+1429
+02:00:42,599 --> 02:00:50,199
+azt hozzácsatolja hozzácsatolja
+
+1430
+02:00:45,920 --> 02:00:50,199
+a az instancehöz
+
+1431
+02:00:53,040 --> 02:00:57,920
+Tudom hogy le is járt az időnk de még
+
+1432
+02:00:55,560 --> 02:01:00,040
+muszáj muszáj elérek a dockerre compost
+
+1433
+02:00:57,920 --> 02:01:03,320
+filigé úgyhogy szerintem még egy 10
+
+1434
+02:01:00,040 --> 02:01:06,159
+percet bele fogok szaladni
+
+1435
+02:01:03,320 --> 02:01:08,040
+Jó tal
+
+1436
+02:01:06,159 --> 02:01:10,560
+lássuk még csak továbbra is hárman
+
+1437
+02:01:08,040 --> 02:01:10,560
+vagyunk Hárman
+
+1438
+02:01:15,119 --> 02:01:22,239
+vagyunk Na jó közben elindult ez
+
+1439
+02:01:19,400 --> 02:01:22,239
+Ezt nevezzük el a
+
+1440
+02:01:23,440 --> 02:01:28,280
+25-ösnek Megvan az IP címünk Vesszük ezt
+
+1441
+02:01:26,320 --> 02:01:31,199
+az új címet Még mindig én is a lizing de
+
+1442
+02:01:28,280 --> 02:01:31,199
+aztán előbb-utóbb
+
+1443
+02:01:32,040 --> 02:01:42,159
+csak Jó Akkor itt kéne egy olyan Igen ez
+
+1444
+02:01:38,760 --> 02:01:43,719
+close Close Ez csak egy kurzor kellene
+
+1445
+02:01:42,159 --> 02:01:47,960
+maradjon a
+
+1446
+02:01:43,719 --> 02:01:51,000
+végén Igen Jó Tehát a host
+
+1447
+02:01:47,960 --> 02:01:55,880
+filebal ho egy teljesen új
+
+1448
+02:01:51,000 --> 02:01:59,239
+új részt és azt mondom hogy ez lesz a
+
+1449
+02:01:55,880 --> 02:02:04,760
+2025-ös és ide hoj EP
+
+1450
+02:01:59,239 --> 02:02:04,760
+címet és marad a 2025-es Pam Fer azt azt
+
+1451
+02:02:05,400 --> 02:02:09,400
+bekonfiguráltuk Akkor ez hogyha még
+
+1452
+02:02:07,840 --> 02:02:13,679
+mindig initializing akkor egy kicsit
+
+1453
+02:02:09,400 --> 02:02:13,679
+várunk de miután running lesz
+
+1454
+02:02:16,320 --> 02:02:20,520
+Connect to SSH
+
+1455
+02:02:28,239 --> 02:02:34,480
+2025-öshöz Azaz most jó lesz Select a
+
+1456
+02:02:31,639 --> 02:02:37,920
+platform Ugye ez egy
+
+1457
+02:02:34,480 --> 02:02:37,920
+Linux continue
+
+1458
+02:02:38,199 --> 02:02:44,639
+Yes Akkor látod elkezdi downloading VS
+
+1459
+02:02:41,520 --> 02:02:47,599
+szerver a hoston
+
+1460
+02:02:44,639 --> 02:02:49,360
+És kész is vagyunk Ugye megnyitotta
+
+1461
+02:02:47,599 --> 02:02:52,760
+nekünk a virtuális
+
+1462
+02:02:49,360 --> 02:02:56,960
+képnek a kurzor
+
+1463
+02:02:52,760 --> 02:02:59,360
+ablakát Most tölti le a VS kódot hogy
+
+1464
+02:02:56,960 --> 02:03:01,840
+működjön Mindegy hogy az most ott VS kód
+
+1465
+02:02:59,360 --> 02:03:04,719
+A másik end pointnál nekünk maradhat a
+
+1466
+02:03:01,840 --> 02:03:08,679
+kurzor És akkor nyissunk ki egy nyissunk
+
+1467
+02:03:04,719 --> 02:03:08,679
+ki egy mappát ahogy szoktuk
+
+1468
+02:03:12,960 --> 02:03:16,920
+Az a home perubon az pontosan
+
+1469
+02:03:26,800 --> 02:03:31,320
+jó Nagyszerű Azt hiszem alapvetően
+
+1470
+02:03:29,840 --> 02:03:32,520
+nincsen dokkerünk úgyhogy most fogunk
+
+1471
+02:03:31,320 --> 02:03:35,719
+tenni egy
+
+1472
+02:03:32,520 --> 02:03:41,239
+dokert Ezen már átmentünk ugye
+
+1473
+02:03:35,719 --> 02:03:41,239
+a az előző alkalommal Ez benne van a
+
+1474
+02:03:45,320 --> 02:03:51,760
+slideokba úgyhogy ezt ide félreteszem
+
+1475
+02:03:48,599 --> 02:03:51,760
+ezt meg ezt meg
+
+1476
+02:03:52,320 --> 02:03:58,639
+ide És azt mondjuk
+
+1477
+02:03:55,159 --> 02:03:58,639
+hogy kell egy
+
+1478
+02:04:02,199 --> 02:04:09,360
+terminál és van egy olyan hogy fel is
+
+1479
+02:04:04,719 --> 02:04:12,520
+találjuk a dockkert az EC2 virtuális
+
+1480
+02:04:09,360 --> 02:04:14,840
+képünkre blá blá blá Itt
+
+1481
+02:04:12,520 --> 02:04:16,679
+van Tehát kell nekünk egy olyan hogy
+
+1482
+02:04:14,840 --> 02:04:19,079
+apget
+
+1483
+02:04:16,679 --> 02:04:22,320
+update Csak ez mind sudóval kell úgyhogy
+
+1484
+02:04:19,079 --> 02:04:25,119
+csináljuk egy sudóbást az elején Utána
+
+1485
+02:04:22,320 --> 02:04:28,920
+kell az aptget
+
+1486
+02:04:25,119 --> 02:04:31,159
+update azaz utána upgget
+
+1487
+02:04:28,920 --> 02:04:33,079
+upgrade Ezek már elég öreg parancsok
+
+1488
+02:04:31,159 --> 02:04:36,079
+vannak ennek modern verzió Ez így
+
+1489
+02:04:33,079 --> 02:04:36,079
+működik
+
+1490
+02:04:44,880 --> 02:04:48,800
+Utána jön ez a hosszú parancs amelyik
+
+1491
+02:04:46,840 --> 02:04:52,800
+felteszi nekünk
+
+1492
+02:04:48,800 --> 02:04:52,800
+a transportot
+
+1493
+02:05:45,440 --> 02:05:49,960
+felteszi a Pythont
+
+1494
+02:05:47,719 --> 02:05:52,480
+is Ezek mit kellenek ahhoz hogy nekünk
+
+1495
+02:05:49,960 --> 02:05:52,480
+szépen menjen a
+
+1496
+02:05:57,040 --> 02:06:01,159
+dokész is van
+
+1497
+02:06:35,960 --> 02:06:41,239
+Jó Utána érez a COR-rel amelyik amelyik
+
+1498
+02:06:39,119 --> 02:06:43,599
+azt csinálja hogy letölti letölti ezt a
+
+1499
+02:06:41,239 --> 02:06:43,599
+doker
+
+1500
+02:06:44,000 --> 02:06:48,159
+image-et utána jön maga a
+
+1501
+02:06:52,199 --> 02:06:56,880
+repository utána még egyszer APG
+
+1502
+02:07:00,119 --> 02:07:05,000
+update Utána jön az install
+
+1503
+02:07:09,679 --> 02:07:15,119
+És utána kellene működjön a docker hello
+
+1504
+02:07:12,119 --> 02:07:15,119
+worldel
+
+1505
+02:07:58,199 --> 02:08:03,880
+Az nagyszerű elvileg docker run hello
+
+1506
+02:08:01,000 --> 02:08:05,880
+world kellene működjön Működik húzza le
+
+1507
+02:08:03,880 --> 02:08:07,960
+a docker imageet Mindjárt kiírja nekünk
+
+1508
+02:08:05,880 --> 02:08:10,719
+hogy hello world Hello from Docker Tehát
+
+1509
+02:08:07,960 --> 02:08:11,719
+hogyha csinálak ezt egy Docker PS akkor
+
+1510
+02:08:10,719 --> 02:08:14,559
+ezek a
+
+1511
+02:08:11,719 --> 02:08:17,040
+megszokott parancsok mutatkoznak Nyilván
+
+1512
+02:08:14,559 --> 02:08:21,440
+hely helyi dokerrel ugyan innen kezdhet
+
+1513
+02:08:17,040 --> 02:08:21,440
+el Ezt csak átvittük az AWS-től
+
+1514
+02:08:22,480 --> 02:08:26,199
+Na
+
+1515
+02:08:23,199 --> 02:08:26,199
+jó
+
+1516
+02:08:29,320 --> 02:08:34,000
+akkor létre kellene hozzunk ugye már
+
+1517
+02:08:31,679 --> 02:08:36,679
+hoztunk létre külön konténereket Az
+
+1518
+02:08:34,000 --> 02:08:40,639
+egészet valahogy be kellene tegyük be
+
+1519
+02:08:36,679 --> 02:08:42,679
+kellene tegyük egy ilyen docker febba és
+
+1520
+02:08:40,639 --> 02:08:45,559
+ahhoz hogy ez a docker
+
+1521
+02:08:42,679 --> 02:08:49,280
+fépen szépen
+
+1522
+02:08:45,559 --> 02:08:51,320
+működjön csináljunk egy csináljuk a
+
+1523
+02:08:49,280 --> 02:08:53,840
+következőt Hozzunk létre egy mappát
+
+1524
+02:08:51,320 --> 02:08:57,559
+magának a magának a
+
+1525
+02:08:53,840 --> 02:08:59,679
+projektünknek ugye az MK
+
+1526
+02:08:57,559 --> 02:09:02,079
+Linux Kicsit nagyobbat teszem hogy
+
+1527
+02:08:59,679 --> 02:09:03,760
+látszjon mert ez itt van a képernyőnek
+
+1528
+02:09:02,079 --> 02:09:08,280
+az alján
+
+1529
+02:09:03,760 --> 02:09:12,159
+De remélem látszik Jó már nincs ez a
+
+1530
+02:09:08,280 --> 02:09:16,400
+kompó ez marad Erre most fá struktúrára
+
+1531
+02:09:12,159 --> 02:09:18,400
+egyelőre nincsen szükségem Tehát MK de
+
+1532
+02:09:16,400 --> 02:09:21,199
+legyen az a neve hogy
+
+1533
+02:09:18,400 --> 02:09:25,480
+projekt És akkor itt létrehozok neked
+
+1534
+02:09:21,199 --> 02:09:25,480
+egy mappát Ugye itt a a
+
+1535
+02:09:26,199 --> 02:09:31,119
+oldal hogyha megnézed a
+
+1536
+02:09:34,159 --> 02:09:38,320
+az Explorert akkor itt mutatja neked
+
+1537
+02:09:36,559 --> 02:09:42,360
+Akkor most létrehozott egy map a projekt
+
+1538
+02:09:38,320 --> 02:09:44,559
+nevű mappát Menjünk ebbe bele CD change
+
+1539
+02:09:42,360 --> 02:09:48,760
+directory Ide kellene csináljunk egy
+
+1540
+02:09:44,559 --> 02:09:51,119
+docker compos filet Na most itt is
+
+1541
+02:09:48,760 --> 02:09:53,800
+csinálhatjuk a fá kezelőben Ide hogyha
+
+1542
+02:09:51,119 --> 02:09:57,520
+csinálsz egy new file ennek lesz a neve
+
+1543
+02:09:53,800 --> 02:10:00,679
+Ez pontosan ez kell legyen Toker
+
+1544
+02:09:57,520 --> 02:10:04,559
+compose.Yml Az YML az egy ilyen annak az
+
+1545
+02:10:00,679 --> 02:10:04,559
+a neve hogy egy egy yamel
+
+1546
+02:10:08,280 --> 02:10:15,960
+file Jó megint van valami permissionös
+
+1547
+02:10:12,360 --> 02:10:15,960
+dolog Hogy is kell
+
+1548
+02:10:18,679 --> 02:10:22,960
+ezt ezt az access permissiont is
+
+1549
+02:10:21,760 --> 02:10:25,400
+valahogy ki
+
+1550
+02:10:22,960 --> 02:10:28,840
+kell Erre is van egy parancs amit meg
+
+1551
+02:10:25,400 --> 02:10:28,840
+kell csinálni emlékszem
+
+1552
+02:10:35,280 --> 02:10:41,239
+Ja így pontosan így Jó a szudós a szudós
+
+1553
+02:10:38,960 --> 02:10:43,840
+részen a szudós részen kell csináljuk
+
+1554
+02:10:41,239 --> 02:10:49,280
+Tehát legyen az
+
+1555
+02:10:43,840 --> 02:10:53,280
+hogy vim vagy v és locker
+
+1556
+02:10:49,280 --> 02:10:53,280
+compose Mml
+
+1557
+02:11:00,280 --> 02:11:08,480
+És ez ez a ez a ez a standard Linux
+
+1558
+02:11:03,480 --> 02:11:11,400
+szövegszerkesztő a WIM miután ezt
+
+1559
+02:11:08,480 --> 02:11:14,040
+ezt végrehajtod beleírhatsz beleírhatsz
+
+1560
+02:11:11,400 --> 02:11:16,320
+valamit Úgy hogy kell kilépni a WMől az
+
+1561
+02:11:14,040 --> 02:11:21,360
+az egyik leggooglezettebb kérdés Ugye
+
+1562
+02:11:16,320 --> 02:11:25,360
+how do I exit Wim az kettős pont
+
+1563
+02:11:21,360 --> 02:11:25,360
+és WQ
+
+1564
+02:11:27,840 --> 02:11:32,920
+megnyitottad kettős pont dupla beírsz
+
+1565
+02:11:30,960 --> 02:11:35,960
+valamit ugye beírsz valamit utána
+
+1566
+02:11:32,920 --> 02:11:39,320
+megnyomod az escapeet utána kettős pont
+
+1567
+02:11:35,960 --> 02:11:42,800
+és wq Ez azt jelenti hogy command mode
+
+1568
+02:11:39,320 --> 02:11:45,320
+writ és quit Ez ilyen régi régi Linuxos
+
+1569
+02:11:42,800 --> 02:11:47,760
+érdekesség Akkor most már lehet
+
+1570
+02:11:45,320 --> 02:11:50,119
+normálisan szerkeszteni ezzel a a kurzor
+
+1571
+02:11:47,760 --> 02:11:51,719
+f szerkesztőjével csak ugye még az lesz
+
+1572
+02:11:50,119 --> 02:11:54,559
+a probléma hogy bármit hogyha szeretnénk
+
+1573
+02:11:51,719 --> 02:11:57,079
+csinálni menteni szeretnénk akkor ebbe a
+
+1574
+02:11:54,559 --> 02:11:59,800
+ebbe a ebbe a
+
+1575
+02:11:57,079 --> 02:12:01,280
+hibaüzenetbe ütközünk Akkor most mivel
+
+1576
+02:11:59,800 --> 02:12:04,119
+most már kész van a
+
+1577
+02:12:01,280 --> 02:12:06,960
+fá megcsináljuk ezt
+
+1578
+02:12:04,119 --> 02:12:09,840
+hogy change
+
+1579
+02:12:06,960 --> 02:12:12,520
+modók vagyunk úgyhogy az nem kell És
+
+1580
+02:12:09,840 --> 02:12:12,520
+akkor ide jön a
+
+1581
+02:12:13,440 --> 02:12:19,040
+dockercompose Akkor ezután ezután tudunk
+
+1582
+02:12:16,599 --> 02:12:22,199
+rá menteni ugye hogyha beleírok valami
+
+1583
+02:12:19,040 --> 02:12:25,040
+mást tudok menteni nem szól
+
+1584
+02:12:22,199 --> 02:12:29,840
+bele Na jó most már csak egy doker
+
+1585
+02:12:25,040 --> 02:12:29,840
+compost file fá kell ami ami
+
+1586
+02:12:31,840 --> 02:12:35,840
+használható Csináljuk
+
+1587
+02:12:43,440 --> 02:12:46,920
+Csináljuk a
+
+1588
+02:12:45,040 --> 02:12:50,679
+következőt Ahogy haladunk a
+
+1589
+02:12:46,920 --> 02:12:52,520
+prezentációba úgy követjük ezeket a
+
+1590
+02:12:50,679 --> 02:12:54,480
+parancsokat Tehát az elején
+
+1591
+02:12:52,520 --> 02:12:56,559
+próbálkoztunk egy pár doker compose
+
+1592
+02:12:54,480 --> 02:13:01,159
+fállal
+
+1593
+02:12:56,559 --> 02:13:03,159
+Ugye itt kezdődik a docker compos rész
+
+1594
+02:13:01,159 --> 02:13:05,880
+Ugye ez a ezt ezt talán kipróbáltuk a
+
+1595
+02:13:03,159 --> 02:13:08,520
+múltkor Ez egy teljesen teljesen vanilla
+
+1596
+02:13:05,880 --> 02:13:09,639
+docker compost f Hogyha ezt így ahogy
+
+1597
+02:13:08,520 --> 02:13:11,960
+van ide
+
+1598
+02:13:09,639 --> 02:13:14,679
+beteszem és elmentem akkor itt az
+
+1599
+02:13:11,960 --> 02:13:17,360
+történik hogy le fog húzni egy grafana
+
+1600
+02:13:14,679 --> 02:13:19,520
+imageet Konténert elnevezi grafanának
+
+1601
+02:13:17,360 --> 02:13:21,679
+Hogyha a virtuális géped újraindul akkor
+
+1602
+02:13:19,520 --> 02:13:24,199
+mindig újraindítja 3000es portot
+
+1603
+02:13:21,679 --> 02:13:26,599
+továbbítja 3000-es portra lehúz egy
+
+1604
+02:13:24,199 --> 02:13:29,000
+influx DB imageet konténert elnevez
+
+1605
+02:13:26,599 --> 02:13:31,559
+influx DB-nek újraindítja ezt a két
+
+1606
+02:13:29,000 --> 02:13:35,599
+portot továbbítja 8083-as nem is kell
+
+1607
+02:13:31,559 --> 02:13:38,079
+8086-os elé És akkor ezt hogy
+
+1608
+02:13:35,599 --> 02:13:39,239
+hogy indítjuk el ami még ami még itt
+
+1609
+02:13:38,079 --> 02:13:43,000
+érdekes
+
+1610
+02:13:39,239 --> 02:13:45,000
+hogy néha hozzá lehet adni volumokat ami
+
+1611
+02:13:43,000 --> 02:13:47,880
+azt fogja csinálni hogy itt létrehoz
+
+1612
+02:13:45,000 --> 02:13:49,400
+neked a virtuális gépen egy mappát Ezért
+
+1613
+02:13:47,880 --> 02:13:51,840
+hogyha te megállítod a konténert és
+
+1614
+02:13:49,400 --> 02:13:53,520
+újraindítod akkor perszes lesz Tehát azt
+
+1615
+02:13:51,840 --> 02:13:55,559
+jelenti hogy ha te beállítgattad a
+
+1616
+02:13:53,520 --> 02:13:56,880
+grafanádat mikor vége a konténernek
+
+1617
+02:13:55,559 --> 02:13:59,040
+akkor az alapvetően elveszik az a
+
+1618
+02:13:56,880 --> 02:14:00,480
+beállítás de hogyha csinálsz egy volumot
+
+1619
+02:13:59,040 --> 02:14:02,639
+akkor ugye elmenti ez ennek a
+
+1620
+02:14:00,480 --> 02:14:05,040
+beállításait Úgyhogy ez egész hasznos
+
+1621
+02:14:02,639 --> 02:14:08,840
+szokott lenni Tehát itt például a grafon
+
+1622
+02:14:05,040 --> 02:14:08,840
+részhez adjunk hozzá egy
+
+1623
+02:14:08,960 --> 02:14:13,639
+volumot és az influx TP részhez is
+
+1624
+02:14:11,960 --> 02:14:15,960
+hozzáadhatunk volumot Itt a networkos
+
+1625
+02:14:13,639 --> 02:14:17,520
+részhez most már automatikusan kezelve
+
+1626
+02:14:15,960 --> 02:14:20,520
+van úgyhogy most egyelőre nem lesz erre
+
+1627
+02:14:17,520 --> 02:14:20,520
+szükségünk
+
+1628
+02:14:23,800 --> 02:14:27,360
+Egészen addig amíg elírsz a 8/5-ös
+
+1629
+02:14:25,559 --> 02:14:30,159
+slajdig itt van egy teljes toer compost
+
+1630
+02:14:27,360 --> 02:14:33,040
+fá Mi történik ebben van egy
+
+1631
+02:14:30,159 --> 02:14:35,679
+grafona van egy
+
+1632
+02:14:33,040 --> 02:14:37,679
+kronográf és van egy
+
+1633
+02:14:35,679 --> 02:14:39,840
+influx meg egy
+
+1634
+02:14:37,679 --> 02:14:41,320
+Jupiter És akkor a végén itt van egy
+
+1635
+02:14:39,840 --> 02:14:45,239
+ilyen
+
+1636
+02:14:41,320 --> 02:14:47,119
+networkos networkos konfiguráció
+
+1637
+02:14:45,239 --> 02:14:48,920
+Na most innen hozzuk az influxra
+
+1638
+02:14:47,119 --> 02:14:51,239
+szükségünk van Hozzuk át a jupiteres
+
+1639
+02:14:48,920 --> 02:14:53,520
+konfigurációt mappástól mindenestől Ugye
+
+1640
+02:14:51,239 --> 02:14:55,360
+az influxnak is van egy mappája Ezt
+
+1641
+02:14:53,520 --> 02:14:57,520
+emeljük át legyen külön egy ilyen
+
+1642
+02:14:55,360 --> 02:14:59,199
+mappája neki Azért hogyha beleírunk
+
+1643
+02:14:57,520 --> 02:15:01,079
+adatokat akkor azok ne vesszenek el Ugye
+
+1644
+02:14:59,199 --> 02:15:03,000
+ez egy adatbázis Látod itt neked
+
+1645
+02:15:01,079 --> 02:15:07,639
+javasolja hogy tegyek telegráfot Ez a
+
+1646
+02:15:03,000 --> 02:15:09,800
+telegraf az ilyen loggoló program amit
+
+1647
+02:15:07,639 --> 02:15:12,679
+ugyancsak azok akik a az influen
+
+1648
+02:15:09,800 --> 02:15:17,559
+szerkesztik készítik és utána jön a
+
+1649
+02:15:12,679 --> 02:15:17,559
+Jupiter ezzel a ugyancsak egy
+
+1650
+02:15:17,599 --> 02:15:22,639
+volummal Azaz És akkor elvileg az az
+
+1651
+02:15:20,880 --> 02:15:25,040
+indentáció az mindig ugyanaz kell legyen
+
+1652
+02:15:22,639 --> 02:15:27,599
+úgyhogy hasznos ha nincsen formatter Na
+
+1653
+02:15:25,040 --> 02:15:30,840
+nem baj Úgyhogy kell vigyáznunk arra
+
+1654
+02:15:27,599 --> 02:15:32,960
+hogy a az inventáció találjon A Jupiter
+
+1655
+02:15:30,840 --> 02:15:35,679
+egy kicsit eggyel előbbre van Most
+
+1656
+02:15:32,960 --> 02:15:35,679
+mindegy súrva
+
+1657
+02:15:37,400 --> 02:15:43,239
+vannak ugye tehát ezek egy egy tabnyira
+
+1658
+02:15:40,840 --> 02:15:43,239
+legyenek
+
+1659
+02:15:47,639 --> 02:15:53,199
+egymástól Tehetünk új sorokat az nem
+
+1660
+02:15:50,199 --> 02:15:53,199
+számít
+
+1661
+02:15:53,400 --> 02:15:58,119
+Jó mindjárt beteszem ezt a ezt a
+
+1662
+02:15:55,800 --> 02:15:59,679
+Discordra hogyha hogyha valaki szeretné
+
+1663
+02:15:58,119 --> 02:16:04,199
+használni de alapvetően ez a doker
+
+1664
+02:15:59,679 --> 02:16:06,119
+compos fá Jó kész van a fáunk Hogyan itt
+
+1665
+02:16:04,199 --> 02:16:08,079
+annyi volt még hogy a Jupiter az szereti
+
+1666
+02:16:06,119 --> 02:16:09,599
+hogyha root userként indítjuk el a
+
+1667
+02:16:08,079 --> 02:16:12,639
+konténert Ide be kell tenni azt hogy
+
+1668
+02:16:09,599 --> 02:16:15,199
+user zero Jó hogyan indítjuk most el ezt
+
+1669
+02:16:12,639 --> 02:16:20,079
+az egészet vissza a terminalhoz Az a
+
+1670
+02:16:15,199 --> 02:16:21,480
+parancs hogy docker compose app
+
+1671
+02:16:20,079 --> 02:16:24,719
+Ez csak akkor fog működni hogyha tényleg
+
+1672
+02:16:21,480 --> 02:16:26,320
+van egy doker compos fá mellette de
+
+1673
+02:16:24,719 --> 02:16:28,040
+elvileg most van mellette egy docker
+
+1674
+02:16:26,320 --> 02:16:31,280
+compose file Itt azt fogja kell mondani
+
+1675
+02:16:28,040 --> 02:16:34,280
+hogy nincsen doker compóunk egyből ugye
+
+1676
+02:16:31,280 --> 02:16:36,760
+úgyhogy vagy snappel vagy apt-vel fel is
+
+1677
+02:16:34,280 --> 02:16:41,040
+találhatjuk Tehát legyen az
+
+1678
+02:16:36,760 --> 02:16:43,399
+hogy snap install vagy apt install
+
+1679
+02:16:41,040 --> 02:16:43,399
+docker
+
+1680
+02:16:46,240 --> 02:16:50,479
+compose Yes Elfogadjuk
+
+1681
+02:17:29,000 --> 02:17:35,240
+És akkor most kellene most hol voltunk
+
+1682
+02:17:33,080 --> 02:17:35,240
+itt
+
+1683
+02:17:36,399 --> 02:17:42,080
+voltunk Most kellene működjön az hogy
+
+1684
+02:17:38,760 --> 02:17:44,439
+toer compose up Most látod akkor kezdi
+
+1685
+02:17:42,080 --> 02:17:46,479
+szépen Egyszer elindítja a grafon a
+
+1686
+02:17:44,439 --> 02:17:48,000
+konténert Nyilván nincsenek meg a docker
+
+1687
+02:17:46,479 --> 02:17:51,319
+imageek úgyhogy egyszer letölti hozzá a
+
+1688
+02:17:48,000 --> 02:17:51,319
+docker imageeket
+
+1689
+02:18:15,479 --> 02:18:20,920
+Utánad az influx DB-t és akkor mindjárt
+
+1690
+02:18:18,040 --> 02:18:23,719
+össze fogjuk őket húzalozni a
+
+1691
+02:18:20,920 --> 02:18:26,359
+háttérben ami itt ugye ni ezek most nem
+
+1692
+02:18:23,719 --> 02:18:27,880
+fogják látni egymást az imageek mert
+
+1693
+02:18:26,359 --> 02:18:30,439
+nincsenek hozzácsatlakoztatva egy
+
+1694
+02:18:27,880 --> 02:18:30,439
+hálózathoz
+
+1695
+02:18:35,080 --> 02:18:39,510
+Igen azt mindjárt csinálunk egy docker
+
+1696
+02:18:36,599 --> 02:18:40,920
+fát és utána jön a Python file
+
+1697
+02:18:39,510 --> 02:18:43,960
+[Zene]
+
+1698
+02:18:40,920 --> 02:18:46,439
+Jó akkor azt be kell hozzá
+
+1699
+02:18:43,960 --> 02:18:50,760
+másholn megváltozott egy kicsit az hogy
+
+1700
+02:18:46,439 --> 02:18:53,399
+ezt ezt a ezt a
+
+1701
+02:18:50,760 --> 02:18:56,800
+összehuzalozást hogy hogyan hogyan
+
+1702
+02:18:53,399 --> 02:18:58,399
+végezzük Ö de itt kellene legyen nekünk
+
+1703
+02:18:56,800 --> 02:19:03,679
+egy olyan
+
+1704
+02:18:58,399 --> 02:19:03,679
+hogy toker compose És ebben
+
+1705
+02:19:05,040 --> 02:19:11,519
+megvan Ez
+
+1706
+02:19:07,519 --> 02:19:11,519
+az Jó
+
+1707
+02:19:28,240 --> 02:19:32,439
+Jó megcsinálom itt a a
+
+1708
+02:19:32,559 --> 02:19:36,599
+networkozást hogy hogy kell Csak egy
+
+1709
+02:19:44,280 --> 02:19:50,000
+pillanat Jó És ott voltunk hogy nyolcas
+
+1710
+02:19:52,920 --> 02:20:01,120
+És a docker f előtt itt a doker
+
+1711
+02:19:56,560 --> 02:20:05,680
+compónál itt Jó csinálok ide még egy
+
+1712
+02:20:01,120 --> 02:20:05,680
+slideot és akkor ez lesz a docker
+
+1713
+02:20:06,640 --> 02:20:13,439
+file És akkor az történik hogy az új
+
+1714
+02:20:10,479 --> 02:20:15,640
+módszerre eleinte írod a verziót utána
+
+1715
+02:20:13,439 --> 02:20:17,720
+be kell utána tehetsz egy van most egy
+
+1716
+02:20:15,640 --> 02:20:20,399
+olyan hogy internal network Régeb hogyha
+
+1717
+02:20:17,720 --> 02:20:23,040
+megnézed kellett nekik külön IP címeket
+
+1718
+02:20:20,399 --> 02:20:24,800
+adogatni Mindegyiknek volt egy IP címe
+
+1719
+02:20:23,040 --> 02:20:27,439
+Nem kellenek nem kell ez Most már a
+
+1720
+02:20:24,800 --> 02:20:29,120
+konténerek tudják egymást látni úgy hogy
+
+1721
+02:20:27,439 --> 02:20:31,520
+az internetre ne engedjék ezt a
+
+1722
+02:20:29,120 --> 02:20:33,840
+kapcsolatot ki Látod ezért általában
+
+1723
+02:20:31,520 --> 02:20:35,800
+kettő ezt te írod be hogy mi a neve de
+
+1724
+02:20:33,840 --> 02:20:37,960
+kettő hálózatot szoktak beállítani az
+
+1725
+02:20:35,800 --> 02:20:39,439
+emberek Egy webet amelyik external true
+
+1726
+02:20:37,960 --> 02:20:42,359
+tehát ez az internetől levélhető lesz
+
+1727
+02:20:39,439 --> 02:20:46,040
+mármelyik porten és egy olyat hogy
+
+1728
+02:20:42,359 --> 02:20:48,760
+internal amelyik external force External
+
+1729
+02:20:46,040 --> 02:20:51,160
+force És akkor külön a
+
+1730
+02:20:48,760 --> 02:20:53,760
+konténereinket meg tudjuk mondani nekik
+
+1731
+02:20:51,160 --> 02:20:58,080
+hogy melyik hálózatokat lássák Tehát
+
+1732
+02:20:53,760 --> 02:20:59,920
+például a grafono ugye a grafono az kell
+
+1733
+02:20:58,080 --> 02:21:03,200
+lássa neked azt
+
+1734
+02:20:59,920 --> 02:21:06,319
+hogy milyen az influx dbt hozzá fogja
+
+1735
+02:21:03,200 --> 02:21:08,399
+kapcsolni ezt fogja használni mint mint
+
+1736
+02:21:06,319 --> 02:21:10,720
+adatforrás Úgyhogy neked az internálhoz
+
+1737
+02:21:08,399 --> 02:21:12,760
+hozzáférésre kell legyen de ugyanakkor a
+
+1738
+02:21:10,720 --> 02:21:14,800
+3000-es portnál el is szeretnénk érni
+
+1739
+02:21:12,760 --> 02:21:18,080
+úgyhogy neki kell mind a kettő Kell a
+
+1740
+02:21:14,800 --> 02:21:21,240
+web és ez internális hogyha nem
+
+1741
+02:21:18,080 --> 02:21:24,960
+csalódom ugye grafona és neki kell mind
+
+1742
+02:21:21,240 --> 02:21:27,359
+a kettő Ugye a az influx DB az valójában
+
+1743
+02:21:24,960 --> 02:21:30,240
+egy adatbázis Tehát mi ez ez lenne az
+
+1744
+02:21:27,359 --> 02:21:33,080
+egész integrált informatikai rendszernek
+
+1745
+02:21:30,240 --> 02:21:34,760
+a lényege hogy ő egy adatbázis Elvileg m
+
+1746
+02:21:33,080 --> 02:21:36,760
+nem kellene a a neten keresztül
+
+1747
+02:21:34,760 --> 02:21:38,840
+interakcionáljunk vele csak akkor hogyha
+
+1748
+02:21:36,760 --> 02:21:41,040
+valaki tudja a doker konfigurációt és a
+
+1749
+02:21:38,840 --> 02:21:42,800
+bejelentkezést Tehát ezért ő azt fogjuk
+
+1750
+02:21:41,040 --> 02:21:45,560
+mondani hogy network internal tehát a
+
+1751
+02:21:42,800 --> 02:21:47,880
+többi konténerőt fogja látni de kívülről
+
+1752
+02:21:45,560 --> 02:21:49,640
+még hogyha ez a port továbbítva is van
+
+1753
+02:21:47,880 --> 02:21:52,600
+csak a doker hálózaton belül lesz ez
+
+1754
+02:21:49,640 --> 02:21:55,040
+elérhető Ezért ő lesz internal Itt az
+
+1755
+02:21:52,600 --> 02:21:57,800
+influx TV-nél látod ő csak internal És a
+
+1756
+02:21:55,040 --> 02:22:00,200
+Jupiternél ott újra mind a kettő De ez
+
+1757
+02:21:57,800 --> 02:22:02,160
+főleg ez ez elég lenne hogyha csak
+
+1758
+02:22:00,200 --> 02:22:05,960
+internal de ez azért mert én szeretném
+
+1759
+02:22:02,160 --> 02:22:05,960
+használni azt a szép
+
+1760
+02:22:06,319 --> 02:22:11,960
+szép kezelő felületét a a Jupiternek
+
+1761
+02:22:09,399 --> 02:22:14,920
+Úgyhogy azt meghagyjuk meghagyjuk webnek
+
+1762
+02:22:11,960 --> 02:22:18,280
+is És akkor kicsit változik a doker file
+
+1763
+02:22:14,920 --> 02:22:21,160
+Ugye ezt fel is teszem ide a slida és
+
+1764
+02:22:18,280 --> 02:22:24,680
+akkor újra betöltöd akkor az kellene
+
+1765
+02:22:21,160 --> 02:22:27,720
+működjön Tehát visszamegyünk nézők módba
+
+1766
+02:22:24,680 --> 02:22:31,080
+Tehát itt van a teljes toker
+
+1767
+02:22:27,720 --> 02:22:34,560
+compl Na most közben itt látod
+
+1768
+02:22:31,080 --> 02:22:36,760
+hogy működnek itt a dolgok
+
+1769
+02:22:34,560 --> 02:22:38,560
+háttérben Ír írogatják neked a
+
+1770
+02:22:36,760 --> 02:22:40,640
+konténerek az üzeneteket A grafona is
+
+1771
+02:22:38,560 --> 02:22:42,920
+írt egy üzenetet Ott mindenféle mindenki
+
+1772
+02:22:40,640 --> 02:22:45,920
+mindenki próbál üzeneteket üzeneteket
+
+1773
+02:22:42,920 --> 02:22:48,640
+írni Látod a grafona nem fér hozzá ehhez
+
+1774
+02:22:45,920 --> 02:22:50,920
+a mappához Az influx DB se fér hozzá
+
+1775
+02:22:48,640 --> 02:22:53,160
+ehhez a
+
+1776
+02:22:50,920 --> 02:22:55,160
+mappához Lehet hogy ez még probléma lesz
+
+1777
+02:22:53,160 --> 02:22:57,240
+de nem baj egyelőre egyelőre így hagyjuk
+
+1778
+02:22:55,160 --> 02:22:59,280
+aztán majd aztán majd megnézzük hogy mi
+
+1779
+02:22:57,240 --> 02:23:01,040
+történik De nekünk ez a háttérben
+
+1780
+02:22:59,280 --> 02:23:02,600
+kellene fusson ugye detached módban
+
+1781
+02:23:01,040 --> 02:23:05,920
+Úgyhogy ezt most állítsuk
+
+1782
+02:23:02,600 --> 02:23:08,160
+meg Ctrl C-vel megállítod És nem elég az
+
+1783
+02:23:05,920 --> 02:23:09,640
+hogy Ctrl C
+
+1784
+02:23:08,160 --> 02:23:13,120
+ugye hanem van olyan hogy egy locker
+
+1785
+02:23:09,640 --> 02:23:15,160
+compose down És akkor hogyha
+
+1786
+02:23:13,120 --> 02:23:18,439
+bármilyen
+
+1787
+02:23:15,160 --> 02:23:22,000
+bármilyen más konténereken kívül más
+
+1788
+02:23:18,439 --> 02:23:23,960
+eszközt létrehozott például egy
+
+1789
+02:23:22,000 --> 02:23:28,439
+hálózatot
+
+1790
+02:23:23,960 --> 02:23:30,680
+akkor akkor ugye azt a hálózatot is les
+
+1791
+02:23:28,439 --> 02:23:32,439
+le fogja neked törölni Na most miután
+
+1792
+02:23:30,680 --> 02:23:34,920
+megvan ez a szép docker compost fire ezt
+
+1793
+02:23:32,439 --> 02:23:37,479
+ezt most már használhatjuk
+
+1794
+02:23:34,920 --> 02:23:39,399
+Ö Ú hogy most újra Docker Compose app
+
+1795
+02:23:37,479 --> 02:23:41,560
+lesz csak a végére odatesszük azt hogy D
+
+1796
+02:23:39,399 --> 02:23:44,040
+tehát ez ilyen detach módban fog működni
+
+1797
+02:23:41,560 --> 02:23:44,040
+azaz a
+
+1798
+02:23:47,160 --> 02:23:51,680
+háttérben network web declared as
+
+1799
+02:23:49,680 --> 02:23:54,279
+external but could not be
+
+1800
+02:23:51,680 --> 02:23:57,399
+found Jaj tényleg egyszer ezt létre kell
+
+1801
+02:23:54,279 --> 02:23:59,439
+hozni Ez így van Toker network create
+
+1802
+02:23:57,399 --> 02:24:03,240
+web Ezt ezt a parancsot egyetlen egyszer
+
+1803
+02:23:59,439 --> 02:24:07,040
+le kell futtatni és akkor akkor utána
+
+1804
+02:24:03,240 --> 02:24:07,040
+DOC compose update az kellene
+
+1805
+02:24:08,080 --> 02:24:12,040
+működjön hogyha helyesen beírtam volna
+
+1806
+02:24:10,479 --> 02:24:17,040
+hogy Dok
+
+1807
+02:24:12,040 --> 02:24:20,040
+network az tehát Dok Compus upd csak így
+
+1808
+02:24:17,040 --> 02:24:24,080
+mutatja neked hogy indulnak a
+
+1809
+02:24:20,040 --> 02:24:27,000
+szolgáltatások és kész van és működik
+
+1810
+02:24:24,080 --> 02:24:29,200
+Most hogyha megnézem azt hogy docker PS
+
+1811
+02:24:27,000 --> 02:24:30,960
+akkor elvileg ezek a konténerek látod
+
+1812
+02:24:29,200 --> 02:24:33,080
+mint kellene működjenek A grafona nem
+
+1813
+02:24:30,960 --> 02:24:35,560
+akar menni azt látjuk hogy valamiért nem
+
+1814
+02:24:33,080 --> 02:24:40,240
+Valószínűleg azért mert ez a ez a path
+
+1815
+02:24:35,560 --> 02:24:42,439
+ez rossz de azt nem baj majd leszedjük
+
+1816
+02:24:40,240 --> 02:24:44,960
+Úgyhogy most tudunk olyat csinálni hogy
+
+1817
+02:24:42,439 --> 02:24:48,920
+docker compost down és akkor szépen
+
+1818
+02:24:44,960 --> 02:24:50,560
+megállítja a konténereket látod és a a
+
+1819
+02:24:48,920 --> 02:24:52,720
+az external networkokat azokat nyilván
+
+1820
+02:24:50,560 --> 02:24:53,880
+meghagyja és az internal látod azt
+
+1821
+02:24:52,720 --> 02:24:56,200
+letörli
+
+1822
+02:24:53,880 --> 02:24:58,040
+Úgyhogy csak a grafanátról vegyük ezt a
+
+1823
+02:24:56,200 --> 02:25:00,840
+volumot le aztán majd később kitaláljuk
+
+1824
+02:24:58,040 --> 02:25:03,800
+hogy mi lesz az Ezt csak így contrtrol
+
+1825
+02:25:00,840 --> 02:25:07,479
+forward slashel vagy ilyen hashtaggel ki
+
+1826
+02:25:03,800 --> 02:25:10,840
+lehet ki lehet kommentelni a a sorokat
+
+1827
+02:25:07,479 --> 02:25:13,240
+Most hogyha újra Docker Compose app D
+
+1828
+02:25:10,840 --> 02:25:16,840
+akkor mindegyik szépen nem kell többet
+
+1829
+02:25:13,240 --> 02:25:20,000
+hibaüzenetet mondjon és docker PS is
+
+1830
+02:25:16,840 --> 02:25:21,560
+látod mindegyik konténer szépen működik
+
+1831
+02:25:20,000 --> 02:25:23,920
+Na most ez mit jelent azt jelenti hogy a
+
+1832
+02:25:21,560 --> 02:25:26,000
+Jupitert kiengedtük az internetre Tehát
+
+1833
+02:25:23,920 --> 02:25:30,439
+mi az IP címünk ennek a szervernek mi az
+
+1834
+02:25:26,000 --> 02:25:34,720
+IP címe emlékszel az volt hogy nézzük
+
+1835
+02:25:30,439 --> 02:25:39,200
+meg public IP ez a 15 bla bla bla vagy
+
+1836
+02:25:34,720 --> 02:25:39,200
+public DNS-es IP Ugye használjuk
+
+1837
+02:25:39,640 --> 02:25:45,160
+ezt Alapvetően ugye ez így nem működik
+
+1838
+02:25:42,359 --> 02:25:47,560
+de hogyha a 8000 portra megyünk ahol
+
+1839
+02:25:45,160 --> 02:25:49,880
+vagy hol van a Jupiter
+
+1840
+02:25:47,560 --> 02:25:52,840
+a 888-as pooltra
+
+1841
+02:25:49,880 --> 02:25:54,760
+megyünk akkor elvileg el kellene jussunk
+
+1842
+02:25:52,840 --> 02:25:56,600
+a Jupiter
+
+1843
+02:25:54,760 --> 02:25:58,840
+bejelentkezési
+
+1844
+02:25:56,600 --> 02:26:00,120
+képernyőhöz Na most nyilván egyszer kell
+
+1845
+02:25:58,840 --> 02:26:02,960
+egy security
+
+1846
+02:26:00,120 --> 02:26:04,960
+group Eleinte nem fog ez működni mert
+
+1847
+02:26:02,960 --> 02:26:08,800
+nincsen security group Nem engedjük az
+
+1848
+02:26:04,960 --> 02:26:11,760
+összes az összes forgalmat be Úgyhogy
+
+1849
+02:26:08,800 --> 02:26:14,720
+itt a security groupnál tehát rámész az
+
+1850
+02:26:11,760 --> 02:26:16,279
+instancere security groupnál kiválasztod
+
+1851
+02:26:14,720 --> 02:26:18,600
+azt Hogyha ez helyeg van akkor nem kell
+
+1852
+02:26:16,279 --> 02:26:21,600
+az IP ugye csak local host és úgy ahogy
+
+1853
+02:26:18,600 --> 02:26:23,960
+eddig csináltuk az megy Itt a security
+
+1854
+02:26:21,600 --> 02:26:25,640
+groupnál nekünk kell egy olyan hogy edit
+
+1855
+02:26:23,960 --> 02:26:29,120
+inbound
+
+1856
+02:26:25,640 --> 02:26:32,040
+rules Látod most csak az SSH kapcsolatot
+
+1857
+02:26:29,120 --> 02:26:36,439
+engedjük el Úgyhogy kell nekünk egy
+
+1858
+02:26:32,040 --> 02:26:36,439
+olyan rule hogy old traffic
+
+1859
+02:26:37,920 --> 02:26:40,840
+Ezt nem szokta alapvetően betenni mert
+
+1860
+02:26:39,520 --> 02:26:45,040
+egy kicsit veszélyes mert ugye minden
+
+1861
+02:26:40,840 --> 02:26:47,319
+kap minden minden portot kinyitz de old
+
+1862
+02:26:45,040 --> 02:26:50,720
+traffic és source
+
+1863
+02:26:47,319 --> 02:26:53,040
+anywhere És akkor miután ezt
+
+1864
+02:26:50,720 --> 02:26:56,520
+elmented akkor most hogyha megpróbáljuk
+
+1865
+02:26:53,040 --> 02:26:56,520
+ezt a 888-as portot
+
+1866
+02:26:56,920 --> 02:27:02,279
+nyitni akkor elérünk a Jupiter
+
+1867
+02:26:59,560 --> 02:27:04,640
+bejelentkezési képernyőhöz
+
+1868
+02:27:02,279 --> 02:27:06,319
+Most még emlékeztek hogy hogy volt látod
+
+1869
+02:27:04,640 --> 02:27:09,240
+Jupiter server
+
+1870
+02:27:06,319 --> 02:27:12,080
+list de nyilván ez nem csak így hanem
+
+1871
+02:27:09,240 --> 02:27:14,960
+ezt a konténeren belül kell lefuttatni
+
+1872
+02:27:12,080 --> 02:27:19,080
+Tehát az az lesz hogy Docker exek A
+
+1873
+02:27:14,960 --> 02:27:22,680
+Jupiter containert úgy hívják hogy
+
+1874
+02:27:19,080 --> 02:27:25,399
+Jupiter És utána jön a parancs ami
+
+1875
+02:27:22,680 --> 02:27:28,399
+Jupiter szerver list Tehát itt azért van
+
+1876
+02:27:25,399 --> 02:27:30,600
+kettő Jupiter az első a konténer neve ez
+
+1877
+02:27:28,399 --> 02:27:32,880
+a második az pedig a parancs Jupiter
+
+1878
+02:27:30,600 --> 02:27:34,640
+szerver list
+
+1879
+02:27:32,880 --> 02:27:37,240
+És itt van a token amire nekünk
+
+1880
+02:27:34,640 --> 02:27:37,240
+szükségünk
+
+1881
+02:27:38,080 --> 02:27:43,399
+van És akkor kész Benne vagyunk a
+
+1882
+02:27:40,479 --> 02:27:43,399
+Jupiter
+
+1883
+02:27:44,439 --> 02:27:49,000
+környezetünkbe Nagyszerű És akkor látod
+
+1884
+02:27:46,800 --> 02:27:51,439
+benne van egy mappa Itt létre fogunk
+
+1885
+02:27:49,000 --> 02:27:54,840
+hozni itt létre fogunk hozni mindjárt
+
+1886
+02:27:51,439 --> 02:27:57,479
+egy Jupiter fátt és hozzá csatlakozunk
+
+1887
+02:27:54,840 --> 02:27:59,399
+az adatbázishoz De ezelőtt még az adatbá
+
+1888
+02:27:57,479 --> 02:28:02,560
+miet az adatbázis szó csatlakozunk
+
+1889
+02:27:59,399 --> 02:28:06,040
+csináljuk meg az
+
+1890
+02:28:02,560 --> 02:28:08,120
+összeköttetést a grafana és a ja egyszer
+
+1891
+02:28:06,040 --> 02:28:10,279
+kell az adatbázis Egyszer létrehozzuk az
+
+1892
+02:28:08,120 --> 02:28:12,080
+adatbázist utána a grafonával
+
+1893
+02:28:10,279 --> 02:28:14,840
+csatlakozunk hozzá és akkor mindjárt
+
+1894
+02:28:12,080 --> 02:28:18,439
+megnézzük hogy tudunk-e a két két
+
+1895
+02:28:14,840 --> 02:28:20,800
+rendszer között adatokat küldeni Na most
+
+1896
+02:28:18,439 --> 02:28:20,800
+ezt ide
+
+1897
+02:28:21,240 --> 02:28:26,479
+félreteszem és itt hogyha folytatjuk a
+
+1898
+02:28:23,680 --> 02:28:30,680
+prezentációt akkor a következő lépés az
+
+1899
+02:28:26,479 --> 02:28:32,560
+egy Python file Itt még van itt egy rész
+
+1900
+02:28:30,680 --> 02:28:34,319
+a docker fhoz hogyha nem akarod a
+
+1901
+02:28:32,560 --> 02:28:35,960
+passwordot mindig beírni akkor
+
+1902
+02:28:34,319 --> 02:28:37,960
+létrehozol egy ilyen Docker filt és
+
+1903
+02:28:35,960 --> 02:28:40,520
+akkor abba be lehet azt állítani hogy te
+
+1904
+02:28:37,960 --> 02:28:43,399
+pontosan pontosan mit szeretnél például
+
+1905
+02:28:40,520 --> 02:28:45,439
+a Notebook App tokennek Ezt aki aki aki
+
+1906
+02:28:43,399 --> 02:28:48,520
+szeretné azt megcsinálhatja de nekem így
+
+1907
+02:28:45,439 --> 02:28:49,920
+is jó hogyha kiszeded a tokent Na jó itt
+
+1908
+02:28:48,520 --> 02:28:52,600
+jön egy új fá ugye egy teljesen új
+
+1909
+02:28:49,920 --> 02:28:55,120
+notebookot hozunk létre egy Python
+
+1910
+02:28:52,600 --> 02:28:58,120
+3-as Jaj nem mennek ezek a permissionös
+
+1911
+02:28:55,120 --> 02:28:58,120
+dolgok
+
+1912
+02:28:58,880 --> 02:29:04,359
+ki kell vegyük azt a sajnos sajnos ezt a
+
+1913
+02:29:02,359 --> 02:29:07,399
+ezeket a volumokat ki kell vegyük amíg
+
+1914
+02:29:04,359 --> 02:29:09,720
+amíg én kitalálom hogy hogyan működnek a
+
+1915
+02:29:07,399 --> 02:29:11,520
+volumok Úgyhogy csináljuk azt hogy
+
+1916
+02:29:09,720 --> 02:29:15,319
+docker
+
+1917
+02:29:11,520 --> 02:29:15,319
+compose docker compose
+
+1918
+02:29:17,680 --> 02:29:22,000
+down Ez ez fog neked működni szépen
+
+1919
+02:29:20,680 --> 02:29:24,040
+hogyha nem Windows-ba vagy csak
+
+1920
+02:29:22,000 --> 02:29:25,960
+Windows-ba nem működik Ezeket a
+
+1921
+02:29:24,040 --> 02:29:28,160
+volumokat kommenteljük ki hogy ne legyen
+
+1922
+02:29:25,960 --> 02:29:30,000
+volum Látod meg is állt közben
+
+1923
+02:29:28,160 --> 02:29:32,479
+Kikommenteljük a volumokat Jupiteres
+
+1924
+02:29:30,000 --> 02:29:34,840
+volumot is kikommenteljük Akkor így nem
+
+1925
+02:29:32,479 --> 02:29:37,600
+fog elmentődni semmi nyilván de de nem
+
+1926
+02:29:34,840 --> 02:29:41,680
+baj mert végigmegyünk a feladaton Miel
+
+1927
+02:29:37,600 --> 02:29:41,680
+kikommenteltem akkor újra docker compose
+
+1928
+02:29:42,920 --> 02:29:50,040
+update Azaz most valószínűleg a jönek új
+
+1929
+02:29:47,040 --> 02:29:53,240
+új kulcsa van Igen Úgyhogy kiesszük az
+
+1930
+02:29:50,040 --> 02:29:53,240
+új kulcsot
+
+1931
+02:30:06,960 --> 02:30:11,920
+És akkor hogyha ezt ide visszahozom
+
+1932
+02:30:09,200 --> 02:30:14,560
+akkor most elvileg kellene tudjak egy
+
+1933
+02:30:11,920 --> 02:30:18,880
+újob munkafüzetet létrehozni mint ahogy
+
+1934
+02:30:14,560 --> 02:30:22,040
+tudok is És akkor ezt nevezzük
+
+1935
+02:30:18,880 --> 02:30:24,640
+el Beírom beleírok valamit Nevezzük el
+
+1936
+02:30:22,040 --> 02:30:28,600
+porsernek Így szokták hívni azt
+
+1937
+02:30:24,640 --> 02:30:32,040
+ami adatokat gyűjt be És ez a kód így
+
+1938
+02:30:28,600 --> 02:30:32,040
+ahogy van ezt vihetjük
+
+1939
+02:30:48,240 --> 02:30:52,960
+át Húy ez egy cellába megy be Jupiter
+
+1940
+02:30:51,479 --> 02:30:57,840
+celláb Most nézzük meg egy picit hogy
+
+1941
+02:30:52,960 --> 02:31:00,920
+akkor mi mi történik itt Eleinte ugye
+
+1942
+02:30:57,840 --> 02:31:03,640
+beimportáljuk beimportáljuk a pandaszt
+
+1943
+02:31:00,920 --> 02:31:04,720
+és az influx DB-t Ugye az az adatvázis
+
+1944
+02:31:03,640 --> 02:31:06,840
+amit
+
+1945
+02:31:04,720 --> 02:31:09,560
+használunk és akkor meg fogja mondani
+
+1946
+02:31:06,840 --> 02:31:12,080
+ugye ez egy teljesen nyers semmilyen
+
+1947
+02:31:09,560 --> 02:31:14,399
+installálással nem létező Jupiter
+
+1948
+02:31:12,080 --> 02:31:16,600
+konténer Úgyhogy egyszer kell pandos
+
+1949
+02:31:14,399 --> 02:31:18,040
+Tehát feltesszük neki a pandoszt ugye
+
+1950
+02:31:16,600 --> 02:31:19,200
+kell tenni egy felkiáltójelet a cella
+
+1951
+02:31:18,040 --> 02:31:21,520
+elejére és
+
+1952
+02:31:19,200 --> 02:31:23,439
+akkor Linux parancsot futtat le a
+
+1953
+02:31:21,520 --> 02:31:26,520
+konténeren belül nyilván ezt meg tudtam
+
+1954
+02:31:23,439 --> 02:31:28,800
+volna csinálni itt is hogy úgy ahogy az
+
+1955
+02:31:26,520 --> 02:31:30,880
+előbb ahol az ahogy az előbb csináltuk
+
+1956
+02:31:28,800 --> 02:31:33,840
+tehát Docker
+
+1957
+02:31:30,880 --> 02:31:37,200
+exek Jupiter konténeren belül és utána
+
+1958
+02:31:33,840 --> 02:31:37,200
+jön a palacs hogy VIP
+
+1959
+02:31:37,640 --> 02:31:40,920
+installhoz Jó megvárjuk amíg ezt
+
+1960
+02:31:39,520 --> 02:31:44,080
+felteszük utána fel kell tenni
+
+1961
+02:31:40,920 --> 02:31:44,080
+valószínűleg az influx dbt
+
+1962
+02:31:46,520 --> 02:31:52,080
+is Ezt ide felteszem a legelső sorba
+
+1963
+02:31:49,399 --> 02:31:56,319
+hogy maradjon meg És utána jön ugye az
+
+1964
+02:31:52,080 --> 02:31:56,319
+hogy pip install influx
+
+1965
+02:32:04,080 --> 02:32:08,080
+DB Csak ez beletelik egy kis
+
+1966
+02:32:15,399 --> 02:32:20,160
+időbe És akkor közben nézzük a kódot
+
+1967
+02:32:17,720 --> 02:32:23,040
+hogy mi történik a kóddal létrehozunk
+
+1968
+02:32:20,160 --> 02:32:24,640
+egy felhasználót ami az a neve hogy root
+
+1969
+02:32:23,040 --> 02:32:29,000
+Létrehozzuk egy jelszót neki az a neve
+
+1970
+02:32:24,640 --> 02:32:31,520
+hogy root A host ez a trükkös Ide
+
+1971
+02:32:29,000 --> 02:32:33,319
+beírhatunk egy IP címet amelyik hogyha
+
+1972
+02:32:31,520 --> 02:32:37,640
+be van téve neked ez hogy
+
+1973
+02:32:33,319 --> 02:32:42,319
+traffic all traffic és from everywhere
+
+1974
+02:32:37,640 --> 02:32:46,760
+00 akkor bárki ahhoz a szerverhez tudsz
+
+1975
+02:32:42,319 --> 02:32:46,760
+fog fog küld fog tudni küldeni
+
+1976
+02:32:46,920 --> 02:32:54,160
+adatokat hogyha az influx dpt
+
+1977
+02:32:51,080 --> 02:32:56,200
+ugye betesszük a webes networkhoz most
+
+1978
+02:32:54,160 --> 02:32:59,160
+csak internal deem hogyha hozzátennék a
+
+1979
+02:32:56,200 --> 02:33:00,920
+webes networkhoz akkor bárki ki ugye
+
+1980
+02:32:59,160 --> 02:33:03,600
+tehát itt hogyha többen lennénk akkor
+
+1981
+02:33:00,920 --> 02:33:05,840
+majd az osztály küldhetne közösen arra
+
+1982
+02:33:03,600 --> 02:33:08,560
+adatot de mindjárt kipróbálhatjuk hogyha
+
+1983
+02:33:05,840 --> 02:33:10,600
+helyha hely neked megy külön konténerben
+
+1984
+02:33:08,560 --> 02:33:13,880
+megy az influx és külön konténerben megy
+
+1985
+02:33:10,600 --> 02:33:16,439
+a a Jupiter nem használtál nem
+
+1986
+02:33:13,880 --> 02:33:18,439
+használtál Docker Compost akkor a local
+
+1987
+02:33:16,439 --> 02:33:23,040
+hostón az az adott port amit éppen
+
+1988
+02:33:18,439 --> 02:33:25,279
+használsz az influxnak 886-os az kellene
+
+1989
+02:33:23,040 --> 02:33:26,880
+műköttyő hogyha csináltál ilyen belső
+
+1990
+02:33:25,279 --> 02:33:29,000
+dokerhálózatot
+
+1991
+02:33:26,880 --> 02:33:31,920
+ugye itt Ré itt a régebben úgy szoktuk
+
+1992
+02:33:29,000 --> 02:33:36,640
+hogy betesszük az IP címeket ezért itt
+
+1993
+02:33:31,920 --> 02:33:39,279
+amikor volt neked egy olyan hogy network
+
+1994
+02:33:36,640 --> 02:33:42,120
+internal látod egy ilyen DC to net akkor
+
+1995
+02:33:39,279 --> 02:33:44,040
+itt adtunk neki külön IP címeket akkor
+
+1996
+02:33:42,120 --> 02:33:46,720
+nyilván itt itt beállítottunk egy adott
+
+1997
+02:33:44,040 --> 02:33:48,800
+IP címet a a külön az Influx DP-nek
+
+1998
+02:33:46,720 --> 02:33:51,120
+külön a Jupiternek de itt azt is
+
+1999
+02:33:48,800 --> 02:33:52,720
+meghívhatnánk ugye hogyha ez a konkrét
+
+2000
+02:33:51,120 --> 02:33:54,240
+IP cím
+
+2001
+02:33:52,720 --> 02:33:56,760
+volt
+
+2002
+02:33:54,240 --> 02:33:59,359
+De mivel most betettük ezt hogy network
+
+2003
+02:33:56,760 --> 02:34:02,200
+internal a konténerek a neveik szerint
+
+2004
+02:33:59,359 --> 02:34:05,600
+látják egymást Tehát most nekünk itt a
+
+2005
+02:34:02,200 --> 02:34:08,479
+az influxnak a neve container name ez
+
+2006
+02:34:05,600 --> 02:34:12,160
+itt a lényeg influx DV És akkor az
+
+2007
+02:34:08,479 --> 02:34:14,040
+alapján neked a a a két konténer a
+
+2008
+02:34:12,160 --> 02:34:16,640
+Jupiter és az influx konténer látja
+
+2009
+02:34:14,040 --> 02:34:18,439
+egymást Ezt ezt a portot használjuk és
+
+2010
+02:34:16,640 --> 02:34:20,720
+létrehozunk egy adottbázis Ezt csinálja
+
+2011
+02:34:18,439 --> 02:34:22,040
+ez a ez a kód Itt közben meg kell nézzem
+
+2012
+02:34:20,720 --> 02:34:24,359
+hogy mi történik mert itt látom hogy
+
+2013
+02:34:22,040 --> 02:34:27,920
+valami szét van esve
+
+2014
+02:34:24,359 --> 02:34:29,720
+Úgyhogy ezt most itt megállítom
+
+2015
+02:34:27,920 --> 02:34:33,800
+kéne legyen egy olyan
+
+2016
+02:34:29,720 --> 02:34:33,800
+hogy interrupt
+
+2017
+02:34:47,200 --> 02:34:52,760
+Így itt valami történt Itt látom hogy
+
+2018
+02:34:49,600 --> 02:34:57,439
+nem nem megy a VS kód nekünk
+
+2019
+02:34:52,760 --> 02:34:57,439
+a elvesztette a kapcsolatot
+
+2020
+02:34:58,840 --> 02:35:03,960
+Lehet hogy az lett hogy kí kiszaladtunk
+
+2021
+02:35:00,960 --> 02:35:08,600
+a memóriájából Ezek elég pici gépek ugye
+
+2022
+02:35:03,960 --> 02:35:11,800
+úgyhogy a jó jó öreg orvoslást fogjuk
+
+2023
+02:35:08,600 --> 02:35:14,640
+alkalmazni Reboot
+
+2024
+02:35:11,800 --> 02:35:16,880
+instance Sok még ebből mert aztán lehet
+
+2025
+02:35:14,640 --> 02:35:21,479
+hogy néktor el kell menjek
+
+2026
+02:35:16,880 --> 02:35:24,479
+Nem nem hát még öt perc Jó hol vagy jó
+
+2027
+02:35:21,479 --> 02:35:24,479
+jó
+
+2028
+02:35:25,840 --> 02:35:30,319
+Menjen nyugodtan Én úgy is befejezem a
+
+2029
+02:35:27,479 --> 02:35:30,319
+felvételt hogy legyen meg
+
+2030
+02:35:35,800 --> 02:35:42,439
+mindenkinek Jó És akkor nézzük meg hogy
+
+2031
+02:35:38,439 --> 02:35:42,439
+ezzel az ezzel az instance
+
+2032
+02:35:44,399 --> 02:35:50,760
+connecttel működik-e nekünk ez a
+
+2033
+02:35:46,640 --> 02:35:50,760
+virtuális kép Más újra csatlakozok
+
+2034
+02:35:52,120 --> 02:35:57,640
+Nem az az lássuk Doker PS Itt elvileg
+
+2035
+02:35:56,479 --> 02:35:59,319
+ugye ezek a
+
+2036
+02:35:57,640 --> 02:36:01,040
+konténerek
+
+2037
+02:35:59,319 --> 02:36:03,920
+sudob
+
+2038
+02:36:01,040 --> 02:36:06,560
+doks Ezek a konténerek nem mennek Na de
+
+2039
+02:36:03,920 --> 02:36:08,880
+nem baj nem baj mert el tudjuk innen is
+
+2040
+02:36:06,560 --> 02:36:11,080
+indítani de most már működik a a gép
+
+2041
+02:36:08,880 --> 02:36:13,399
+úgyhogy vissza kéne tudjunk csatlakozni
+
+2042
+02:36:11,080 --> 02:36:17,760
+elvileg Tehát hogyha vissza akarunk ide
+
+2043
+02:36:13,399 --> 02:36:17,760
+csatlakozni akkor kellene működjön
+
+2044
+02:36:40,040 --> 02:36:44,240
+Hát az VSK szervert még mindig teszi fel
+
+2045
+02:36:42,040 --> 02:36:46,920
+Nem baj
+
+2046
+02:36:44,240 --> 02:36:51,439
+Hol volt nekünk itt a a docker fokuk
+
+2047
+02:36:46,920 --> 02:36:51,439
+vajon ott volt hogy
+
+2048
+02:36:54,479 --> 02:36:57,240
+CD
+
+2049
+02:36:57,279 --> 02:37:04,319
+így csak snap van Ja igen mert
+
+2050
+02:36:59,920 --> 02:37:04,319
+felhasználóban voltunk ugye
+
+2051
+02:37:17,880 --> 02:37:20,600
+projekt volt
+
+2052
+02:38:02,600 --> 02:38:07,800
+Ott az a az az installas az valamit
+
+2053
+02:38:05,240 --> 02:38:10,120
+valamit szét széttört nekik Most ez nem
+
+2054
+02:38:07,800 --> 02:38:13,120
+megy ez a VS kód szerver Na mindegy nem
+
+2055
+02:38:10,120 --> 02:38:13,120
+baj
+
+2056
+02:38:33,479 --> 02:38:36,359
+Jót indítottam
+
+2057
+02:38:36,560 --> 02:38:42,920
+oda Nem nem ehhez kell csatlakozni hanem
+
+2058
+02:38:39,920 --> 02:38:42,920
+ehhez
+
+2059
+02:38:54,080 --> 02:38:59,720
+Igen ez meg van állva az a baj Úgyhogy
+
+2060
+02:38:56,040 --> 02:38:59,720
+ennek kell egy restart
+
+2061
+02:39:31,600 --> 02:39:35,479
+Jó még ez itt startul
+
+2062
+02:39:51,760 --> 02:39:54,800
+Na úgy döntött hogy most ez le fog
+
+2063
+02:39:53,240 --> 02:39:59,000
+fagyni úgyhogy lehet hogy ez a
+
+2064
+02:39:54,800 --> 02:39:59,000
+természetes természetes vége lesz a
+
+2065
+02:39:59,279 --> 02:40:03,800
+kurzusnak Még egyszer megpróbálom
+
+2066
+02:40:06,359 --> 02:40:09,840
+Az az visszacsatlakozott Jól
+
+2067
+02:40:12,040 --> 02:40:15,319
+van jó
+
+2068
+02:40:16,720 --> 02:40:21,880
+visszacsatlakozott És akkor inkább innen
+
+2069
+02:40:18,960 --> 02:40:21,880
+csináljuk azt
+
+2070
+02:40:23,640 --> 02:40:28,600
+hogy már hogyha tényleg elindul
+
+2071
+02:40:35,160 --> 02:40:43,200
+Én most Jupiterlab is újra akart indulni
+
+2072
+02:40:37,439 --> 02:40:45,439
+csak Jó megy ez Jó és hogyha itt kapunk
+
+2073
+02:40:43,200 --> 02:40:48,399
+itt kérünk egy olyat hogy sudó docker PS
+
+2074
+02:40:45,439 --> 02:40:51,359
+Ó újraindultak a konténereink nagyszerű
+
+2075
+02:40:48,399 --> 02:40:55,240
+Tehát akkor elvileg a Jupiter is kellene
+
+2076
+02:40:51,359 --> 02:40:56,680
+működjön És működik Jól van megvagyunk
+
+2077
+02:40:55,240 --> 02:40:59,080
+Na most fel kellene tegyük a pandaszt
+
+2078
+02:40:56,680 --> 02:41:01,120
+Itt lehet olyat is csinálni Itt lehet
+
+2079
+02:40:59,080 --> 02:41:03,760
+olyat is csinálni hogy terminált kérünk
+
+2080
+02:41:01,120 --> 02:41:05,520
+nem Pythont Akkor lehet hogy előnyösebb
+
+2081
+02:41:03,760 --> 02:41:07,840
+a terminálba feltenni mert akkor így
+
+2082
+02:41:05,520 --> 02:41:10,920
+látjuk hogy mi történik Tehát ide írjuk
+
+2083
+02:41:07,840 --> 02:41:10,920
+azt hogy if Tal
+
+2084
+02:41:17,600 --> 02:41:21,920
+Pandos Az előbb itt ennél a lépésnél úgy
+
+2085
+02:41:20,200 --> 02:41:24,200
+nézett ki hogy itt itt nyilván nem
+
+2086
+02:41:21,920 --> 02:41:26,800
+írogatja az összes üzenetet ki és akkor
+
+2087
+02:41:24,200 --> 02:41:29,120
+ott mintogyha megállt volna Jó És akkor
+
+2088
+02:41:26,800 --> 02:41:30,960
+a pandason kívül ugye kell ez az influx
+
+2089
+02:41:29,120 --> 02:41:34,240
+TP is Úgyhogy csináljunk egy olyat hogy
+
+2090
+02:41:30,960 --> 02:41:34,240
+pip install influx
+
+2091
+02:41:35,120 --> 02:41:40,600
+TP Jó successful installed
+
+2092
+02:41:37,960 --> 02:41:42,439
+Visszamehetünk ide és akkor most elvileg
+
+2093
+02:41:40,600 --> 02:41:45,760
+be kellene tudjuk importálni ezt a két
+
+2094
+02:41:42,439 --> 02:41:48,560
+könyvtárat Sikerrel is járunk Utána jön
+
+2095
+02:41:45,760 --> 02:41:50,960
+ez a többi rész Ezt írhatjuk az egészet
+
+2096
+02:41:48,560 --> 02:41:55,960
+egybe Tehát jön user
+
+2097
+02:41:50,960 --> 02:41:59,359
+user És ezeket talán ezeket külön írom
+
+2098
+02:41:55,960 --> 02:42:01,840
+Tehát eleinte fú tudtunk csatlakozni
+
+2099
+02:41:59,359 --> 02:42:04,600
+nincs egy adatbázis se nagyszerű Akkor
+
+2100
+02:42:01,840 --> 02:42:07,000
+csináljunk egy olyat hogy nem kellenek
+
+2101
+02:42:04,600 --> 02:42:08,279
+ezek a retention policyik egyelőre csak
+
+2102
+02:42:07,000 --> 02:42:10,880
+csináljunk egy olyat hogy create
+
+2103
+02:42:08,279 --> 02:42:13,319
+database és legyen a divb name és akkor
+
+2104
+02:42:10,880 --> 02:42:14,880
+utána nézzük meg újra Hú most már van
+
+2105
+02:42:13,319 --> 02:42:17,200
+egy olyan adatbázisa amiknek az a neve
+
+2106
+02:42:14,880 --> 02:42:20,160
+hogy base Nagyszerű Kész vagyunk
+
+2107
+02:42:17,200 --> 02:42:21,200
+valójában Ennyi volt a Jupiter rész Most
+
+2108
+02:42:20,160 --> 02:42:24,000
+ha megyünk a
+
+2109
+02:42:21,200 --> 02:42:26,160
+grafanához akkor az kellene legyen a
+
+2110
+02:42:24,000 --> 02:42:27,000
+tehát a grafana az hol van ugyanezen az
+
+2111
+02:42:26,160 --> 02:42:31,960
+IP
+
+2112
+02:42:27,000 --> 02:42:31,960
+címen És hol van a docker compost
+
+2113
+02:42:38,000 --> 02:42:44,960
+funk ugyanezen a
+
+2114
+02:42:40,399 --> 02:42:47,160
+címen és a 3000res porton hozzá van a
+
+2115
+02:42:44,960 --> 02:42:51,200
+webhez csatolva
+
+2116
+02:42:47,160 --> 02:42:54,240
+Nagyszerű Tehát ugyanezen az IP cím
+
+2117
+02:42:51,200 --> 02:42:54,240
+És a végén a
+
+2118
+02:42:54,520 --> 02:42:58,760
+portres Most itt lehet hogy a az a
+
+2119
+02:42:56,800 --> 02:43:00,120
+grafonát tehetjük a 80-as portra és
+
+2120
+02:42:58,760 --> 02:43:02,359
+akkor csak az IPC-vel mintogyha egy
+
+2121
+02:43:00,120 --> 02:43:06,439
+rendes webes cím lenne az úgy fog neked
+
+2122
+02:43:02,359 --> 02:43:09,439
+működni Azt hiszem admin admin az alap
+
+2123
+02:43:06,439 --> 02:43:13,319
+bejelentkezés és nem kell új
+
+2124
+02:43:09,439 --> 02:43:15,680
+passzort és kész van a grafonánk
+
+2125
+02:43:13,319 --> 02:43:17,800
+Na most itt a grafona beállításoknál egy
+
+2126
+02:43:15,680 --> 02:43:20,760
+kicsit kiteszem ezt full
+
+2127
+02:43:17,800 --> 02:43:24,040
+screenbe Itt nekünk kell egy olyan hogy
+
+2128
+02:43:20,760 --> 02:43:26,640
+létre kell hozzunk egy új adatbázist Itt
+
+2129
+02:43:24,040 --> 02:43:29,120
+a connectionsnél van egy olyan hogy data
+
+2130
+02:43:26,640 --> 02:43:31,359
+sources Létre akarunk hozni egy új
+
+2131
+02:43:29,120 --> 02:43:34,080
+adatforrást és ez egy influx DB
+
+2132
+02:43:31,359 --> 02:43:35,720
+adatbázis lesz Itt annyit kell
+
+2133
+02:43:34,080 --> 02:43:38,279
+csináljunk hogy mi az adatbázisnak a
+
+2134
+02:43:35,720 --> 02:43:43,960
+neve az adatforrásnak a neve Maradjon
+
+2135
+02:43:38,279 --> 02:43:43,960
+influx TV A query language az influxl
+
+2136
+02:43:45,720 --> 02:43:51,520
+És a HTTP na itt jön most itt az lesz
+
+2137
+02:43:48,640 --> 02:43:53,760
+ugye hogy hol van az influx a belső
+
+2138
+02:43:51,520 --> 02:43:56,359
+hálózaton Tehát pontosan ugyanúgy ahogy
+
+2139
+02:43:53,760 --> 02:44:00,120
+a Pythonból hivatkoztunk rá Ez a host
+
+2140
+02:43:56,359 --> 02:44:03,520
+ugye ez HTTP Influx TV a konténernek a
+
+2141
+02:44:00,120 --> 02:44:06,479
+neve és jön a port ami a 8086-os port
+
+2142
+02:44:03,520 --> 02:44:08,520
+Ezt itt beállítottuk
+
+2143
+02:44:06,479 --> 02:44:10,760
+Meg itt ugye itt ezt csak azért
+
+2144
+02:44:08,520 --> 02:44:13,399
+használtuk hogy hozzuk létre az
+
+2145
+02:44:10,760 --> 02:44:15,960
+adatbázist de nyilván a docker compost
+
+2146
+02:44:13,399 --> 02:44:19,080
+fon állítottuk azt hogy alapból a
+
+2147
+02:44:15,960 --> 02:44:20,359
+8086-oson fusson még a és a belső portja
+
+2148
+02:44:19,080 --> 02:44:23,920
+is a
+
+2149
+02:44:20,359 --> 02:44:26,439
+8086-os És ennyi Van egy olyan hogy
+
+2150
+02:44:23,920 --> 02:44:29,080
+database name látod a database az legyen
+
+2151
+02:44:26,439 --> 02:44:31,279
+a base és a user password root root az
+
+2152
+02:44:29,080 --> 02:44:33,439
+alapbeállításban így van Csak azt azért
+
+2153
+02:44:31,279 --> 02:44:36,520
+tettük oda hogy legyen valami Save and
+
+2154
+02:44:33,439 --> 02:44:38,560
+test Yes data source is working
+
+2155
+02:44:36,520 --> 02:44:40,680
+Nagyszerű beállítottuk akkor most már az
+
+2156
+02:44:38,560 --> 02:44:43,720
+összehúzaloást az influx és a Jupiter
+
+2157
+02:44:40,680 --> 02:44:46,640
+között az influx és a Grafona között
+
+2158
+02:44:43,720 --> 02:44:50,240
+Azaz hogyha most létrehozunk egy új
+
+2159
+02:44:46,640 --> 02:44:52,399
+dashboardot és közben el kell mennes
+
+2160
+02:44:50,240 --> 02:44:56,279
+Rendben rendben folytatom Én akkor itt
+
+2161
+02:44:52,399 --> 02:44:59,680
+lákodunk hétvéten Oké szia Létrehozunk
+
+2162
+02:44:56,279 --> 02:45:02,279
+egy új dashboardot és itt egy egyszerű
+
+2163
+02:44:59,680 --> 02:45:04,520
+panelvizualizációt adtunk a adunk hozzá
+
+2164
+02:45:02,279 --> 02:45:06,520
+Tehát a dashboard az alapból üres Ugye
+
+2165
+02:45:04,520 --> 02:45:10,160
+itt létrehozunk egy új
+
+2166
+02:45:06,520 --> 02:45:12,359
+panelt itt van az hogy add visualization
+
+2167
+02:45:10,160 --> 02:45:14,359
+És akkor itt be kell állítani azt a
+
+2168
+02:45:12,359 --> 02:45:16,760
+vizualizációt Az influx DB-t is
+
+2169
+02:45:14,359 --> 02:45:19,760
+használhatnánk forrásnak de lehet csak
+
+2170
+02:45:16,760 --> 02:45:22,040
+egy ilyen alaprendomag forrást használni
+
+2171
+02:45:19,760 --> 02:45:23,120
+és akkor itt nekünk lesz majd egy ilyen
+
+2172
+02:45:22,040 --> 02:45:25,680
+egy
+
+2173
+02:45:23,120 --> 02:45:27,520
+ilyen egy ilyen random vizualizációnk
+
+2174
+02:45:25,680 --> 02:45:30,040
+Ugye hogyha visszamész akkor itt van
+
+2175
+02:45:27,520 --> 02:45:32,920
+kettő vizualizáció egy random és amit
+
+2176
+02:45:30,040 --> 02:45:35,680
+még nem állítottunk be Na de ide akkor
+
+2177
+02:45:32,920 --> 02:45:38,359
+ezt állítsuk be hogyha az influx TV-t
+
+2178
+02:45:35,680 --> 02:45:40,479
+használjuk még nincsen semmi measurement
+
+2179
+02:45:38,359 --> 02:45:42,359
+meg ilyenek nincsenek benne Úgyhogy
+
+2180
+02:45:40,479 --> 02:45:45,120
+kicsit kicsit hogyha haladunk a
+
+2181
+02:45:42,359 --> 02:45:49,600
+prezentációban akkor itt azt láthatjuk
+
+2182
+02:45:45,120 --> 02:45:52,160
+hogy kellene-e nekünk küldjünk adatokat
+
+2183
+02:45:49,600 --> 02:45:54,560
+Ugye ezzel az adatbázissal úgy tudunk
+
+2184
+02:45:52,160 --> 02:45:56,720
+interakcionálni hogy akkor küldünk neki
+
+2185
+02:45:54,560 --> 02:45:58,520
+adatokat létrehozunk egy measurementet
+
+2186
+02:45:56,720 --> 02:46:02,080
+az a következő hierarchiai szint a
+
+2187
+02:45:58,520 --> 02:46:04,240
+database után és akkor egészen mit tudom
+
+2188
+02:46:02,080 --> 02:46:07,680
+én
+
+2189
+02:46:04,240 --> 02:46:09,960
+5000 végtelen az idők végtelenségéig
+
+2190
+02:46:07,680 --> 02:46:12,120
+kezdjük küldeni neki az adatokat ezzel a
+
+2191
+02:46:09,960 --> 02:46:14,760
+ezzel a kódtal
+
+2192
+02:46:12,120 --> 02:46:17,479
+És akkor elvileg ugye itt ha
+
+2193
+02:46:14,760 --> 02:46:17,479
+visszamegyünk a
+
+2194
+02:46:17,920 --> 02:46:22,920
+grafanához tehát most itt nekünk a a
+
+2195
+02:46:21,000 --> 02:46:25,240
+Python küldözgeti az
+
+2196
+02:46:22,920 --> 02:46:28,560
+adatpontokat Milyen adatpontokat küldünk
+
+2197
+02:46:25,240 --> 02:46:30,880
+látod létrehoztunk egy A nevű adatpontot
+
+2198
+02:46:28,560 --> 02:46:33,760
+Mindegyiknek van egy időbélyege egy
+
+2199
+02:46:30,880 --> 02:46:35,720
+értéke egy szín és egy név Ezt majd
+
+2200
+02:46:33,760 --> 02:46:37,920
+betesszük a az igazi adatforrást hogyha
+
+2201
+02:46:35,720 --> 02:46:39,680
+oda kerülünk Tehát most kéne legyen itt
+
+2202
+02:46:37,920 --> 02:46:41,600
+egy measurement Látod megjelent az hogy
+
+2203
+02:46:39,680 --> 02:46:45,160
+a measurement a test measurementből
+
+2204
+02:46:41,600 --> 02:46:48,160
+fogunk használni Most milyen az értékhez
+
+2205
+02:46:45,160 --> 02:46:51,120
+tehát itt itt lesz a az a value ugye ez
+
+2206
+02:46:48,160 --> 02:46:53,760
+a field value Ez lesz a
+
+2207
+02:46:51,120 --> 02:46:57,240
+value És utána
+
+2208
+02:46:53,760 --> 02:46:58,520
+pedig ezek a tagek A tageket használjuk
+
+2209
+02:46:57,240 --> 02:47:00,680
+általában a
+
+2210
+02:46:58,520 --> 02:47:03,920
+csoportosításnál Tehát itt a látod itt
+
+2211
+02:47:00,680 --> 02:47:05,680
+van egy olyan hogy tag például szín szín
+
+2212
+02:47:03,920 --> 02:47:08,800
+szerint tudjuk őket
+
+2213
+02:47:05,680 --> 02:47:10,439
+csoportosítani És ez így ez így ez így
+
+2214
+02:47:08,800 --> 02:47:14,359
+rendben is van Hogyha refresheljük akkor
+
+2215
+02:47:10,439 --> 02:47:14,359
+látod itt kezdenek jönni az adat az
+
+2216
+02:47:15,760 --> 02:47:19,880
+adatpontok Ez nekünk nagyon tetszik így
+
+2217
+02:47:18,359 --> 02:47:21,279
+jönnek az adatpontok egy kicsit hogyha
+
+2218
+02:47:19,880 --> 02:47:24,240
+bezoomolunk tehát hogyha azt mondjuk
+
+2219
+02:47:21,279 --> 02:47:27,279
+hogy nem last six hours hanem mondjuk
+
+2220
+02:47:24,240 --> 02:47:28,439
+last 5 minutes és akkor be lehet tenni
+
+2221
+02:47:27,279 --> 02:47:30,640
+egy ilyet hogy
+
+2222
+02:47:28,439 --> 02:47:33,120
+autorefresheljen Tehát hogyha öt
+
+2223
+02:47:30,640 --> 02:47:34,000
+másodpercenként autorfresheljük ezt a
+
+2224
+02:47:33,120 --> 02:47:36,760
+ezt a
+
+2225
+02:47:34,000 --> 02:47:39,319
+dashboardot akkor hogyha itt küld jönnek
+
+2226
+02:47:36,760 --> 02:47:43,520
+az ujak ezt a randomot innen kiveszem
+
+2227
+02:47:39,319 --> 02:47:43,520
+hogy ne zavarjon
+
+2228
+02:47:47,319 --> 02:47:51,279
+Van egy nagyon szép vizualizáción és
+
+2229
+02:47:49,080 --> 02:47:54,560
+minden minden öt másodpercben ugye kapja
+
+2230
+02:47:51,279 --> 02:47:57,240
+az új adatpontokat ahogy ahogy innen a a
+
+2231
+02:47:54,560 --> 02:47:59,200
+Pythonból küldözgetjük az adatbázisba
+
+2232
+02:47:57,240 --> 02:48:00,920
+Meg is van az első streaming adatunk
+
+2233
+02:47:59,200 --> 02:48:04,399
+Aztán ezt persze be lehet állítani hogy
+
+2234
+02:48:00,920 --> 02:48:08,600
+legyen neked vonal közötte például ugye
+
+2235
+02:48:04,399 --> 02:48:08,600
+valahol itt ezt be lehet tenni
+
+2236
+02:48:10,359 --> 02:48:16,920
+Ly connect no values always És akkor
+
+2237
+02:48:13,279 --> 02:48:22,040
+szép vonal lesz Akkor legyen egy olyan
+
+2238
+02:48:16,920 --> 02:48:23,720
+hogy alatta alatta fessük fessük be blá
+
+2239
+02:48:22,040 --> 02:48:26,160
+blá blá Itt itt itt vannak a vizuális
+
+2240
+02:48:23,720 --> 02:48:28,720
+beállítások Ilyet már láttunk a a
+
+2241
+02:48:26,160 --> 02:48:30,160
+tavalyi tavalyi kurcsos
+
+2242
+02:48:28,720 --> 02:48:32,399
+esetleg csinálhatunk egy másik
+
+2243
+02:48:30,160 --> 02:48:36,319
+vizualizációt belőle hogyha nem idősort
+
+2244
+02:48:32,399 --> 02:48:38,720
+szeretnénk hanem mondjuk egy egy barcha
+
+2245
+02:48:36,319 --> 02:48:41,160
+chartot vagy vagy egy ilyen bigas
+
+2246
+02:48:38,720 --> 02:48:42,880
+numbert akkor nekünk mindig mutatja a
+
+2247
+02:48:41,160 --> 02:48:45,520
+legutóbbi számot
+
+2248
+02:48:42,880 --> 02:48:48,040
+ugye azt mondjuk melléesszük a
+
+2249
+02:48:45,520 --> 02:48:50,760
+vizualizációnk mellé
+
+2250
+02:48:48,040 --> 02:48:51,960
+És akkor ezek a számok ezek a legutóbbi
+
+2251
+02:48:50,760 --> 02:48:56,040
+számok
+
+2252
+02:48:51,960 --> 02:48:58,479
+valószínűleg fog fognak találni ezzel a
+
+2253
+02:48:56,040 --> 02:49:01,000
+pythonos pythonos számmal Látod most
+
+2254
+02:48:58,479 --> 02:49:02,840
+küldtünk egy jaj nem írjuk ki a számokat
+
+2255
+02:49:01,000 --> 02:49:05,279
+de mindegy amikor küldjük az új számokat
+
+2256
+02:49:02,840 --> 02:49:07,439
+akkor neked itt szépen mutatja És akkor
+
+2257
+02:49:05,279 --> 02:49:09,080
+ez már ez már egy egészen egészen
+
+2258
+02:49:07,439 --> 02:49:10,800
+használható vizualizáció Ezt valahova
+
+2259
+02:49:09,080 --> 02:49:14,680
+fel lehet
+
+2260
+02:49:10,800 --> 02:49:14,680
+tenni mint egy mint egy
+
+2261
+02:49:14,920 --> 02:49:19,560
+dashport Na jó
+
+2262
+02:49:17,640 --> 02:49:24,319
+Itt akkor itt akkor megállunk és majd
+
+2263
+02:49:19,560 --> 02:49:24,319
+jövő héten jövő héten élében
+
+2264
+02:49:24,439 --> 02:49:31,880
+folytatjuk Köszi szépen Köszi
+
+2265
+02:49:28,279 --> 02:49:31,880
+Tiszlát Tiszlát
+
