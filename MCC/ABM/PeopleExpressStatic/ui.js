@@ -5,7 +5,7 @@ let charts = {};
 // Configurable API URL (Default: Localhost for testing, change for prod)
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
     ? 'http://localhost:3000' // Dev environment
-    : 'http://3.127.21.216'; // Prod environment (Amazon Linux 2 Server IP)
+    : 'https://gem.csaladen.es'; // Prod environment (Secure via Traefik)
 
 // Initialize on Load
 document.addEventListener('DOMContentLoaded', () => {
@@ -359,6 +359,10 @@ async function submitScore() {
         fleetSize: lastState.fleet
     };
 
+    // 1. Always Save Locally First (Fallback)
+    saveLocalScore(payload);
+
+    // 2. Attempt Server Submit
     try {
         const res = await fetch(`${API_BASE_URL}/api/submit-score`, {
             method: 'POST',
@@ -366,46 +370,72 @@ async function submitScore() {
             body: JSON.stringify(payload)
         });
         if (res.ok) {
-            alert("Score submitted!");
-            loadLeaderboard();
-            switchTab('leaderboard');
+            alert("Score submitted to server!");
+        } else {
+            throw new Error("Server rejected score");
         }
     } catch (e) {
         console.error(e);
-        alert("Error submitting score: " + e.message);
+        // Only alert if it's NOT a mixed content/cert issue we expect users to ignore initially
+        alert("Note: Score saved to YOUR device only. (Server unreachable: " + e.message + ")");
     }
+    
+    loadLeaderboard();
+    switchTab('leaderboard');
+}
+
+function saveLocalScore(score) {
+    const existing = JSON.parse(localStorage.getItem('pe_local_leaderboard') || '[]');
+    existing.push(score);
+    existing.sort((a, b) => b.profit - a.profit);
+    localStorage.setItem('pe_local_leaderboard', JSON.stringify(existing.slice(0, 50)));
 }
 
 async function loadLeaderboard() {
     const instanceId = localStorage.getItem('pe_instance_id') || 'default';
-    
+    const tbody = document.getElementById('leaderboard-body');
+    tbody.innerHTML = '';
+
+    let serverData = [];
+    let localData = JSON.parse(localStorage.getItem('pe_local_leaderboard') || '[]');
+
+    // 1. Try Fetch Server Data
     try {
         const res = await fetch(`${API_BASE_URL}/api/leaderboard?instanceId=${encodeURIComponent(instanceId)}`);
-        const data = await res.json();
-        
-        const tbody = document.getElementById('leaderboard-body');
-        tbody.innerHTML = '';
-        
-        if (data.data.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="5" class="text-center py-4 text-gray-500">No scores yet for this class code. Be the first!</td></tr>';
-            return;
+        if (res.ok) {
+            const json = await res.json();
+            serverData = json.data;
         }
-
-        data.data.forEach((row, i) => {
-            const tr = document.createElement('tr');
-            tr.className = "border-b hover:bg-gray-50";
-            tr.innerHTML = `
-                <td class="px-4 py-2">${i+1}</td>
-                <td class="px-4 py-2 font-medium">${row.studentName}</td>
-                <td class="px-4 py-2 text-right font-mono ${row.profit > 0 ? 'text-green-600' : 'text-red-600'}">$${(row.profit/1000000).toFixed(2)}M</td>
-                <td class="px-4 py-2 text-right">${Math.round(row.reputation * 100)}%</td>
-                <td class="px-4 py-2 text-right">${row.fleetSize}</td>
-            `;
-            tbody.appendChild(tr);
-        });
     } catch (e) {
-        console.error(e);
+        console.log("Server leaderboard unreachable, showing local only.");
     }
+
+    // 2. Merge & Deduplicate (Optional logic, for now just show server if available, else local)
+    // If server is down, we MUST show local data so the user sees something.
+    // Ideally, we mix them.
+    
+    let displayData = serverData.length > 0 ? serverData : localData;
+    
+    // If we have both, maybe append local at the top if it's not in server? 
+    // For simplicity in this class context: Just show Server list, but if empty/error, show Local list.
+    
+    if (displayData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="text-center py-4 text-gray-500">No scores yet. Be the first!</td></tr>';
+        return;
+    }
+
+    displayData.forEach((row, i) => {
+        const tr = document.createElement('tr');
+        tr.className = "border-b hover:bg-gray-50";
+        tr.innerHTML = `
+            <td class="px-4 py-2">${i+1}</td>
+            <td class="px-4 py-2 font-medium">${row.studentName} ${serverData.length===0 ? '(Local)' : ''}</td>
+            <td class="px-4 py-2 text-right font-mono ${row.profit > 0 ? 'text-green-600' : 'text-red-600'}">$${(row.profit/1000000).toFixed(2)}M</td>
+            <td class="px-4 py-2 text-right">${Math.round(row.reputation * 100)}%</td>
+            <td class="px-4 py-2 text-right">${row.fleetSize}</td>
+        `;
+        tbody.appendChild(tr);
+    });
 }
 
 function loadContent() {
@@ -437,7 +467,6 @@ function loadContent() {
         </div>
 
         <h3 class="text-xl font-bold mt-8 mb-4">System Dynamics: The "Service Trap" Loop</h3>
-        <!-- Removed Mermaid JS due to instability, replaced with clean HTML/CSS diagram -->
         <div class="flex justify-center my-6">
             <div class="bg-white p-4 border rounded-lg shadow-sm max-w-lg w-full">
                 <div class="text-center font-bold text-gray-700 mb-4">Causal Loop Diagram</div>
@@ -492,8 +521,7 @@ function loadContent() {
 
         <h3 class="text-xl font-bold mb-4">The Load Factor Obsession</h3>
         <p class="mb-4">Wizz Air's business model relies entirely on <strong>Asset Utilization</strong> (Load Factor). High load factors mean efficiency, but they also mean zero slack in the system—a classic System Dynamics fragility.</p>
-        
-        <!-- Wizz Air Table Code... -->
+
         <div class="overflow-x-auto mb-6">
             <table class="min-w-full bg-white border border-gray-300">
                 <thead class="bg-gray-100">
