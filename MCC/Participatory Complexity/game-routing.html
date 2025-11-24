@@ -82,7 +82,7 @@
             const wrapper = document.getElementById('canvas-wrapper');
             const canvas = createCanvas(wrapper.clientWidth, wrapper.clientHeight);
             canvas.parent('canvas-wrapper');
-            
+            frameRate(30);
             initGraph();
         }
 
@@ -99,8 +99,8 @@
             // Layer 2 (Bottleneck)
             nodes.push(new Node(width/1.5, height/2, 'HUB'));
             
-            // Destination
-            nodes.push(new Node(width - 100, height/2, 'DEST'));
+            // Destination (Special type)
+            nodes.push(new Node(width - 100, height/2, 'DEST', true));
             
             // Connections
             connect(0, 1);
@@ -119,7 +119,8 @@
             
             // Packet Spawning
             let rate = document.getElementById('rate-slider').value;
-            if(frameCountVal % (21 - rate) === 0) {
+            // Safer rate logic
+            if(frameCountVal % Math.max(1, (25 - rate)) === 0) {
                 packets.push(new Packet(nodes[0]));
             }
             
@@ -144,12 +145,19 @@
                 p.update();
                 p.display();
                 
-                if(p.finished) {
-                    packets.splice(i, 1);
-                    delivered++;
-                } else if (p.dropped) {
-                    packets.splice(i, 1);
-                    dropped++;
+                // Handle Lifecycle
+                if(p.state === 'delivered') {
+                    p.deathTimer--;
+                    if(p.deathTimer <= 0) {
+                        packets.splice(i, 1);
+                        delivered++;
+                    }
+                } else if (p.state === 'dropped') {
+                    p.deathTimer--;
+                    if(p.deathTimer <= 0) {
+                        packets.splice(i, 1);
+                        dropped++;
+                    }
                 }
             }
             
@@ -166,9 +174,10 @@
         }
 
         class Node {
-            constructor(x, y, label) {
+            constructor(x, y, label, isDest = false) {
                 this.pos = createVector(x, y);
                 this.label = label;
+                this.isDest = isDest;
                 this.neighbors = [];
                 this.queue = [];
                 this.processing = null;
@@ -177,12 +186,23 @@
             }
             
             update() {
-                // Processing Logic
+                // Special Logic for DEST: Infinite Sink
+                if(this.isDest) {
+                    // Instantly process everything in queue
+                    while(this.queue.length > 0) {
+                        let p = this.queue.shift();
+                        p.state = 'delivered';
+                        p.deathTimer = 10; // Visual flare duration
+                    }
+                    return;
+                }
+
+                // Normal Router Logic
                 let speed = 11 - document.getElementById('speed-slider').value; // lower is faster
                 
                 if(this.processing) {
                     this.timer++;
-                    if(this.timer > speed * 10) {
+                    if(this.timer > speed * 5) { // Adjusted multiplier for playability
                         // Done processing, send to next
                         if(this.neighbors.length > 0) {
                             // Simple routing: random neighbor
@@ -191,8 +211,9 @@
                             this.processing.inTransit = true;
                             this.processing = null;
                         } else {
-                            // Destination reached
-                            this.processing.finished = true;
+                            // Should not happen in this graph, but just in case
+                            this.processing.state = 'delivered';
+                            this.processing.deathTimer = 10;
                             this.processing = null;
                         }
                     }
@@ -204,7 +225,7 @@
             }
             
             display() {
-                fill(30, 41, 59);
+                fill(this.isDest ? 16 : 30, this.isDest ? 185 : 41, this.isDest ? 129 : 59); // Green for Dest
                 stroke(6, 182, 212);
                 strokeWeight(2);
                 rectMode(CENTER);
@@ -219,8 +240,11 @@
                 text(this.label, this.pos.x, this.pos.y);
                 
                 // Queue indicator
-                fill(255, 100, 100);
-                text(this.queue.length, this.pos.x, this.pos.y - 30);
+                if(!this.isDest && this.queue.length > 0) {
+                    fill(255, 100, 100);
+                    textSize(10);
+                    text(this.queue.length, this.pos.x, this.pos.y - 30);
+                }
             }
         }
         
@@ -229,38 +253,66 @@
                 this.pos = startNode.pos.copy();
                 this.target = startNode;
                 this.inTransit = false;
-                this.finished = false;
-                this.dropped = false;
+                this.state = 'active'; // active, delivered, dropped
+                this.deathTimer = 0;
                 
                 // Add to start node queue immediately
                 if(startNode.queue.length < startNode.capacity) {
                     startNode.queue.push(this);
                 } else {
-                    this.dropped = true;
+                    this.state = 'dropped';
+                    this.deathTimer = 15; // Show fail for 15 frames
                 }
             }
             
             update() {
+                if(this.state !== 'active') return;
+
                 if(this.inTransit) {
                     let dir = p5.Vector.sub(this.target.pos, this.pos);
-                    if(dir.mag() < 5) {
+                    if(dir.mag() < 8) { // Increased snap distance
                         this.pos = this.target.pos.copy();
                         this.inTransit = false;
                         
                         // Arrived at node
-                        if(this.target.queue.length < this.target.capacity) {
+                        if(this.target.queue.length < this.target.capacity || this.target.isDest) {
                             this.target.queue.push(this);
                         } else {
-                            this.dropped = true;
+                            this.state = 'dropped';
+                            this.deathTimer = 15;
                         }
                     } else {
-                        dir.setMag(5); // Packet speed
+                        dir.setMag(8); // Packet speed
                         this.pos.add(dir);
                     }
                 }
             }
             
             display() {
+                if(this.state === 'dropped') {
+                    // Red explosion
+                    noFill();
+                    stroke(239, 68, 68, map(this.deathTimer, 0, 15, 0, 255));
+                    strokeWeight(2);
+                    let size = map(this.deathTimer, 15, 0, 10, 30);
+                    circle(this.pos.x, this.pos.y, size);
+                    
+                    // X mark
+                    line(this.pos.x-5, this.pos.y-5, this.pos.x+5, this.pos.y+5);
+                    line(this.pos.x+5, this.pos.y-5, this.pos.x-5, this.pos.y+5);
+                    return;
+                }
+                
+                if(this.state === 'delivered') {
+                    // Green ring success
+                    noFill();
+                    stroke(16, 185, 129, map(this.deathTimer, 0, 10, 0, 255));
+                    strokeWeight(2);
+                    let size = map(this.deathTimer, 10, 0, 10, 40);
+                    circle(this.pos.x, this.pos.y, size);
+                    return;
+                }
+
                 if(this.inTransit) {
                     fill(16, 185, 129);
                     noStroke();

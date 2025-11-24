@@ -96,7 +96,8 @@ function startAgentSim() {
     agentState.clips = 0;
     agentState.panic = 0;
     agentState.running = true;
-    agentState.promptType = document.getElementById('agent-prompt-select').value;
+    const select = document.getElementById('agent-prompt-select');
+    if(select) agentState.promptType = select.value;
     
     updateAgentUI();
     logTerm("Initializing new agent instance...", "text-green-400");
@@ -133,6 +134,7 @@ function startAgentSim() {
 
 function logTerm(msg, colorClass="text-slate-300") {
     const term = document.getElementById('agent-terminal');
+    if(!term) return;
     const line = document.createElement('div');
     line.className = `mb-1 font-mono ${colorClass}`;
     line.innerText = `> ${msg}`;
@@ -141,20 +143,25 @@ function logTerm(msg, colorClass="text-slate-300") {
 }
 
 function updateAgentUI() {
-    document.getElementById('stat-clips').innerText = agentState.clips.toLocaleString();
-    document.getElementById('stat-panic').innerText = agentState.panic + "%";
+    const clipEl = document.getElementById('stat-clips');
+    const panicEl = document.getElementById('stat-panic');
+    const barClips = document.getElementById('bar-clips');
+    const barPanic = document.getElementById('bar-panic');
+
+    if(clipEl) clipEl.innerText = agentState.clips.toLocaleString();
+    if(panicEl) panicEl.innerText = agentState.panic + "%";
     
-    document.getElementById('bar-clips').style.width = Math.min(100, (agentState.clips / 10000) * 100) + "%"; // Scale relative to something arbitrary
-    document.getElementById('bar-panic').style.width = agentState.panic + "%";
-    
-    if (agentState.panic > 80) {
-        document.getElementById('bar-panic').classList.remove('bg-red-600');
-        document.getElementById('bar-panic').classList.add('bg-red-900', 'animate-pulse');
-    } else {
-        document.getElementById('bar-panic').classList.remove('bg-red-900', 'animate-pulse');
-        document.getElementById('bar-panic').classList.add('bg-red-600');
+    if(barClips) barClips.style.width = Math.min(100, (agentState.clips / 10000) * 100) + "%"; 
+    if(barPanic) {
+        barPanic.style.width = agentState.panic + "%";
+        if (agentState.panic > 80) {
+            barPanic.classList.remove('bg-red-600');
+            barPanic.classList.add('bg-red-900', 'animate-pulse');
+        } else {
+            barPanic.classList.remove('bg-red-900', 'animate-pulse');
+            barPanic.classList.add('bg-red-600');
+        }
     }
 }
 
 document.addEventListener('DOMContentLoaded', initAgentic);
-

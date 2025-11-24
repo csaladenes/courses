@@ -5,42 +5,43 @@ class PeopleExpressSim {
     }
 
     reset() {
-        // Initial State (Year 1 Quarter 1)
+        // Initial State (Year 1 Quarter 1) based on Case Study
         this.quarter = 0;
         
         // Stocks
-        this.fleet = 3; // Starting planes
-        this.staff = 50; // Starting staff
-        this.reputation = 1.0; // 100% reputation
-        this.cash = 5000000; // $5M starting capital
-        this.debt = 2000000; // Initial debt (loan for planes)
+        this.fleet = 3; 
+        this.staff = 50; 
+        this.reputation = 1.0; 
+        this.cash = 5000000; 
+        this.debt = 2000000; 
         
-        // Parameters (Constants)
+        // Parameters (Calibrated to Case Study)
         this.seatsPerPlane = 120;
-        this.avgFlightDistance = 500; // Miles per flight (avg)
-        this.flightsPerQuarterPerPlane = 90; // 1 flight/day approx
+        this.avgFlightDistance = 500; 
+        this.flightsPerQuarterPerPlane = 90; 
         
-        this.quarterlyPlaneCost = 500000; // Lease/Maintenance per plane
-        this.quarterlyStaffCost = 15000; // Salary per employee
+        this.quarterlyPlaneCost = 500000; 
+        this.quarterlyStaffCost = 15000; 
         this.marketingEffectiveness = 0.5; 
         this.hiringCost = 2000;
-        this.planePurchaseCost = 2000000; // Down payment for leasing/new routes setup
+        this.planePurchaseCost = 2000000; 
 
         // Demand Params
-        this.marketSize = 200000; // Potential quarterly passengers in region
-        this.referencePrice = 100; // Competitor price (base)
-        this.priceSensitivity = 2.0; // How much price affects demand
+        this.marketSize = 200000; 
+        this.referencePrice = 0.16; // Competitor Base Fare ($/mile)
+        this.priceSensitivity = 2.0; 
 
         // Service Quality Params
-        this.optimalStaffPerPassenger = 0.002; // 1 staff per 500 passengers
-        this.reputationDelay = 0.5; // Smoothing factor (0-1), lower is slower adaptation
+        this.optimalStaffPerPassenger = 0.002; 
+        this.reputationDelay = 0.5; 
 
-        // Decisions (Inputs)
-        this.price = 60;
+        // Decisions (Inputs) - Initial "Take-off" strategy
+        this.price = 0.09; // Start at $0.09/mile (Low Cost)
         this.marketingSpend = 50000;
         this.targetHiring = 5;
         this.planeOrders = 0;
-        this.competitorPrice = 100; // Dynamic competitor price
+        this.serviceScope = 0.60; // Start at 0.6 (No Frills)
+        this.competitorPrice = 0.16; // Start at $0.16/mile
 
         // History for charting AND State Restoration
         this.history = [];
@@ -64,6 +65,7 @@ class PeopleExpressSim {
             marketingSpend: this.marketingSpend,
             targetHiring: this.targetHiring,
             planeOrders: this.planeOrders,
+            serviceScope: this.serviceScope, // Added
             competitorPrice: this.competitorPrice
         };
     }
@@ -80,7 +82,8 @@ class PeopleExpressSim {
         this.marketingSpend = snapshot.marketingSpend;
         this.targetHiring = snapshot.targetHiring;
         this.planeOrders = snapshot.planeOrders;
-        this.competitorPrice = snapshot.competitorPrice || 100;
+        this.serviceScope = snapshot.serviceScope || 0.6; // Added
+        this.competitorPrice = snapshot.competitorPrice || 0.16;
     }
 
     stepBack() {
@@ -97,98 +100,107 @@ class PeopleExpressSim {
     // Main Simulation Step (Quarter)
     tick(decisions) {
         // 1. Apply Decisions
-        this.price = Math.max(10, decisions.price);
+        this.price = Math.max(0.05, decisions.price); // Floor at 0.05
         this.marketingSpend = Math.max(0, decisions.marketingSpend);
-        let hires = Math.max(-this.staff, decisions.hires); // Can fire, but not more than have
+        let hires = Math.max(-this.staff, decisions.hires);
         let planesOrdered = Math.max(0, decisions.planesOrdered);
+        this.serviceScope = Math.max(0.1, Math.min(2.0, decisions.serviceScope || this.serviceScope));
 
-        // 2. Competitor Logic (Simple Reaction)
-        // If we are significantly cheaper, they drop price slightly to compete
-        if (this.price < this.competitorPrice * 0.8) {
-            this.competitorPrice = Math.max(50, this.competitorPrice * 0.95);
-        } else if (this.price > this.competitorPrice * 1.1) {
-            this.competitorPrice = Math.min(150, this.competitorPrice * 1.02);
+        // 2. Competitor Logic (Reaction to Price AND Scope)
+        // If we offer high scope at low price, they drop price harder.
+        let competitivePressure = (this.referencePrice / this.price) * (this.serviceScope / 1.0);
+        
+        if (competitivePressure > 1.2) {
+            this.competitorPrice = Math.max(0.08, this.competitorPrice * 0.95); // Fight back
+        } else if (competitivePressure < 0.8) {
+            this.competitorPrice = Math.min(0.25, this.competitorPrice * 1.02); // Relax
         }
 
-        // 3. Calculate Capacity
-        const seatCapacity = this.fleet * this.seatsPerPlane * this.flightsPerQuarterPerPlane;
+        // 3. Calculate Capacity (Seat Miles)
+        // Fleet * Seats * Flights * AvgDist
+        const availableSeatMiles = this.fleet * this.seatsPerPlane * this.flightsPerQuarterPerPlane * this.avgFlightDistance;
         
-        // 4. Calculate Demand
+        // 4. Calculate Demand (Revenue Passenger Miles - RPM)
         const priceRatio = this.price / this.competitorPrice;
-        const priceFactor = Math.max(0, 2 - Math.pow(priceRatio, this.priceSensitivity)); 
+        const scopeFactor = Math.pow(this.serviceScope, 0.5); // Higher scope attracts more, but diminishing returns
+        const priceFactor = Math.max(0, 2.5 - Math.pow(priceRatio, this.priceSensitivity)); 
         const marketingFactor = 1 + (Math.log(1 + this.marketingSpend / 10000) * 0.1);
         
-        let potentialDemand = this.marketSize * priceFactor * this.reputation * marketingFactor;
+        // Demand in Passenger Miles
+        let potentialRPM = (this.marketSize * 500) * priceFactor * this.reputation * marketingFactor * scopeFactor;
         
-        // 5. Determine Actual Passengers
-        let passengers = Math.min(potentialDemand, seatCapacity);
-        let loadFactor = seatCapacity > 0 ? passengers / seatCapacity : 0;
+        // 5. Determine Actual RPM (Limited by Capacity)
+        let actualRPM = Math.min(potentialRPM, availableSeatMiles);
+        let loadFactor = availableSeatMiles > 0 ? actualRPM / availableSeatMiles : 0;
+        let passengers = actualRPM / this.avgFlightDistance; // Back to passenger count for display
 
         // 6. Calculate Service Quality & Workload
-        const neededStaff = passengers * this.optimalStaffPerPassenger;
-        let serviceRatio = neededStaff > 0 ? this.staff / neededStaff : 1.2; // >1 is good
+        // Scope increases workload linearly. 
+        // Workload = Passengers * Scope
+        // Capacity = Staff / OptimalRatio
+        const workload = passengers * this.serviceScope;
+        const staffCapacity = this.staff / this.optimalStaffPerPassenger; // Passengers/Staff capacity
         
+        let serviceRatio = staffCapacity > 0 ? staffCapacity / workload : 1.2; 
+        
+        // Quality drops if ratio < 1
         let serviceQuality = Math.min(1.2, serviceRatio);
         if (serviceRatio < 1) {
             serviceQuality = Math.pow(serviceRatio, 2); 
         }
 
-        // Advanced Metrics: Workweek & Productivity
-        // Normal workweek 40h. If understaffed (ratio < 1), workweek goes up.
-        // Cap at 60h (exhaustion).
+        // Advanced Metrics
         let workweek = 40;
         if (serviceRatio < 1) {
             workweek = 40 + (40 * (1 - serviceRatio)); 
             workweek = Math.min(60, workweek);
         }
 
-        // Productivity: Revenue Miles per Employee
-        // Miles = Passengers * AvgDist
-        const totalRevenueMiles = passengers * this.avgFlightDistance;
-        const productivity = this.staff > 0 ? totalRevenueMiles / this.staff : 0;
+        const productivity = this.staff > 0 ? actualRPM / this.staff : 0;
 
-        // 7. Update Reputation (Stock)
+        // 7. Update Reputation
         this.reputation = this.reputation + this.reputationDelay * (serviceQuality - this.reputation);
 
         // 8. Financials
-        const revenue = passengers * this.price;
+        // Revenue = RPM * Price/Mile
+        const revenue = actualRPM * this.price;
         
         const staffCosts = this.staff * this.quarterlyStaffCost;
-        const fleetCosts = this.fleet * this.quarterlyPlaneCost; // Leasing + Maintenance
+        const fleetCosts = this.fleet * this.quarterlyPlaneCost; 
         const hiringCosts = Math.abs(hires) * this.hiringCost;
-        const debtInterest = this.debt * 0.02; // 2% quarterly interest
+        const debtInterest = this.debt * 0.02; 
         
-        const totalCosts = staffCosts + fleetCosts + hiringCosts + this.marketingSpend + debtInterest + (planesOrdered * this.planePurchaseCost * 0.1); 
+        // Scope increases cost per passenger (meals, bags etc)
+        const serviceVariableCost = passengers * 10 * this.serviceScope; // $10 base cost scaled by scope
+
+        const totalCosts = staffCosts + fleetCosts + hiringCosts + this.marketingSpend + debtInterest + serviceVariableCost; 
         
-        // Adjustment: Buying a plane increases Assets and Debt.
-        // Down payment comes from Cash.
         const downPayment = planesOrdered * 500000; 
-        const newLoan = planesOrdered * 1500000; // Rest of the 2M cost
+        const newLoan = planesOrdered * 1500000; 
         this.debt += newLoan; 
 
-        const opProfit = revenue - (staffCosts + fleetCosts + hiringCosts + this.marketingSpend);
-        const netIncome = opProfit - debtInterest;
+        const opProfit = revenue - totalCosts;
+        const netIncome = opProfit; // Simplified tax
 
         this.cash = this.cash + netIncome - downPayment;
 
-        // Balance Sheet approximate
-        // Assets = Cash + Fleet Value (depreciated? let's say fixed value per plane for simplicity)
+        // Balance Sheet
         const fleetValue = this.fleet * 2000000; 
         const totalAssets = this.cash + fleetValue;
         const equity = totalAssets - this.debt;
 
-        // 9. Update Stocks for next round
+        // 9. Update Stocks
         this.staff += hires;
         this.fleet += planesOrdered;
         this.quarter++;
 
-        // 10. Log State
+        // 10. Log
         const state = {
             quarter: this.quarter,
             cash: this.cash,
             profit: netIncome,
             revenue: revenue,
-            expenses: totalCosts, 
+            expenses: totalCosts,
             passengers: passengers,
             fleet: this.fleet,
             staff: this.staff,
@@ -196,18 +208,17 @@ class PeopleExpressSim {
             serviceQuality: serviceQuality,
             loadFactor: loadFactor,
             
-            // Advanced
             assets: totalAssets,
             debt: this.debt,
             equity: equity,
             workweek: workweek,
             productivity: productivity,
             competitorPrice: this.competitorPrice,
-            price: this.price, // Added price here
-            capacity: seatCapacity
+            price: this.price,
+            serviceScope: this.serviceScope,
+            capacity: availableSeatMiles
         };
         this.history.push(state);
-        
         this.snapshots.push(this.createSnapshot());
 
         return state;
@@ -236,9 +247,10 @@ class PeopleExpressSim {
             equity: equity,
             workweek: 40,
             productivity: 0,
-            competitorPrice: 100,
-            price: this.price, // Added price here
-            capacity: this.fleet * 120 * 90
+            competitorPrice: 0.16,
+            price: 0.09,
+            serviceScope: 0.6,
+            capacity: this.fleet * 120 * 90 * 500
         });
         this.snapshots.push(this.createSnapshot());
     }

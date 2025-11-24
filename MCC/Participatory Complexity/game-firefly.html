@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Firefly Synchronization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-white font-['Outfit'] overflow-hidden h-screen flex flex-col">
+
+    <!-- Header -->
+    <div class="p-4 border-b border-white/10 flex justify-between items-center bg-slate-800/50">
+        <h1 class="text-2xl font-bold text-yellow-400">Firefly Synchronization</h1>
+        <a href="index.html" class="text-sm text-slate-400 hover:text-white">← Back to Hub</a>
+    </div>
+
+    <div class="flex-1 flex overflow-hidden">
+        <!-- Controls -->
+        <aside class="w-96 bg-slate-800 p-6 flex flex-col gap-6 z-10 shadow-xl overflow-y-auto">
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-bold text-slate-400 mb-2">Coupling Strength (K)</label>
+                    <input type="range" id="coupling-slider" min="0" max="100" value="20" class="w-full accent-yellow-500">
+                    <p class="text-xs text-slate-500 mt-1">Force pulling phases together.</p>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-bold text-slate-400 mb-2">Natural Variance</label>
+                    <input type="range" id="variance-slider" min="0" max="100" value="10" class="w-full accent-yellow-500">
+                    <p class="text-xs text-slate-500 mt-1">Diversity of internal clock speeds.</p>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-bold text-slate-400 mb-2">Interaction Range</label>
+                    <input type="range" id="range-slider" min="50" max="500" value="200" class="w-full accent-yellow-500">
+                    <p class="text-xs text-slate-500 mt-1">Local vs Global connection.</p>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-4">
+                <h3 class="font-bold mb-3 text-yellow-400">Order Parameter (R)</h3>
+                <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
+                    <div class="flex justify-between text-sm mb-2">
+                        <span class="text-slate-400">Sync Level:</span>
+                        <span id="metric-order" class="font-mono font-bold text-white">0.00</span>
+                    </div>
+                    <div class="w-full bg-slate-700 h-2 rounded-full overflow-hidden relative">
+                        <div id="sync-bar" class="h-full bg-yellow-500 w-0 transition-all duration-200"></div>
+                        <!-- Threshold Marker -->
+                        <div class="absolute top-0 bottom-0 w-0.5 bg-white/30 left-3/4"></div>
+                    </div>
+                    <p class="text-[10px] text-slate-500 mt-2 text-right">1.0 = Perfect Sync</p>
+                </div>
+            </div>
+
+            <!-- Educational Content -->
+             <div class="space-y-4 pt-4 border-t border-white/10">
+                <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
+                    <h4 class="text-yellow-400 font-bold text-sm mb-2">The Kuramoto Model</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        We are now using the <strong>Kuramoto Model</strong>.
+                        <br><br>
+                        Unlike a simple "pulse", each agent continuously adjusts its speed based on the <em>sine of the phase difference</em> with neighbors.
+                        $$ \dot{\theta}_i = \omega_i + K \sum \sin(\theta_j - \theta_i) $$
+                    </p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Canvas -->
+        <main class="flex-1 relative bg-black flex items-center justify-center" id="canvas-wrapper">
+            <!-- Canvas -->
+        </main>
+    </div>
+
+    <script>
+        let flies = [];
+        const NUM_FLIES = 150;
+        
+        // DOM Elements
+        const sliderCouple = document.getElementById('coupling-slider');
+        const sliderVar = document.getElementById('variance-slider');
+        const sliderRange = document.getElementById('range-slider');
+        
+        // Params
+        let K = 0.05;
+        let variance = 0.01;
+        let range = 200;
+
+        function updateParams() {
+            // Scale sliders to useful physics values
+            K = sliderCouple.value / 500; // 0 to 0.2
+            variance = sliderVar.value / 2000; // 0 to 0.05
+            range = parseInt(sliderRange.value);
+        }
+
+        // Listeners
+        [sliderCouple, sliderVar, sliderRange].forEach(s => s.addEventListener('input', updateParams));
+
+        function setup() {
+            const wrapper = document.getElementById('canvas-wrapper');
+            const canvas = createCanvas(wrapper.clientWidth, wrapper.clientHeight);
+            canvas.parent('canvas-wrapper');
+            
+            updateParams();
+            
+            for(let i=0; i<NUM_FLIES; i++) {
+                flies.push(new Firefly());
+            }
+        }
+
+        function draw() {
+            background(10, 10, 15, 50); // Trail effect
+            
+            // Sync Stats
+            let sumSin = 0;
+            let sumCos = 0;
+            
+            // 1. Calculate Interactions (Synchronous-ish step)
+            // We calculate adjustments first, apply later to avoid order bias? 
+            // Actually, simple Euler step is fine for this visual.
+            
+            for(let fly of flies) {
+                fly.interact(flies);
+            }
+            
+            // 2. Update & Display
+            for(let fly of flies) {
+                fly.update();
+                fly.display();
+                
+                sumSin += Math.sin(fly.phase);
+                sumCos += Math.cos(fly.phase);
+            }
+            
+            // Update Metric UI
+            let R = Math.sqrt(sumSin*sumSin + sumCos*sumCos) / NUM_FLIES;
+            document.getElementById('metric-order').innerText = R.toFixed(2);
+            document.getElementById('sync-bar').style.width = (R * 100) + "%";
+        }
+        
+        function windowResized() {
+            const wrapper = document.getElementById('canvas-wrapper');
+            resizeCanvas(wrapper.clientWidth, wrapper.clientHeight);
+        }
+
+        class Firefly {
+            constructor() {
+                this.pos = createVector(random(width), random(height));
+                this.vel = p5.Vector.random2D().mult(0.5);
+                
+                this.phase = random(TWO_PI);
+                this.naturalFreq = 0.1 + random(-1, 1); // Base offset, scaled by variance later
+                
+                this.nextPhase = this.phase;
+            }
+            
+            interact(allFlies) {
+                let sumDiff = 0;
+                let count = 0;
+                
+                // Optimization: In a real huge sim we'd use a Quadtree.
+                // For N=150, N^2 is 22,500 checks, perfectly fine for JS.
+                
+                for(let other of allFlies) {
+                    if(other !== this) {
+                        let d = dist(this.pos.x, this.pos.y, other.pos.x, other.pos.y);
+                        if(d < range) {
+                            // Kuramoto Interaction: sin(neighbor - self)
+                            sumDiff += Math.sin(other.phase - this.phase);
+                            count++;
+                        }
+                    }
+                }
+                
+                // Apply Coupling
+                // If we divide by count (Mean Field), K needs to be larger.
+                // If we don't divide (Sum), dense clusters sync faster. This looks better.
+                // We'll use a hybrid or just raw sum scaled by K.
+                if(count > 0) {
+                    this.couplingForce = K * sumDiff; 
+                } else {
+                    this.couplingForce = 0;
+                }
+            }
+            
+            update() {
+                // Calculate actual freq for this frame
+                let currentNaturalFreq = 0.1 + (this.naturalFreq * variance);
+                
+                // Euler integration
+                this.phase += currentNaturalFreq + this.couplingForce;
+                
+                // Movement
+                this.pos.add(this.vel);
+                if(this.pos.x < 0 || this.pos.x > width) this.vel.x *= -1;
+                if(this.pos.y < 0 || this.pos.y > height) this.vel.y *= -1;
+                
+                // Wrap Phase
+                if(this.phase > TWO_PI) this.phase -= TWO_PI;
+                if(this.phase < 0) this.phase += TWO_PI;
+            }
+            
+            display() {
+                // Visual: Flash when phase is near 0 (top of sine wave) or PI? 
+                // Kuramoto phase rotates. Let's say phase 0 = Flash.
+                // Map sine to brightness.
+                
+                // sin(phase) goes -1 to 1. 
+                // We want sharp flash at one peak.
+                // (sin(phase) + 1) / 2 goes 0 to 1.
+                // Pow 10 makes it sharp.
+                
+                let intensity = Math.pow((Math.sin(this.phase) + 1) / 2, 8); 
+                let brightness = intensity * 255;
+                
+                noStroke();
+                
+                // Core
+                fill(255, 255, 100, 150 + brightness); // Base visibility + flash
+                let size = 4 + (intensity * 8);
+                ellipse(this.pos.x, this.pos.y, size);
+                
+                // Glow
+                if(brightness > 100) {
+                    fill(255, 255, 0, brightness * 0.3);
+                    ellipse(this.pos.x, this.pos.y, size * 4);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

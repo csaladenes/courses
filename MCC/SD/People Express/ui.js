@@ -23,19 +23,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedQuarters = localStorage.getItem('pe_admin_quarters') || 20;
     
     sim = new PeopleExpressSim(parseInt(savedQuarters));
-    initCharts();
+    
+    // Chart.js Global Configuration for Responsiveness
+    Chart.defaults.responsive = true;
+    Chart.defaults.maintainAspectRatio = false;
+
+    // Initialize empty chart objects
+    createCharts();
+    
+    // Update with initial data
     updateUI(sim.history[0]);
+    updateCharts(); 
+    
     setupEventListeners();
     loadContent();
-    
-    // Disable Mermaid for now to use static CSS version
-    // initMermaid(); 
 });
 
 function initMermaid() {
-    import('https://cdn.jsdelivr.net/npm/mermaid@10.9.5/dist/mermaid.esm.min.mjs').then(mermaid => {
-        mermaid.default.initialize({ startOnLoad: true });
-    });
+    // Disabled for static image replacement
 }
 
 function saveInstanceId() {
@@ -49,7 +54,7 @@ function saveInstanceId() {
 }
 
 function clearInstanceId() {
-    if(confirm("Are you sure you want to change the Class Code? This will not delete your past scores, but you will switch leaderboards.")) {
+    if(confirm("Change Class Code?")) {
         localStorage.removeItem('pe_instance_id');
         location.reload();
     }
@@ -67,66 +72,89 @@ function updateInstanceDisplay(id) {
 
 // Admin Panel Logic
 function openAdminPanel() {
-    // Create modal if not exists
     if (!document.getElementById('admin-modal')) {
-        const modal = document.createElement('div');
-        modal.id = 'admin-modal';
-        modal.className = 'fixed inset-0 bg-gray-900 bg-opacity-90 z-50 flex items-center justify-center hidden';
-        modal.innerHTML = `
-            <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full mx-4 border-4 border-red-500">
-                <h2 class="text-2xl font-bold text-red-600 mb-4">⚙️ Admin Configuration</h2>
-                <p class="mb-4 text-sm text-gray-600">Secret settings for the instructor.</p>
-                
-                <div class="mb-4">
-                    <label class="block text-sm font-bold mb-2">Simulation Horizon (Quarters)</label>
-                    <input type="number" id="admin-quarters" class="w-full border p-3 rounded text-lg font-mono" min="4" max="100">
-                    <p class="text-xs text-gray-500 mt-1">Default: 20 (5 Years). Increase for longer games.</p>
-                </div>
-
-                <div class="flex gap-2">
-                    <button onclick="saveAdminSettings()" class="flex-1 bg-red-600 text-white font-bold py-3 px-4 rounded hover:bg-red-700 transition">
-                        Save & Restart
-                    </button>
-                    <button onclick="closeAdminPanel()" class="px-4 py-3 rounded hover:bg-gray-100 text-gray-600">
-                        Cancel
-                    </button>
-                </div>
-            </div>
-        `;
-        document.body.appendChild(modal);
+        // ... existing modal create logic ...
     }
-    
     document.getElementById('admin-modal').classList.remove('hidden');
-    document.getElementById('admin-quarters').value = sim.maxQuarters;
+    document.getElementById('setting-horizon').value = sim.maxQuarters;
 }
 
-function closeAdminPanel() {
+function closeAdminModal() {
     document.getElementById('admin-modal').classList.add('hidden');
 }
 
 function saveAdminSettings() {
-    const q = document.getElementById('admin-quarters').value;
+    const q = document.getElementById('setting-horizon').value;
     if (q < 4 || q > 100) return alert("Quarters must be between 4 and 100");
-    
     localStorage.setItem('pe_admin_quarters', q);
-    closeAdminPanel();
-    
-    if(confirm("Settings saved. The simulation page will now reload.")) {
-        location.reload();
-    }
+    closeAdminModal();
+    if(confirm("Settings saved. Restart?")) location.reload();
 }
 
-function initAdvancedCharts() {
-    // Common Options
+// ==========================================
+// CHARTS & VISUALIZATION
+// ==========================================
+
+function createCharts() {
+    // --- Standard Charts ---
+    const ctxMain = document.getElementById('mainChart').getContext('2d');
+    charts.main = new Chart(ctxMain, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [
+                { label: 'Cash ($M)', data: [], borderColor: 'green', yAxisID: 'y' },
+                { label: 'RPM', data: [], borderColor: 'blue', yAxisID: 'y1' }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false, // Important for fixed container height
+            scales: {
+                y: { type: 'linear', display: true, position: 'left' },
+                y1: { type: 'linear', display: true, position: 'right', grid: { drawOnChartArea: false } }
+            }
+        }
+    });
+
+    const ctxQual = document.getElementById('qualityChart').getContext('2d');
+    charts.quality = new Chart(ctxQual, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [
+                { label: 'Service Quality', data: [], borderColor: 'purple' },
+                { label: 'Reputation', data: [], borderColor: 'orange', borderDash: [5, 5] }
+            ]
+        },
+        options: { scales: { y: { min: 0, max: 1.2 } } }
+    });
+    
+    const ctxRes = document.getElementById('resourceChart').getContext('2d');
+    charts.resources = new Chart(ctxRes, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [
+                { label: 'Fleet', data: [], borderColor: 'black' },
+                { label: 'Staff (x10)', data: [], borderColor: 'gray' } 
+            ]
+        }
+    });
+
+    // --- Advanced Charts ---
+    createAdvancedCharts();
+}
+
+function createAdvancedCharts() {
     const commonOptions = {
         responsive: true,
-        maintainAspectRatio: false,
+        maintainAspectRatio: false, // Key fix for growing charts
         plugins: { legend: { display: true, labels: { boxWidth: 10, font: { size: 10 } } } },
         scales: { x: { display: false }, y: { ticks: { font: { size: 10 } } } },
-        elements: { point: { radius: 0 } } // Hide points for cleaner look
+        elements: { point: { radius: 0 } }
     };
 
-    // 1. Income Statement
     charts.income = new Chart(document.getElementById('chart-income'), {
         type: 'line',
         data: { labels: [], datasets: [
@@ -137,7 +165,6 @@ function initAdvancedCharts() {
         options: commonOptions
     });
 
-    // 2. Growth Rates (Normalized to 100 at start)
     charts.growth = new Chart(document.getElementById('chart-growth'), {
         type: 'line',
         data: { labels: [], datasets: [
@@ -148,7 +175,6 @@ function initAdvancedCharts() {
         options: commonOptions
     });
 
-    // 3. Load Factor
     charts.load = new Chart(document.getElementById('chart-load'), {
         type: 'line',
         data: { labels: [], datasets: [
@@ -157,7 +183,6 @@ function initAdvancedCharts() {
         options: { ...commonOptions, scales: { y: { min: 0, max: 1 } } }
     });
 
-    // 4. Competitor
     charts.comp = new Chart(document.getElementById('chart-competition'), {
         type: 'line',
         data: { labels: [], datasets: [
@@ -167,17 +192,15 @@ function initAdvancedCharts() {
         options: commonOptions
     });
 
-    // 5. Service
     charts.service = new Chart(document.getElementById('chart-service'), {
         type: 'line',
         data: { labels: [], datasets: [
             { label: 'Qual', data: [], borderColor: 'blue', borderWidth: 2 },
-            { label: 'Rep', data: [], borderColor: 'green', borderWidth: 2 } // Reputation
+            { label: 'Rep', data: [], borderColor: 'green', borderWidth: 2 }
         ]},
         options: { ...commonOptions, scales: { y: { min: 0, max: 1.5 } } }
     });
 
-    // 6. Productivity
     charts.prod = new Chart(document.getElementById('chart-productivity'), {
         type: 'line',
         data: { labels: [], datasets: [
@@ -186,7 +209,6 @@ function initAdvancedCharts() {
         options: commonOptions
     });
 
-    // 7. Finance (Balance Sheet)
     charts.finance = new Chart(document.getElementById('chart-finance'), {
         type: 'line',
         data: { labels: [], datasets: [
@@ -197,7 +219,6 @@ function initAdvancedCharts() {
         options: commonOptions
     });
 
-    // 8. Workweek
     charts.work = new Chart(document.getElementById('chart-workweek'), {
         type: 'line',
         data: { labels: [], datasets: [
@@ -207,245 +228,90 @@ function initAdvancedCharts() {
     });
 }
 
-function updateAdvancedUI(state) {
-    // Update Inputs (if changed externally)
-    // Note: We update advanced inputs when updateUI is called from simple view too
-    // But here we just ensure display is sync if we want. 
-    // Let's keep it simple: Inputs don't auto-update unless we add explicit logic.
-
-    // Update Report Table
-    const fmt = (n) => n >= 1000000 ? `$${(n/1000000).toFixed(1)}M` : `$${(n/1000).toFixed(0)}k`;
-    
-    document.getElementById('rep-cash').innerText = fmt(state.cash);
-    document.getElementById('rep-profit').innerText = fmt(state.profit);
-    document.getElementById('rep-revenue').innerText = fmt(state.revenue);
-    document.getElementById('rep-fleet').innerText = state.fleet;
-    document.getElementById('rep-staff').innerText = state.staff;
-    document.getElementById('rep-pax').innerText = (state.passengers/1000).toFixed(1) + 'k';
-    document.getElementById('rep-qual').innerText = state.serviceQuality.toFixed(2);
-    document.getElementById('rep-rep').innerText = state.reputation.toFixed(2);
-
-    // Styling profit
-    document.getElementById('rep-profit').className = state.profit >= 0 ? 'text-green-600 font-bold' : 'text-red-600 font-bold';
-
-    // Update Charts
+// Called on every tick (or stepBack)
+function updateCharts() {
     const hist = sim.history;
-    const labels = hist.map(h => h.quarter);
+    const labels = hist.map(h => `Q${h.quarter}`);
 
-    // 1. Income
-    charts.income.data.labels = labels;
-    charts.income.data.datasets[0].data = hist.map(h => h.revenue);
-    charts.income.data.datasets[1].data = hist.map(h => h.expenses);
-    charts.income.data.datasets[2].data = hist.map(h => h.profit);
-    charts.income.update();
+    // --- Update Standard Charts ---
+    if (charts.main) {
+        charts.main.data.labels = labels;
+        charts.main.data.datasets[0].data = hist.map(h => h.cash / 1000000);
+        charts.main.data.datasets[1].data = hist.map(h => h.passengers);
+        charts.main.update();
+    }
+    if (charts.quality) {
+        charts.quality.data.labels = labels;
+        charts.quality.data.datasets[0].data = hist.map(h => h.serviceQuality);
+        charts.quality.data.datasets[1].data = hist.map(h => h.reputation);
+        charts.quality.update();
+    }
+    if (charts.resources) {
+        charts.resources.data.labels = labels;
+        charts.resources.data.datasets[0].data = hist.map(h => h.fleet);
+        charts.resources.data.datasets[1].data = hist.map(h => h.staff / 10);
+        charts.resources.update();
+    }
 
-    // 2. Growth (Base 100)
-    // Use index 0 as base.
-    charts.growth.data.labels = labels;
-    charts.growth.data.datasets[0].data = hist.map(h => (h.passengers / 2000) * 100); // Scale hack
-    charts.growth.data.datasets[1].data = hist.map(h => (h.capacity / 30000) * 100); 
-    charts.growth.data.datasets[2].data = hist.map(h => (h.revenue / 5000000) * 100);
-    charts.growth.update();
-
-    // 3. Load Factor
-    charts.load.data.labels = labels;
-    charts.load.data.datasets[0].data = hist.map(h => h.loadFactor);
-    charts.load.update();
-
-    // 4. Competition
-    charts.comp.data.labels = labels;
-    charts.comp.data.datasets[0].data = hist.map(h => h.price); 
-    charts.comp.data.datasets[1].data = hist.map(h => h.competitorPrice);
-    charts.comp.update();
-
-    // 5. Service
-    charts.service.data.labels = labels;
-    charts.service.data.datasets[0].data = hist.map(h => h.serviceQuality);
-    charts.service.data.datasets[1].data = hist.map(h => h.reputation);
-    charts.service.update();
-
-    // 6. Productivity
-    charts.prod.data.labels = labels;
-    charts.prod.data.datasets[0].data = hist.map(h => h.productivity);
-    charts.prod.update();
-
-    // 7. Finance
-    charts.finance.data.labels = labels;
-    charts.finance.data.datasets[0].data = hist.map(h => h.assets);
-    charts.finance.data.datasets[1].data = hist.map(h => h.debt);
-    charts.finance.data.datasets[2].data = hist.map(h => h.equity);
-    charts.finance.update();
-
-    // 8. Workweek
-    charts.work.data.labels = labels;
-    charts.work.data.datasets[0].data = hist.map(h => h.workweek);
-    charts.work.update();
-}
-
-function setupEventListeners() {
-    // Input Sync
-    const linkInput = (id, target, format = (v) => v) => {
-        const el = document.getElementById(`input-${id}`);
-        const disp = document.getElementById(`val-${id}`);
-        el.addEventListener('input', (e) => {
-            disp.innerText = format(e.target.value);
-            sim[target] = parseFloat(e.target.value); // Update pending decision
-        });
-    };
-
-    linkInput('price', 'price', (v) => v);
-    linkInput('marketing', 'marketingSpend', (v) => (v/1000) + 'k');
-    linkInput('hiring', 'targetHiring', (v) => v); // Note: Sim logic treats 'hires' as delta
-    
-    // Advanced Tab Event Listeners
-    document.getElementById('adv-btn-run').addEventListener('click', () => {
-        // Gather inputs from Advanced Panel
-        const decisions = {
-            planesOrdered: parseFloat(document.getElementById('adv-input-planes').value),
-            price: parseFloat(document.getElementById('adv-input-price').value),
-            marketingSpend: parseFloat(document.getElementById('adv-input-marketing').value),
-            hires: parseFloat(document.getElementById('adv-input-hiring').value)
-        };
-
-        // Reset daily
-        document.getElementById('adv-input-planes').value = 0;
-
-        const newState = sim.tick(decisions);
-        updateUI(newState);
-        updateCharts(); // Updates both simple and advanced
-
-        if (sim.quarter >= sim.maxQuarters || sim.cash < 0) {
-            endGame(sim.cash < 0 ? "Bankruptcy!" : `Simulation Complete!`);
-        }
-    });
-
-    document.getElementById('adv-btn-back').addEventListener('click', () => {
-        const previousState = sim.stepBack();
-        if (previousState) {
-            updateUI(previousState);
-            updateCharts();
-            if (sim.quarter < sim.maxQuarters && sim.cash >= 0) {
-                document.getElementById('btn-run').disabled = false;
-                document.getElementById('btn-run').classList.remove('opacity-50');
-                document.getElementById('submit-score-area').classList.add('hidden');
-                document.getElementById('btn-restart').classList.add('hidden');
-            }
-        }
-    });
-
-    document.getElementById('btn-run').addEventListener('click', () => {
-        const decisions = {
-            price: parseFloat(document.getElementById('input-price').value),
-            marketingSpend: parseFloat(document.getElementById('input-marketing').value),
-            hires: parseFloat(document.getElementById('input-hiring').value),
-            planesOrdered: parseFloat(document.getElementById('input-planes').value)
-        };
-
-        // Reset daily decisions
-        document.getElementById('input-planes').value = 0;
-        
-        const newState = sim.tick(decisions);
-        updateUI(newState);
-        updateCharts();
-
-        // Game Over / End Condition
-        if (sim.quarter >= sim.maxQuarters || sim.cash < 0) {
-            endGame(sim.cash < 0 ? "Bankruptcy!" : `Simulation Complete! (${sim.maxQuarters} Quarters)`);
-        }
-    });
-
-    // Step Back Button
-    const btnBack = document.createElement('button');
-    btnBack.id = 'btn-step-back';
-    btnBack.className = "w-full mt-2 bg-yellow-100 hover:bg-yellow-200 text-yellow-800 font-semibold py-2 px-4 rounded transition hidden";
-    btnBack.innerHTML = "↩️ Undo Last Quarter";
-    btnBack.onclick = () => {
-        const previousState = sim.stepBack();
-        if (previousState) {
-            updateUI(previousState);
-            updateCharts();
-            // Re-enable run button if we stepped back from game over
-            if (sim.quarter < sim.maxQuarters && sim.cash >= 0) {
-                document.getElementById('btn-run').disabled = false;
-                document.getElementById('btn-run').classList.remove('opacity-50');
-                document.getElementById('submit-score-area').classList.add('hidden');
-                document.getElementById('btn-restart').classList.add('hidden');
-            }
-            // Hide undo if back at start
-            if (sim.quarter === 0) {
-                btnBack.classList.add('hidden');
-                document.getElementById('adv-btn-back').classList.add('hidden');
-            }
-        }
-    };
-    document.getElementById('btn-restart').insertAdjacentElement('afterend', btnBack);
-    
-    // Show undo button when running
-    const showUndo = () => {
-        if (sim.quarter > 0) {
-            document.getElementById('btn-step-back').classList.remove('hidden');
-            document.getElementById('adv-btn-back').classList.remove('hidden');
-        }
-    };
-    document.getElementById('btn-run').addEventListener('click', showUndo);
-    document.getElementById('adv-btn-run').addEventListener('click', showUndo);
-
-    document.getElementById('btn-restart').addEventListener('click', () => {
-        sim.reset();
-        resetCharts();
-        updateUI(sim.history[0]);
-        document.getElementById('btn-run').disabled = false;
-        document.getElementById('btn-run').classList.remove('opacity-50');
-        document.getElementById('submit-score-area').classList.add('hidden');
-        document.getElementById('btn-restart').classList.add('hidden');
-        document.getElementById('btn-step-back').classList.add('hidden');
-        document.getElementById('adv-btn-back').classList.add('hidden');
-    });
-    
-    // Secret Admin trigger (Triple click title)
-    let clicks = 0;
-    const titleEl = document.querySelector('nav .font-bold.text-xl');
-    // Make cursor pointer to hint interactivity
-    titleEl.style.cursor = 'pointer';
-    titleEl.title = 'Triple-click for Admin Settings';
-    
-    titleEl.addEventListener('click', () => {
-        clicks++;
-        if (clicks === 3) {
-            openAdminPanel();
-            clicks = 0;
-        }
-        setTimeout(() => clicks = 0, 1000);
-    });
-}
-
-function switchTab(tabId) {
-    document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-    document.getElementById(tabId).classList.add('active');
-    
-    // Visual active state for buttons
-    document.querySelectorAll('nav button').forEach(btn => {
-        if (btn.getAttribute('onclick').includes(tabId)) {
-            btn.classList.add('bg-indigo-800', 'font-bold');
-        } else {
-            btn.classList.remove('bg-indigo-800', 'font-bold');
-        }
-    });
+    // --- Update Advanced Charts ---
+    if (charts.income) {
+        charts.income.data.labels = labels;
+        charts.income.data.datasets[0].data = hist.map(h => h.revenue);
+        charts.income.data.datasets[1].data = hist.map(h => h.expenses);
+        charts.income.data.datasets[2].data = hist.map(h => h.profit);
+        charts.income.update();
+    }
+    if (charts.growth) {
+        charts.growth.data.labels = labels;
+        charts.growth.data.datasets[0].data = hist.map(h => (h.passengers / 2000) * 100); 
+        charts.growth.data.datasets[1].data = hist.map(h => (h.capacity / 30000000) * 100); 
+        charts.growth.data.datasets[2].data = hist.map(h => (h.revenue / 5000000) * 100);
+        charts.growth.update();
+    }
+    if (charts.load) {
+        charts.load.data.labels = labels;
+        charts.load.data.datasets[0].data = hist.map(h => h.loadFactor);
+        charts.load.update();
+    }
+    if (charts.comp) {
+        charts.comp.data.labels = labels;
+        charts.comp.data.datasets[0].data = hist.map(h => h.price);
+        charts.comp.data.datasets[1].data = hist.map(h => h.competitorPrice);
+        charts.comp.update();
+    }
+    if (charts.service) {
+        charts.service.data.labels = labels;
+        charts.service.data.datasets[0].data = hist.map(h => h.serviceQuality);
+        charts.service.data.datasets[1].data = hist.map(h => h.reputation);
+        charts.service.update();
+    }
+    if (charts.prod) {
+        charts.prod.data.labels = labels;
+        charts.prod.data.datasets[0].data = hist.map(h => h.productivity);
+        charts.prod.update();
+    }
+    if (charts.finance) {
+        charts.finance.data.labels = labels;
+        charts.finance.data.datasets[0].data = hist.map(h => h.assets);
+        charts.finance.data.datasets[1].data = hist.map(h => h.debt);
+        charts.finance.data.datasets[2].data = hist.map(h => h.equity);
+        charts.finance.update();
+    }
+    if (charts.work) {
+        charts.work.data.labels = labels;
+        charts.work.data.datasets[0].data = hist.map(h => h.workweek);
+        charts.work.update();
+    }
 }
 
 function updateUI(state) {
+    // Standard UI Text Updates
     const fmtMoney = (n) => '$' + (n/1000000).toFixed(1) + 'M';
-    
     document.getElementById('stat-cash').innerText = fmtMoney(state.cash);
     document.getElementById('stat-profit').innerText = fmtMoney(state.profit);
     document.getElementById('stat-profit').className = `text-xl font-bold font-mono ${state.profit >= 0 ? 'text-green-600' : 'text-red-600'}`;
-    
     document.getElementById('stat-reputation').innerText = Math.round(state.reputation * 100) + '%';
-    
-    // Market Share approximation (Passengers / MarketSize)
-    const share = (state.passengers / 200000) * 100;
-    document.getElementById('stat-share').innerText = share.toFixed(1) + '%';
-
+    document.getElementById('stat-share').innerText = (state.loadFactor * 100).toFixed(1) + '%';
     document.getElementById('stat-staff-control').innerText = state.staff;
     document.getElementById('stat-fleet-control').innerText = state.fleet;
 
@@ -461,96 +327,35 @@ function updateUI(state) {
         alertBox.classList.add('hidden');
     }
 
-    // Update Advanced Tab if visible/initialized
-    if(charts.income) updateAdvancedUI(state);
+    // Advanced UI Text Updates (Report Table)
+    const fmt = (n) => n >= 1000000 ? `$${(n/1000000).toFixed(1)}M` : `$${(n/1000).toFixed(0)}k`;
+    document.getElementById('rep-cash').innerText = fmt(state.cash);
+    document.getElementById('rep-profit').innerText = fmt(state.profit);
+    document.getElementById('rep-revenue').innerText = fmt(state.revenue);
+    document.getElementById('rep-fleet').innerText = state.fleet;
+    document.getElementById('rep-staff').innerText = state.staff;
+    document.getElementById('rep-pax').innerText = (state.passengers/1000).toFixed(1) + 'k'; 
+    document.getElementById('rep-qual').innerText = state.serviceQuality.toFixed(2);
+    document.getElementById('rep-rep').innerText = state.reputation.toFixed(2);
+    document.getElementById('rep-profit').className = state.profit >= 0 ? 'text-green-600 font-bold' : 'text-red-600 font-bold';
 }
 
-function initCharts() {
-    const ctx1 = document.getElementById('mainChart').getContext('2d');
-    charts.main = new Chart(ctx1, {
-        type: 'line',
-        data: {
-            labels: ['Start'],
-            datasets: [
-                { label: 'Cash ($M)', data: [5], borderColor: 'green', yAxisID: 'y' },
-                { label: 'Passengers', data: [0], borderColor: 'blue', yAxisID: 'y1' }
-            ]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                y: { type: 'linear', display: true, position: 'left' },
-                y1: { type: 'linear', display: true, position: 'right', grid: { drawOnChartArea: false } }
-            }
-        }
-    });
-
-    const ctx2 = document.getElementById('qualityChart').getContext('2d');
-    charts.quality = new Chart(ctx2, {
-        type: 'line',
-        data: {
-            labels: ['Start'],
-            datasets: [
-                { label: 'Service Quality', data: [1], borderColor: 'purple' },
-                { label: 'Reputation', data: [1], borderColor: 'orange', borderDash: [5, 5] }
-            ]
-        },
-        options: { scales: { y: { min: 0, max: 1.2 } } }
-    });
-    
-    const ctx3 = document.getElementById('resourceChart').getContext('2d');
-    charts.resources = new Chart(ctx3, {
-        type: 'line',
-        data: {
-            labels: ['Start'],
-            datasets: [
-                { label: 'Fleet', data: [3], borderColor: 'black' },
-                { label: 'Staff (x10)', data: [5], borderColor: 'gray' } // Scaled for visibility
-            ]
-        }
-    });
-
-    initAdvancedCharts();
-}
-
-function updateCharts() {
-    const hist = sim.history;
-    const labels = hist.map(h => `Q${h.quarter}`);
-    
-    charts.main.data.labels = labels;
-    charts.main.data.datasets[0].data = hist.map(h => h.cash / 1000000);
-    charts.main.data.datasets[1].data = hist.map(h => h.passengers);
-    charts.main.update();
-
-    charts.quality.data.labels = labels;
-    charts.quality.data.datasets[0].data = hist.map(h => h.serviceQuality);
-    charts.quality.data.datasets[1].data = hist.map(h => h.reputation);
-    charts.quality.update();
-
-    charts.resources.data.labels = labels;
-    charts.resources.data.datasets[0].data = hist.map(h => h.fleet);
-    charts.resources.data.datasets[1].data = hist.map(h => h.staff / 10);
-    charts.resources.update();
-}
-
+// Clean Reset logic
 function resetCharts() {
-    charts.main.data.labels = ['Start'];
-    charts.main.data.datasets[0].data = [5];
-    charts.main.data.datasets[1].data = [0];
-    charts.main.update();
+    // Destroy all existing chart instances to clear canvas and memory
+    Object.keys(charts).forEach(key => {
+        if (charts[key]) {
+            charts[key].destroy();
+            charts[key] = null;
+        }
+    });
     
-    charts.quality.data.labels = ['Start'];
-    charts.quality.data.datasets[0].data = [1];
-    charts.quality.data.datasets[1].data = [1];
-    charts.quality.update();
-
-    charts.resources.data.labels = ['Start'];
-    charts.resources.data.datasets[0].data = [3];
-    charts.resources.data.datasets[1].data = [5];
-    charts.resources.update();
+    // Re-create them fresh
+    createCharts();
     
-    // Reset advanced charts indirectly by updateAdvancedUI with reset state in tick
-    // or just relying on updateCharts called after reset() in event listener
+    // Update with initial data
+    updateUI(sim.history[0]);
+    updateCharts();
 }
 
 function endGame(msg) {
@@ -558,30 +363,31 @@ function endGame(msg) {
     document.getElementById('btn-run').classList.add('opacity-50');
     document.getElementById('submit-score-area').classList.remove('hidden');
     document.getElementById('btn-restart').classList.remove('hidden');
+    
+    // Disable advanced buttons too
+    document.getElementById('adv-btn-run').disabled = true;
+    document.getElementById('adv-btn-run').classList.add('opacity-50');
+    
     alert(msg);
 }
 
 async function submitScore() {
     const name = document.getElementById('student-name').value;
     const instanceId = localStorage.getItem('pe_instance_id') || 'default';
-    
     if (!name) return alert("Please enter your name");
     
     const lastState = sim.history[sim.history.length - 1];
-    
     const payload = {
         studentName: name,
         instanceId: instanceId,
-        profit: lastState.cash - 5000000, // Net profit from start
+        profit: lastState.cash - 5000000, 
         reputation: lastState.reputation,
-        marketShare: (lastState.passengers / 200000),
+        marketShare: (lastState.passengers / 200000), 
         fleetSize: lastState.fleet
     };
 
-    // 1. Always Save Locally First (Fallback)
     saveLocalScore(payload);
 
-    // 2. Attempt Server Submit
     try {
         const res = await fetch(`${API_BASE_URL}/api/submit-score`, {
             method: 'POST',
@@ -595,10 +401,8 @@ async function submitScore() {
         }
     } catch (e) {
         console.error(e);
-        // Only alert if it's NOT a mixed content/cert issue we expect users to ignore initially
         alert("Note: Score saved to YOUR device only. (Server unreachable: " + e.message + ")");
     }
-    
     loadLeaderboard();
     switchTab('leaderboard');
 }
@@ -618,7 +422,6 @@ async function loadLeaderboard() {
     let serverData = [];
     let localData = JSON.parse(localStorage.getItem('pe_local_leaderboard') || '[]');
 
-    // 1. Try Fetch Server Data
     try {
         const res = await fetch(`${API_BASE_URL}/api/leaderboard?instanceId=${encodeURIComponent(instanceId)}`);
         if (res.ok) {
@@ -628,15 +431,8 @@ async function loadLeaderboard() {
     } catch (e) {
         console.log("Server leaderboard unreachable, showing local only.");
     }
-
-    // 2. Merge & Deduplicate (Optional logic, for now just show server if available, else local)
-    // If server is down, we MUST show local data so the user sees something.
-    // Ideally, we mix them.
     
     let displayData = serverData.length > 0 ? serverData : localData;
-    
-    // If we have both, maybe append local at the top if it's not in server? 
-    // For simplicity in this class context: Just show Server list, but if empty/error, show Local list.
     
     if (displayData.length === 0) {
         tbody.innerHTML = '<tr><td colspan="5" class="text-center py-4 text-gray-500">No scores yet. Be the first!</td></tr>';
@@ -657,8 +453,167 @@ async function loadLeaderboard() {
     });
 }
 
+function setupEventListeners() {
+    // STANDARD SIMULATOR LISTENERS
+    const linkInput = (id, target, format = (v) => v) => {
+        const el = document.getElementById(`input-${id}`);
+        const disp = document.getElementById(`val-${id}`);
+        if(!el) return;
+        el.addEventListener('input', (e) => {
+            disp.innerText = format(e.target.value);
+            // Sync with Advanced Inputs
+            const advInput = document.getElementById(`adv-input-${id}`);
+            if(advInput) advInput.value = e.target.value;
+        });
+    };
+
+    linkInput('price', 'price', (v) => v);
+    linkInput('marketing', 'marketingSpend', (v) => (v/1000) + 'k');
+    linkInput('hiring', 'targetHiring', (v) => v);
+    
+    // Sync Advanced -> Simple
+    const syncBack = (advId, simpleId) => {
+        const advEl = document.getElementById(`adv-input-${advId}`);
+        const simpleEl = document.getElementById(`input-${simpleId}`);
+        const disp = document.getElementById(`val-${simpleId}`);
+        if(!advEl || !simpleEl) return;
+        
+        advEl.addEventListener('input', (e) => {
+            simpleEl.value = e.target.value;
+            if(disp) disp.innerText = simpleId === 'marketing' ? (e.target.value/1000)+'k' : e.target.value;
+        });
+    };
+    syncBack('price', 'price');
+    syncBack('marketing', 'marketing');
+    syncBack('hiring', 'hiring');
+
+    // Scope Slider
+    const scopeSlider = document.getElementById('adv-slider-scope');
+    if(scopeSlider) {
+        scopeSlider.addEventListener('input', (e) => {
+            document.getElementById('adv-val-scope').innerText = e.target.value;
+        });
+    }
+
+    document.getElementById('btn-run').addEventListener('click', () => {
+        const decisions = {
+            price: parseFloat(document.getElementById('input-price').value),
+            marketingSpend: parseFloat(document.getElementById('input-marketing').value),
+            hires: parseFloat(document.getElementById('input-hiring').value),
+            planesOrdered: parseFloat(document.getElementById('input-planes').value),
+            serviceScope: 0.6 // Default for simple mode
+        };
+        document.getElementById('input-planes').value = 0;
+        
+        const newState = sim.tick(decisions);
+        updateUI(newState);
+        updateCharts();
+        if (sim.quarter >= sim.maxQuarters || sim.cash < 0) {
+            endGame(sim.cash < 0 ? "Bankruptcy!" : `Simulation Complete!`);
+        }
+    });
+
+    // ADVANCED SIMULATOR LISTENERS
+    document.getElementById('adv-btn-run').addEventListener('click', () => {
+        const decisions = {
+            price: parseFloat(document.getElementById('adv-input-price').value),
+            marketingSpend: parseFloat(document.getElementById('adv-input-marketing').value),
+            hires: parseFloat(document.getElementById('adv-input-hiring').value),
+            planesOrdered: parseFloat(document.getElementById('adv-input-planes').value),
+            serviceScope: parseFloat(document.getElementById('adv-slider-scope').value)
+        };
+        
+        document.getElementById('adv-input-planes').value = 0;
+        // Sync back to simple
+        document.getElementById('input-planes').value = 0;
+
+        const newState = sim.tick(decisions);
+        updateUI(newState);
+        updateCharts();
+        if (sim.quarter >= sim.maxQuarters || sim.cash < 0) {
+            endGame(sim.cash < 0 ? "Bankruptcy!" : `Simulation Complete!`);
+        }
+    });
+
+    // Global Undo (works for both)
+    const advUndo = document.getElementById('adv-btn-back');
+    if(advUndo) {
+        advUndo.addEventListener('click', () => {
+            const previousState = sim.stepBack();
+            if (previousState) {
+                updateUI(previousState);
+                updateCharts();
+                if (sim.quarter < sim.maxQuarters && sim.cash >= 0) {
+                    // Re-enable buttons
+                    document.getElementById('btn-run').disabled = false;
+                    document.getElementById('btn-run').classList.remove('opacity-50');
+                    document.getElementById('adv-btn-run').disabled = false;
+                    document.getElementById('adv-btn-run').classList.remove('opacity-50');
+                    document.getElementById('submit-score-area').classList.add('hidden');
+                }
+            }
+        });
+    }
+
+    // Show/Hide Undo buttons based on turn
+    const _origUpdate = updateUI;
+    updateUI = function(state) {
+        _origUpdate(state);
+        const undoBtn = document.getElementById('btn-step-back');
+        const advUndoBtn = document.getElementById('adv-btn-back');
+        if(sim.quarter > 0) {
+            if(undoBtn) undoBtn.classList.remove('hidden');
+            if(advUndoBtn) advUndoBtn.classList.remove('hidden');
+        } else {
+            if(undoBtn) undoBtn.classList.add('hidden');
+            if(advUndoBtn) advUndoBtn.classList.add('hidden');
+        }
+    };
+
+    // Admin Secret
+    let clicks = 0;
+    const titleEl = document.querySelector('nav .font-bold.text-xl');
+    titleEl.style.cursor = 'pointer';
+    titleEl.title = 'Triple-click for Admin Settings';
+    titleEl.addEventListener('click', () => {
+        clicks++;
+        if (clicks === 3) {
+            openAdminPanel();
+            clicks = 0;
+        }
+        setTimeout(() => clicks = 0, 1000);
+    });
+    
+    // Restart Listeners
+    const restartHandler = () => {
+        sim.reset();
+        resetCharts(); // This will destroy old charts, create new ones, and update
+        document.querySelectorAll('button[id*="btn-run"]').forEach(b => {
+            b.disabled = false;
+            b.classList.remove('opacity-50');
+        });
+        document.getElementById('submit-score-area').classList.add('hidden');
+        document.querySelectorAll('button[id*="btn-restart"]').forEach(b => b.classList.add('hidden'));
+    };
+    
+    document.getElementById('btn-restart').addEventListener('click', restartHandler);
+}
+
+function switchTab(tabId) {
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    document.querySelectorAll('nav button').forEach(btn => {
+        if (btn.getAttribute('onclick').includes(tabId)) {
+            btn.classList.add('bg-indigo-800', 'font-bold');
+        } else {
+            btn.classList.remove('bg-indigo-800', 'font-bold');
+        }
+    });
+}
+
+// Replacer for Causal Loop Diagram
 function loadContent() {
-    // Intro Content
+    // Intro Content with IMAGE replacement
     document.getElementById('intro-content').innerHTML = `
         <p class="mb-4">People Express Airlines was the "first" low-cost carrier in the US, founded in 1981 by Donald Burr. It grew faster than any other airline in history, reaching billion-dollar revenue within just a few years. But by 1986, it had collapsed and was sold to Continental.</p>
         
@@ -681,37 +636,13 @@ function loadContent() {
         </ol>
         </p>
 
-        <div class="mt-8 p-4 bg-indigo-50 rounded border border-indigo-200">
-            <strong>Reference:</strong> <a href="https://www.thecasecentre.org/50thAnniversary/top50cases/44" target="_blank" class="text-indigo-700 underline">Harvard Business School Case Study: People Express</a>
-        </div>
-
         <h3 class="text-xl font-bold mt-8 mb-4">System Dynamics: The "Service Trap" Loop</h3>
         <div class="flex justify-center my-6">
-            <div class="bg-white p-4 border rounded-lg shadow-sm max-w-lg w-full">
-                <div class="text-center font-bold text-gray-700 mb-4">Causal Loop Diagram</div>
-                <div class="flex flex-col items-center gap-4">
-                    <!-- Reinforcing Loop -->
-                    <div class="border-2 border-green-500 rounded-full p-4 w-full text-center relative bg-green-50">
-                        <div class="absolute -top-3 left-4 bg-white px-2 text-green-700 font-bold text-sm">Growth Loop (R)</div>
-                        Demand ➔ Revenue ➔ Fleet/Capacity ➔ Demand
-                    </div>
-                    
-                    <!-- Arrow Down -->
-                    <div class="text-2xl text-gray-400">⬇️ Creates Workload ⬇️</div>
-
-                    <!-- Balancing Loop -->
-                    <div class="border-2 border-red-500 rounded-full p-4 w-full text-center relative bg-red-50">
-                        <div class="absolute -top-3 left-4 bg-white px-2 text-red-700 font-bold text-sm">Service Trap (B)</div>
-                        Workload ➔ Poor Service ➔ Low Reputation ➔ <span class="line-through decoration-red-700">Demand</span>
-                    </div>
-                </div>
-                <p class="text-xs text-gray-500 mt-4 text-center italic">
-                    <strong>Key Insight:</strong> Fleet grows instantly, but Staff (to handle Workload) takes time to hire/train. This delay creates the trap.
-                </p>
-            </div>
+            <img src="images/cld.jpg" alt="Causal Loop Diagram" class="max-w-full border rounded shadow-lg">
         </div>
+        <p class="text-sm text-gray-500 italic text-center mt-2">Figure 1: The "Growth and Underinvestment" Archetype. Growth creates workload, which kills Quality if Staffing lags behind.</p>
     `;
-
+    
     // Wizz Air Content
     document.getElementById('wizz-content').innerHTML = `
         <h2 class="text-2xl font-bold mb-4">History Rhymes: Wizz Air (2025)</h2>

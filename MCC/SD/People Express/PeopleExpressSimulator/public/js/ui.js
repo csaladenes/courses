@@ -345,55 +345,62 @@ async function submitScore() {
     
     const lastState = sim.history[sim.history.length - 1];
     
-    const scoreEntry = {
+    const payload = {
         studentName: name,
         instanceId: instanceId,
-        profit: lastState.cash - 5000000, 
+        profit: lastState.cash - 5000000, // Net profit from start
         reputation: lastState.reputation,
         marketShare: (lastState.passengers / 200000),
-        fleetSize: lastState.fleet,
-        date: new Date().toISOString()
+        fleetSize: lastState.fleet
     };
 
-    // LocalStorage Logic
-    const existing = JSON.parse(localStorage.getItem('pe_local_leaderboard') || '[]');
-    existing.push(scoreEntry);
-    // Sort by profit desc
-    existing.sort((a, b) => b.profit - a.profit);
-    // Keep top 50
-    localStorage.setItem('pe_local_leaderboard', JSON.stringify(existing.slice(0, 50)));
-
-    alert("Score saved locally!");
-    loadLeaderboard();
-    switchTab('leaderboard');
+    try {
+        const res = await fetch('/api/submit-score', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+        if (res.ok) {
+            alert("Score submitted!");
+            loadLeaderboard();
+            switchTab('leaderboard');
+        }
+    } catch (e) {
+        console.error(e);
+        alert("Error submitting score");
+    }
 }
 
 async function loadLeaderboard() {
     const instanceId = localStorage.getItem('pe_instance_id') || 'default';
     
-    const allScores = JSON.parse(localStorage.getItem('pe_local_leaderboard') || '[]');
-    const filtered = allScores.filter(s => s.instanceId === instanceId);
-    
-    const tbody = document.getElementById('leaderboard-body');
-    tbody.innerHTML = '';
-    
-    if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="5" class="text-center py-4 text-gray-500">No scores yet for this class code. Be the first! (Local Browser Storage Only)</td></tr>';
-        return;
-    }
+    try {
+        const res = await fetch(`/api/leaderboard?instanceId=${encodeURIComponent(instanceId)}`);
+        const data = await res.json();
+        
+        const tbody = document.getElementById('leaderboard-body');
+        tbody.innerHTML = '';
+        
+        if (data.data.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="5" class="text-center py-4 text-gray-500">No scores yet for this class code. Be the first!</td></tr>';
+            return;
+        }
 
-    filtered.forEach((row, i) => {
-        const tr = document.createElement('tr');
-        tr.className = "border-b hover:bg-gray-50";
-        tr.innerHTML = `
-            <td class="px-4 py-2">${i+1}</td>
-            <td class="px-4 py-2 font-medium">${row.studentName}</td>
-            <td class="px-4 py-2 text-right font-mono ${row.profit > 0 ? 'text-green-600' : 'text-red-600'}">$${(row.profit/1000000).toFixed(2)}M</td>
-            <td class="px-4 py-2 text-right">${Math.round(row.reputation * 100)}%</td>
-            <td class="px-4 py-2 text-right">${row.fleetSize}</td>
-        `;
-        tbody.appendChild(tr);
-    });
+        data.data.forEach((row, i) => {
+            const tr = document.createElement('tr');
+            tr.className = "border-b hover:bg-gray-50";
+            tr.innerHTML = `
+                <td class="px-4 py-2">${i+1}</td>
+                <td class="px-4 py-2 font-medium">${row.studentName}</td>
+                <td class="px-4 py-2 text-right font-mono ${row.profit > 0 ? 'text-green-600' : 'text-red-600'}">$${(row.profit/1000000).toFixed(2)}M</td>
+                <td class="px-4 py-2 text-right">${Math.round(row.reputation * 100)}%</td>
+                <td class="px-4 py-2 text-right">${row.fleetSize}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    } catch (e) {
+        console.error(e);
+    }
 }
 
 function loadContent() {
@@ -425,6 +432,7 @@ function loadContent() {
         </div>
 
         <h3 class="text-xl font-bold mt-8 mb-4">System Dynamics: The "Service Trap" Loop</h3>
+        <!-- Removed Mermaid JS due to instability, replaced with clean HTML/CSS diagram -->
         <div class="flex justify-center my-6">
             <div class="bg-white p-4 border rounded-lg shadow-sm max-w-lg w-full">
                 <div class="text-center font-bold text-gray-700 mb-4">Causal Loop Diagram</div>

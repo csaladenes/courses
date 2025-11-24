@@ -6,22 +6,14 @@
     <title>People Express System Dynamics Simulator</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Mermaid JS for Diagrams -->
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.5/dist/mermaid.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
-        /* Custom style for mermaid diagrams */
-        .mermaid { 
-            background: #f8fafc; 
-            padding: 1rem; 
-            border-radius: 0.5rem; 
-            margin-top: 1rem;
-            display: flex;
-            justify-content: center;
-        }
+        /* Chart container fix */
+        .chart-container { position: relative; height: 200px; width: 100%; }
+        .chart-container-lg { position: relative; height: 250px; width: 100%; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -78,6 +70,7 @@
                 <div class="flex space-x-4">
                     <button onclick="switchTab('intro')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Introduction</button>
                     <button onclick="switchTab('sim')" class="px-3 py-2 rounded hover:bg-indigo-800 transition bg-indigo-800 font-bold">Simulator</button>
+                    <button onclick="switchTab('advanced')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Advanced Sim</button>
                     <button onclick="switchTab('analysis')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Wizz Air Analysis</button>
                     <button onclick="switchTab('ai')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Agentic AI</button>
                     <button onclick="switchTab('leaderboard')" class="px-3 py-2 rounded hover:bg-indigo-800 transition">Leaderboard</button>
@@ -99,7 +92,7 @@
             </div>
         </div>
 
-        <!-- Simulator Tab -->
+        <!-- Simulator Tab (Standard) -->
         <div id="sim" class="tab-content active">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 
@@ -112,19 +105,19 @@
                     
                     <!-- Decision 1: Price -->
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-1">Ticket Price ($)</label>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Ticket Price ($/mile)</label>
                         <div class="flex items-center gap-2">
-                            <input type="range" id="input-price" min="20" max="150" value="60" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
-                            <span id="val-price" class="font-mono font-bold w-12 text-right">60</span>
+                            <input type="range" id="input-price" min="0.05" max="0.50" step="0.01" value="0.09" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <span id="val-price" class="font-mono font-bold w-12 text-right">0.09</span>
                         </div>
-                        <p class="text-xs text-gray-500 mt-1">Market Avg: $100</p>
+                        <p class="text-xs text-gray-500 mt-1">Market Avg: $0.16</p>
                     </div>
 
                     <!-- Decision 2: Hiring -->
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1">Net Hiring (Staff)</label>
                         <div class="flex items-center gap-2">
-                            <input type="range" id="input-hiring" min="-50" max="100" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <input type="range" id="input-hiring" min="-500" max="2000" step="10" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
                             <span id="val-hiring" class="font-mono font-bold w-12 text-right">5</span>
                         </div>
                         <p class="text-xs text-gray-500 mt-1">Current Staff: <span id="stat-staff-control">50</span></p>
@@ -134,7 +127,7 @@
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1">Marketing Spend ($)</label>
                         <div class="flex items-center gap-2">
-                            <input type="range" id="input-marketing" min="0" max="500000" step="10000" value="50000" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <input type="range" id="input-marketing" min="0" max="5000000" step="10000" value="50000" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
                             <span id="val-marketing" class="font-mono font-bold w-16 text-right">50k</span>
                         </div>
                     </div>
@@ -143,7 +136,7 @@
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1">Buy/Lease Planes</label>
                         <div class="flex items-center gap-2">
-                            <input type="number" id="input-planes" min="0" max="5" value="0" class="w-full p-2 border rounded font-mono text-right">
+                            <input type="number" id="input-planes" min="0" max="50" value="0" class="w-full p-2 border rounded font-mono text-right">
                             <span class="text-sm text-gray-500">Cost: $2M ea</span>
                         </div>
                         <p class="text-xs text-gray-500 mt-1">Current Fleet: <span id="stat-fleet-control">3</span></p>
@@ -182,7 +175,7 @@
                             <div class="text-xl font-bold font-mono" id="stat-reputation">100%</div>
                         </div>
                         <div class="bg-white p-4 rounded-lg shadow border-l-4 border-orange-500">
-                            <div class="text-xs text-gray-500 uppercase">Market Share</div>
+                            <div class="text-xs text-gray-500 uppercase">Load Factor</div>
                             <div class="text-xl font-bold font-mono" id="stat-share">0%</div>
                         </div>
                     </div>
@@ -190,17 +183,23 @@
                     <!-- Charts -->
                     <div class="bg-white p-4 rounded-lg shadow-md">
                         <h3 class="text-lg font-semibold mb-2">Performance History</h3>
-                        <canvas id="mainChart" height="250"></canvas>
+                        <div class="chart-container-lg">
+                            <canvas id="mainChart"></canvas>
+                        </div>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="bg-white p-4 rounded-lg shadow-md">
                             <h3 class="text-sm font-semibold mb-2">Service Quality vs Demand</h3>
-                            <canvas id="qualityChart" height="200"></canvas>
+                            <div class="chart-container">
+                                <canvas id="qualityChart"></canvas>
+                            </div>
                         </div>
                         <div class="bg-white p-4 rounded-lg shadow-md">
                             <h3 class="text-sm font-semibold mb-2">Fleet & Staff</h3>
-                            <canvas id="resourceChart" height="200"></canvas>
+                            <div class="chart-container">
+                                <canvas id="resourceChart"></canvas>
+                            </div>
                         </div>
                     </div>
 
@@ -213,6 +212,137 @@
                             <button onclick="submitScore()" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Submit Score</button>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced Simulation Tab -->
+        <div id="advanced" class="tab-content">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+                <!-- Controls Column -->
+                <div class="bg-white p-4 rounded shadow lg:col-span-1 space-y-4 h-fit sticky top-20">
+                    <h3 class="font-bold border-b pb-2 text-gray-700">Flight Deck Controls</h3>
+                    
+                    <!-- Compact Controls -->
+                    <div>
+                        <label class="text-xs font-bold text-gray-500">PLANES (Order)</label>
+                        <input type="number" id="adv-input-planes" class="w-full border rounded p-1 font-mono text-right" value="0" min="0" max="50">
+                    </div>
+                    <div>
+                        <label class="text-xs font-bold text-gray-500">PRICE ($/mile)</label>
+                        <input type="number" id="adv-input-price" class="w-full border rounded p-1 font-mono text-right" value="0.09" step="0.01">
+                    </div>
+                    <div>
+                        <label class="text-xs font-bold text-gray-500">MARKETING ($)</label>
+                        <input type="number" id="adv-input-marketing" class="w-full border rounded p-1 font-mono text-right" value="50000" step="1000">
+                    </div>
+                    <div>
+                        <label class="text-xs font-bold text-gray-500">HIRING (Net)</label>
+                        <input type="number" id="adv-input-hiring" class="w-full border rounded p-1 font-mono text-right" value="5">
+                    </div>
+                    
+                    <!-- New: Service Scope -->
+                    <div>
+                        <label class="text-xs font-bold text-gray-500">SERVICE SCOPE (0.6 - 2.0)</label>
+                        <div class="flex gap-2 items-center">
+                            <input type="range" id="adv-slider-scope" min="0.6" max="2.0" step="0.1" value="0.6" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <span id="adv-val-scope" class="font-mono text-xs">0.6</span>
+                        </div>
+                        <p class="text-[10px] text-gray-400 italic">0.6=No Frills, 1.0=Full Service, 1.5=Premium</p>
+                    </div>
+
+                    <button id="adv-btn-run" class="w-full bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-2 px-4 rounded text-sm mt-4">
+                        RUN QUARTER ▶
+                    </button>
+                    <button id="adv-btn-back" class="w-full bg-yellow-100 hover:bg-yellow-200 text-yellow-800 font-bold py-2 px-4 rounded text-sm hidden">
+                        ↩ UNDO
+                    </button>
+                </div>
+
+                <!-- Dashboard Grid -->
+                <div class="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+                    
+                    <!-- Chart 1: Income Statement -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Income Statement</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-income"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 2: Growth Rates -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Growth Rates %</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-growth"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 3: Load Factor -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Load Factor</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-load"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 4: Competitors -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Competitor Analysis</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-competition"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 5: Customer Service -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Service Quality</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-service"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 6: Productivity -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Productivity (Miles/Emp)</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-productivity"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 7: Balance Sheet -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Balance Sheet</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-finance"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 8: Workweek -->
+                    <div class="bg-white p-2 rounded shadow border">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Avg Workweek (Hours)</h4>
+                        <div class="chart-container">
+                            <canvas id="chart-workweek"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Summary Report Table -->
+                    <div class="bg-white p-2 rounded shadow border col-span-1 md:col-span-2 xl:col-span-1 overflow-auto h-[240px]">
+                        <h4 class="text-xs font-bold text-gray-500 mb-1">Quarterly Report</h4>
+                        <table class="w-full text-xs text-right font-mono">
+                            <tbody>
+                                <tr><td class="text-gray-600 text-left">Cash</td><td id="rep-cash" class="font-bold">$5.0M</td></tr>
+                                <tr><td class="text-gray-600 text-left">Net Income</td><td id="rep-profit" class="text-green-600">$0</td></tr>
+                                <tr><td class="text-gray-600 text-left">Revenue</td><td id="rep-revenue">$0</td></tr>
+                                <tr class="border-t"><td class="text-gray-600 text-left">Fleet</td><td id="rep-fleet">3</td></tr>
+                                <tr><td class="text-gray-600 text-left">Staff</td><td id="rep-staff">50</td></tr>
+                                <tr><td class="text-gray-600 text-left">RPM (Pax)</td><td id="rep-pax">0</td></tr>
+                                <tr class="border-t"><td class="text-gray-600 text-left">Service Qual</td><td id="rep-qual">1.00</td></tr>
+                                <tr><td class="text-gray-600 text-left">Reputation</td><td id="rep-rep">1.00</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
             </div>
         </div>

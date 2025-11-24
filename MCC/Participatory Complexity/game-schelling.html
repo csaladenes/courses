@@ -20,12 +20,12 @@
         <aside class="w-96 bg-slate-800 p-6 flex flex-col gap-6 z-10 shadow-xl overflow-y-auto">
             <div class="space-y-4">
                 <div>
-                    <label class="block text-sm font-bold text-slate-400 mb-2">Tolerance Threshold (%)</label>
+                    <label class="block text-sm font-bold text-slate-400 mb-2">Tolerance (Similar Neighbors)</label>
                     <div class="flex gap-2 items-center">
-                        <input type="range" id="tolerance-slider" min="0" max="100" value="30" class="w-full accent-cyan-500">
-                        <span id="tolerance-val" class="font-mono w-12 text-right text-cyan-300 font-bold">30%</span>
+                        <input type="range" id="tolerance-slider" min="0" max="8" value="3" class="w-full accent-cyan-500">
+                        <span id="tolerance-val" class="font-mono w-12 text-right text-cyan-300 font-bold">3/8</span>
                     </div>
-                    <p class="text-xs text-slate-500 mt-1 italic">"I move if fewer than X% of neighbors are like me."</p>
+                    <p class="text-xs text-slate-500 mt-1 italic">"I move if fewer than X of my 8 neighbors are like me."</p>
                 </div>
 
                 <div>
@@ -67,12 +67,22 @@
             <!-- Educational Content -->
             <div class="space-y-4 pt-4 border-t border-white/10">
                 <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
-                    <h4 class="text-cyan-400 font-bold text-sm mb-2">Micromotives & Macrobehavior</h4>
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        Nobel laureate Thomas Schelling showed that <strong>extreme segregation</strong> can emerge even if individuals are <strong>not extreme</strong>.
-                        <br><br>
-                        If people prefer just "30% similarity" (a very tolerant rule!), the system still self-organizes into total separation (80%+ similarity).
+                    <h4 class="text-cyan-400 font-bold text-sm mb-2">Neighborhood Rule</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-2">
+                        We use the <strong>Moore Neighborhood</strong> (8 surrounding cells).
                     </p>
+                    <div class="grid grid-cols-3 gap-1 w-16 mx-auto">
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                        <div class="w-4 h-4 bg-cyan-500 rounded-sm ring-2 ring-white"></div>
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                        <div class="w-4 h-4 bg-slate-600 rounded-sm"></div>
+                    </div>
+                    <p class="text-[10px] text-slate-500 text-center mt-1">Central Agent checks all 8 gray spots.</p>
                 </div>
 
                 <div class="bg-slate-900/50 p-4 rounded border border-slate-700/50">
@@ -97,7 +107,7 @@
         let grid = [];
         let emptySpots = [];
         let isRunning = false;
-        let threshold = 0.3;
+        let threshold = 3/8;
         let density = 0.8;
         let generations = 0;
         
@@ -110,8 +120,8 @@
         
         // Listeners
         sliderTol.addEventListener('input', (e) => {
-            threshold = e.target.value / 100;
-            valTol.innerText = e.target.value + '%';
+            threshold = e.target.value / 8;
+            valTol.innerText = e.target.value + '/8';
         });
         
         sliderDen.addEventListener('input', (e) => {

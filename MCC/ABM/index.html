@@ -7,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <!-- MathJax for equations -->
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -79,7 +78,7 @@
                                 </div>
                                 <div>
                                     <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Recovery Rate</label>
-                                    <input type="range" id="sir-recovery" min="0.001" max="0.05" step="0.001" value="0.005" class="w-full accent-green-500">
+                                    <input type="range" id="sir-recovery" min="0" max="0.05" step="0.001" value="0.005" class="w-full accent-green-500">
                                 </div>
                                 
                                 <div class="pt-4">
@@ -104,15 +103,42 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                 <div class="bg-white p-8 rounded-xl shadow border border-slate-200">
                     <h2 class="text-2xl font-bold text-slate-800 mb-4">What is an Agent?</h2>
-                    <div class="mermaid">
-                        graph LR
-                            A[Agent] -->|Perceives| E[Environment]
-                            E -->|Constraints| A
-                            A -->|Internal State| S{Decision}
-                            S -->|Action| E
-                            style A fill:#dbeafe,stroke:#3b82f6,stroke-width:2px
-                            style E fill:#f1f5f9,stroke:#cbd5e1,stroke-width:2px
+                    
+                    <!-- Custom Agent Diagram (HTML/Tailwind) -->
+                    <div class="flex flex-col gap-4 items-center p-4 bg-slate-50 rounded-lg border border-slate-100">
+                        <div class="flex items-center gap-4 w-full justify-center">
+                            <div class="w-24 h-24 bg-blue-100 border-2 border-blue-400 rounded-full flex flex-col items-center justify-center shadow-sm z-10">
+                                <span class="text-2xl">🤖</span>
+                                <span class="font-bold text-blue-800 text-sm">AGENT</span>
+                            </div>
+                            
+                            <div class="flex flex-col gap-8 h-full justify-between py-2">
+                                <div class="flex items-center gap-2">
+                                    <div class="h-[2px] w-12 bg-slate-300 relative">
+                                        <div class="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] text-slate-500 uppercase font-bold">Perceives</div>
+                                        <div class="absolute right-0 -top-[5px] w-0 h-0 border-l-[6px] border-l-slate-300 border-y-[4px] border-y-transparent"></div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <div class="h-[2px] w-12 bg-slate-300 relative">
+                                        <div class="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] text-slate-500 uppercase font-bold">Acts</div>
+                                        <div class="absolute left-0 -top-[5px] w-0 h-0 border-r-[6px] border-r-slate-300 border-y-[4px] border-y-transparent"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-24 h-24 bg-slate-200 border-2 border-slate-400 rounded flex flex-col items-center justify-center shadow-inner">
+                                <span class="text-2xl">🌍</span>
+                                <span class="font-bold text-slate-700 text-sm">WORLD</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white p-2 rounded border border-blue-200 text-xs text-center w-full max-w-xs shadow-sm">
+                            <span class="font-bold text-blue-600">Internal State:</span><br>
+                            Energy, Health, Memory
+                        </div>
                     </div>
+
                     <p class="text-slate-600 mt-4 text-sm leading-relaxed">
                         An <strong>Agent</strong> is an autonomous entity that:
                         <ul class="list-disc ml-5 mt-2 space-y-1">
@@ -125,19 +151,53 @@
 
                 <div class="bg-white p-8 rounded-xl shadow border border-slate-200">
                     <h2 class="text-2xl font-bold text-slate-800 mb-4">The Logic of Emergence</h2>
-                    <div class="mermaid">
-                        stateDiagram-v2
-                            [*] --> Susceptible
-                            Susceptible --> Infected: Contact + Prob
-                            Infected --> Recovered: Time + Prob
-                            Recovered --> [*]
-                            
-                            note right of Infected
-                                Emergence:
-                                One infection is random.
-                                A million is a statistic (Wave).
-                            end note
+                    
+                    <!-- Custom State Diagram (HTML/Tailwind) -->
+                    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg border border-slate-100 relative overflow-hidden">
+                        <!-- Arrow Line Background -->
+                        <div class="absolute top-1/2 left-10 right-10 h-[2px] bg-slate-300 -z-0"></div>
+
+                        <!-- State 1 -->
+                        <div class="relative z-10 flex flex-col items-center gap-2 bg-slate-50 px-2">
+                            <div class="w-16 h-16 bg-blue-500 text-white rounded-lg flex items-center justify-center font-bold shadow-md border-2 border-blue-600">
+                                S
+                            </div>
+                            <span class="text-xs font-bold text-blue-600">Susceptible</span>
+                        </div>
+
+                        <!-- Transition 1 -->
+                        <div class="relative z-10 bg-white px-2 py-1 text-[10px] text-slate-500 border border-slate-200 rounded shadow-sm -mt-8">
+                            + Contact
+                        </div>
+
+                        <!-- State 2 -->
+                        <div class="relative z-10 flex flex-col items-center gap-2 bg-slate-50 px-2">
+                            <div class="w-16 h-16 bg-red-500 text-white rounded-lg flex items-center justify-center font-bold shadow-md border-2 border-red-600">
+                                I
+                            </div>
+                            <span class="text-xs font-bold text-red-600">Infected</span>
+                        </div>
+
+                        <!-- Transition 2 -->
+                        <div class="relative z-10 bg-white px-2 py-1 text-[10px] text-slate-500 border border-slate-200 rounded shadow-sm -mt-8">
+                            + Time
+                        </div>
+
+                        <!-- State 3 -->
+                        <div class="relative z-10 flex flex-col items-center gap-2 bg-slate-50 px-2">
+                            <div class="w-16 h-16 bg-green-500 text-white rounded-lg flex items-center justify-center font-bold shadow-md border-2 border-green-600">
+                                R
+                            </div>
+                            <span class="text-xs font-bold text-green-600">Recovered</span>
+                        </div>
                     </div>
+
+                    <div class="bg-indigo-50 p-3 rounded mt-4 border border-indigo-100">
+                        <p class="text-xs text-indigo-800 italic text-center">
+                            "One infection is a tragedy. A million is a statistic (Emergence)."
+                        </p>
+                    </div>
+
                     <p class="text-slate-600 mt-4 text-sm leading-relaxed">
                         <strong>Emergence</strong> occurs when simple local rules lead to complex global patterns. 
                         No single agent "knows" about the pandemic curve. The curve <em>emerges</em> from thousands of individual coin flips.
@@ -491,8 +551,8 @@
                             <div class="text-xs text-slate-600 grid grid-cols-2 gap-2 p-2 bg-slate-50 rounded">
                                 <div>Altruists: <span id="stat-alt" class="font-bold text-blue-600">0</span></div>
                                 <div>Freeloaders: <span id="stat-free" class="font-bold text-slate-500">0</span></div>
-                                <div class="col-span-2 text-[10px] leading-tight mt-1 italic">
-                                    Freeloaders (Gray) take but never give. Altruists share energy when food is scarce.
+                                <div class="col-span-2 h-[80px]">
+                                    <canvas id="evoChart"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -706,5 +766,6 @@
     <script src="js/sim-games.js"></script>
     <script src="js/sim-evolution.js"></script>
     <script src="js/sim-agentic.js"></script>
+    <script src="js/sim-classroom.js"></script>
 </body>
 </html>

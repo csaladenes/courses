@@ -420,6 +420,8 @@ function initSpreadChart() {
         },
         options: {
             animation: false,
+            responsive: true,
+            maintainAspectRatio: false, // Ensure fixed height
             scales: {
                 y: { min: 0, max: NODE_COUNT }
             },
