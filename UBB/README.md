@@ -85,3 +85,6 @@ Ezek a kurzusok egymást kiegészítve teljes képet adnak a modern adatelemzés
 A képzési program átfogó megközelítést nyújt az adatelemzés és vizualizáció területén. A kurzusok egymásra épülnek, kezdve az alapvető üzleti intelligencia készségekkel (BI), majd továbblépve a fejlettebb vizualizációs technikákra (BI2). A BA kurzus biztosítja a technikai alapokat a nagy adathalmazok kezeléséhez, míg az MI kurzus a fejlett algoritmusok alkalmazását tanítja. A mesteri szintű Adatelemzés és vizualizáció kurzus pedig a valós munkahelyi környezetet szimulálja a páros programozás gyakorlatával.
 
 Az értékelési módszerek változatosak: egyéni és csoportos projektek, társértékelés, kódbeadás és előre meghatározott feladatok. Ez a sokszínűség biztosítja, hogy a különböző készségeket fejlesszetek a kurzusok során, beleértve az elméleti és technikai tudást (**data science** és **data engineering**), a csapatmunkát, a kommunikációt és a problémamegoldást.
+
+## 📌 Később
+Hasznos repo-k, amiket még beépítünk a kurzusba: [later.md](later.md)
